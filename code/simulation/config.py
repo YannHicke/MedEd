@@ -23,11 +23,11 @@ js = "(x) => alert('Chat finished!')"
 # Read in API key and context
 # openai.api_key = sys.argv[1]
 base_file_name = sys.argv[1]
-patient_info = os.path.join("../context", base_file_name + ".txt")
-# ehr_file = os.path.join("../ehr_screenshots", base_file_name + ".png")
-# ehr_file = os.path.join("../ehr_screenshots", "James_Turner" + ".png")
-ehr_file = os.path.join("../ehr_screenshots", base_file_name + ".png")
-session_filename = datetime.datetime.now().strftime("../conversation_history/" + base_file_name + '_%Y-%m-%d_%H-%M-%S.txt')
+patient_info = os.path.join("./context", base_file_name + ".txt")
+# ehr_file = os.path.join("../patient_profile_picture", base_file_name + ".png")
+# ehr_file = os.path.join("../patient_profile_picture", "James_Turner" + ".png")
+ehr_file = os.path.join("./patient_profile_picture", base_file_name + ".png")
+session_filename = datetime.datetime.now().strftime("./conversation_history/" + base_file_name + '_%Y-%m-%d_%H-%M-%S.txt')
 
 # Error checking for patient context file existence
 if not os.path.exists(patient_info):
@@ -36,10 +36,10 @@ if not os.path.exists(patient_info):
 
 # Error checking for ehr file existence
 if not os.path.exists(ehr_file):
-    print(f"Error: File '{ehr_file}' not found within the 'ehr_screenshots' directory.")
+    print(f"Error: File '{ehr_file}' not found within the 'patient_profile_picture' directory.")
     sys.exit(1)
 
-if not os.path.exists('../conversation_history'):
-    os.makedirs('../conversation_history')
+if not os.path.exists('./conversation_history'):
+    os.makedirs('./conversation_history')
     sys.exit(1)
 

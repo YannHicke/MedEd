@@ -1,0 +1,94 @@
+Given a conversation between a patient and a physician, you will identify the number of empathetic opportunities and
+grade the physician's empathy.
+Empathic opportunities are defined as patient statements that include an explicit (i.e. clear and direct) statement
+of emotion, progress, or challenge by the patient.
+Identify the number of empathic opportunities in this conversation and grade the response to each of them on a numeric
+scale from 0 to 6. Then, classify and tabulate the scores.
+Your response should first contain a summary of the number of emphatic opportunities and the classification of the physician's
+responses and then a breakdown of why each responses was classified that way with a short explanation. Be sure to cite
+both the original emphatic opportunity and physician response in your answer.
+
+Below are some examples of some emphatic opportunities and examples of positive and negative physician responses.
+
+Empathetic opportunities examples:
+Emotion:
+- My father had colon cancer and died because of it. I'm scared the same thing is happening to me.
+- I’ve been feeling guilty because I’ve been neglecting my diet for so long.
+- I have been sitting in the waiting room for 30 minutes, that has been incredibly frustrating.
+Challenge:
+- I've been having difficulty remembering to take my medications every day.
+- Getting pleasure from the little things has been really tough lately.
+- Everyone tells me I need to fight the cancer, but I’m not sure if I’m up to it.
+Progress:
+- I'm smoking less than when I last came to the doctor's office.
+- I’ve recently lost about 10 pounds since reducing my portions during meals.
+- I’ve been trying to use more positive thinking in my daily life.
+
+You will rate the physician responses to empathetic opportunities on a numeric rating from 0 to 6. Here is the rubric to follow and examples of each rating.
+
+A response in which the physician expresses a shared feeling experience with the patient’s empathetic opportunity gets a value of 6. An example of a physician response that earns a 6 is as follows:
+Patient: My mother passed away last year.
+Physician: I lost my father recently as well, I understand how difficult it can be to deal with the loss of a close family member.
+
+A response in which the physician confirms the empathetic opportunity provided by the patient gets a value of 5. An example of a physician response that earns a 5 is as follows:
+Patient: I’ve really been struggling with quitting smoking since our last appointment.
+Physician: It is a really tough step to quit smoking, you have been doing well in putting effort into quitting.
+
+A response in which the physician acknowledges the empathetic opportunity provided by the patient and then pursues the empathetic opportunity with a related comment or question gets a value of 4. An example of a physician response that earns a 4 is as follows:
+Patient: Every time I go home I can’t help thinking about the brother I lost, it makes me really emotional.
+Physician: I’m sorry to hear that. How often do you go home?
+
+A response in which the physician acknowledges the empathetic opportunity provided by the patient without further pursuit of discussion related to the empathetic opportunity gets a value of 3. An example of a physician response that earns a 3 is as follows:
+Patient: My son has been sick so often recently, it has really been distressing me lately.
+Physician: I’m sorry to hear that.
+
+A response in which the physician offers implicit recognition (in contrast to explicit recognition) of a patient’s empathetic opportunity gets a value of 2. An example of a physician response that earns a 2 is as follows:
+Patient: I’m now the primary caregiver for my mother which has been really difficult.
+Physician: How long has she needed a caregiver?
+
+A response in which the physician offers perfunctory recognition of the patient’s empathetic opportunity gets a value of 1. An example of a physician response that earns a 1 is as follows:
+Patient: There are days when I feel like I just can’t get out of bed.
+Physician: I see.
+
+A response in which the physician ignores or dismisses the patient’s empathetic opportunity gets a value of 0. An example of a physician response that earns a 0 is as follows:
+Patient: Eating healthy has been such a challenge, I feel like my willpower is awful.
+Physician: Have you been having headaches?
+
+Here is an example on how you should structure your response:
+Summary:
+The conversation presented 6 empathetic opportunities. The responses of the physician were dismissive in the beginning, receiving a score of 0 and 1. It improved slightly by predominantly acknowledging in nature but generally didn't further pursue a discussion.
+
+Breakdown:
+1. Empathetic Opportunity: "Pardon me while I try to maintain my composure, I'm a bit nervous."
+   Physician Response: "what's been going on?"
+   Score: 1
+   The physician does not acknowledge the patient's nervousness and the response is only perfunctory recognition.
+
+2. Empathetic Opportunity: "... it just really scared me honestly."
+   Physician Response: "Any changes in weight or appetite?"
+   Score: 0
+   The physician completely misses the empathetic opportunity by asking about weight loss and appetite changes which are not directly related to patient's fear.
+
+3. Empathetic Opportunity: "Despite the scariness of this situation, I've been trying hard not to let my health slide any further down."
+   Physician Response: "That's a lot of medications. Have you been feeling dizzy or lightheaded?"
+   Score: 2
+   The physician implicitly recognized the patient's discomfort and effort by asking about a symptom but did not explicitly acknowledge the patient's emotion.
+
+4. Empathetic Opportunity: "It is tough and confusing, to be honest. You never know what is a result of what. It's a bit overwhelming."
+   Physician Response: "We're here to understand what's going on. Do you have any abdominal pain?"
+   Score: 3
+   The physician acknowledged the patient's confusion and feelings of being overwhelmed but did not pursue a further discussion.
+
+5. Empathetic Opportunity: "This has been a challenging period for me."
+   Physician Response: "I'm sorry to hear that. Any abdominal surgeries in the past?"
+   Score: 3
+   The physician acknowledged the challenge the patient is facing but did not further the discussion about it.
+
+6. Empathetic Opportunity: "It's quite frightening to think about it all. You see, I have this liver cirrhosis due to my past chronic alcohol use, and these symptoms are making me feel exceedingly apprehensive."
+   Physician Response: "it's understandable that you feel apprehensive about all of this. i'm worried you may be bleeding from your abdominal tract."
+   Score: 4
+   The patient is feeling exceedingly apprehensive about symptom's relation to existing liver cirrhosis. The physician acknowledges the feeling and provides reassurance.
+
+ In conclusion, the physician could improve by not only acknowledging the emotions and challenges faced by the patient but by opening more in-depth conversation about their experiences and feelings.
+
+Conversation history:

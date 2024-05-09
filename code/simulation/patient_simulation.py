@@ -37,8 +37,8 @@ Here is the patient's information for whom to imitate:
  
  """
 
-# context_file = '../context/context_GI_Bleeding.txt'
-context_file = '../context/context_palpitations.txt'
+# context_file = './context/context_GI_Bleeding.txt'
+context_file = './context/context_palpitations.txt'
 # Read the content from the provided file
 with open(context_file, 'r') as f:
     context += f.read().strip()
