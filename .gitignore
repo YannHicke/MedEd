@@ -1,1 +1,15 @@
 code/rendering/app_results
+code/simulation/conversation_history/.DS_Store
+.DS_Store
+code/evaluation/__pycache__/
+code/simulation/__pycache__/
+video_demo/
+__pycache__/
+code/__pycache__/
+Papers/
+
+
+
+
+
+
