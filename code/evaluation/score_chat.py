@@ -2,7 +2,7 @@ import openai
 import sys
 import os
 from openai import OpenAI
-from code.evaluation.mirs_prompts import mirs_prompts
+from mirs_prompts import mirs_prompts
 import json
 import pandas as pd
 import time
@@ -100,10 +100,10 @@ def load_context(file_path):
 def score_conversation(filename):
 
     # Read in scorer context
-    scoring_context = load_context('../context/context_scorer2.txt')
+    # scoring_context = load_context('../context/context_scorer2.txt')
 
     # Read in convo
-    conversation = load_context(os.path.join("../conversation_history/", filename))
+    conversation = load_context(os.path.join("../simulation/conversation_history/UConn/", filename))
 
     # replace User: in the conversation with Physician: and replace Assistant: with Patient:
     conversation = conversation.replace("User:", "Physician:").replace("Assistant:", "Patient:") #TODO: make it more systematic
@@ -138,19 +138,20 @@ def score_conversation(filename):
     mirs_scores, mirs_explanations = get_mirs_scores(conversation, mirs_prompts)
 
     # Append the conversation to the scoring context
-    full_context = scoring_context + "\n" + conversation
+    # full_context = scoring_context + "\n" + conversation
 
-    response = client.chat.completions.create(
-            model="gpt-4-0125-preview",
-            messages=[{"role": "system", "content": full_context}]
-        )
-    output_text = response.choices[0].message.content
+    # response = client.chat.completions.create(
+    #         model="gpt-4-0125-preview",
+    #         messages=[{"role": "system", "content": full_context}]
+    #     )
+    # output_text = response.choices[0].message.content
+    output_text = None
 
     # Ensure the results/ directory exists
     os.makedirs("../results", exist_ok=True)
-
-    with open(os.path.join("../results", filename), "w") as file:
-        file.write(output_text)
+    breakpoint()
+    # with open(os.path.join("../results", filename), "w") as file:
+    #     file.write(output_text)
 
     # output to csv
     df = pd.DataFrame.from_dict(mirs_scores, orient='index', columns=['score'])
@@ -166,7 +167,7 @@ if __name__ == "__main__":
     conversation_file = sys.argv[1]
 
     # Check if the conversation file exists
-    if not os.path.exists(os.path.join("../conversation_history/", conversation_file)):
+    if not os.path.exists(os.path.join("../simulation/conversation_history/UConn/", conversation_file)):
         print(f"Error: The file '{conversation_file}' does not exist.")
         sys.exit(1)
 
