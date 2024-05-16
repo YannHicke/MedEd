@@ -12,7 +12,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from together import Together
 
 
-client = OpenAI(api_key="OPENAI_API_KEY")
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 client_together = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
 
@@ -125,6 +125,14 @@ def score_conversation(filename):
             messages=[{"role": "system", "content": prompt},
                     {"role": "user", "content": transcript}]
         )
+            
+            response_together = client_together.chat.completions.create(
+                model="meta-llama/Llama-3-8b-chat-hf",
+                messages=[{"role": "user", "content": "What are some fun things to do in New York"}],
+            )
+            print(response_together.choices[0].message.content)
+
+            breakpoint()
             
             # Process the response from GPT-4 (you might need to adjust based on the expected output format)
             try:
