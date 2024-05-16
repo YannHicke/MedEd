@@ -9,8 +9,12 @@ import time
 from docx import Document
 from docx.shared import Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from together import Together
 
-client = OpenAI(api_key="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")
+
+client = OpenAI(api_key="OPENAI_API_KEY")
+
+client_together = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
 
 
 checklist = {
