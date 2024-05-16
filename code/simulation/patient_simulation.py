@@ -69,7 +69,7 @@ def add_text(history, text):
     history = history + [(text, None)]
     return history, ""
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 def bot(history):
     response = client.chat.completions.create(
