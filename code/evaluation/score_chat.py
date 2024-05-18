@@ -3,13 +3,12 @@ import sys
 import os
 from openai import OpenAI
 from mirs_prompts import mirs_prompts
+from nojson_mirs_prompts import nojson_mirs_prompts
 import json
 import pandas as pd
 import time
-from docx import Document
-from docx.shared import Pt
-from docx.enum.text import WD_ALIGN_PARAGRAPH
 from together import Together
+import argparse
 
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
@@ -116,8 +115,11 @@ def score_conversation(filename):
 
         scores = {}
         explanations = {}
+        scores_together = {}
+        explanations_together = {}
         for item, prompt in mirs_prompts.items():
-            
+
+            nojson_prompt = nojson_mirs_prompts[item]
             # Call the OpenAI API (assuming a simplified use case)
             response = client.chat.completions.create(
             model="gpt-4-0125-preview", 
@@ -127,27 +129,34 @@ def score_conversation(filename):
         )
             
             response_together = client_together.chat.completions.create(
-                model="meta-llama/Llama-3-8b-chat-hf",
-                messages=[{"role": "user", "content": "What are some fun things to do in New York"}],
+                model="meta-llama/Llama-3-70b-chat-hf",
+                messages=[{"role": "system", "content": nojson_prompt},
+                    {"role": "user", "content": transcript}],
             )
+            print(response.choices[0].message.content)
+            print("\n TOGETHER \n")
             print(response_together.choices[0].message.content)
 
-            breakpoint()
+            # breakpoint()
             
             # Process the response from GPT-4 (you might need to adjust based on the expected output format)
             try:
                 score = json.loads(response.choices[0].message.content)["score"]
                 explanation = json.loads(response.choices[0].message.content)["explanation"]
+                score_together = response_together.choices[0].message.content.split("Score: ")[1].split("\n")[0]
+                explanation_together = response_together.choices[0].message.content.split("Explanation: ")[1].split("\n")[0]
             except:
                 breakpoint()
-            print(f"\nItem: {item}, \nScore: {score}, \n\nExplanation:\n {explanation}")
+            print(f"\nItem: {item}, \nScore: {score}, \n\nExplanation:\n {explanation}, \n\nScore Together: {score_together}, \n\nExplanation Together:\n {explanation_together}")
             # Store the score with the item
             scores[item] = score
             explanations[item] = explanation
+            scores_together[item] = score_together
+            explanations_together[item] = explanation_together
             
-        return scores, explanations
+        return scores, explanations, scores_together, explanations_together
     
-    mirs_scores, mirs_explanations = get_mirs_scores(conversation, mirs_prompts)
+    mirs_scores, mirs_explanations, mirs_scores_together, mirs_explanations_together = get_mirs_scores(conversation, mirs_prompts)
 
     # Append the conversation to the scoring context
     # full_context = scoring_context + "\n" + conversation
@@ -160,8 +169,7 @@ def score_conversation(filename):
     output_text = None
 
     # Ensure the results/ directory exists
-    os.makedirs("../results", exist_ok=True)
-    breakpoint()
+    os.makedirs("./results", exist_ok=True)
     # with open(os.path.join("../results", filename), "w") as file:
     #     file.write(output_text)
 
@@ -169,14 +177,25 @@ def score_conversation(filename):
     df = pd.DataFrame.from_dict(mirs_scores, orient='index', columns=['score'])
     for item, score in mirs_scores.items():
         df.loc[item, 'explanation'] = mirs_explanations[item]
+        df.loc[item, 'score_together'] = mirs_scores_together[item]
+        df.loc[item, 'explanation_together'] = mirs_explanations_together[item]
 
-    df.to_csv(os.path.join("../results", filename.replace(".txt", ".csv")))
+    df.to_csv(os.path.join("./results", filename.replace(".txt", ".csv")))
 
     return output_text
 
 if __name__ == "__main__":
 
-    conversation_file = sys.argv[1]
+    # load arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument("conversation_file", help="The name of the conversation file to score.")
+    parser.add_argument("--nojson", help="Use the nojson prompts", action="store_true")
+    args = parser.parse_args()
+
+    conversation_file = args.conversation_file
+    # nojson = args.nojson
+    # print(f"Scoring conversation: {conversation_file}")
+    # print(f"Using nojson prompts: {nojson}")
 
     # Check if the conversation file exists
     if not os.path.exists(os.path.join("../simulation/conversation_history/UConn/", conversation_file)):

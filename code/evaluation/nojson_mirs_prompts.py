@@ -1,14 +1,14 @@
-# mirs_prompts.py
+# nojson_mirs_prompts.py
 
-mirs_prompts = {
+nojson_mirs_prompts = {
     "OPENING": """
 Consider the following criteria for evaluating the opening of a medical interview. Assign a score from 1 to 5 based on the criteria provided:
 
-- Score a 5 if the interviewer introduces themselves, clarifies their role, and inquires how to address the patient, using the patient’s name.
-- Score a 4 if only one element of the full introduction criteria is missing.
-- Score a 3 if the interviewer’s introduction is missing two elements.
-- Score a 2 if the introduction consists only of a basic 'hello', lacking most elements of a full introduction.
-- Score a 1 if there is no introduction at all.
+Score 5: The interviewer introduces themselves, clarifies their role, and inquires how to address the patient, using the patient’s name.
+Score 4: Only one element of the full introduction criteria is missing.
+Score 3: The interviewer’s introduction is missing two elements.
+Score 2: The introduction consists only of a basic 'hello', lacking most elements of a full introduction.
+Score 1: There is no introduction at all.
 
 Examples:
 Good Example:
@@ -21,20 +21,18 @@ Conversation Excerpt: Physician: "Hello. What brings you in today?"
 Explanation: The physician only greets the patient with a simple "Hello" without introducing themselves, clarifying their role, or asking how to address the patient. Therefore, this conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the above criteria, analyze the opening of the following conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-""",
+Task:
+Based on the above criteria, analyze the opening of the following conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
+    """,
 
     "ELICITS SPECTRUM OF CONCERNS": """
-Evaluate if the interviewer elicits the patient's full spectrum of concerns within the first 3-5 minutes of the interview. Consider the following scoring criteria:
+Consider the following criteria for evaluating how effectively an interviewer elicits the patient's full spectrum of concerns within the first 3-5 minutes of the medical interview. Assign a score from 1 to 5 based on the criteria provided:
 
-- Score a 5 if the interviewer elicits the patient’s full spectrum of concerns within the first 3-5 minutes of the interview. The interviewer asks 'what else' until no additional concerns are raised.
-- Score a 4 if only one final 'what else' is missing but secondary concerns are addressed.
-- Score a 3 if the interviewer only elicits the patient’s main concern without probing for additional concerns.
-- Score a 2 if the interviewer merely states the concern without any elicitation.
-- Score a 1 if the interviewer fails to elicit any of the patient’s concerns.
+Score 5: The interviewer elicits the patient’s full spectrum of concerns, asking 'what else' repeatedly until no additional concerns are raised.
+Score 4: The interviewer addresses secondary concerns but misses one final 'what else'.
+Score 3: The interviewer only elicits the patient’s main concern, without probing for additional concerns.
+Score 2: The interviewer merely acknowledges the concern without actively eliciting further information.
+Score 1: The interviewer fails to elicit any of the patient’s concerns.
 
 Examples:
 Good Example:
@@ -56,20 +54,18 @@ Physician: "I see, we'll look into that."
 Explanation: The physician only acknowledges the patient's main concern (severe headaches) without actively eliciting further information or inquiring if there are additional concerns. The physician fails to ask "what else?" or any similar questions that might reveal more about the patient's health issues. Therefore, this conversation would score a 2.
 Score: 2
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Analyze the provided conversation for how effectively the interviewer elicits the spectrum of concerns and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-    """,
+Task:
+Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
+""",
 
     "NEGOTIATES PRIORITIES & SETS AGENDA": """
 Consider the following criteria for evaluating how the interviewer negotiates priorities of patient concerns, lists all of the concerns, and sets the agenda at the onset of the interview with the patient’s agreement:
 
-- Score a 5 if the interviewer negotiates priorities of patient concerns as gathered, listing all of the concerns, and sets the agenda at the onset of the interview and gets the patient’s agreement to the agenda.
-- Score a 4 if the full agenda is set before concerns are completely elicited.
-- Score a 3 if the interviewer sets an agenda but does not negotiate priorities with the patient.
-- Score a 2 if the interviewer lists some concerns but does not set an agenda or negotiate priorities.
-- Score a 1 if the interviewer does not negotiate priorities or set an agenda. The interviewer focuses only on the chief concern and takes only the physician’s needs into account.
+Score 5: The interviewer negotiates priorities of patient concerns as gathered, listing all of the concerns, and sets the agenda at the onset of the interview, obtaining the patient’s agreement.
+Score 4: The full agenda is set before all concerns are completely elicited.
+Score 3: The interviewer sets an agenda but does not negotiate priorities with the patient.
+Score 2: The interviewer lists some concerns but does not set an agenda or negotiate priorities.
+Score 1: The interviewer does not negotiate priorities or set an agenda, focusing only on the chief concern and considering only the physician’s needs.
 
 Examples:
 Good Example:
@@ -86,20 +82,18 @@ Physician: "Okay, we might cover those later if there's time. Let’s keep the f
 Explanation: In this conversation, the physician acknowledges the patient's additional concerns about sleep and stress but decides to defer them, emphasizing the chief complaint of headaches instead. By saying, "We might cover those later if there's time," the physician does not effectively negotiate priorities or engage in setting a collaborative agenda with the patient. This shows a disregard for the patient's input on their own health priorities, resulting in a conversation that prioritizes the physician’s agenda over the patient's broader health concerns. Therefore, this conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the above criteria, analyze the conversation for how effectively the interviewer negotiates priorities and sets an agenda, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
-    "ELICITING THE NARRATIVE THREAD or the ‘PATIENT’S STORY’": """
-Evaluate the interviewer's effectiveness in encouraging and letting the patient talk about their problem, based on the following criteria:
+"ELICITING THE NARRATIVE THREAD or the ‘PATIENT’S STORY’": """
+Evaluate the interviewer's effectiveness in allowing the patient to discuss their health concerns in a narrative format. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer encourages the patient to share their story without interrupting, allowing for a complete narrative thread.
-- Score a 4 if the interviewer asks the patient to tell them about a specific problem but does not allow for a complete narrative thread.
-- Score a 3 if the interviewer generally allows the patient to talk but occasionally interrupts with focused questions or introduces unrelated topics.
-- Score a 2 if the interviewer often interrupts the narrative with questions, setting a Q&A style rather than a conversational flow.
-- Score a 1 if the interviewer fails to let the patient talk about their problem, dominating the conversation.
+Score 5: The interviewer encourages the patient to share their entire story without interrupting, allowing for a complete narrative thread.
+Score 4: The interviewer asks the patient to tell them about a specific problem but does not allow for a complete narrative thread.
+Score 3: The interviewer generally allows the patient to talk but occasionally interrupts with focused questions or introduces unrelated topics.
+Score 2: The interviewer frequently interrupts the patient's narrative with questions, creating a Q&A style rather than a conversational flow.
+Score 1: The interviewer dominates the conversation, not allowing the patient to talk about their problem.
 
 Examples:
 Good Example:
@@ -124,18 +118,16 @@ Physician: "Okay, let’s do some tests and I’ll prescribe something for the p
 Explanation: The physician interrupts the patient's attempt to tell their story, turning the conversation into a series of quick questions and answers. This disrupts the narrative flow, making it difficult for the patient to fully express their concerns, potentially missing critical information. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the above criteria, analyze how well the interviewer facilitates the patient in telling their story and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "TIMELINE": """
 Consider how well the interviewer establishes a timeline of the chief concern and history of the present illness, including the following scoring criteria:
 
-- Score a 5 if the interviewer obtains sufficient information to establish a clear chronology of the chief concern and history of the present illness, including the sequence of associated symptoms and/or events.
-- Score a 3 if the interviewer obtains some of the necessary information but fails to establish a complete chronology for all associated symptoms and events.
-- Score a 1 if the interviewer fails to obtain any information necessary to establish a timeline or chronology of the patient’s concerns.
+Score 5: The interviewer obtains sufficient information to establish a clear chronology of the chief concern and history of the present illness, including the sequence of associated symptoms and/or events.
+Score 3: The interviewer obtains some of the necessary information but fails to establish a complete chronology for all associated symptoms and events.
+Score 1: The interviewer fails to obtain any information necessary to establish a timeline or chronology of the patient’s concerns.
 
 Examples:
 Good Example:
@@ -161,19 +153,16 @@ Physician: "Alright, we’ll look into that."
 Explanation: In this conversation, the physician fails to establish a detailed timeline of the chief concern and history of the present illness. The physician's questions are brief and lack depth, missing the opportunity to inquire about the sequence of symptoms or any associated events. The patient's responses are not probed further to clarify the onset, progression, or fluctuations in symptoms. This results in a lack of chronological understanding of the patient's condition, which is crucial for accurate diagnosis and effective treatment planning. Therefore, this conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Assess the interviewer's ability to establish a timeline of events related to the patient’s chief concern and history of the present illness, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "ORGANIZATION": """
 Assess the organization of the interview, considering if the questions follow a logical order and if the effective use of time ensures that tasks are completed within the allotted time. Use the following criteria for scoring:
 
-- Score a 5 if questions in the body of the interview follow a logical order to the patient, with effective use of time so tasks are completed within the time allowed.
-- Score a 3 if the interviewer seems to follow a series of topics or agenda items, but there are a few minor disjointed questions.
-- Score a 1 if the interviewer asks questions that seem disjointed and unorganized, affecting the interview's flow.
-
+Score 5: Questions in the body of the interview follow a logical order to the patient, with effective use of time so tasks are completed within the time allowed.
+Score 3: The interviewer seems to follow a series of topics or agenda items, but there are a few minor disjointed questions.
+Score 1: The interviewer asks questions that seem disjointed and unorganized, affecting the interview's flow.
 
 Examples:
 Good Example:
@@ -204,21 +193,16 @@ Patient: "No, nothing like that."
 Explanation: The physician's questions appear random and do not follow a logical or coherent order, jumping from dietary changes to travel history, then to exercise routines and joint health without any clear connection or follow-up on the initial concern of decreased appetite. This disjointed questioning disrupts the flow of the interview, making it challenging to build a comprehensive understanding of the patient's health status. The lack of organization affects the effectiveness of the interview and likely does not make the best use of the allotted time. Therefore, this conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the above criteria, analyze the conversation for the organization of the interview and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "TRANSITIONAL STATEMENTS (only for complete histories)": """
 Evaluate the use of transitional statements by the interviewer, which explain the reasons for progressing from one section to another, with the following scoring guidelines:
 
-- Score a 5 if the interviewer utilizes transitional statements effectively throughout the interview, clarifying the interview's structure for the patient.
-- Score a 3 if the interviewer sometimes uses effective transitional statements but fails to do so consistently or some statements lack clarity.
-- Score a 1 if interviewer progresses from one subsection to another in such a manner that the patient is left with a feeling of uncertainty as to the purpose of the questions. No transitional statements are made.
-
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
+Score 5: The interviewer utilizes transitional statements effectively throughout the interview, clarifying the interview's structure for the patient.
+Score 3: The interviewer sometimes uses effective transitional statements but fails to do so consistently or some statements lack clarity.
+Score 1: The interviewer progresses from one subsection to another in such a manner that the patient is left with a feeling of uncertainty as to the purpose of the questions. No transitional statements are made.
 
 Examples:
 Good Example:
@@ -244,15 +228,16 @@ Patient: "I take a blood pressure pill each morning."
 Explanation: The physician moves from discussing exercise habits directly to inquiring about allergies and then to medication usage without using any transitional statements. This abrupt shift between topics can leave the patient feeling confused about the relevance and connection between questions. There is no explanation provided by the physician on why they are moving from one topic to another, resulting in a disjointed and potentially disorienting experience for the patient. Therefore, this conversation would score a 1.
 Score: 1
 
-Analyze the effectiveness of transitional statements in the interview, considering only complete histories, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "PACING OF INTERVIEW (not based on finishing on time)": """
 Consider the pacing of the interview, focusing on the interviewer's attentiveness, the smooth progression of the interview, and the deliberate use of silence, scoring as follows:
 
-- Score a 5 if the interviewer is fully attentive to the patient’s responses, listens without interruption, and the interview progresses smoothly without awkward pauses. Silence is used deliberately.
-- Score a 3 if the pace of the interview is generally comfortable, but there are occasional interruptions or awkward pauses.
-- Score a 1 if the interviewer frequently interrupts the patient, with several awkward pauses breaking the flow of the interview.
+Score 5: The interviewer is fully attentive to the patient’s responses, listens without interruption, and the interview progresses smoothly without awkward pauses. Silence is used deliberately.
+Score 3: The pace of the interview is generally comfortable, but there are occasional interruptions or awkward pauses.
+Score 1: The interviewer frequently interrupts the patient, with several awkward pauses breaking the flow of the interview.
 
 Examples:
 Good Example:
@@ -276,18 +261,16 @@ Physician: "Okay, and any family history we should know about?"
 Explanation: The physician frequently interrupts the patient, cutting off their explanations about symptoms and medications. These interruptions disrupt the flow of the conversation and likely make the patient feel unheard. Additionally, the rapid progression from one question to another without allowing the patient sufficient time to answer fully creates a rushed and uncomfortable environment. This lack of smooth pacing and deliberate use of silence negatively affects the quality of the interview. Therefore, this conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the above criteria, evaluate the pacing of the interview and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "QUESTIONING SKILLS – TYPES OF QUESTIONS": """
 Analyze the types of questions used by the interviewer, considering the sequence and appropriateness of open-ended versus specific questions, and score as follows:
 
-- Score a 5 if the interviewer begins information gathering with an open-ended question, follows up with more specific or direct questions, and each major line of questioning is begun with an open-ended question. No poor question types are used.
-- Score a 3 if the interviewer often fails to start a line of inquiry with open-ended questions, relying instead on specific or direct questions, or occasionally uses leading, why, or multiple questions.
-- Score a 1 if the interviewer frequently uses why questions, multiple questions, or leading questions, detracting from the quality of information gathered.
+Score 5: The interviewer begins information gathering with an open-ended question, follows up with more specific or direct questions, and each major line of questioning is begun with an open-ended question. No poor question types are used.
+Score 3: The interviewer often fails to start a line of inquiry with open-ended questions, relying instead on specific or direct questions, or occasionally uses leading, why, or multiple questions.
+Score 1: The interviewer frequently uses why questions, multiple questions, or leading questions, detracting from the quality of information gathered.
 
 Examples:
 Good Example:
@@ -310,19 +293,16 @@ Patient: "I'm not sure, maybe it's a bit of both. I've also been stressed."
 Explanation: The physician starts with a specific question, "Do you get tired after you exercise?" which limits the patient's response. Furthermore, the follow-up is a combination of a 'why' question and multiple questions packed into one, "Why do you think you're getting tired? Is it because you're not sleeping well or maybe you're not eating properly?" This could confuse the patient and detract from the quality of information gathered by leading the patient's responses and not allowing them to freely express what they consider significant. This shows a poor use of questioning skills in the interview. Therefore, this conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-
-Evaluate the interviewer's use of questioning skills in terms of the types of questions asked and assign a score from 1 to 5 based on the criteria. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
-    "QUESTIONING SKILLS - SUMMARIZING": """
+   "QUESTIONING SKILLS - SUMMARIZING": """
 Evaluate how the interviewer summarizes the data obtained during the interview, using the following criteria for scoring:
 
-- Score a 5 if the interviewer summarizes the data obtained at the end of each major line of inquiry or subsection to verify and/or clarify the information. For a focused history, one summary at the end is sufficient.
-- Score a 3 if the interviewer summarizes data at the end of some lines of inquiry but not consistently, or the summary attempts are incomplete.
-- Score a 1 if the interviewer interviewer fails to summarize any of the data obtained.
+Score 5: The interviewer summarizes the data obtained at the end of each major line of inquiry or subsection to verify and/or clarify the information. For a focused history, one summary at the end is sufficient.
+Score 3: The interviewer summarizes data at the end of some lines of inquiry but not consistently, or the summary attempts are incomplete.
+Score 1: The interviewer fails to summarize any of the data obtained.
 
 Examples:
 Good Example:
@@ -341,19 +321,18 @@ Patient: "Yes, we did."
 Explanation: The physician’s statement, "Okay, we've covered quite a bit today about your headaches and some of your lifestyle factors," does not effectively summarize the data obtained during the interview. This statement is overly general and lacks any detailed recount of the specific information discussed, such as the onset, frequency, or triggers of the headaches, or detailed lifestyle factors that could influence these symptoms. There is no attempt to verify or clarify the information, nor does it provide the patient with an opportunity to correct or confirm the details. This omission could lead to misunderstandings and inaccuracies in diagnosing or planning further care. Therefore, this conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
 
-Analyze the conversation for instances of summarizing data obtained during the interview and assign a score from 1 to 5 based on the criteria. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,    
 
 
     "QUESTIONING SKILLS - DUPLICATION": """
 Assess the interviewer's tendency to repeat questions seeking information that has already been provided, unless clarification or summarization is necessary, with scoring as follows:
 
-- Score a 5 if the interviewer does not repeat questions unnecessarily and only seeks repetition for clarification or summarization.
-- Score a 3 if the interviewer rarely repeats questions, and when questions are repeated, it is not for summarization or clarification but due to a lapse in memory.
-- Score a 1 if the interviewer consistently seeks information previously provided, showing a clear failure to track or remember patient information.
+Score 5: The interviewer does not repeat questions unnecessarily and only seeks repetition for clarification or summarization.
+Score 3: The interviewer rarely repeats questions, and when questions are repeated, it is not for summarization or clarification but due to a lapse in memory.
+Score 1: The interviewer consistently seeks information previously provided, showing a clear failure to track or remember patient information.
 
 Examples:
 Good Example:
@@ -377,18 +356,16 @@ Patient: "As I said, it's mostly in the mornings."
 Explanation: The physician unnecessarily repeats the question about nausea, asking for information that the patient had already provided earlier in the interview. This duplication indicates a failure to track or remember patient information effectively, which can disrupt the flow of the interview and potentially undermine the patient’s confidence in the physician’s attentiveness. Therefore, this conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the criteria, analyze the conversation for instances of question duplication and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "QUESTIONING SKILLS - LACK OF JARGON": """
-Evaluate the interviewer's use of language, focusing on the avoidance of medical jargon and the clarity of communication, scoring as follows:
+Evaluate the interviewer's use of language, focusing on how well they avoid medical jargon and ensure clarity of communication. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer uses language easily understood by the patient, avoiding medical jargon or explaining terms immediately.
-- Score a 3 if the interviewer occasionally uses medical terms without definition, requiring clarification upon patient request.
-- Score a 1 if the conversation is dominated by medical jargon, making it inaccessible to the patient without definitions provided.
+Score 5: The interviewer uses language that is easily understood by the patient, avoiding medical jargon entirely or explaining any technical terms immediately.
+Score 3: The interviewer occasionally uses medical terms without definition, which may require clarification upon patient request.
+Score 1: The conversation is dominated by medical jargon, making it inaccessible to the patient without definitions provided.
 
 Examples:
 Good Example:
@@ -409,20 +386,18 @@ Physician: "Ah, yes, those are quite technical. Gastroesophageal reflux disease 
 Explanation: The physician initially uses complex medical terms "gastroesophageal reflux disease" and "dyspepsia" without providing definitions, making the conversation difficult for the patient to follow. Although the physician provides explanations later, the initial use of jargon without immediate clarification could confuse the patient and impede effective communication. Therefore, this conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Analyze the conversation for the use of medical jargon and assign a score based on the clarity of communication, ranging from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "QUESTIONING SKILLS - VERIFICATION OF PATIENT INFORMATION (in vignette)": """
-Consider how the interviewer seeks clarification, verification, and specificity of the patient’s responses, using the following criteria for scoring:
+Evaluate how effectively the interviewer clarifies, verifies, and seeks specificity of the patient's responses during the interview. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer consistently seeks to clarify, verify, and specify patient responses, ensuring accurate understanding.
-- Score a 3 if clarification, verification, and specificity are sought but not consistently, leading to some gaps in understanding.
-- Score a 1 if the interviewer fails to clarify or verify patient responses consistently, largely ignoring the need for accuracy.
-
+Score 5: The interviewer consistently seeks to clarify, verify, and specify patient responses, ensuring an accurate understanding of the patient’s statements.
+Score 3: Clarification, verification, and specificity are sought but not consistently, leading to some gaps in understanding.
+Score 1: The interviewer fails to clarify or verify patient responses consistently, largely ignoring the need for accuracy.
 Examples:
+
 Good Example:
 Conversation Excerpt:
 Physician: "You mentioned feeling dizzy occasionally. Can you tell me more about what you're doing when these episodes occur?"
@@ -442,18 +417,16 @@ Physician: "Okay, let's talk about your diet then."
 Explanation: The physician moves on without verifying the details about the patient's tiredness or the dizziness mentioned. There's a failure to seek specificity or further clarification about these symptoms, which could lead to misunderstandings or misdiagnosis, demonstrating a lack of thoroughness in patient care. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Evaluate the interviewer's efforts to verify patient information as presented in the vignette and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "INTERACTIVE TECHNIQUES": """
-Assess the balance between patient-centered and physician-centered interviewing styles used by the interviewer, with scoring as follows:
+Evaluate the balance between patient-centered and physician-centered interviewing styles used by the interviewer. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer consistently uses the patient-centered technique. The interviewer mixes patient-centered and physician-centered styles that promote a collaborative partnership between patient and doctor.
-- Score a 3 if the interviewer initially uses a patient-centered style but reverts to physician-centered interview at the end (rarely returning the lead to the patient). OR The interviewer uses all patient-centered interviewing and fails to use physician-centered style and therefore does not accomplish the negotiated agenda.
-- Score a 1 if the interview does not follow the patient’s lead. Uses only physician-centered technique halting the collaborative partnership.
+Score 5: The interviewer consistently uses a patient-centered technique while effectively incorporating physician-centered elements that promote a collaborative partnership between patient and doctor.
+Score 3: The interviewer initially uses a patient-centered style but reverts to a physician-centered approach at the end, rarely returning the lead to the patient. Alternatively, the interviewer uses only patient-centered interviewing without effectively incorporating physician-centered elements, failing to accomplish the negotiated agenda.
+Score 1: The interview is dominated by a physician-centered approach, not following the patient’s lead, which halts the collaborative partnership.
 
 Examples:
 Good Example:
@@ -475,18 +448,16 @@ Physician: "Right now, controlling your symptoms is our priority. We can discuss
 Explanation: In this conversation, the physician adopts a predominantly physician-centered approach, emphasizing treatment decisions without sufficient patient input. The patient's attempt to discuss their concerns about side effects is deferred to a future conversation, which can diminish the patient’s sense of involvement and trust in the care process. This lack of immediate engagement and responsiveness to the patient's concerns reflects a failure to maintain a collaborative partnership. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Analyze the conversation for the use of interactive techniques and assign a score from 1 to 5 based on the balance between patient-centered and physician-centered interviewing styles. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "VERBAL FACILITATION SKILLS": """
-Consider the interviewer's use of verbal encouragement and facilitation skills to engage the patient, using the following scoring guidelines:
+Evaluate the interviewer's verbal facilitation skills, focusing on how effectively they encourage the patient to share their story and participate in the conversation. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer encourages the patient throughout the interview. Draws out information. Verbal encouragement, use of short statements, and echoing are used regularly when appropriate. The interviewer provides the patient with intermittent verbal encouragement, such as verbally praising the patient for proper health care technique.
-- Score a 3 if the interviewer uses some facilitative skills but not consistently or at inappropriate times. Verbal encouragement could be used more effectively.
-- Score a 1 if the interviewer fails to use facilitative skills to encourage the patient to tell the story.
+Score 5: The interviewer consistently encourages the patient throughout the interview by drawing out information using verbal encouragement, short statements, and echoing techniques. Praises are intermittently given for patient engagement or correct healthcare practices.
+Score 3: The interviewer uses some verbal facilitation skills but not consistently or sometimes at inappropriate times. There is room for more effective use of verbal encouragement.
+Score 1: The interviewer fails to use verbal facilitation skills to encourage the patient to tell their story or contribute to the conversation.
 
 Examples:
 Good Example:
@@ -511,18 +482,16 @@ Physician: "Make sure it’s every morning."
 Explanation: The physician briefly acknowledges the patient’s exercise but quickly moves on without using the opportunity to encourage further discussion or provide any verbal praise or encouragement. The conversation lacks facilitation skills that could help in building engagement or encouraging the patient to elaborate on their health practices. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Evaluate the interviewer's verbal facilitation skills and assign a score from 1 to 5 based on the criteria provided. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "NON-VERBAL FACILITATION SKILLS": """
-Assess the interviewer's use of non-verbal communication skills to put the patient at ease and facilitate engagement, with scoring as follows:
+Evaluate the interviewer's use of non-verbal communication skills to put the patient at ease and facilitate engagement. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer puts the patient at ease and facilitates communication by using: Good eye contact; Relaxed, open body language; Appropriate facial expression; Eliminating physical barriers; and Making appropriate physical contact with the patient.
-- Score a 3 if the interviewer makes some use of facilitative techniques but could be more consistent. One or two techniques are not used effectively. OR Some physical barrier may be present.
-- Score a 1 if the interviewer makes no attempt to put the patient at ease. Body language is negative or closed. OR Any annoying mannerism (foot or pencil tapping) intrudes on the interview. Eye contact is not attempted or is uncomfortable.
+Score 5: The interviewer puts the patient at ease and facilitates effective communication using good eye contact, relaxed and open body language, appropriate facial expressions, eliminating physical barriers, and making appropriate physical contact.
+Score 3: The interviewer utilizes some facilitative non-verbal techniques effectively, but could be more consistent. One or two techniques are not utilized effectively, or some physical barrier may still be present.
+Score 1: The interviewer makes no attempt to put the patient at ease. The body language is negative or closed, annoying mannerisms such as foot or pencil tapping are present, or eye contact is lacking or uncomfortable.
 
 Examples:
 Good Example:
@@ -543,18 +512,16 @@ Physician: [Looks at computer screen, body turned away, makes no eye contact]
 Explanation: The physician's non-verbal communication is poor, with the body turned away from the patient and attention focused on the computer screen instead of the patient. Lack of eye contact and closed body language do not facilitate an engaging or comforting environment. These non-verbal cues can make the patient feel neglected and uneasy. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the criteria, analyze the conversation for the use of non-verbal facilitation skills and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "EMPATHY AND ACKNOWLEDGING PATIENT CUES": """
-Evaluate the interviewer's ability to use supportive comments regarding the patient’s emotions and demonstrate empathy, considering:
+Evaluate the interviewer's ability to use supportive comments regarding the patient’s emotions and demonstrate empathy. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer uses supportive comments regarding the patient’s emotions. The interviewer uses NURS (name, understand, respect, support) or specific techniques for demonstrating empathy.
-- Score a 3 if the interviewer is neutral, neither overly positive nor negative in demonstrating empathy.
-- Score a 1 if no empathy is demonstrated, with the interviewer using a negative emphasis or openly criticizing the patient.
+Score 5: The interviewer uses supportive comments regarding the patient’s emotions and employs techniques such as NURS (name, understand, respect, support) to demonstrate empathy effectively.
+Score 3: The interviewer is neutral, neither particularly empathetic nor unsupportive, maintaining a balanced but not deeply empathetic stance.
+Score 1: No empathy is demonstrated; the interviewer may use a negative emphasis or openly criticize the patient, showing a lack of sensitivity to the patient’s emotional state.
 
 Examples:
 Good Example:
@@ -575,18 +542,16 @@ Physician: "Well, it's important for your health to make an effort."
 Explanation: The physician's responses lack empathy and can be perceived as critical. By emphasizing what the patient should do without acknowledging the difficulty they are experiencing, the physician fails to demonstrate support or understanding of the patient’s emotional struggles. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the criteria, analyze the conversation for instances of empathy and acknowledging patient cues, assigning a score from 1 to 5.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "PATIENT’S PERSPECTIVE (BELIEFS; Case specific)": """
-Assess how well the interviewer elicits and addresses the patient's beliefs and perspective on the illness, including:
+Evaluate how well the interviewer elicits and addresses the patient’s beliefs and perspective on their illness. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer elicits the patient’s healing practices and perspectives on the illness, including beliefs about its beginning, Feelings, Ideas of cause, Function and Expectations (FIFE).
-- Score a 3 if the interviewer elicits some of the patient’s perspective on the illness AND/OR The interviewer does not follow through with addressing beliefs.
-- Score a 1 if the interviewer fails to elicit the patient’s perspective.
+Score 5: The interviewer thoroughly elicits the patient’s perspectives, including their beliefs about the beginning of the illness, their feelings, ideas of cause, function, and expectations (FIFE), and actively addresses these beliefs.
+Score 3: The interviewer elicits some of the patient’s perspectives on the illness but may not address all beliefs or fails to follow through in addressing these beliefs.
+Score 1: The interviewer fails to elicit the patient’s perspective or beliefs about the illness.
 
 Examples:
 Good Example:
@@ -607,18 +572,16 @@ Physician: "It’s all about your diet and exercise. We’ll start you on medica
 Explanation: Although the patient attempts to discuss their belief that stress might be influencing their condition, the physician dismisses this perspective and focuses solely on a biomedical treatment approach. This neglects the patient's view and does not incorporate their beliefs into the care plan, missing an opportunity for a holistic approach. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Evaluate the interviewer's effort to understand and incorporate the patient's perspective and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "IMPACT OF ILLNESS ON PATIENT AND PATIENT’S SELF-IMAGE": """
-Consider the interviewer's exploration of how the illness affects the patient's life and self-image, using the following guidelines for scoring:
+Assess how the interviewer explores the effects of the illness on the patient's life and self-image. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer inquires about the patient’s feelings about the illness and how it has changed patient’s life. The interviewer explores these issues. (The interviewer offers counseling or resources to help. This is used in communication cases.)
-- Score a 3 if the interviewer partially addresses the impact of the illness on the patient’s life or self-image. AND/OR The interviewer offers no counseling or resources to help.
-- Score a 1 if the interviewer fails to acknowledge any impact of the illness on the patient’s life or self-image.
+Score 5: The interviewer inquires deeply about how the illness affects the patient's feelings and lifestyle changes. The interviewer explores these issues thoroughly and offers counseling or resources to support the patient.
+Score 3: The interviewer addresses the impact of the illness on the patient's life or self-image only partially. The interviewer might not offer any additional support such as counseling or resources.
+Score 1: The interviewer fails to acknowledge or explore the impact of the illness on the patient's life and self-image.
 
 Examples:
 Good Example:
@@ -639,18 +602,16 @@ Physician: "The most important thing is to keep your symptoms under control."
 Explanation: The physician ignores the patient's expressed concerns about the impact of the illness on their life and self-image, focusing solely on symptom management. This lack of acknowledgment of the patient's emotional and psychological needs would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Analyze the conversation for how the illness's impact on the patient is addressed and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "IMPACT OF ILLNESS ON FAMILY": """
-Evaluate how the interviewer addresses the impact of the patient’s illness on their family, considering:
+Evaluate how the interviewer addresses the impact of the patient’s illness on their family. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer inquires about the structure of the patient’s family. The interviewer addresses the impact of the patient’s illness and/or treatment on family. The interviewer explores these issues.
-- Score a 3 if the interviewer recognizes the impact of the illness or treatment on the family members and on family lifestyle but fails to explore these issues adequately.
-- Score a 1 if the interviewer fails to address the impact of the illness or treatment on the family members and on family lifestyle.
+Score 5: The interviewer inquires about the patient’s family structure and thoroughly addresses the impact of the patient’s illness and/or treatment on the family. The interviewer explores these issues in detail.
+Score 3: The interviewer recognizes the impact of the illness or treatment on family members and lifestyle but does not explore these issues adequately.
+Score 1: The interviewer fails to address the impact of the illness or treatment on the family members and their lifestyle.
 
 Examples:
 Good Example:
@@ -671,18 +632,22 @@ Physician: "Yes, let's focus on getting you better."
 Explanation: The physician acknowledges the patient's statement about family challenges but does not explore or address the impact of the illness on the family further. This lack of engagement with the patient’s concerns about their family misses an opportunity to understand and support the patient’s familial context. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the criteria, evaluate the interviewer's consideration of the illness's impact on the patient's family and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "SUPPORT SYSTEMS": """
-Assess the interviewer's exploration of the patient’s support systems, including emotional, financial support, and access to healthcare, with the following scoring:
+Evaluate how the interviewer explores the patient’s support systems, including emotional, financial support, and access to healthcare. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer determines 1. what emotional support the patient has. 2. what financial support the patient has and learns about health care access 3. about other resources available to the patient and family and suggests appropriate community resources. (in focused histories limited to what patient needs to manage impact; one thing is sufficient).
-- Score a 3 if the interviewer determines some of the available support.
-- Score a 1 if the interviewer fails to determine what support is currently available to the patient.
+Score 5: The interviewer thoroughly determines:
+
+What emotional support the patient has.
+What financial support the patient has and learns about their access to healthcare.
+About other resources available to the patient and family and suggests appropriate community resources.
+In focused histories, addressing one pertinent support aspect in depth is sufficient.
+Score 3: The interviewer determines some aspects of the available support but does not fully explore or suggest resources.
+
+Score 1: The interviewer fails to determine or discuss any support currently available to the patient.
 
 Examples:
 Good Example:
@@ -705,19 +670,17 @@ Physician: "Just try to follow the treatment plan as best you can."
 Explanation: The physician does not explore the patient’s lack of support or address their stated challenges, missing critical information about the patient’s emotional, financial, or healthcare support systems. This lack of engagement shows a failure to recognize and support the patient’s needs adequately. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Evaluate the conversation for how well the interviewer identifies and addresses the patient's support systems and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "PATIENT’S EDUCATION & UNDERSTANDING": """
-Consider the interviewer's effort to educate the patient about their condition and to assess the patient’s understanding, scoring as follows:
+Evaluate the interviewer's efforts to educate the patient about their condition and to assess the patient's understanding. Use the following criteria for scoring:
 
-- Score a 5 if when patient education is a goal, the interviewer determines the patient’s level of interest and provides education appropriately. The interviewer uses a teach back to check the patient’s understanding of information given during the interview. Techniques may include asking the patient to repeat information, asking if the patient has additional questions, posing hypothetical situations or asking the patient to demonstrate techniques.
-- Score a 3 if the interviewer asks if the patient understands the information but does not use the teach back technique. Some attempt to determine the interest in patient education but could be more thorough.
-- Score a 2 if the interviewer gives info but does not check on understanding.
-- Score a 1 if the interviewer fails to assess patient’s level of understanding and does not effectively correct misunderstandings when they are evident. AND/OR The interviewer fails to address the issue of patient education.
+Score 5: The interviewer determines the patient’s level of interest in learning about their condition, provides appropriate education, and uses the teach-back method to check the patient's understanding. Techniques may include asking the patient to repeat information, inquiring if the patient has additional questions, posing hypothetical situations, or asking the patient to demonstrate techniques.
+Score 3: The interviewer asks if the patient understands the information but does not use teach-back techniques. There is some attempt to determine interest in patient education, but it could be more thorough.
+Score 2: The interviewer provides information but does not check the patient’s understanding.
+Score 1: The interviewer fails to assess the patient's level of understanding and does not effectively address misunderstandings when evident. The issue of patient education is also neglected.
 
 Examples:
 Good Example:
@@ -738,18 +701,16 @@ Physician: "Just continue with the medication and we can discuss it during your 
 Explanation: The physician gives basic instructions on how to take the medication but fails to adequately address the patient's concerns about potential side effects. There is no effort to check the patient's understanding of the treatment plan or to educate the patient about why they are taking these medications and how they work. The lack of responsiveness to the patient's question about side effects and the absence of a teach-back method to confirm understanding demonstrate poor patient education practices. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Analyze the interviewer's approach to patient education and understanding, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "ASSESS MOTIVATION FOR CHANGES": """
-Evaluate the interviewer's approach to assessing the patient's motivation for lifestyle or behavioral changes, with the following criteria:
+Evaluate the interviewer's approach to assessing the patient's motivation for making lifestyle or behavioral changes. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer inquires how the patient feels about the lifestyle/behavioral change and gives information appropriate to patient’s level of readiness.
-- Score a 3 if the interviewer inquires how the patient feels about changes but does not follow-up appropriately.
-- Score a 1 if the interviewer fails to assess patient’s level of motivation to change and does not offer any options or plans or assumes patient’s readiness for change.
+Score 5: The interviewer inquires about how the patient feels regarding the lifestyle/behavioral change and tailors information and suggestions based on the patient's level of readiness.
+Score 3: The interviewer asks about the patient's feelings toward changes but fails to follow up appropriately based on the patient's responses or readiness.
+Score 1: The interviewer does not assess the patient's motivation to make changes, does not offer any options or plans, or incorrectly assumes the patient’s readiness for change.
 
 Examples:
 Good Example:
@@ -770,19 +731,16 @@ Physician: "It's very important for your health. Try to make an effort."
 Explanation: Although the physician identifies the need for change, they fail to assess or support the patient's motivation effectively. The physician's response lacks empathy and does not offer practical solutions or encouragement tailored to the patient's challenges with motivation. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-
-Based on the criteria, assess how well the interviewer evaluates and supports the patient's motivation for changes and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "ADMITTING LACK OF KNOWLEDGE": """
-Evaluate the interviewer's willingness to admit lack of knowledge and their approach to seeking accurate information, considering:
+Evaluate the interviewer's willingness to admit a lack of knowledge and their approach to seeking accurate information. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer, when asked for information or advice that interviewer is not equipped to provide, admits to lack of knowledge in that area but immediately offers to seek resources to answer the question(s).
-- Score a 3 if the interviewer, when asked for information or advice that interviewer is not equipped to provide, admits lack of knowledge, but rarely seeks other resources for answers.
-- Score a 1 if the interviewer, when asked for information, which interviewer is not equipped to provide, makes up answers in an attempt to satisfy the patient’s questions, but never refers to other resources.
+Score 5: When asked for information or advice they are not equipped to provide, the interviewer admits their lack of knowledge but immediately offers to seek resources or consult colleagues to answer the question(s).
+Score 3: The interviewer admits lack of knowledge when asked for information they cannot provide, but only rarely seeks other resources or help to find the answers.
+Score 1: When asked for information they are not equipped to provide, the interviewer makes up answers in an attempt to satisfy the patient’s questions and does not refer to any other resources.
 
 Examples:
 Good Example:
@@ -793,18 +751,16 @@ Physician: "I'm not sure about the specific interaction with those supplements, 
 Explanation: The physician admits to not having immediate knowledge about the interaction between prescribed medication and herbal supplements but takes responsibility to find accurate information by consulting a pharmacist. This proactive approach shows a commitment to providing reliable and safe patient care. This conversation would score a 5.
 Score: 5
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Analyze the conversation for instances where the interviewer admits a lack of knowledge and how they address it, assigning a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "INFORMED CONSENT FOR INVESTIGATIONS & PROCEDURES": """
-Assess how the interviewer discusses investigations and procedures, including risks, benefits, and alternatives, using the following criteria:
+Evaluate how the interviewer discusses investigations and procedures with the patient, focusing on the extent to which they cover the necessary aspects of informed consent. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer discusses the purpose and nature of all investigations and procedures. The interviewer reviews foreseeable risks and benefits of the proposed investigation or procedure. The interviewer discloses alternative investigations or procedures and their relative risks and benefits. Taking no action is considered always considered an alternative.
-- Score a 3 if the interviewer discusses some aspects of the investigations and procedures but omits some elements of informed consent.
-- Score a 1 if the interviewer fails to discuss investigations or procedures.
+Score 5: The interviewer thoroughly discusses the purpose and nature of all investigations and procedures, reviews foreseeable risks and benefits, discloses alternatives including their risks and benefits, and mentions that taking no action is always an alternative.
+Score 3: The interviewer covers some aspects of the investigations and procedures but omits certain elements of informed consent, such as full disclosure of alternatives or specific risks and benefits.
+Score 1: The interviewer fails to discuss the purpose, nature, risks, benefits, or alternatives of investigations or procedures adequately.
 
 Examples:
 Good Example:
@@ -825,18 +781,16 @@ Physician: "It’s a simple procedure to get a better look at the issue. We can 
 Explanation: The physician mentions the biopsy but fails to discuss its nature, risks, or benefits in detail and does not mention any alternatives or the option of no action. The patient is left without crucial information necessary to make an informed decision, and the physician's suggestion to discuss details on the day of the procedure does not meet the standards of informed consent. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Evaluate the interviewer's approach to informed consent for investigations and procedures, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "ACHIEVE A SHARED PLAN": """
-Consider the interviewer's effectiveness in discussing the diagnosis or prognosis and negotiating a plan with the patient, including:
+Evaluate the interviewer's effectiveness in discussing the diagnosis or prognosis with the patient and negotiating a treatment plan. Use the following criteria for scoring:
 
-- Score a 5 if the the interviewer discusses the diagnosis and/or prognosis and negotiates a plan with the patient. The interviewer invites the patient to contribute own thoughts, ideas, suggestions and preferences.
-- Score a 3 if the interviewer discusses the diagnosis and/or prognosis and plan but does not allow the patient to contribute. Lacks full quality.
-- Score a 1 if the interviewer fails to discuss diagnosis and/or prognosis.
+Score 5: The interviewer discusses the diagnosis and/or prognosis comprehensively and negotiates a treatment plan, inviting the patient to contribute their own thoughts, ideas, suggestions, and preferences.
+Score 3: The interviewer discusses the diagnosis and/or prognosis and outlines a plan, but does not fully engage the patient in the planning process or allow for patient input, resulting in a lack of full quality in the shared decision-making process.
+Score 1: The interviewer fails to discuss the diagnosis and/or prognosis with the patient, missing an opportunity to negotiate or even formulate a treatment plan.
 
 Examples:
 Good Example:
@@ -857,20 +811,18 @@ Physician: "Medication is the best option. We'll start with that."
 Explanation: While the physician provides a diagnosis, they fail to discuss the prognosis or engage the patient in the decision-making process, dismissing the patient's inquiry about alternatives. This lack of patient involvement does not foster a shared understanding or agreement on the treatment plan. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Assess the conversation for how well a shared plan is achieved, encouraging patient involvement, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "ENCOURAGEMENT OF QUESTIONS": """
-Evaluate the interviewer's encouragement for the patient to ask questions throughout the interview, with the following scoring:
+Evaluate how well the interviewer encourages the patient to ask questions throughout the interview. Use the following criteria for scoring:
 
-- Score a 5 if the interviewer encourages the patient to ask questions at the end of a major subsection. The interviewer gives the patient the opportunity to bring up additional topics or points not covered in the interview. Two opportunities including one at the end of the interview.
-- Score a 4 only one opportunity, at the end.
-- Score a 3 one opportunity for questions but not near the end of the encounter.
-- Score a 2 if the interviewer does not specifically ask if there are questions, but the climate and the pace of the interview allow them.
-- Score a 1 if the interviewer fails to provide the patient with the opportunity to ask questions or discuss additional points. The interviewer may discourage the patient’s questions.
+Score 5: The interviewer encourages the patient to ask questions at the end of major subsections and provides at least two opportunities for the patient to bring up additional topics or points, including one at the end of the interview.
+Score 4: The interviewer provides only one opportunity for the patient to ask questions, typically at the end of the interview.
+Score 3: The interviewer provides one opportunity for the patient to ask questions but not near the end of the encounter.
+Score 2: The interviewer does not specifically ask if there are questions, but the climate and pace of the interview allow for them.
+Score 1: The interviewer fails to provide the patient with the opportunity to ask questions or discuss additional points, and may even discourage the patient’s questions.
 
 Examples:
 Good Example:
@@ -893,18 +845,16 @@ Physician: "We're really pressed for time today, but we can get into more detail
 Explanation: The physician not only fails to encourage questions but actively discourages them by citing time constraints. This prevents the patient from discussing their concerns or clarifying their understanding, which could lead to confusion or noncompliance with the treatment plan. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Based on the criteria, analyze the interviewer's encouragement of patient questions and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "CLOSURE": """
-Assess the effectiveness of the interview's closure, considering the clarity and completeness of future plans, using the following guidelines:
+Evaluate the effectiveness of the interview's closure by assessing the clarity and completeness of future plans. Use the following criteria for scoring:
 
-- Score a 5 at the end of the interview the interviewer clearly specifies the future plans: What the interviewer will do (leave and consult, make referrals) What the patient will do (wait, make diet changes, go to Physical Therapy); When (the time of the next communication or appointment.)
-- Score a 3 if at the end of the interview, the interviewer partially details the plans for the future.
-- Score a 1 if at the end of the interview, the interviewer fails to specify the plans for the future and the patient leaves the interview without a sense of what to expect. There is no closure whatsoever.
+Score 5: At the end of the interview, the interviewer clearly specifies the future plans, including actions to be taken by both the interviewer (such as making referrals or consultations) and the patient (such as dietary changes or appointments for therapy), along with clear timelines for the next communication or appointment.
+Score 3: At the end of the interview, the interviewer partially details the future plans but leaves some aspects unclear or vague.
+Score 1: At the end of the interview, the interviewer fails to specify any plans for the future, leaving the patient without a clear understanding of what to expect next. There is no closure whatsoever.
 
 Examples:
 Good Example:
@@ -925,10 +875,8 @@ Physician: "Just go ahead with the changes we discussed. We'll sort out the deta
 Explanation: The physician ends the interview without clear instructions or definite plans for follow-up, leaving the patient unsure about the next steps. There is no mention of specific actions, timelines, or follow-up appointments, resulting in a lack of closure. This conversation would score a 1.
 Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
-
-Evaluate the conversation for how effectively the interview is concluded, focusing on the clarity and completeness of closure, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+Task:
+Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """
 }
 
