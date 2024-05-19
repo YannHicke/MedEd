@@ -640,11 +640,10 @@ Based on the above criteria and examples, analyze the provided conversation and 
 Evaluate how the interviewer explores the patient’s support systems, including emotional, financial support, and access to healthcare. Use the following criteria for scoring:
 
 Score 5: The interviewer thoroughly determines:
-
-What emotional support the patient has.
-What financial support the patient has and learns about their access to healthcare.
-About other resources available to the patient and family and suggests appropriate community resources.
-In focused histories, addressing one pertinent support aspect in depth is sufficient.
+- What emotional support the patient has.
+- What financial support the patient has and learns about their access to healthcare.
+- About other resources available to the patient and family and suggests appropriate community resources.
+(In focused histories, addressing one pertinent support aspect in depth is sufficient.)
 Score 3: The interviewer determines some aspects of the available support but does not fully explore or suggest resources.
 
 Score 1: The interviewer fails to determine or discuss any support currently available to the patient.

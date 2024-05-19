@@ -4,6 +4,8 @@ import os
 from openai import OpenAI
 from mirs_prompts import mirs_prompts
 from nojson_mirs_prompts import nojson_mirs_prompts
+from mirs_prompts_noExamples import mirs_prompts_noExamples
+from nojson_mirs_prompts_noExamples import nojson_mirs_prompts_noExamples
 import json
 import pandas as pd
 import time
@@ -100,7 +102,7 @@ def load_context(file_path):
     with open(file_path, 'r') as file:
         return file.read().strip()
 
-def score_conversation(filename):
+def score_conversation(filename, noExamples=False):
 
     # Read in scorer context
     # scoring_context = load_context('../context/context_scorer2.txt')
@@ -119,7 +121,10 @@ def score_conversation(filename):
         explanations_together = {}
         for item, prompt in mirs_prompts.items():
 
-            nojson_prompt = nojson_mirs_prompts[item]
+            if noExamples:
+                nojson_prompt = nojson_mirs_prompts_noExamples[item]
+            else:
+                nojson_prompt = nojson_mirs_prompts[item]
             # Call the OpenAI API (assuming a simplified use case)
             response = client.chat.completions.create(
             model="gpt-4-0125-preview", 
@@ -156,7 +161,11 @@ def score_conversation(filename):
             
         return scores, explanations, scores_together, explanations_together
     
-    mirs_scores, mirs_explanations, mirs_scores_together, mirs_explanations_together = get_mirs_scores(conversation, mirs_prompts)
+    if noExamples:
+        prompts = mirs_prompts_noExamples
+    else:
+        prompts = mirs_prompts
+    mirs_scores, mirs_explanations, mirs_scores_together, mirs_explanations_together = get_mirs_scores(conversation, prompts)
 
     # Append the conversation to the scoring context
     # full_context = scoring_context + "\n" + conversation
@@ -190,19 +199,22 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("conversation_file", help="The name of the conversation file to score.")
     parser.add_argument("--nojson", help="Use the nojson prompts", action="store_true")
+    parser.add_argument("--noexamples", help="Use the noexamples prompts", action="store_true")
     args = parser.parse_args()
 
     conversation_file = args.conversation_file
+    noExamples = args.noexamples
     # nojson = args.nojson
-    # print(f"Scoring conversation: {conversation_file}")
+    print(f"Scoring conversation: {conversation_file}")
     # print(f"Using nojson prompts: {nojson}")
+    print(f"Using noexamples prompts: {noExamples}")
 
     # Check if the conversation file exists
     if not os.path.exists(os.path.join("../simulation/conversation_history/UConn/", conversation_file)):
         print(f"Error: The file '{conversation_file}' does not exist.")
         sys.exit(1)
 
-    results = score_conversation(conversation_file)
+    results = score_conversation(conversation_file, noExamples)
     breakpoint()
 
     discussed_items = {category: [] for category in checklist.keys()}

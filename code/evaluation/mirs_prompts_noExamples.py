@@ -1,7 +1,7 @@
 # mirs_prompts.py
 
-mirs_prompts = {
-    "Opening": """
+mirs_prompts_noExamples = {
+    "OPENING": """
 Consider the following criteria for evaluating the opening of a medical interview. Assign a score from 1 to 5 based on the criteria provided:
 
 - Score a 5 if the interviewer introduces themselves, clarifies their role, and inquires how to address the patient, using the patient’s name.

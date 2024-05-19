@@ -680,9 +680,14 @@ Based on the criteria, evaluate the interviewer's consideration of the illness's
     "SUPPORT SYSTEMS": """
 Assess the interviewer's exploration of the patient’s support systems, including emotional, financial support, and access to healthcare, with the following scoring:
 
-- Score a 5 if the interviewer determines 1. what emotional support the patient has. 2. what financial support the patient has and learns about health care access 3. about other resources available to the patient and family and suggests appropriate community resources. (in focused histories limited to what patient needs to manage impact; one thing is sufficient).
-- Score a 3 if the interviewer determines some of the available support.
-- Score a 1 if the interviewer fails to determine what support is currently available to the patient.
+Score 5: The interviewer thoroughly determines:
+- What emotional support the patient has.
+- What financial support the patient has and learns about their access to healthcare.
+- About other resources available to the patient and family and suggests appropriate community resources.
+(In focused histories, addressing one pertinent support aspect in depth is sufficient.)
+Score 3: The interviewer determines some aspects of the available support but does not fully explore or suggest resources.
+
+Score 1: The interviewer fails to determine or discuss any support currently available to the patient.
 
 Examples:
 Good Example:
