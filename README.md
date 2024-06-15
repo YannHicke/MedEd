@@ -50,6 +50,6 @@ prompt_map = {
     "together": "string"
 }
 ```
-(i.e. openai will have better results with JSON formatting while the other models will be better at outputting strings with XML formatting. It is an assumption and can be changed if necessary)
+(i.e. openai will have better results with JSON formatting while the other models will be better at outputting strings with XML formatting. It is an assumption and can be changed if necessary.)
 
 In any case, JSON prompts can be changed in `mirs_prompts.py`, and `mirs_prompts_noExamples.py` and the others in the `nojson` prompts files. They are located in evaluation directory.
