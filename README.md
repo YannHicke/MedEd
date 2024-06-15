@@ -34,3 +34,22 @@ In the `config.yaml` file, you can customize the following settings:
 - **Evaluation Type**: Choose between `mirs` evaluation and `checklist` evaluation.
 - **Case Selection**: Select the specific case you want to evaluate.
 - **Prompt Usage**: Decide whether to use prompts with examples or without examples.
+
+## Prompts
+
+If you want to change prompts, there are four separate files: `mirs_prompts.py`, `nojson_mirs_prompts.py`, `mirs_prompts_noExamples.py`, `nojson_mirs_prompts_noExamples.py`.
+
+Right now, these are the assumptions made:
+
+```python
+prompt_map = {
+    "openai": "json",
+    "gemini": "string",
+    "anthropic": "string",
+    "cohere": "string",
+    "together": "string"
+}
+
+(i.e. openai will have better results with JSON formatting while the other models will be better at outputting strings with XML formatting. It is an assumption and can be changed if necessary)
+
+In any case, JSON prompts can be changed in `mirs_prompts.py`, and `mirs_prompts_noExamples.py` and the others in the `nojson` prompts files. They are located in evaluation directory.
