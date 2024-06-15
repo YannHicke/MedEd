@@ -1,4 +1,3 @@
-import openai
 import sys
 import os
 from openai import OpenAI
@@ -11,11 +10,22 @@ import pandas as pd
 import time
 from together import Together
 import argparse
+import google.generativeai as genai
+# import anthropic
+import cohere
+import random
+
 
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 client_together = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
+
+genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
+
+# client_anthropic = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+co = cohere.Client(os.environ["COHERE_API_KEY"])
 
 
 checklist = {
@@ -119,6 +129,12 @@ def score_conversation(filename, noExamples=False):
         explanations = {}
         scores_together = {}
         explanations_together = {}
+        scores_gemini = {}
+        explanations_gemini = {}
+        # scores_anthropic = {}
+        # explanations_anthropic = {}
+        scores_cohere = {}
+        explanations_cohere = {}
         for item, prompt in mirs_prompts.items():
 
             if noExamples:
@@ -126,46 +142,145 @@ def score_conversation(filename, noExamples=False):
             else:
                 nojson_prompt = nojson_mirs_prompts[item]
             # Call the OpenAI API (assuming a simplified use case)
-            response = client.chat.completions.create(
-            model="gpt-4-0125-preview", 
-            response_format={"type": "json_object"},
-            messages=[{"role": "system", "content": prompt},
-                    {"role": "user", "content": transcript}]
-        )
-            
-            response_together = client_together.chat.completions.create(
-                model="meta-llama/Llama-3-70b-chat-hf",
-                messages=[{"role": "system", "content": nojson_prompt},
-                    {"role": "user", "content": transcript}],
-            )
-            print(response.choices[0].message.content)
-            print("\n TOGETHER \n")
-            print(response_together.choices[0].message.content)
+        #     response_openai = client.chat.completions.create(
+        #     model="gpt-4-0125-preview", 
+        #     # model="gpt-4o",
+        #     response_format={"type": "json_object"},
+        #     messages=[{"role": "system", "content": prompt},
+        #             {"role": "user", "content": transcript}]
+        # )
+        #     print(response_openai.choices[0].message.content)
+        #     # print("\n OPENAI \n")
+        #     breakpoint()
 
-            # breakpoint()
+            # import time
+            # from google.api_core.exceptions import ResourceExhausted
+
+            # model_gemini = genai.GenerativeModel(
+            #     "models/gemini-1.5-pro-latest",
+            #     system_instruction=nojson_prompt,
+            # )
+            # attempt = 0
+            # while attempt < 5:
+            #     try:
+            #         response_gemini = model_gemini.generate_content(transcript)
+            #         break
+            #     except ResourceExhausted:
+            #         print(f"Resource exhausted on attempt {attempt + 1}")
+            #         time.sleep((2 ** attempt) + (random.randint(0, 1000) / 1000))  # Exponential backoff with jitter
+            #         attempt += 1
+
+            # if attempt == 5:
+            #     response_gemini.text = None  # or handle as appropriate if max retries exceeded
+
+            # print("\n GEMINI \n")
+            # print(response_gemini.text)
+
+            # response_anthropic = client_anthropic.messages.create(
+            # model="claude-3-opus-20240229",
+            # max_tokens=1024,
+            # system=nojson_prompt,
+            # messages=[
+            #     {"role": "user", "content": transcript} 
+            # ]
+            # )
+
+            # print("\n ANTHROPIC \n")
+            # print(response_anthropic.content[0].text)
+
+            response_cohere = co.chat(
+            model="command-r-plus",
+            message=transcript,
+            preamble=nojson_prompt)
+
+            print("\n COHERE \n")
+            print(response_cohere.text)
+
+            breakpoint()
+
+            
+            # response_together = client_together.chat.completions.create(
+            #     model="meta-llama/Llama-3-70b-chat-hf",
+            #     messages=[{"role": "system", "content": nojson_prompt},
+            #         {"role": "user", "content": transcript}],
+            # )
+            # print(response.choices[0].message.content)
+            # print("\n TOGETHER \n")
+            # print(response_together.choices[0].message.content)
+
+            try:
+                score_openai = json.loads(response_openai.choices[0].message.content)["score"]
+                explanation_openai = json.loads(response_openai.choices[0].message.content)["explanation"]
+            except:
+                score_openai = "N/A"
+                explanation_openai = response_openai.choices[0].message.content
+
+            try:
+                score_gemini = response_gemini.text.split("Score: ")[1].split("\n")[0]
+                explanation_gemini = response_gemini.text.split("Explanation: ")[1].split("\n")[0]
+            except:
+                score_gemini = "N/A"
+                explanation_gemini = response_gemini.text
+            # try:
+            #     score_anthropic = response_anthropic.content[0].text.split("Score: ")[1].split("\n")[0]
+            #     explanation_anthropic = response_anthropic.content[0].text.split("Explanation: ")[1].split("\n")[0]
+            # except:
+            #     score_anthropic = "N/A"
+            #     explanation_anthropic = response_anthropic.content[0].text
+            try:
+                score_cohere = response_cohere.text.split("Score: ")[1].split("\n")[0]
+                explanation_cohere = response_cohere.text.split("Explanation: ")[1].split("\n")[0]
+            except:
+                score_cohere = "N/A"
+                explanation_cohere = response_cohere.text
+            # print(f"\nItem: {item}, \nScore Gemini: {score_gemini}, \n\nExplanation Gemini:\n {explanation_gemini}, \n\nScore Anthropic: {score_anthropic}, \n\nExplanation Anthropi:\n {explanation_anthropic}, \n\nScore Cohere: {score_cohere}, \n\nExplanation Cohere:\n {explanation_cohere}")
+            # print(f"\nItem: {item}, \nScore Gemini: {score_gemini}, \n\nExplanation Gemini:\n {explanation_gemini}, \n\nScore Cohere: {score_cohere}, \n\nExplanation Cohere:\n {explanation_cohere}")
+            print(f"\nItem: {item}, \nScore OpenAI: {score_openai}, \n\nExplanation OpenAI:\n {explanation_openai}, \n\nScore Gemini: {score_gemini}, \n\nExplanation Gemini:\n {explanation_gemini}, \n\nScore Cohere: {score_cohere}, \n\nExplanation Cohere:\n {explanation_cohere}")
+
+            # Store the score with the item
+            scores_gemini[item] = score_gemini
+            explanations_gemini[item] = explanation_gemini
+            # scores_anthropic[item] = score_anthropic
+            # explanations_anthropic[item] = explanation_anthropic
+            scores_cohere[item] = score_cohere
+            explanations_cohere[item] = explanation_cohere
+
+        return scores_gemini, explanations_gemini, scores_cohere, explanations_cohere
             
             # Process the response from GPT-4 (you might need to adjust based on the expected output format)
-            try:
-                score = json.loads(response.choices[0].message.content)["score"]
-                explanation = json.loads(response.choices[0].message.content)["explanation"]
-                score_together = response_together.choices[0].message.content.split("Score: ")[1].split("\n")[0]
-                explanation_together = response_together.choices[0].message.content.split("Explanation: ")[1].split("\n")[0]
-            except:
-                breakpoint()
-            print(f"\nItem: {item}, \nScore: {score}, \n\nExplanation:\n {explanation}, \n\nScore Together: {score_together}, \n\nExplanation Together:\n {explanation_together}")
-            # Store the score with the item
-            scores[item] = score
-            explanations[item] = explanation
-            scores_together[item] = score_together
-            explanations_together[item] = explanation_together
+        #     try:
+        #         score = json.loads(response.choices[0].message.content)["score"]
+        #         explanation = json.loads(response.choices[0].message.content)["explanation"]
+        #         score_together = response_together.choices[0].message.content.split("Score: ")[1].split("\n")[0]
+        #         explanation_together = response_together.choices[0].message.content.split("Explanation: ")[1].split("\n")[0]
+        #     except:
+        #         breakpoint()
+        #     print(f"\nItem: {item}, \nScore: {score}, \n\nExplanation:\n {explanation}, \n\nScore Together: {score_together}, \n\nExplanation Together:\n {explanation_together}")
+        #     # Store the score with the item
+        #     scores[item] = score
+        #     explanations[item] = explanation
+        #     scores_together[item] = score_together
+        #     explanations_together[item] = explanation_together
             
-        return scores, explanations, scores_together, explanations_together
+        # return scores, explanations, scores_together, explanations_together
     
     if noExamples:
         prompts = mirs_prompts_noExamples
     else:
         prompts = mirs_prompts
-    mirs_scores, mirs_explanations, mirs_scores_together, mirs_explanations_together = get_mirs_scores(conversation, prompts)
+    # mirs_scores, mirs_explanations, mirs_scores_together, mirs_explanations_together = get_mirs_scores(conversation, prompts)
+    mirs_scores_gemini, mirs_explanations_gemini, mirs_scores_cohere, mirs_explanations_cohere = get_mirs_scores(conversation, prompts)
+
+    df = pd.DataFrame.from_dict(mirs_scores_gemini, orient='index', columns=['score'])
+    for item, score in mirs_scores_gemini.items():
+        df.loc[item, 'explanation'] = mirs_explanations_gemini[item]
+        # df.loc[item, 'score_anthropic'] = mirs_scores_anthropic[item]
+        # df.loc[item, 'explanation_anthropic'] = mirs_explanations_anthropic[item]
+        df.loc[item, 'score_cohere'] = mirs_scores_cohere[item]
+        df.loc[item, 'explanation_cohere'] = mirs_explanations_cohere[item]
+
+    df.to_csv(os.path.join("./results", filename.replace(".txt", ".csv")))
+    return df
 
     # Append the conversation to the scoring context
     # full_context = scoring_context + "\n" + conversation

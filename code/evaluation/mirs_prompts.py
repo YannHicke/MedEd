@@ -2,30 +2,92 @@
 
 mirs_prompts = {
     "OPENING": """
-Consider the following criteria for evaluating the opening of a medical interview. Assign a score from 1 to 5 based on the criteria provided:
+Welcome to the evaluator training module for assessing the opening of medical interviews. This session employs a chain-of-thought approach within an n-shot learning framework, providing detailed examples to guide your evaluations through structured and detailed reasoning.
 
-- Score a 5 if the interviewer introduces themselves, clarifies their role, and inquires how to address the patient, using the patient’s name.
-- Score a 4 if only one element of the full introduction criteria is missing.
-- Score a 3 if the interviewer’s introduction is missing two elements.
-- Score a 2 if the introduction consists only of a basic 'hello', lacking most elements of a full introduction.
-- Score a 1 if there is no introduction at all.
+## Evaluation Rubric:
+- **Score 5**: Complete introduction with self-introduction, role clarification, and polite patient address inquiry using the patient’s name.
+- **Score 4**: One element missing from the introduction.
+- **Score 3**: Two elements missing from the introduction.
+- **Score 2**: Only a basic greeting, such as 'hello', with most elements missing.
+- **Score 1**: No introduction provided.
 
-Examples:
-Good Example:
-Conversation Excerpt: Physician: "Hello, I'm Dr. Smith, the attending physician. How may I address you?"
-Explanation: Dr. Smith introduces themselves ("I'm Dr. Smith"), clarifies their role ("the attending physician"), and asks how to address the patient using a polite form ("How may I address you?"). Therefore, this conversation would score a 5.
-Score: 5
+## Detailed Examples for Each Score Using Chain of Thought:
+1. **Score 5 Example**:
+   - **Conversation Excerpt**: "Hello, I am Dr. Carter, your cardiologist for today. How should I address you?"
+   - **CoT Analysis**:
+     1. **Sketchpad Listing**: Elements listed include self-introduction ("I am Dr. Carter"), role specification ("your cardiologist for today"), and patient address inquiry ("How should I address you?").
+     2. **Consistency Check**: All elements match the full introduction criteria.
+     3. **Synthesize and Score**: As no elements are missing, the score is 5.
+     4. **Justify the Score**: The score of 5 is fully justified as the introduction meets all the criteria, demonstrating a complete and respectful engagement.
 
-Poor Example:
-Conversation Excerpt: Physician: "Hello. What brings you in today?"
-Explanation: The physician only greets the patient with a simple "Hello" without introducing themselves, clarifying their role, or asking how to address the patient. Therefore, this conversation would score a 1.
-Score: 1
+2. **Score 4 Example**:
+   - **Conversation Excerpt**: "Hello, I am Dr. Carter, your cardiologist. What brings you in today?"
+   - **CoT Analysis**:
+     1. **Sketchpad Listing**: Elements listed include self-introduction ("I am Dr. Carter") and role specification ("your cardiologist").
+     2. **Consistency Check**: Missing the patient address inquiry.
+     3. **Synthesize and Score**: With one element missing, the score is 4.
+     4. **Justify the Score**: The lack of a patient address inquiry results in a deduction, justifying the score of 4.
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
+3. **Score 3 Example**:
+   - **Conversation Excerpt**: "Hello, I'm the nurse on duty."
+   - **CoT Analysis**:
+     1. **Sketchpad Listing**: Elements noted include role specification ("nurse on duty").
+     2. **Consistency Check**: Missing self-introduction and patient address inquiry.
+     3. **Synthesize and Score**: Two key elements missing, thus the score is 3.
+     4. **Justify the Score**: The absence of self-introduction and a patient address inquiry justifies the score of 3.
 
-Based on the above criteria, analyze the opening of the following conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-""",
+4. **Score 2 Example**:
+   - **Conversation Excerpt**: "Hello, what brings you in today?"
+   - **CoT Analysis**:
+     1. **Sketchpad Listing**: Only a basic greeting is noted.
+     2. **Consistency Check**: Lacking self-introduction, role clarification, and patient address inquiry.
+     3. **Synthesize and Score**: As most key elements are missing, the score is 2.
+     4. **Justify the Score**: The minimal introduction provided, which lacks the necessary elements of a complete and polite interview opening, justifies the score of 2.
+
+5. **Score 1 Example**:
+   - **Conversation Excerpt**: "What brings you in today??"
+   - **CoT Analysis**:
+     1. **Sketchpad Listing**: No greeting or introduction elements.
+     2. **Consistency Check**: No elements present.
+     3. **Synthesize and Score**: No introduction; assigns score of 1.
+     4. **Justify the Score**: No introduction elements are present at all, justifying the lowest score.
+
+### Your Task:
+Apply the chain of thought process to analyze a provided conversation excerpt from a medical interview. Use the steps outlined to evaluate, score, and justify your evaluation comprehensively.
+
+### Response Format:
+```json
+{
+  "explanation": "Detail each step of your analysis, citing direct quotes from the conversation to support your score.",
+  "score": "Provide the score based on your comprehensive analysis"
+}""",
+
+
+#     "OPENING": """
+# Consider the following criteria for evaluating the opening of a medical interview. Assign a score from 1 to 5 based on the criteria provided:
+
+# - Score a 5 if the interviewer introduces themselves, clarifies their role, and inquires how to address the patient, using the patient’s name.
+# - Score a 4 if only one element of the full introduction criteria is missing.
+# - Score a 3 if the interviewer’s introduction is missing two elements.
+# - Score a 2 if the introduction consists only of a basic 'hello', lacking most elements of a full introduction.
+# - Score a 1 if there is no introduction at all.
+
+# Examples:
+# Good Example:
+# Conversation Excerpt: Physician: "Hello, I'm Dr. Smith, the attending physician. How may I address you?"
+# Explanation: Dr. Smith introduces themselves ("I'm Dr. Smith"), clarifies their role ("the attending physician"), and asks how to address the patient using a polite form ("How may I address you?"). Therefore, this conversation would score a 5.
+# Score: 5
+
+# Poor Example:
+# Conversation Excerpt: Physician: "Hello. What brings you in today?"
+# Explanation: The physician only greets the patient with a simple "Hello" without introducing themselves, clarifying their role, or asking how to address the patient. Therefore, this conversation would score a 2.
+# Score: 2
+
+# Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
+# {"explanation":explanation, "score": score}
+
+# Based on the above criteria, analyze the opening of the following conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+# """,
 
     "ELICITS SPECTRUM OF CONCERNS": """
 Evaluate if the interviewer elicits the patient's full spectrum of concerns within the first 3-5 minutes of the interview. Consider the following scoring criteria:
@@ -79,12 +141,12 @@ Explanation: The physician's approach, as quoted, "Let’s prioritize that for t
 Score: 5
 
 Poor Example:
-Conversation Excerpt: Physician: "I see you're here for headaches. We'll start with that. What medication have you been taking?"
+Conversation Excerpt: Physician: "I see you're here for headaches. I'll start with that. What medication have you been taking?"
 Patient: "I also have some concerns about my sleep and stress levels."
 Physician: "Okay, we might cover those later if there's time. Let’s keep the focus on the headaches for now."
 
-Explanation: In this conversation, the physician acknowledges the patient's additional concerns about sleep and stress but decides to defer them, emphasizing the chief complaint of headaches instead. By saying, "We might cover those later if there's time," the physician does not effectively negotiate priorities or engage in setting a collaborative agenda with the patient. This shows a disregard for the patient's input on their own health priorities, resulting in a conversation that prioritizes the physician’s agenda over the patient's broader health concerns. Therefore, this conversation would score a 1.
-Score: 1
+Explanation: In this conversation, the physician acknowledges the patient's additional concerns about sleep and stress but decides to defer them, emphasizing the chief complaint of headaches instead. By saying, "We might cover those later if there's time," the physician does not effectively negotiate priorities or engage in setting a collaborative agenda with the patient. This shows a disregard for the patient's input on their own health priorities, resulting in a conversation that prioritizes the physician’s agenda over the patient's broader health concerns. Therefore, this conversation would score a 2.
+Score: 2
 
 Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
 {"explanation":explanation, "score": score}
@@ -210,77 +272,77 @@ Provide your response in a json format with your explanation and the assigned sc
 Based on the above criteria, analyze the conversation for the organization of the interview and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
 """,
 
-    "TRANSITIONAL STATEMENTS (only for complete histories)": """
-Evaluate the use of transitional statements by the interviewer, which explain the reasons for progressing from one section to another, with the following scoring guidelines:
+#     "TRANSITIONAL STATEMENTS (only for complete histories)": """
+# Evaluate the use of transitional statements by the interviewer, which explain the reasons for progressing from one section to another, with the following scoring guidelines:
 
-- Score a 5 if the interviewer utilizes transitional statements effectively throughout the interview, clarifying the interview's structure for the patient.
-- Score a 3 if the interviewer sometimes uses effective transitional statements but fails to do so consistently or some statements lack clarity.
-- Score a 1 if interviewer progresses from one subsection to another in such a manner that the patient is left with a feeling of uncertainty as to the purpose of the questions. No transitional statements are made.
+# - Score a 5 if the interviewer utilizes transitional statements effectively throughout the interview, clarifying the interview's structure for the patient.
+# - Score a 3 if the interviewer sometimes uses effective transitional statements but fails to do so consistently or some statements lack clarity.
+# - Score a 1 if interviewer progresses from one subsection to another in such a manner that the patient is left with a feeling of uncertainty as to the purpose of the questions. No transitional statements are made.
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
+# Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
+# {"explanation":explanation, "score": score}
 
-Examples:
-Good Example:
-Conversation Excerpt:
-Physician: "Now that we've discussed your current symptoms, I'd like to go back to when you first noticed these issues to understand their onset better."
-Patient: "Okay, that makes sense."
-Physician: "You mentioned earlier feeling tired. Let’s explore how this has impacted your daily activities to get a clearer picture of your overall health status."
-Patient: "Sure, I've definitely been less active."
+# Examples:
+# Good Example:
+# Conversation Excerpt:
+# Physician: "Now that we've discussed your current symptoms, I'd like to go back to when you first noticed these issues to understand their onset better."
+# Patient: "Okay, that makes sense."
+# Physician: "You mentioned earlier feeling tired. Let’s explore how this has impacted your daily activities to get a clearer picture of your overall health status."
+# Patient: "Sure, I've definitely been less active."
 
-Explanation: The physician uses effective transitional statements such as, "Now that we've discussed your current symptoms, I'd like to go back to when you first noticed these issues," which helps the patient understand the shift from discussing current symptoms to reviewing their onset. Another clear transition is indicated with, "Let’s explore how this has impacted your daily activities," seamlessly moving the discussion to the effects of the symptoms, thus maintaining clarity and context throughout the interview. Therefore, this conversation would score a 5.
+# Explanation: The physician uses effective transitional statements such as, "Now that we've discussed your current symptoms, I'd like to go back to when you first noticed these issues," which helps the patient understand the shift from discussing current symptoms to reviewing their onset. Another clear transition is indicated with, "Let’s explore how this has impacted your daily activities," seamlessly moving the discussion to the effects of the symptoms, thus maintaining clarity and context throughout the interview. Therefore, this conversation would score a 5.
 
-Score: 5
+# Score: 5
 
-Poor Example:
-Conversation Excerpt:
-Physician: "How often do you exercise?"
-Patient: "About three times a week."
-Physician: "Do you have any allergies?"
-Patient: "Yes, I'm allergic to penicillin."
-Physician: "What medications are you currently taking?"
-Patient: "I take a blood pressure pill each morning."
+# Poor Example:
+# Conversation Excerpt:
+# Physician: "How often do you exercise?"
+# Patient: "About three times a week."
+# Physician: "Do you have any allergies?"
+# Patient: "Yes, I'm allergic to penicillin."
+# Physician: "What medications are you currently taking?"
+# Patient: "I take a blood pressure pill each morning."
 
-Explanation: The physician moves from discussing exercise habits directly to inquiring about allergies and then to medication usage without using any transitional statements. This abrupt shift between topics can leave the patient feeling confused about the relevance and connection between questions. There is no explanation provided by the physician on why they are moving from one topic to another, resulting in a disjointed and potentially disorienting experience for the patient. Therefore, this conversation would score a 1.
-Score: 1
+# Explanation: The physician moves from discussing exercise habits directly to inquiring about allergies and then to medication usage without using any transitional statements. This abrupt shift between topics can leave the patient feeling confused about the relevance and connection between questions. There is no explanation provided by the physician on why they are moving from one topic to another, resulting in a disjointed and potentially disorienting experience for the patient. Therefore, this conversation would score a 1.
+# Score: 1
 
-Analyze the effectiveness of transitional statements in the interview, considering only complete histories, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-""",
+# Analyze the effectiveness of transitional statements in the interview, considering only complete histories, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+# """,
 
-    "PACING OF INTERVIEW (not based on finishing on time)": """
-Consider the pacing of the interview, focusing on the interviewer's attentiveness, the smooth progression of the interview, and the deliberate use of silence, scoring as follows:
+#     "PACING OF INTERVIEW (not based on finishing on time)": """
+# Consider the pacing of the interview, focusing on the interviewer's attentiveness, the smooth progression of the interview, and the deliberate use of silence, scoring as follows:
 
-- Score a 5 if the interviewer is fully attentive to the patient’s responses, listens without interruption, and the interview progresses smoothly without awkward pauses. Silence is used deliberately.
-- Score a 3 if the pace of the interview is generally comfortable, but there are occasional interruptions or awkward pauses.
-- Score a 1 if the interviewer frequently interrupts the patient, with several awkward pauses breaking the flow of the interview.
+# - Score a 5 if the interviewer is fully attentive to the patient’s responses, listens without interruption, and the interview progresses smoothly without awkward pauses. Silence is used deliberately.
+# - Score a 3 if the pace of the interview is generally comfortable, but there are occasional interruptions or awkward pauses.
+# - Score a 1 if the interviewer frequently interrupts the patient, with several awkward pauses breaking the flow of the interview.
 
-Examples:
-Good Example:
-Conversation Excerpt:
-Physician: "I noticed you mentioned earlier that you've been having trouble sleeping. Can you tell me more about when that started?"
-Patient: "Yes, it's been about three weeks now. I just lie there, unable to sleep."
-Physician: [Silently nods, giving the patient a moment to continue] "That sounds difficult. How has this affected your day-to-day activities?"
-Patient: "I'm always tired now, and it's hard to concentrate at work."
+# Examples:
+# Good Example:
+# Conversation Excerpt:
+# Physician: "I noticed you mentioned earlier that you've been having trouble sleeping. Can you tell me more about when that started?"
+# Patient: "Yes, it's been about three weeks now. I just lie there, unable to sleep."
+# Physician: [Silently nods, giving the patient a moment to continue] "That sounds difficult. How has this affected your day-to-day activities?"
+# Patient: "I'm always tired now, and it's hard to concentrate at work."
 
-Explanation: The physician exhibits full attentiveness to the patient's concerns about trouble sleeping and allows space for the patient to express the impact of this issue. The interviewer's use of silence after the patient's initial response encourages further details, enhancing the flow of the interview without rushing or interrupting, which demonstrates a well-paced and patient-centered approach. Therefore, this conversation would score a 5.
-Score: 5
+# Explanation: The physician exhibits full attentiveness to the patient's concerns about trouble sleeping and allows space for the patient to express the impact of this issue. The interviewer's use of silence after the patient's initial response encourages further details, enhancing the flow of the interview without rushing or interrupting, which demonstrates a well-paced and patient-centered approach. Therefore, this conversation would score a 5.
+# Score: 5
 
-Poor Example:
-Conversation Excerpt:
-Physician: "So, you've been feeling unwell. Tell me about that."
-Patient: "Well, it started with some fatigue, and then I—"
-Physician: "Fatigue, got it. And are you taking any medications?"
-Patient: "Yes, I've been on—"
-Physician: "Okay, and any family history we should know about?"
+# Poor Example:
+# Conversation Excerpt:
+# Physician: "So, you've been feeling unwell. Tell me about that."
+# Patient: "Well, it started with some fatigue, and then I—"
+# Physician: "Fatigue, got it. And are you taking any medications?"
+# Patient: "Yes, I've been on—"
+# Physician: "Okay, and any family history we should know about?"
 
-Explanation: The physician frequently interrupts the patient, cutting off their explanations about symptoms and medications. These interruptions disrupt the flow of the conversation and likely make the patient feel unheard. Additionally, the rapid progression from one question to another without allowing the patient sufficient time to answer fully creates a rushed and uncomfortable environment. This lack of smooth pacing and deliberate use of silence negatively affects the quality of the interview. Therefore, this conversation would score a 1.
-Score: 1
+# Explanation: The physician frequently interrupts the patient, cutting off their explanations about symptoms and medications. These interruptions disrupt the flow of the conversation and likely make the patient feel unheard. Additionally, the rapid progression from one question to another without allowing the patient sufficient time to answer fully creates a rushed and uncomfortable environment. This lack of smooth pacing and deliberate use of silence negatively affects the quality of the interview. Therefore, this conversation would score a 1.
+# Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
+# Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
+# {"explanation":explanation, "score": score}
 
-Based on the above criteria, evaluate the pacing of the interview and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-""",
+# Based on the above criteria, evaluate the pacing of the interview and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+# """,
 
     "QUESTIONING SKILLS – TYPES OF QUESTIONS": """
 Analyze the types of questions used by the interviewer, considering the sequence and appropriateness of open-ended versus specific questions, and score as follows:
@@ -448,38 +510,38 @@ Provide your response in a json format with your explanation and the assigned sc
 Evaluate the interviewer's efforts to verify patient information as presented in the vignette and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
 """,
 
-    "INTERACTIVE TECHNIQUES": """
-Assess the balance between patient-centered and physician-centered interviewing styles used by the interviewer, with scoring as follows:
+#     "INTERACTIVE TECHNIQUES": """
+# Assess the balance between patient-centered and physician-centered interviewing styles used by the interviewer, with scoring as follows:
 
-- Score a 5 if the interviewer consistently uses the patient-centered technique. The interviewer mixes patient-centered and physician-centered styles that promote a collaborative partnership between patient and doctor.
-- Score a 3 if the interviewer initially uses a patient-centered style but reverts to physician-centered interview at the end (rarely returning the lead to the patient). OR The interviewer uses all patient-centered interviewing and fails to use physician-centered style and therefore does not accomplish the negotiated agenda.
-- Score a 1 if the interview does not follow the patient’s lead. Uses only physician-centered technique halting the collaborative partnership.
+# - Score a 5 if the interviewer consistently uses the patient-centered technique. The interviewer mixes patient-centered and physician-centered styles that promote a collaborative partnership between patient and doctor.
+# - Score a 3 if the interviewer initially uses a patient-centered style but reverts to physician-centered interview at the end (rarely returning the lead to the patient). OR The interviewer uses all patient-centered interviewing and fails to use physician-centered style and therefore does not accomplish the negotiated agenda.
+# - Score a 1 if the interview does not follow the patient’s lead. Uses only physician-centered technique halting the collaborative partnership.
 
-Examples:
-Good Example:
-Conversation Excerpt:
-Physician: "I'd like to hear more about how these symptoms are affecting your daily life."
-Patient: "It's been tough, especially in the mornings."
-Physician: "That sounds challenging. Let's see if we can adjust your medication to help with the mornings. What do you think about that plan?"
-Patient: "That could really help, thank you."
+# Examples:
+# Good Example:
+# Conversation Excerpt:
+# Physician: "I'd like to hear more about how these symptoms are affecting your daily life."
+# Patient: "It's been tough, especially in the mornings."
+# Physician: "That sounds challenging. Let's see if we can adjust your medication to help with the mornings. What do you think about that plan?"
+# Patient: "That could really help, thank you."
 
-Explanation: The physician uses a patient-centered approach by inviting the patient to share more about their experience and then incorporates a physician-centered element by suggesting a medication adjustment. This mix promotes a collaborative partnership, ensuring that the patient feels heard and involved in their care plan. This conversation would score a 5.
-Score: 5
+# Explanation: The physician uses a patient-centered approach by inviting the patient to share more about their experience and then incorporates a physician-centered element by suggesting a medication adjustment. This mix promotes a collaborative partnership, ensuring that the patient feels heard and involved in their care plan. This conversation would score a 5.
+# Score: 5
 
-Poor Example:
-Conversation Excerpt:
-Physician: "Based on your symptoms, we need to start treatment with a new medication regimen immediately."
-Patient: "I've read some concerns about side effects of those medications. Could we discuss those a bit?"
-Physician: "Right now, controlling your symptoms is our priority. We can discuss potential side effects during your next visit."
+# Poor Example:
+# Conversation Excerpt:
+# Physician: "Based on your symptoms, we need to start treatment with a new medication regimen immediately."
+# Patient: "I've read some concerns about side effects of those medications. Could we discuss those a bit?"
+# Physician: "Right now, controlling your symptoms is our priority. We can discuss potential side effects during your next visit."
 
-Explanation: In this conversation, the physician adopts a predominantly physician-centered approach, emphasizing treatment decisions without sufficient patient input. The patient's attempt to discuss their concerns about side effects is deferred to a future conversation, which can diminish the patient’s sense of involvement and trust in the care process. This lack of immediate engagement and responsiveness to the patient's concerns reflects a failure to maintain a collaborative partnership. This conversation would score a 1.
-Score: 1
+# Explanation: In this conversation, the physician adopts a predominantly physician-centered approach, emphasizing treatment decisions without sufficient patient input. The patient's attempt to discuss their concerns about side effects is deferred to a future conversation, which can diminish the patient’s sense of involvement and trust in the care process. This lack of immediate engagement and responsiveness to the patient's concerns reflects a failure to maintain a collaborative partnership. This conversation would score a 1.
+# Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
+# Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
+# {"explanation":explanation, "score": score}
 
-Analyze the conversation for the use of interactive techniques and assign a score from 1 to 5 based on the balance between patient-centered and physician-centered interviewing styles. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-""",
+# Analyze the conversation for the use of interactive techniques and assign a score from 1 to 5 based on the balance between patient-centered and physician-centered interviewing styles. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+# """,
 
     "VERBAL FACILITATION SKILLS": """
 Consider the interviewer's use of verbal encouragement and facilitation skills to engage the patient, using the following scoring guidelines:
@@ -517,37 +579,37 @@ Provide your response in a json format with your explanation and the assigned sc
 Evaluate the interviewer's verbal facilitation skills and assign a score from 1 to 5 based on the criteria provided. Remember to quote the Physician questions or responses from the conversation to support your explanation.
 """,
 
-    "NON-VERBAL FACILITATION SKILLS": """
-Assess the interviewer's use of non-verbal communication skills to put the patient at ease and facilitate engagement, with scoring as follows:
+#     "NON-VERBAL FACILITATION SKILLS": """
+# Assess the interviewer's use of non-verbal communication skills to put the patient at ease and facilitate engagement, with scoring as follows:
 
-- Score a 5 if the interviewer puts the patient at ease and facilitates communication by using: Good eye contact; Relaxed, open body language; Appropriate facial expression; Eliminating physical barriers; and Making appropriate physical contact with the patient.
-- Score a 3 if the interviewer makes some use of facilitative techniques but could be more consistent. One or two techniques are not used effectively. OR Some physical barrier may be present.
-- Score a 1 if the interviewer makes no attempt to put the patient at ease. Body language is negative or closed. OR Any annoying mannerism (foot or pencil tapping) intrudes on the interview. Eye contact is not attempted or is uncomfortable.
+# - Score a 5 if the interviewer puts the patient at ease and facilitates communication by using: Good eye contact; Relaxed, open body language; Appropriate facial expression; Eliminating physical barriers; and Making appropriate physical contact with the patient.
+# - Score a 3 if the interviewer makes some use of facilitative techniques but could be more consistent. One or two techniques are not used effectively. OR Some physical barrier may be present.
+# - Score a 1 if the interviewer makes no attempt to put the patient at ease. Body language is negative or closed. OR Any annoying mannerism (foot or pencil tapping) intrudes on the interview. Eye contact is not attempted or is uncomfortable.
 
-Examples:
-Good Example:
-Conversation Excerpt:
-Physician: "I understand this must be difficult for you. How are you feeling about everything?"
-Patient: "It's been tough, honestly."
-Physician: [Nods understandingly, maintains eye contact, leans forward slightly]
+# Examples:
+# Good Example:
+# Conversation Excerpt:
+# Physician: "I understand this must be difficult for you. How are you feeling about everything?"
+# Patient: "It's been tough, honestly."
+# Physician: [Nods understandingly, maintains eye contact, leans forward slightly]
 
-Explanation: The physician uses effective non-verbal cues to facilitate engagement and put the patient at ease. Good eye contact, open and inviting body posture, and an understanding nod all contribute to a comforting and communicative atmosphere. This approach helps the patient feel more comfortable and understood. This conversation would score a 5.
-Score: 5
+# Explanation: The physician uses effective non-verbal cues to facilitate engagement and put the patient at ease. Good eye contact, open and inviting body posture, and an understanding nod all contribute to a comforting and communicative atmosphere. This approach helps the patient feel more comfortable and understood. This conversation would score a 5.
+# Score: 5
 
-Poor Example:
-Conversation Excerpt:
-Physician: "Tell me more about your symptoms."
-Patient: "Well, I've been feeling..."
-Physician: [Looks at computer screen, body turned away, makes no eye contact]
+# Poor Example:
+# Conversation Excerpt:
+# Physician: "Tell me more about your symptoms."
+# Patient: "Well, I've been feeling..."
+# Physician: [Looks at computer screen, body turned away, makes no eye contact]
 
-Explanation: The physician's non-verbal communication is poor, with the body turned away from the patient and attention focused on the computer screen instead of the patient. Lack of eye contact and closed body language do not facilitate an engaging or comforting environment. These non-verbal cues can make the patient feel neglected and uneasy. This conversation would score a 1.
-Score: 1
+# Explanation: The physician's non-verbal communication is poor, with the body turned away from the patient and attention focused on the computer screen instead of the patient. Lack of eye contact and closed body language do not facilitate an engaging or comforting environment. These non-verbal cues can make the patient feel neglected and uneasy. This conversation would score a 1.
+# Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
+# Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
+# {"explanation":explanation, "score": score}
 
-Based on the criteria, analyze the conversation for the use of non-verbal facilitation skills and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-""",
+# Based on the criteria, analyze the conversation for the use of non-verbal facilitation skills and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+# """,
 
     "EMPATHY AND ACKNOWLEDGING PATIENT CUES": """
 Evaluate the interviewer's ability to use supportive comments regarding the patient’s emotions and demonstrate empathy, considering:
@@ -645,37 +707,37 @@ Provide your response in a json format with your explanation and the assigned sc
 Analyze the conversation for how the illness's impact on the patient is addressed and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
 """,
 
-    "IMPACT OF ILLNESS ON FAMILY": """
-Evaluate how the interviewer addresses the impact of the patient’s illness on their family, considering:
+#     "IMPACT OF ILLNESS ON FAMILY": """
+# Evaluate how the interviewer addresses the impact of the patient’s illness on their family, considering:
 
-- Score a 5 if the interviewer inquires about the structure of the patient’s family. The interviewer addresses the impact of the patient’s illness and/or treatment on family. The interviewer explores these issues.
-- Score a 3 if the interviewer recognizes the impact of the illness or treatment on the family members and on family lifestyle but fails to explore these issues adequately.
-- Score a 1 if the interviewer fails to address the impact of the illness or treatment on the family members and on family lifestyle.
+# - Score a 5 if the interviewer inquires about the structure of the patient’s family. The interviewer addresses the impact of the patient’s illness and/or treatment on family. The interviewer explores these issues.
+# - Score a 3 if the interviewer recognizes the impact of the illness or treatment on the family members and on family lifestyle but fails to explore these issues adequately.
+# - Score a 1 if the interviewer fails to address the impact of the illness or treatment on the family members and on family lifestyle.
 
-Examples:
-Good Example:
-Conversation Excerpt:
-Physician: "Can you tell me a bit about who lives at home with you and how they've been coping with your condition?"
-Patient: "My spouse and two children. They are quite stressed, especially since I've been unable to work."
-Physician: "It's important to consider how this affects them too. We have family counseling available, and I can also suggest some resources to help your family understand and cope with these changes."
+# Examples:
+# Good Example:
+# Conversation Excerpt:
+# Physician: "Can you tell me a bit about who lives at home with you and how they've been coping with your condition?"
+# Patient: "My spouse and two children. They are quite stressed, especially since I've been unable to work."
+# Physician: "It's important to consider how this affects them too. We have family counseling available, and I can also suggest some resources to help your family understand and cope with these changes."
 
-Explanation: The physician effectively explores the structure of the patient’s family and directly addresses how the patient's illness affects them, showing a comprehensive understanding of the family dynamics. The offer of family counseling and resources indicates a thorough approach to the family's needs. This conversation would score a 5.
-Score: 5
+# Explanation: The physician effectively explores the structure of the patient’s family and directly addresses how the patient's illness affects them, showing a comprehensive understanding of the family dynamics. The offer of family counseling and resources indicates a thorough approach to the family's needs. This conversation would score a 5.
+# Score: 5
 
-Poor Example:
-Conversation Excerpt:
-Physician: "Make sure you follow the treatment plan so you can get back to your duties at home quickly."
-Patient: "It's been tough on my family, especially my kids."
-Physician: "Yes, let's focus on getting you better."
+# Poor Example:
+# Conversation Excerpt:
+# Physician: "Make sure you follow the treatment plan so you can get back to your duties at home quickly."
+# Patient: "It's been tough on my family, especially my kids."
+# Physician: "Yes, let's focus on getting you better."
 
-Explanation: The physician acknowledges the patient's statement about family challenges but does not explore or address the impact of the illness on the family further. This lack of engagement with the patient’s concerns about their family misses an opportunity to understand and support the patient’s familial context. This conversation would score a 1.
-Score: 1
+# Explanation: The physician acknowledges the patient's statement about family challenges but does not explore or address the impact of the illness on the family further. This lack of engagement with the patient’s concerns about their family misses an opportunity to understand and support the patient’s familial context. This conversation would score a 1.
+# Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
+# Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
+# {"explanation":explanation, "score": score}
 
-Based on the criteria, evaluate the interviewer's consideration of the illness's impact on the patient's family and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-""",
+# Based on the criteria, evaluate the interviewer's consideration of the illness's impact on the patient's family and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+# """,
 
     "SUPPORT SYSTEMS": """
 Assess the interviewer's exploration of the patient’s support systems, including emotional, financial support, and access to healthcare, with the following scoring:
@@ -782,59 +844,59 @@ Provide your response in a json format with your explanation and the assigned sc
 Based on the criteria, assess how well the interviewer evaluates and supports the patient's motivation for changes and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
 """,
 
-    "ADMITTING LACK OF KNOWLEDGE": """
-Evaluate the interviewer's willingness to admit lack of knowledge and their approach to seeking accurate information, considering:
+#     "ADMITTING LACK OF KNOWLEDGE": """
+# Evaluate the interviewer's willingness to admit lack of knowledge and their approach to seeking accurate information, considering:
 
-- Score a 5 if the interviewer, when asked for information or advice that interviewer is not equipped to provide, admits to lack of knowledge in that area but immediately offers to seek resources to answer the question(s).
-- Score a 3 if the interviewer, when asked for information or advice that interviewer is not equipped to provide, admits lack of knowledge, but rarely seeks other resources for answers.
-- Score a 1 if the interviewer, when asked for information, which interviewer is not equipped to provide, makes up answers in an attempt to satisfy the patient’s questions, but never refers to other resources.
+# - Score a 5 if the interviewer, when asked for information or advice that interviewer is not equipped to provide, admits to lack of knowledge in that area but immediately offers to seek resources to answer the question(s).
+# - Score a 3 if the interviewer, when asked for information or advice that interviewer is not equipped to provide, admits lack of knowledge, but rarely seeks other resources for answers.
+# - Score a 1 if the interviewer, when asked for information, which interviewer is not equipped to provide, makes up answers in an attempt to satisfy the patient’s questions, but never refers to other resources.
 
-Examples:
-Good Example:
-Conversation Excerpt:
-Patient: "Can this medication interact with my herbal supplements?"
-Physician: "I'm not sure about the specific interaction with those supplements, but it's important to know. Let me consult with our pharmacist and get back to you with accurate information."
+# Examples:
+# Good Example:
+# Conversation Excerpt:
+# Patient: "Can this medication interact with my herbal supplements?"
+# Physician: "I'm not sure about the specific interaction with those supplements, but it's important to know. Let me consult with our pharmacist and get back to you with accurate information."
 
-Explanation: The physician admits to not having immediate knowledge about the interaction between prescribed medication and herbal supplements but takes responsibility to find accurate information by consulting a pharmacist. This proactive approach shows a commitment to providing reliable and safe patient care. This conversation would score a 5.
-Score: 5
+# Explanation: The physician admits to not having immediate knowledge about the interaction between prescribed medication and herbal supplements but takes responsibility to find accurate information by consulting a pharmacist. This proactive approach shows a commitment to providing reliable and safe patient care. This conversation would score a 5.
+# Score: 5
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
+# Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
+# {"explanation":explanation, "score": score}
 
-Analyze the conversation for instances where the interviewer admits a lack of knowledge and how they address it, assigning a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-""",
+# Analyze the conversation for instances where the interviewer admits a lack of knowledge and how they address it, assigning a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+# """,
 
-    "INFORMED CONSENT FOR INVESTIGATIONS & PROCEDURES": """
-Assess how the interviewer discusses investigations and procedures, including risks, benefits, and alternatives, using the following criteria:
+#     "INFORMED CONSENT FOR INVESTIGATIONS & PROCEDURES": """
+# Assess how the interviewer discusses investigations and procedures, including risks, benefits, and alternatives, using the following criteria:
 
-- Score a 5 if the interviewer discusses the purpose and nature of all investigations and procedures. The interviewer reviews foreseeable risks and benefits of the proposed investigation or procedure. The interviewer discloses alternative investigations or procedures and their relative risks and benefits. Taking no action is considered always considered an alternative.
-- Score a 3 if the interviewer discusses some aspects of the investigations and procedures but omits some elements of informed consent.
-- Score a 1 if the interviewer fails to discuss investigations or procedures.
+# - Score a 5 if the interviewer discusses the purpose and nature of all investigations and procedures. The interviewer reviews foreseeable risks and benefits of the proposed investigation or procedure. The interviewer discloses alternative investigations or procedures and their relative risks and benefits. Taking no action is considered always considered an alternative.
+# - Score a 3 if the interviewer discusses some aspects of the investigations and procedures but omits some elements of informed consent.
+# - Score a 1 if the interviewer fails to discuss investigations or procedures.
 
-Examples:
-Good Example:
-Conversation Excerpt:
-Physician: "We need to consider a biopsy to better understand the nature of this mass. The procedure will help us determine if it's benign or malignant. The risks include minor bleeding and infection, but these are generally rare. As alternatives, we could continue to monitor with imaging, though it won’t give us as definitive an answer as a biopsy. Choosing no action is also an option, but it carries its own risks of non-detection if the mass changes."
-Patient: "What happens if I choose to wait and keep monitoring?"
-Physician: "We can schedule regular scans to observe any changes, which allows us to act quickly if there's any development."
+# Examples:
+# Good Example:
+# Conversation Excerpt:
+# Physician: "We need to consider a biopsy to better understand the nature of this mass. The procedure will help us determine if it's benign or malignant. The risks include minor bleeding and infection, but these are generally rare. As alternatives, we could continue to monitor with imaging, though it won’t give us as definitive an answer as a biopsy. Choosing no action is also an option, but it carries its own risks of non-detection if the mass changes."
+# Patient: "What happens if I choose to wait and keep monitoring?"
+# Physician: "We can schedule regular scans to observe any changes, which allows us to act quickly if there's any development."
 
-Explanation: This physician clearly outlines the purpose of the biopsy, its risks and benefits, and discusses alternative options including their respective risks and benefits. The inclusion of monitoring and taking no action as viable alternatives helps ensure the patient is fully informed. This conversation would score a 5.
-Score: 5
+# Explanation: This physician clearly outlines the purpose of the biopsy, its risks and benefits, and discusses alternative options including their respective risks and benefits. The inclusion of monitoring and taking no action as viable alternatives helps ensure the patient is fully informed. This conversation would score a 5.
+# Score: 5
 
-Poor Example:
-Conversation Excerpt:
-Physician: "We should schedule you for a biopsy to check this area further."
-Patient: "What does the biopsy involve?"
-Physician: "It’s a simple procedure to get a better look at the issue. We can talk more on the day of the procedure."
+# Poor Example:
+# Conversation Excerpt:
+# Physician: "We should schedule you for a biopsy to check this area further."
+# Patient: "What does the biopsy involve?"
+# Physician: "It’s a simple procedure to get a better look at the issue. We can talk more on the day of the procedure."
 
-Explanation: The physician mentions the biopsy but fails to discuss its nature, risks, or benefits in detail and does not mention any alternatives or the option of no action. The patient is left without crucial information necessary to make an informed decision, and the physician's suggestion to discuss details on the day of the procedure does not meet the standards of informed consent. This conversation would score a 1.
-Score: 1
+# Explanation: The physician mentions the biopsy but fails to discuss its nature, risks, or benefits in detail and does not mention any alternatives or the option of no action. The patient is left without crucial information necessary to make an informed decision, and the physician's suggestion to discuss details on the day of the procedure does not meet the standards of informed consent. This conversation would score a 1.
+# Score: 1
 
-Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
-{"explanation":explanation, "score": score}
+# Provide your response in a json format with your explanation and the assigned score. Always quote the Physician questions or responses from the conversation to support your explanation.
+# {"explanation":explanation, "score": score}
 
-Evaluate the interviewer's approach to informed consent for investigations and procedures, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
-""",
+# Evaluate the interviewer's approach to informed consent for investigations and procedures, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
+# """,
 
     "ACHIEVE A SHARED PLAN": """
 Consider the interviewer's effectiveness in discussing the diagnosis or prognosis and negotiating a plan with the patient, including:
@@ -936,6 +998,4 @@ Provide your response in a json format with your explanation and the assigned sc
 Evaluate the conversation for how effectively the interview is concluded, focusing on the clarity and completeness of closure, and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation.
 """
 }
-
-
 

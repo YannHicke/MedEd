@@ -183,7 +183,7 @@ Score 3: The interviewer utilizes some facilitative non-verbal techniques effect
 Score 1: The interviewer makes no attempt to put the patient at ease. The body language is negative or closed, annoying mannerisms such as foot or pencil tapping are present, or eye contact is lacking or uncomfortable.
 
 Task:
-Based on the above criteria and examples, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
+Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
 """,
 
     "EMPATHY AND ACKNOWLEDGING PATIENT CUES": """

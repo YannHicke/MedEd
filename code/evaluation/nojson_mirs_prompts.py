@@ -1,62 +1,179 @@
 # nojson_mirs_prompts.py
 
 nojson_mirs_prompts = {
+
     "OPENING": """
-Consider the following criteria for evaluating the opening of a medical interview. Assign a score from 1 to 5 based on the criteria provided:
+<instructions>
+  <welcome>Welcome to the evaluator training module for assessing the opening of medical interviews. This session employs a chain-of-thought approach within an n-shot learning framework, providing detailed examples to guide your evaluations through structured and detailed reasoning.</welcome>
+  <evaluation_rubric>
+    <score_5>Complete introduction with self-introduction, role clarification, and polite patient address inquiry using the patient’s name.</score_5>
+    <score_4>One element missing from the introduction.</score_4>
+    <score_3>Two elements missing from the introduction.</score_3>
+    <score_2>Only a basic greeting, such as 'hello', with most elements missing.</score_2>
+    <score_1>No introduction provided.</score_1>
+  </evaluation_rubric>
+  <examples>
+    <example>
+      <score>5</score>
+      <conversation_excerpt>"Hello, I am Dr. Carter, your cardiologist for today. How should I address you?"</conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: Elements listed include self-introduction ("I am Dr. Carter"), role specification ("your cardiologist for today"), and patient address inquiry ("How should I address you?").</step>
+        <step number="2">Consistency Check: All elements match the full introduction criteria.</step>
+        <step number="3">Synthesize and Score: As no elements are missing, the score is 5.</step>
+        <step number="4">Justify the Score: The score of 5 is fully justified as the introduction meets all the criteria, demonstrating a complete and respectful engagement.</step>
+      </CoT_analysis>
+    </example>
+    <example>
+      <score>4</score>
+      <conversation_excerpt>"Hello, I am Dr. Carter, your cardiologist. What brings you in today?"</conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: Elements listed include self-introduction ("I am Dr. Carter") and role specification ("your cardiologist").</step>
+        <step number="2">Consistency Check: Missing the patient address inquiry.</step>
+        <step number="3">Synthesize and Score: With one element missing, the score is 4.</step>
+        <step number="4">Justify the Score: The lack of a patient address inquiry results in a deduction, justifying the score of 4.</step>
+      </CoT_analysis>
+    </example>
+    <example>
+      <score>3</score>
+      <conversation_excerpt>"Hello, I'm the nurse on duty."</conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: Elements noted include role specification ("nurse on duty").</step>
+        <step number="2">Consistency Check: Missing self-introduction and patient address inquiry.</step>
+        <step number="3">Synthesize and Score: Two key elements missing, thus the score is 3.</step>
+        <step number="4">Justify the Score: The absence of self-introduction and a patient address inquiry justifies the score of 3.</step>
+      </CoT_analysis>
+    </example>
+    <example>
+      <score>2</score>
+      <conversation_excerpt>"Hello, what brings you in today?"</conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: Only a basic greeting is noted.</step>
+        <step number="2">Consistency Check: Lacking self-introduction, role clarification, and patient address inquiry.</step>
+        <step number="3">Synthesize and Score: As most key elements are missing, the score is 2.</step>
+        <step number="4">Justify the Score: The minimal introduction provided, which lacks the necessary elements of a complete and polite interview opening, justifies the score of 2.</step>
+      </CoT_analysis>
+    </example>
+    <example>
+      <score>1</score>
+      <conversation_excerpt>"What brings you in today?"</conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: No greeting or introduction elements.</step>
+        <step number="2">Consistency Check: No elements present.</step>
+        <step number="3">Synthesize and Score: No introduction; assigns score of 1.</step>
+        <step number="4">Justify the Score: No introduction elements are present at all, justifying the lowest score.</step>
+      </CoT_analysis>
+    </example>
+  </examples>
+  <task>Apply the chain of thought process to analyze a provided conversation excerpt from a medical interview. Use the steps outlined to evaluate, score, and justify your evaluation comprehensively.</task>
+  <response_format>
+    <response>
+      <explanation>Detail each step of your analysis, citing direct quotes from the conversation to support your score.</explanation>
+      <score>Provide the score based on your comprehensive analysis</score>
+    </response>
+  </response_format>
+</instructions>
+""",
 
-Score 5: The interviewer introduces themselves, clarifies their role, and inquires how to address the patient, using the patient’s name.
-Score 4: Only one element of the full introduction criteria is missing.
-Score 3: The interviewer’s introduction is missing two elements.
-Score 2: The introduction consists only of a basic 'hello', lacking most elements of a full introduction.
-Score 1: There is no introduction at all.
 
-Examples:
-Good Example:
-Conversation Excerpt: Physician: "Hello, I'm Dr. Smith, the attending physician. How may I address you?"
-Explanation: Dr. Smith introduces themselves ("I'm Dr. Smith"), clarifies their role ("the attending physician"), and asks how to address the patient using a polite form ("How may I address you?"). Therefore, this conversation would score a 5.
-Score: 5
 
-Poor Example:
-Conversation Excerpt: Physician: "Hello. What brings you in today?"
-Explanation: The physician only greets the patient with a simple "Hello" without introducing themselves, clarifying their role, or asking how to address the patient. Therefore, this conversation would score a 1.
-Score: 1
-
-Task:
-Based on the above criteria, analyze the opening of the following conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
-    """,
 
     "ELICITS SPECTRUM OF CONCERNS": """
-Consider the following criteria for evaluating how effectively an interviewer elicits the patient's full spectrum of concerns within the first 3-5 minutes of the medical interview. Assign a score from 1 to 5 based on the criteria provided:
+<instructions>
+  <welcome>Welcome to the evaluator training module focusing on 'ELICITS SPECTRUM OF CONCERNS' in medical interviews. This session will guide you through a structured evaluation process using the Chain of Thought approach to assess interactions based on their completeness and depth.</welcome>
+  <evaluation_rubric>
+    <score_5>The interviewer elicits the patient’s full spectrum of concerns at the beginning of the interview, asking broad questions like 'Is there anything else?' until the patient confirms there are no additional concerns.</score_5>
+    <score_4>The interviewer elicits most concerns but may miss one follow-up opportunity to ask for additional issues.</score_4>
+    <score_3>The interviewer elicits only the main concern or few concerns but does not adequately explore if there are other issues.</score_3>
+    <score_2>The interviewer mentions concerns but does not engage the patient to explore them further or ask if there are additional issues.</score_2>
+    <score_1>The interviewer fails to elicit any concerns from the patient, focusing solely on procedural or unrelated topics without addressing patient's issues.</score_1>
+  </evaluation_rubric>
+  <examples>
+    <example>
+      <score>5</score>
+      <conversation_excerpt>
+        Physician: "I'm Dr. Lee, and I'll be looking after you today. What brings you in, and is there anything else we should discuss right away?"
+        Patient: "I've been having some chest pain since yesterday."
+        Physician: "I see, and aside from the chest pain, is there anything else that's been troubling you?"
+        Patient: "Now that you mention it, I've also been feeling very tired."
+        Physician: "Got it, we'll definitely look into both. Anything else?"
+        Patient: "No, that's all."
+      </conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: Physician systematically asks for primary concern and then follows up multiple times to ensure no other issues are missed.</step>
+        <step number="2">Consistency Check: Each follow-up aligns with the highest rubric criteria, ensuring all concerns are surfaced.</step>
+        <step number="3">Synthesize and Score: Since the physician confirmed there are no additional issues after repeated inquiries, the interaction earns a score of 5.</step>
+        <step number="4">Justify the Score: Fully justified as the physician's questions covered all potential concerns the patient might have, adhering to the top standards of patient engagement.</step>
+      </CoT_analysis>
+    </example>
+    <example>
+      <score>4</score>
+      <conversation_excerpt>
+        Physician: "Good morning, I’m Dr. Smith. What issues brought you here today?"
+        Patient: "I have been experiencing some back pain."
+        Physician: "I understand. We'll definitely address that. Is there anything else you think we should look into?"
+        Patient: "Well, I sometimes feel a bit dizzy too."
+        Physician: "Alright, we'll explore both issues. Thank you for letting me know."
+      </conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: Physician identifies main and secondary concern but stops after one follow-up.</step>
+        <step number="2">Consistency Check: Missing additional follow-ups that could reveal more concerns.</step>
+        <step number="3">Synthesize and Score: A near-complete elicitation but lacks one final prompt to cover absolutely all concerns, fitting a score of 4.</step>
+        <step number="4">Justify the Score: Justified as the physician nearly reaches full coverage of concerns but stops slightly short.</step>
+      </CoT_analysis>
+    </example>
+    <example>
+      <score>3</score>
+      <conversation_excerpt>
+        Physician: "Tell me what problems you're facing today."
+        Patient: "I've been feeling really anxious lately."
+        Physician: "I see, let's talk about what might be causing your anxiety."
+      </conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: Main concern is elicited without further probing for any additional issues.</step>
+        <step number="2">Consistency Check: No attempt to ask if there are other concerns besides anxiety.</step>
+        <step number="3">Synthesize and Score: Elicitation focuses only on one concern, justifying a score of 3.</step>
+        <step number="4">Justify the Score: Justified by the lack of breadth in the elicitation process, focusing only on the initial concern.</step>
+      </CoT_analysis>
+    </example>
+    <example>
+      <score>2</score>
+      <conversation_excerpt>
+        Physician: "What seems to be the problem?"
+        Patient: "I've had some headaches."
+        Physician: "Headaches can be tough. We'll check into that."
+      </conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: Physician only acknowledges the concern stated by the patient without asking for more details or other concerns.</step>
+        <step number="2">Consistency Check: No elicitation beyond acknowledging the stated problem.</step>
+        <step number="3">Synthesize and Score: The physician’s engagement is minimal, meriting a score of 2.</step>
+        <step number="4">Justify the Score: Justified as the physician does not explore the issue deeply nor inquire about additional concerns.</step>
+      </CoT_analysis>
+    </example>
+    <example>
+      <score>1</score>
+      <conversation_excerpt>
+        Physician: "Let's get started with your check-up. Any changes since last time?"
+        Patient: "Actually, I've been experiencing some new pains."
+        Physician: "We'll note that down. Let's proceed with the routine checks."
+      </conversation_excerpt>
+      <CoT_analysis>
+        <step number="1">Sketchpad Listing: Physician ignores the new concerns mentioned by the patient, focusing only on procedural tasks.</step>
+        <step number="2">Consistency Check: No attempt to explore or acknowledge the new pains described by the patient.</step>
+        <step number="3">Synthesize and Score: The physician’s failure to elicit any information about the patient’s concerns results in a score of 1.</step>
+        <step number="4">Justify the Score: Justified as the physician completely disregards the patient’s expressed concerns, focusing solely on routine procedures.</step>
+      </CoT_analysis>
+    </example>
+  </examples>
+  <task>Using the provided conversation excerpts, apply the chain of thought process to analyze and score the interviewer's effectiveness at eliciting the patient's full spectrum of concerns. Follow the steps outlined and ensure your evaluations are comprehensive and justified.</task>
+  <response_format>
+    <response>
+      <explanation>Detail each step of your analysis, citing direct quotes from the conversation to support your score.</explanation>
+      <score>Enter the score based on your comprehensive analysis.</score>
+    </response>
+  </response_format>
+</instructions>""",
 
-Score 5: The interviewer elicits the patient’s full spectrum of concerns, asking 'what else' repeatedly until no additional concerns are raised.
-Score 4: The interviewer addresses secondary concerns but misses one final 'what else'.
-Score 3: The interviewer only elicits the patient’s main concern, without probing for additional concerns.
-Score 2: The interviewer merely acknowledges the concern without actively eliciting further information.
-Score 1: The interviewer fails to elicit any of the patient’s concerns.
 
-Examples:
-Good Example:
-Conversation Excerpt: Physician: "What brings you in today? Is there anything else bothering you?"
-Patient: "I’ve been having severe headaches."
-Physician: "Okay, and what else?"
-Patient: "Sometimes I feel dizzy too."
-Physician: "Got it. Is there anything else that we should discuss today?"
-Patient: "No, that’s all."
-
-Explanation: The physician effectively elicits all the patient’s concerns by repeatedly asking "what else?" until the patient confirms there are no additional issues. Therefore, this conversation would score a 5.
-Score: 5
-
-Poor Example:
-Conversation Excerpt: Physician: "What brings you in today?"
-Patient: "I’ve been having severe headaches."
-Physician: "I see, we'll look into that."
-
-Explanation: The physician only acknowledges the patient's main concern (severe headaches) without actively eliciting further information or inquiring if there are additional concerns. The physician fails to ask "what else?" or any similar questions that might reveal more about the patient's health issues. Therefore, this conversation would score a 2.
-Score: 2
-
-Task:
-Based on the above criteria, analyze the provided conversation and assign a score from 1 to 5. Remember to quote the Physician questions or responses from the conversation to support your explanation. Use the format: Explanation: [Your Explanation], Score: [Your Score].
-""",
 
     "NEGOTIATES PRIORITIES & SETS AGENDA": """
 Consider the following criteria for evaluating how the interviewer negotiates priorities of patient concerns, lists all of the concerns, and sets the agenda at the onset of the interview with the patient’s agreement:
