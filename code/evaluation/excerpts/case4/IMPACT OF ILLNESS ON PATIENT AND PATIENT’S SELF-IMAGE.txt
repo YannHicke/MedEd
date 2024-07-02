@@ -1,0 +1,15 @@
+Physician: "So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job. Okay. Is there anything else you'd like to talk about today before we move on?"
+
+Patient: "I'm just really concerned about my heart and then how it might impact my job as well."
+
+Physician: "Are you concerned about returning to work?"
+
+Patient: "I am."
+
+Physician: "Once we finish up the visit and we do the exam and get a better idea of what's causing your pain, I would be more than happy to speak with my preceptor and see if we can get a work excuse for you so you can have some recovery time."
+
+Patient: "Great. Thank you."
+
+Physician: "Does that sound okay?"
+
+Patient: "Yeah."

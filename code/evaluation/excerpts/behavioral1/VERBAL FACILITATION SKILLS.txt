@@ -1,0 +1,105 @@
+Physician: "Sorry to hear about that."
+
+Physician: "I'm sure it has been difficult on you and your family."
+
+Physician: "So you mentioned that you're taking vitamin D, and it's mostly to just help you with your mood. Is that correct?"
+
+Physician: "It keeps you busy, right?"
+
+Physician: "So later on when we discuss different treatment options to help you quit smoking, that's one thing we can discuss is your financial situation, and we can definitely take that into account."
+
+Physician: "Sound good?"
+
+Physician: "So things that I learned about you in terms of your history would be you have no remarkable medical history."
+
+Physician: "Okay. So we can definitely discuss that later on."
+
+Physician: "Okay. So knowing your knowledge of smoking and knowing what triggers you and the fact that you are smoking continuously throughout the day, so it's not like there's a certain place that stimulates you. Is that correct?"
+
+Physician: "So now we can actually form a plan together as to how you're going to go about quitting smoking."
+
+Physician: "Does that sound like something you would be able to do?"
+
+Physician: "Okay. So why don't we pick a date in two weeks from now? So two weeks from today, we'll say that's your quit date."
+
+Physician: "And we can definitely give you a calendar so it will be easy to track."
+
+Physician: "So it's kind of like you're not reminding yourself of your temptation to smoke."
+
+Physician: "Does that sound like a good idea?"
+
+Physician: "So you would essentially kill two birds with one stone by exercising and making your mind busy with that."
+
+Physician: "So reducing coffee would be a really good idea in terms of reducing cravings."
+
+Physician: "It's not like you have to give it up right away because I'm sure it probably helps you wake up in the morning and start the day."
+
+Physician: "So, that's fine."
+
+Physician: "Luckily, considering the financial hardships that you're facing right now, Pfizer actually has a program where they can actually sponsor the prescription for you."
+
+Physician: "Sound good?"
+
+Physician: "Seems like everything's kind of fitting into place."
+
+Physician: "Yeah. Sounds good. Any questions? Any other concerns?"
+
+Physician: "So it's actually in a pill form, so it's actually very easy for you to take. Are you able to swallow pills?"
+
+Physician: "You mentioned vitamin D before."
+
+Physician: "Does that sound, you know?"
+
+Physician: "That sounds good. Okay. Yeah, I want to try it."
+
+Physician: "So we can definitely discuss that and going about applying for the Pfizer program."
+
+Physician: "So what a calendar allows you to do is it allows you to keep a log of how you're doing, and you can also, like some patients, put stars on days."
+
+Physician: "So, like, were you hanging out with friends that were smoking, and on a given day you actually ended up smoking that day?"
+
+Physician: "So you can take notes on the calendar, and it also serves as a motivation to yourself."
+
+Physician: "So if you keep it in your car, if you keep it near your bedside or on your refrigerator, you'll know that, okay, my goal is to quit smoking, and this is a calendar that's keeping track of how I'm doing."
+
+Physician: "So what a contract essentially will do is it emphasizes that this is a joint effort between us and you and that you're not in this alone, and it kind of solidifies your goal to quit smoking."
+
+Physician: "Do those sound like things that you'd be interested in doing?"
+
+Physician: "Okay, good. So we can definitely discuss that with Dr. Lelko when she comes in, and we can actually sign the contract today."
+
+Physician: "And when you receive the contract and the calendar, just try to put them in places where you tend to smoke."
+
+Physician: "So you mentioned in your bedroom, so put it around your bed."
+
+Physician: "Also show your mom and show your dad because it'll make it believable for them that you're actually in this for good for the long term."
+
+Physician: "And it'll serve as your own personal motivation."
+
+Physician: "Does that sound good?"
+
+Physician: "Okay. Excellent. So just kind of do you have any questions in the end, or is this any other concerns?"
+
+Physician: "You know, that's a practical thought because not all the therapies will work for everyone."
+
+Physician: "But I think it's a really good idea. Studies have actually shown that Shantix is a very effective therapy."
+
+Physician: "But we can definitely try out the Shantix, see how it works for about a month. And then if that doesn't work, we'll try the different therapy options."
+
+Physician: "Does that sound like a good idea?"
+
+Physician: "Okay. You mentioned also the concern about weight gain. And I think the fact that you'll be, it sounds like you may be interested in increasing your exercise activity."
+
+Physician: "Yes. So I think that'll actually help alleviate your worries about weight gain in terms of quitting smoking."
+
+Physician: "Okay. So we'll definitely follow up with you. And if you have any questions before the follow-up visit after about three weeks, then you can definitely come in or you can call."
+
+Physician: "So don't feel afraid. We're in this with you 100%."
+
+Physician: "So we're here to support you if you have any questions or anything."
+
+Physician: "So we'll schedule a follow-up visit with Dr. Lelko when she comes in."
+
+Physician: "So we look forward to seeing you in about three weeks."
+
+Physician: "It was nice meeting you."

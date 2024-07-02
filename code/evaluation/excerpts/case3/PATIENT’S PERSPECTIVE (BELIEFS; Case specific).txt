@@ -1,0 +1,29 @@
+Physician: "Okay, and do you lift on a regular basis or did you notice it somehow?"
+
+Patient: "Past few days, I've just been not moving and being low-key with it, seeing if it get better, but I'm gonna have to go back to work in a couple days and I do a lot of lifting for my job and I'm worried if that's gonna interfere with that or if it's my heart, it might make it worse."
+
+Physician: "Okay, so you mentioned a couple days. It's been going on for how long now?"
+
+Patient: "It started about two nights ago."
+
+Physician: "Two nights ago. Okay, and is it getting better or worse over time?"
+
+Patient: "It's about the same."
+
+Physician: "About the same. Okay, and you're gonna be going back to work tomorrow, you said?"
+
+Patient: "Yeah."
+
+Physician: "Okay, and you lift boxes at work?"
+
+Patient: "I do."
+
+Physician: "Okay, and do you think your boss would be okay with you taking some time off if you needed to?"
+
+Patient: "Sure, if I get a doctor's note."
+
+Physician: "Okay, I'll see if I can do that for you."
+
+Physician: "Okay. So it sounds like there's a possibility that your chest pain could be related to the mountain biking incident. And I will talk with my doctor and you can wait here. I'll be back in a few minutes."
+
+Patient: "Okay. Great. Thank you."

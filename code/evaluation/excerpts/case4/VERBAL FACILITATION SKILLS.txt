@@ -1,0 +1,21 @@
+Physician: "Okay. So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job. Okay. Is there anything else you'd like to talk about today before we move on?"
+
+Physician: "Okay. So I'll just ask a little bit about your chest pain, and then we'll get some information that will help me assess your risk of heart disease since it sounds like you're concerned about that, and then we'll find out a little bit about your job. Okay. Is that okay?"
+
+Physician: "Well, I'm glad you came in."
+
+Physician: "Good. Well, I'm glad to hear that you're wearing a helmet. And it sounds like maybe mountain biking at night isn't the best idea, whether or not you've been drinking just because you can't see that well."
+
+Physician: "Once we finish up the visit and we do the exam and get a better idea of what's causing your pain, I would be more than happy to speak with my preceptor and see if we can get a work excuse for you so you can have some recovery time."
+
+Physician: "Does that sound okay?"
+
+Physician: "Okay. Well, from our standpoint, you know, six drinks in one sitting isn't really at the recommended level, especially since it makes you prone to make decisions like going mountain biking at night. So, you know, I might recommend that you try and drink fewer beers in one sitting. Does that sound like something you would consider?"
+
+Physician: "Okay. So smoking is another thing that if you feel like your heart health is a priority, that's something that you could change in your life. Do you think that's something you would consider?"
+
+Physician: "That's good."
+
+Physician: "So it sounds like your chest pain is probably related to the mountain biking accident, and we talked about getting you a note for work. And based on what I've heard from your history, it sounds like at your age and with the lifestyle you have, you're not at a terrible risk for heart disease at this time, but making some changes with cutting out alcohol and smoking, I think that that would definitely decrease your risks of heart disease in the future."
+
+Physician: "Okay. Any other questions that you have?"

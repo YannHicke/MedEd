@@ -1,0 +1,5 @@
+Physician: "How often are you generally brushing and flossing?"
+Patient: "Like usually once a day. I know it's like three times a day, but kind of lazy, busy."
+Physician: "Oh, if you can do it once in the morning and once at night, that's fine, and we'll talk about the proper techniques a little later in the visit. Also, are you flossing?"
+Patient: "Yeah, like only when I eat something and it's stuck in my teeth and I floss."
+Physician: "Okay, you're going to want to do that once a day before you go to bed at least. Ideally, you want to do it after every meal. If we keep your oral hygiene up to status and we keep you coming in for dental cleanings and just have an overall dental exam, dental cleanings during your second trimester of pregnancy, the hope is that we can eliminate your gingivitis and eliminate the possibility that it might lead to an early birth for your baby and a low birth weight."

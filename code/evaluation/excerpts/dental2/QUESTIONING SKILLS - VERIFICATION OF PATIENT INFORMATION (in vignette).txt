@@ -1,0 +1,87 @@
+Physician: "How long is this bleeding, gums? How long have they been going on?"
+
+Physician: "A couple of weeks?"
+
+Physician: "Okay. Are you taking any medications, whether prescription or herbal or alternative medications?"
+
+Physician: "You take the vitamin only? Mm-hmm. And this tea, is it commonly done in your culture, in your Korean, correct?"
+
+Physician: "Okay. What is generally done during the pregnancy in terms of beliefs that are thought to be good for the baby, to keep the baby healthy?"
+
+Physician: "Okay. Are you doing anything else to alleviate the gum problems, the soreness that you're having from that? Are you putting any medications in your mouth?"
+
+Physician: "Okay. Are you doing anything else to alleviate the gum problems, the soreness that you're having from that? Are you putting any medications in your mouth?"
+
+Physician: "But you mentioned about some, like, treatment to prevent this progression of whatever disease."
+
+Physician: "We can do it as it currently is without medication."
+
+Physician: "As I mentioned before, we need to get your oral hygiene."
+
+Physician: "Good. Brushing twice a day, flossing at least once a day. Then we have to have you come in for a dental exam, periodontal exam, where we examine all the gum tissue in your mouth. And we see exactly what the problem is so we can make a proper diagnosis."
+
+Physician: "I'm not sure. We might have to do a deep cleaning depending on the status of your gums as it currently is. Was that the last time that you went to the dentist?"
+
+Physician: "Okay. So you had a cleaning about a year ago is what you're saying?"
+
+Physician: "And how was your experience?"
+
+Physician: "And how did the deep cleaning work out for you? Did they see any improvement?"
+
+Physician: "Yeah, I can completely understand that you don't want to put chemicals in your body with your belief system and whatnot during the pregnancy. But I think if we weigh the risks and benefits, I think it's less risky for the baby, with the research that we know about, to have some anesthetic if you need a deep cleaning, have some anesthetic put in your mouth, and have the cleaning done to decrease the amount of gingivitis in your mouth. Do you have any other concerns or problems with the treatment that we're going to be giving?"
+
+Physician: "Right, exactly. Obviously, it's your decision whether or not you want to postpone it or not. But I'm highly recommending that you have it done now, during your second trimester, which you're just entering into. Because, like I said, there is a relationship between having the gum disease and low birth weight and premature birth. There's a high association between the two. If we can take care of your oral hygiene situation, give you a full dental cleaning, come into the office, and we'll clean everything off your teeth, that's basically going to solve the problem, if it's done correctly."
+
+Physician: "Sure. When we do deep cleanings, we generally divide your mouth into four quadrants. And generally, at each visit, we do one of the four quadrants. So that would require that you come in for four different visits."
+
+Physician: "I know that's not the ideal situation for you. Do you have any concerns about sitting in the dental chair for a long period of time?"
+
+Physician: "Certainly, we can evaluate. We have to have you come in for a periodontal exam, which we might be able to do later in this visit, depending on if we have time."
+
+Physician: "And we can determine exactly how many quadrants you need to have done. You might only need one of the two or one of the four quadrants done, maybe two. I'm not sure, depending on your status right now."
+
+Physician: "But it sounds like you're going to need at least one from what you've been saying in your past history. Do you have any concerns about stressing the baby while you're in the chair? Do you have any anxiety when you're sitting in the dental chair or trouble sitting through a procedure?"
+
+Physician: "Sure. When we give you the anesthesia, we will keep it just in the area of your mouth that we're working on, and we'll try to give you as little as possible to make it effective."
+
+Physician: "Yes, we have a lot of scientific evidence that anesthetic is safe. There are certain instances that have been described in the past where people have reacted poorly to the anesthetic, but there's no evidence currently that's linking getting dental anesthesia, such as lidocaine or novocaine, as you know it, to any harmful effects on the child."
+
+Physician: "The fetus. Okay. Excuse me."
+
+Physician: "So do you understand everything that I'm telling you about? Could you just tell me what you think that I'm telling you, just so we're both on the same page?"
+
+Physician: "Excellent. Yeah. Generally, who do you consult with for your health decisions? Do you have someone, like, are you married? Do you have any family members other than your husband? I see that you're wearing a wedding ring. Do you have any family members other than your husband that you would consult for your health care decisions?"
+
+Physician: "Okay. Now, I just want to ask you, in the past have you or do you currently smoke or drink any alcoholic beverages?"
+
+Physician: "You do not at all? Okay. You haven't used any illicit drugs such as marijuana or cocaine?"
+
+Physician: "Anything else other than that?"
+
+Physician: "Okay, because sometimes those can be linked to gum disease as well."
+
+Physician: "So that would be kind of a complicating factor."
+
+Physician: "But it looks like to me that a lot of this is from a preexisting condition that you had. You had some gum disease, and it looks like the pregnancy and the hormones that go along with pregnancy are kind of exacerbating the gum disease."
+
+Physician: "So do you have any other questions for me today?"
+
+Physician: "Okay. So I'm just going to tell you what our overall plan is. What we're going to do is we'll, I think we have time now, we're going to do a complete periodontal exam on you."
+
+Physician: "At that time, we'll be able to tell exactly how many visits you need to come in for."
+
+Physician: "You're going to need one visit for a general cleaning."
+
+Physician: "And then one visit for each quadrant that we decide you need a deep cleaning on."
+
+Physician: "That can be between anywhere from one to four visits."
+
+Physician: "Okay? So the most amount of visits that we're looking at is five."
+
+Physician: "The least amount is one."
+
+Physician: "But the number probably lies somewhere in between."
+
+Physician: "So we'll be able to tell you that at the end of today's visit."
+
+Physician: "Excellent. Do you have any other questions for me?"

@@ -1,0 +1,5 @@
+Physician: "All right. Good. So things that I learned about you in terms of your history would be you have no remarkable medical history."
+
+Physician: "Your father was unfortunately diagnosed with lung cancer. So you are taking the vitamin D to improve your mood."
+
+Physician: "And you currently are a medical technician, but you have no medical insurance."

@@ -1,0 +1,43 @@
+Physician: "Have you and your wife thought about any names yet for the baby?"
+
+Physician: "Have you been having any problems since you were last here for your last visit?"
+
+Physician: "How often have you been brushing?"
+
+Physician: "How about your general health? Have there been any changes in your health since you were last here?"
+
+Physician: "Have you seen your physician recently?"
+
+Physician: "Are you on any medications right now?"
+
+Physician: "Any changes in your alcohol intake?"
+
+Physician: "How about your tobacco use?"
+
+Physician: "Well, that's great. And your wife is on you to quit also?"
+
+Physician: "Do you, do you, have you ever tried to quit before?"
+
+Physician: "Why do you think that happened?"
+
+Physician: "So do you think you would want to quit, do you think?"
+
+Physician: "Have you, you said you tried to quit cold turkey in the past. Have you ever used any of the tobacco cessation products? Are you aware of any of those?"
+
+Physician: "Would you recommend any particular one?"
+
+Physician: "Now, are all these pretty safe? I mean, you know, smoking is harmful, so these replacement things, is that safe?"
+
+Physician: "Is it something you're thinking about seriously at this point?"
+
+Physician: "Have you ever thought about what triggers your desire to smoke? Like, when you get a craving, when does that typically happen?"
+
+Physician: "Do you have any suggestions as to how to do that? Because I'm anticipating some really strong ones. Just from trying to quit in the past, they're real and they're there, and I really don't know what to do there."
+
+Physician: "Do you have support?"
+
+Physician: "Do you think at this point that you're willing to set an actual quit date, say, within the next month?"
+
+Physician: "Would that be a reasonable time frame for you?"
+
+Physician: "Any questions that you have at this point?"

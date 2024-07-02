@@ -1,0 +1,5 @@
+Physician: "It sounds like you've been under a lot of stress from these symptoms. It must be quite challenging for you."
+Patient: "Yes, it's been very hard."
+Physician: "I can only imagine how tough that is. We're here to support you through this and find ways to make you feel better."
+
+Physician: "No, I totally understand. We'll make sure that everything we do that you're comfortable with at first. We're not going to do, you know, anything that you're not comfortable with."

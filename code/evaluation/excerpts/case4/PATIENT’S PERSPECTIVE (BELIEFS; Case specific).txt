@@ -1,0 +1,57 @@
+Physician: "So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job. Okay. Is there anything else you'd like to talk about today before we move on?"
+
+Patient: "No, that's it."
+
+Physician: "Okay. So I'll just ask a little bit about your chest pain, and then we'll get some information that will help me assess your risk of heart disease since it sounds like you're concerned about that, and then we'll find out a little bit about your job. Okay. Is that okay?"
+
+Patient: "Sure."
+
+Physician: "Well, I'm glad you came in."
+
+Physician: "Good. Well, I'm glad to hear that you're wearing a helmet. And it sounds like maybe mountain biking at night isn't the best idea, whether or not you've been drinking just because you can't see that well."
+
+Patient: "That's true."
+
+Physician: "Once we finish up the visit and we do the exam and get a better idea of what's causing your pain, I would be more than happy to speak with my preceptor and see if we can get a work excuse for you so you can have some recovery time."
+
+Patient: "Great. Thank you."
+
+Physician: "Does that sound okay?"
+
+Patient: "Yeah."
+
+Physician: "Well, from our standpoint, you know, six drinks in one sitting isn't really at the recommended level, especially since it makes you prone to make decisions like going mountain biking at night. So, you know, I might recommend that you try and drink fewer beers in one sitting. Does that sound like something you would consider?"
+
+Patient: "I'll give it some thought because I am pretty scared about this potential injury to my heart. But I'd made the decision to mountain bike before I was drinking."
+
+Physician: "I see."
+
+Patient: "My friend Ben, he drinks way more than I do."
+
+Physician: "Okay."
+
+Patient: "But maybe with my mom's history I should, you know, reevaluate."
+
+Physician: "Yeah. I mean, drinking is definitely one of those things that could impact your heart health, as are some other things like smoking. I'd be interested to know if you smoke any cigarettes."
+
+Patient: "Occasionally, not. I don't consider myself a smoker, but sometimes when I drink I'll have a few."
+
+Physician: "Okay. So smoking is another thing that if you feel like your heart health is a priority, that's something that you could change in your life. Do you think that's something you would consider?"
+
+Patient: "Yeah, probably."
+
+Physician: "So it sounds like your chest pain is probably related to the mountain biking accident, and we talked about getting you a note for work. And based on what I've heard from your history, it sounds like at your age and with the lifestyle you have, you're not at a terrible risk for heart disease at this time, but making some changes with cutting out alcohol and smoking, I think that that would definitely decrease your risks of heart disease in the future. Do you have any questions about what we've talked about?"
+
+Patient: "Yeah. I just get a little nervous because my mom had her heart surgery when she was a few years younger than I am now. So is that something that could impact me?"
+
+Physician: "And remind me how old you are now."
+
+Patient: "I'm 30. She was 28."
+
+Physician: "Okay. So that really depends on what the cause of her heart surgery was. So some things that cause people to get heart surgery people are born with. Other things that cause a need for heart surgery are a result of disease that you get when you're going along and have lifestyle issues or any diseases. So it sounds like for you, you don't have any current diseases like high blood pressure, high cholesterol, anything like that. So we'll do a physical exam and make sure we don't see anything on your exam that makes us concerned. And as long as that's okay, I don't think that your mom's history is something that will impact you even though the two of you are related."
+
+Patient: "Okay."
+
+Physician: "Okay. Any other questions that you have?"
+
+Patient: "No."

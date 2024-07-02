@@ -1,0 +1,177 @@
+Physician: "So what brings you into the office today?"
+
+Physician: "Okay. Well, then I'm glad you came in. We can certainly talk about that. Is there anything else that you're concerned about?"
+
+Physician: "Great. So then what I'm going to do is I'm going to ask you a few questions to get a medical history and some reasons behind your wanting to do an exercise program, and then we can get into talking about how to start that. Does that sound okay?"
+
+Physician: "And do you know how long you've been on that?"
+
+Physician: "And when was the last time you saw your doctor?"
+
+Physician: "And was everything okay?"
+
+Physician: "I'm glad you're on the medication for it. So tell me why you want to start an exercise program."
+
+Physician: "My guess is that it will. And is this something you discussed with your doctor six months ago?"
+
+Physician: "Well, we might want to talk to the doctor about that, too, to make sure that there are no underlying medical problems. But assuming everything is okay, is there anything that happened about a year ago that you can think of that would have made you tired for any reason?"
+
+Physician: "Do you have any ideas as to what it might be?"
+
+Physician: "Hey, good thing you're here. That sounds good. Have you thought at all about types of exercise that you might be interested in?"
+
+Physician: "We can talk about that. So you are interested in starting an exercise program because you've been a little bit more tired lately and you think it might be due to lack of exercise. And you've thought a little bit about starting a program. And I've asked you about your medical history, so I know that you do have high cholesterol."
+
+Physician: "And have you ever had any surgeries?"
+
+Physician: "Could you tell me about those?"
+
+Physician: "And is everything okay as a result of those surgeries?"
+
+Physician: "So that could have something to do with what type of exercise program we choose. So what we'll try to do is once we decide on an exercise program, check back with you pretty often so that we make sure your back is okay. Do you take any other medications other than the Lipitor and the Motrin you said once in a while?"
+
+Physician: "Do you take any vitamins? Any supplements?"
+
+Physician: "Do you have any allergies?"
+
+Physician: "Good. Tell me about your exercise history. Have you ever exercised routinely?"
+
+Physician: "Good."
+
+Physician: "As happens sometimes with children when they come along. So you said that you stopped exercising regularly around the time you were married and had children. When was that?"
+
+Physician: "Or how old were you?"
+
+Physician: "So it's been a little while since you've done regular exercise. And it's great. It sounds like you have been fairly active on and off since that time. So we have more of a starting point to start an exercise routine."
+
+Physician: "And have you tried, since you were about 25, to start some sort of regular exercise routine?"
+
+Physician: "Let's see. Is there anything that you think would stop you from exercising? Anything that you're worried about?"
+
+Physician: "We'll keep that in mind, too, when we eventually talk about what exactly we should be doing. Tell me something about your family. Who do you live with?"
+
+Physician: "How old is your husband?"
+
+Physician: "Does he have any medical problems that you know of?"
+
+Physician: "Is he active?"
+
+Physician: "About the same as you?"
+
+Physician: "How about family in the area? Do you have any other family members around?"
+
+Physician: "So you have one child in the area and one a little farther away. And do you work?"
+
+Physician: "What do you do there?"
+
+Physician: "Sounds cool."
+
+Physician: "And how much do you work?"
+
+Physician: "So you spend a fair amount of time there, but not all your time. Run me through a typical day for you. You know, how much sleep you get, how you spend your time outside of school."
+
+Physician: "Is Bill your husband?"
+
+Physician: "What does he do? Sorry to interrupt."
+
+Physician: "Sounds like you really like art."
+
+Physician: "Good. So you said you live in a condo. And what town? I didn't ask you what town you live in."
+
+Physician: "Okay. So then you're not too far from your work. What type of neighborhood do you live in?"
+
+Physician: "That's good. That means we could have you get out and walk a little bit."
+
+Physician: "Good. Is there anything that's particularly stressful in your life? Is there something that you worry about? Sometimes stressors can have an effect on people's habits, like eating and exercise and all that."
+
+Physician: "Wow."
+
+Physician: "What is she ill with?"
+
+Physician: "And speaking of family, then, if she's had such a serious history of arthritis, that's something to think about for you too."
+
+Physician: "Does she have any other medical conditions?"
+
+Physician: "How about your father? Is he still alive?"
+
+Physician: "And what did he die from?"
+
+Physician: "Okay. So in your family, then, there's a history of heart attack and some arthritis. And you said you yourself have high cholesterol."
+
+Physician: "Now, all of these things are things that exercise can help. Have you heard about the benefits that exercise has?"
+
+Physician: "Well, exercise is very good for your heart health, for your lung health, pretty much total body health. Sometimes it can help out with weight loss, which then leads to additional benefits for your heart and the rest of your body, including your joints. So it might be important, especially important, if you have a family history of any of those things, to exercise in order to avoid your getting them. Does that make sense?"
+
+Physician: "Good. And let's see, so you have a husband who is fairly active, and he's also a teacher. Do you think he would be at all interested in exercising with you?"
+
+Physician: "And do you think you'd like to exercise with someone, or do you see yourself exercising by yourself?"
+
+Physician: "I understand that. I would, too. Have you discussed, you know, you said that you haven't discussed an exercise program with him, but you think he might be interested?"
+
+Physician: "Okay."
+
+Physician: "Yeah."
+
+Physician: "Good. We can work with that. Is there anyone else who lives nearby that you think would be willing to exercise with you?"
+
+Physician: "Okay."
+
+Physician: "And you'd also mentioned that a gym would be something you'd be interested in."
+
+Physician: "Right."
+
+Physician: "Though you mentioned varicose veins. Do you think you'd be less worried about those if your daughter were with you?"
+
+Physician: "Okay. And does the gym that she'd go to, is that in Manchester where she lives?"
+
+Physician: "Okay. So then that's close to your work, too."
+
+Physician: "And that might work. Now, gyms can be somewhat of a financial burden. Do you have any financial concerns?"
+
+Physician: "It would be okay."
+
+Physician: "So we might be able to fit in paying for a gym. And do you have insurance?"
+
+Physician: "And do you think your husband would also be interested in going to the gym in Manchester?"
+
+Physician: "His schedule. It being a little farther away for him. Okay. Well, let's see. How about we think about your starting a gym program and talking to your daughter, Lucy, and trying to get her involved in that with you. And seeing if your husband would want to do that, too. And what we could do is we could make some sort of alternating routine. You could spend two or three days a week at the gym with Lucy, and you could spend a few days a week doing something with your husband, another type of exercise, if he isn't able to make it to the gym."
+
+Physician: "Okay. Let's see. So at the gym, another benefit is that they often have personal trainers. And what they do is for a first visit at the gym, gyms usually give the new client, say, an hour or so with a personal trainer to walk them around the gym and show them how to use different machines. You said that you would be interested in trying out machines."
+
+Physician: "And their job is to show you how to do that safely and to show you how to use a variety of muscles, which is a good idea."
+
+Physician: "So I think that that could also help, would probably help you to feel more comfortable in a gym as well."
+
+Physician: "All right. And you said that you would like swimming."
+
+Physician: "Okay. Well, that's good. And another thing I'd like to do is I would like to talk further in probably another appointment about the pain in your back. And we might do it here at the doctor's office, or I might have you speak with a physical therapist. I'd really like to make sure that any exercises you do on your back would be okay with your back pain with that prior surgery."
+
+Physician: "Understandably. I hear those are tough."
+
+Physician: "Okay. So how about this? Would you like to start exercising as of a few days from now? Would you be ready for that?"
+
+Physician: "At least a week?"
+
+Physician: "Okay. And then what we can do is we can get you back in here or to see the physical therapist within that week. And we can assess your back before you start that exercise program. And also in that week, if you could speak with Lucy and with Bill, your husband, about Bill's going to the gym in Manchester with you and to see how many days a week they'd be interested in going or also what sort of exercises Bill might be interested in if he's not willing or can't go to the gym in Manchester. Such as, say, walking around your neighborhood. You could take your dog for a walk."
+
+Physician: "Or finding another pool nearby and swimming with you."
+
+Physician: "That would be another thing. Or even you could do some exercises in the home too. Some people buy little weights that you can do weight exercises with at home."
+
+Physician: "Okay, good. Good, so you're familiar with them."
+
+Physician: "And then, say, in a week from now, you can start your exercise routine. And I'll give you a calendar, and on that calendar you could write down which exercises you do each day."
+
+Physician: "And that's good for a few reasons. It's good because you can feel good about what you've done. It's always good to look back and see that you've done it."
+
+Physician: "And it's so that you could bring it back and we could talk about it and discuss any changes we want to make if you're having any pain or if you want to increase your activity, that sort of thing."
+
+Physician: "So just to make sure that I explained that clearly, I know I was a little jumbled in what I was saying, could you tell me what we just agreed upon and what you got from that?"
+
+Physician: "Sure. Good. That sounds good. And so I'll let you talk to your family members and we'll set you up for an appointment within the next week."
+
+Physician: "And then I'll let you start on the exercise program in about a week. And how about I make a follow-up appointment with you for a month from now to talk about how it's going."
+
+Physician: "Okay. So I'm going to go get the doctor and you can sit here for a few minutes and we'll be back in to discuss."
+
+Physician: "It was nice to meet you."

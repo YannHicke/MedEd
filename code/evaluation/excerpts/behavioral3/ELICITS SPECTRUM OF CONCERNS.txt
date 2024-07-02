@@ -1,0 +1,39 @@
+Physician: "What brings you in today?"
+
+Patient: "I'm concerned about what I've been eating."
+
+Physician: "Why is that?"
+
+Patient: "My daughter, who primarily made the food at our house, has left for college recently. So I'm left to myself to prepare the food, and I'm not that knowledgeable."
+
+Physician: "Is she entering her first year?"
+
+Patient: "She is."
+
+Physician: "Where is she going to school?"
+
+Patient: "She's at Michigan State University."
+
+Physician: "Nice. Cool. That's great. Thank you. Good for her. All right. So what are you eating these days, then?"
+
+Patient: "At this point, I've eaten everything that she left in the refrigerator. She would make food, prepare it, and put it in Tupperware containers and have nice things in the cupboard and so on. And I've pretty much gone through all that in the last couple of weeks. And now I'm eating cereal almost every meal."
+
+Physician: "Okay."
+
+Patient: "I eat beef jerky and chips that I get at the gas station. And occasionally I'll eat out with the guys I work with, but mostly not."
+
+Physician: "Okay. And what did she use to cook for you?"
+
+Patient: "Well, she prepared a lot of health-conscious foods, like bean salad with red pepper and corn and ginger. She kept fresh fruit salad that she would make every week. We'd have a big Tupperware container of fresh fruit salad. She kept rice, brown rice, cold brown rice, and various fruits and vegetables."
+
+Physician: "Okay. So that's pretty different than Cocoa Puffs and beef jerky, huh?"
+
+Patient: "True enough."
+
+Physician: "Okay. Yes. All right. So you're here to talk about your eating habits and how to change them and make them better. Do you have any other concerns for today?"
+
+Patient: "Not particularly, no."
+
+Physician: "Okay. Let me know if you do, if you remember anything as we're talking."
+
+Patient: "Okay."

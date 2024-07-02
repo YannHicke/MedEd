@@ -1,0 +1,5 @@
+Physician: "Do you have any other concerns or problems with the treatment that we're going to be giving?"
+
+Physician: "So do you have any other questions for me today?"
+
+Physician: "Do you have any other questions for me?"

@@ -1,0 +1,9 @@
+Physician: "Any questions that you have at this point?"
+
+Physician: "Okay, great. Well, if you do have any questions after you go through the material, please make sure to give me a call."
+
+Physician: "Either myself or anyone in the office will certainly be willing to help you in whatever way we can."
+
+Physician: "If you decide you want to go with one of the medications that we talked about, the Cantix or the Zyban, those do require a prescription. I'll be happy to write a prescription for you and provide any additional information about the products if you feel like you need it."
+
+Physician: "All right, great. Unless I hear from you before then, if you have any questions. Sure, sure. As we talked about. Does that sound okay?"

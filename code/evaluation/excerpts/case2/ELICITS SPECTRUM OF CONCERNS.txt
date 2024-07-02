@@ -1,0 +1,7 @@
+Physician: "Is there anything else that you want to make sure we address today before we talk more about that pain?"
+
+Patient: "Well, I guess the other thing is every once in a while I feel like I'm leaking urine."
+
+Physician: "Is there anything else you can think of that you want to make sure we don't miss today?"
+
+Patient: "No."

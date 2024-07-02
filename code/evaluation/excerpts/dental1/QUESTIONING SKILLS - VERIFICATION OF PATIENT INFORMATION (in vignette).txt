@@ -1,0 +1,79 @@
+Physician: "Can you describe the pain to me a little bit?"
+
+Physician: "How long is the pain, like the duration of the pain?"
+
+Physician: "Yeah, yeah. Kind of just describe a little bit to me."
+
+Physician: "Have you had any problems with it before this or it's just started at 10 days, 10 days ago?"
+
+Physician: "And did you see the dentist regularly or just when it was painful for you?"
+
+Physician: "Why did you have the fillings removed? What do you think was the problem?"
+
+Physician: "And you have to use it all the time or just outside of the house?"
+
+Physician: "And did a doctor prescribe that for you?"
+
+Physician: "And how long have you used it?"
+
+Physician: "Do you think you're going to —I think it will be fine if you use it here. If you feel more comfortable, you know, with coming to the dental appointments, with it, that's all right. Do you think it will be fine if we lean you back in the chair and things like that? Will you be all right?"
+
+Physician: "Any other significant medical problems besides the shortness of breath?"
+
+Physician: "Okay, but nothing has been diagnosed?"
+
+Physician: "Lung problems?"
+
+Physician: "Anything diagnosed of it?"
+
+Physician: "With the shortness of breath?"
+
+Physician: "Anything with, like, type 2 diabetes or type 1 diabetes, anything like that?"
+
+Physician: "Your mother does?"
+
+Physician: "Any other medical problems that run in the family, heart problems or lung problems or anything like that?"
+
+Physician: "Do you live with your mom, or does she live close by?"
+
+Physician: "So you have a little bit of family support then at home?"
+
+Physician: "All right. Any other?"
+
+Physician: "Are you taking any medications at all?"
+
+Physician: "No medications at all. Okay. But you are taking some multivitamins or some type of vitamins?"
+
+Physician: "What about any herbs or anything, non-prescribed medications?"
+
+Physician: "I know you mentioned latex as being an allergy and some anesthetics, but you don't know what kind of anesthetics?"
+
+Physician: "There are a few that, you know, anesthetics that we usually use here at the health center. You don't want to use any?"
+
+Physician: "Any?"
+
+Physician: "Besides the anesthetics and the latex, any other allergies at all that you know of?"
+
+Physician: "Do you drink?"
+
+Physician: "What about smoking?"
+
+Physician: "Any infectious diseases at all, such as HIV?"
+
+Physician: "Hepatitis?"
+
+Physician: "Tuberculosis? Anything like that?"
+
+Physician: "So have you been seeing a physician on a regular basis?"
+
+Physician: "Were you married or are you married at all?"
+
+Physician: "What about transportation? Is transportation going to be a problem or not?"
+
+Physician: "So you would be able to come if a friend could drive you?"
+
+Physician: "And do you – I know you used to mention you were a nurse. Do you work at all now or no?"
+
+Physician: "So timeframes for the appointments wouldn't be too much of a problem then?"
+
+Physician: "Is that all right, to take some x-rays of your teeth?"

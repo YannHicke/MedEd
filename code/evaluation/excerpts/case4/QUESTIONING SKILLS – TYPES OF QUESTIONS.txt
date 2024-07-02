@@ -1,0 +1,99 @@
+Physician: "What brings you in today?"
+
+Physician: "Is there anything else that brought you in today?"
+
+Physician: "Is there anything else you'd like to talk about today before we move on?"
+
+Physician: "Why don't you tell me about when your chest pain started."
+
+Physician: "What were you doing at the time when your chest pain started?"
+
+Physician: "Did you injure any other part of your body during the accident?"
+
+Physician: "Were you wearing a helmet?"
+
+Physician: "Had you been doing anything unusual before mountain biking?"
+
+Physician: "Do you usually mountain bike at night?"
+
+Physician: "Was there anything in particular that you were doing?"
+
+Physician: "How much had you had to drink before you rode your mountain bike?"
+
+Physician: "Do you feel like you were drunk or feeling the effects of the alcohol at the time of the accident?"
+
+Physician: "Have you ridden your mountain bike after drinking in the past?"
+
+Physician: "Any other accidents in the past?"
+
+Physician: "Can you tell me about what the pain feels like to you?"
+
+Physician: "So it's always there?"
+
+Physician: "It doesn't come and go?"
+
+Physician: "It's on your left side. Okay. And you said the sharpness comes on when you move."
+
+Physician: "Anything else that makes the pain worse?"
+
+Physician: "Anything that makes your pain better?"
+
+Physician: "Anything else?"
+
+Physician: "And does your pain radiate anywhere?"
+
+Physician: "Any other symptoms associated with the pain?"
+
+Physician: "Can you tell me about any ongoing medical problems that you might have?"
+
+Physician: "Do you take any medications?"
+
+Physician: "Any other medications that you take?"
+
+Physician: "And have you ever had surgery in the past?"
+
+Physician: "Can you tell me a little bit about anything that runs in your family?"
+
+Physician: "Do you know if she had atherosclerosis?"
+
+Physician: "Or angina or anything like that?"
+
+Physician: "Do you know if she had type 1 diabetes or type 2 diabetes?"
+
+Physician: "Do you know if she takes any medications for the diabetes?"
+
+Physician: "Anyone else in your family with heart problems?"
+
+Physician: "Like high blood pressure or anything like that?"
+
+Physician: "Can you tell me a little bit about your work? You mentioned you're concerned how this might impact your ability to go to work."
+
+Physician: "Are you concerned about returning to work?"
+
+Physician: "Does that sound okay?"
+
+Physician: "Do you drink on a regular basis?"
+
+Physician: "How much do you typically drink in that once-a-week time?"
+
+Physician: "Do you usually feel drunk after that?"
+
+Physician: "Do you ever feel like maybe you're drinking too much or do you feel like you're drinking just as much as other people are drinking?"
+
+Physician: "Does that sound like something you would consider?"
+
+Physician: "I'd be interested to know if you smoke any cigarettes."
+
+Physician: "Do you think that's something you would consider?"
+
+Physician: "Do you use any drugs?"
+
+Physician: "Do you feel like you have a healthy diet?"
+
+Physician: "What kinds of foods do you typically eat?"
+
+Physician: "Do you have any questions about what we've talked about?"
+
+Physician: "And remind me how old you are now."
+
+Physician: "Any other questions that you have?"

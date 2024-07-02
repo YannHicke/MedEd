@@ -1,0 +1,5 @@
+Physician: "In terms of the history, I feel like we've gotten a pretty good idea of what's going on and the symptoms that you've had. So at this point, I think we just need to do the physical exam, see if you need any tests, and then we'll move on from there."
+Patient: "Okay."
+Physician: "Okay. So I will be right back."
+Patient: "Thank you."
+Physician: "Thank you very much."

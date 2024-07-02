@@ -1,0 +1,11 @@
+Physician: "What brings you in today?"
+
+Patient: "I'm concerned about a pain I have in my chest. And because of where it is, I'm worried it could be my heart."
+
+Physician: "Oh, okay. Is there anything else that brought you in today?"
+
+Patient: "I'm just really concerned about my heart and then how it might impact my job as well."
+
+Physician: "Okay. So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job. Okay. Is there anything else you'd like to talk about today before we move on?"
+
+Patient: "No, that's it."

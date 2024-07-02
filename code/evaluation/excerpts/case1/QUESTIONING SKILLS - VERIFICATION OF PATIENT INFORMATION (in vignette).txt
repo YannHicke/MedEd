@@ -1,0 +1,123 @@
+Physician: "Can you start from the beginning and really tell me everything you can remember about when it started?"
+
+Physician: "So it woke you up out of sleep."
+
+Physician: "Can you tell me more about the pain? It was a tearing pain."
+
+Physician: "And where was it?"
+
+Physician: "And did it move anywhere?"
+
+Physician: "Okay. All right. So you tried to walk around. That didn't seem to help."
+
+Physician: "Anything you did to try to help it?"
+
+Physician: "Okay. So this was about 1 in the morning."
+
+Physician: "What did you do then? What happened next?"
+
+Physician: "Sounds like it was a long morning for you."
+
+Physician: "Okay. How long did the pain last?"
+
+Physician: "I’m assuming you don't have it now."
+
+Physician: "Okay. Was there anything different about the urine that came out?"
+
+Physician: "Okay. Is that something that you've seen before?"
+
+Physician: "Okay. And while this was going on, while the pain was going on, was it constant? Did it come and go, or was it really constant for those hours?"
+
+Physician: "Okay. Yeah. Any other symptoms that you felt at the same time?"
+
+Physician: "Okay."
+
+Physician: "And did those symptoms last throughout with the pain as well, or did they come and go?"
+
+Physician: "Okay. Have you had any changes in your bowels?"
+
+Physician: "Like diarrhea, constipation?"
+
+Physician: "Okay. And do you still get your menses?"
+
+Physician: "Okay. And how long has it been since you got your period?"
+
+Physician: "So it's been a while."
+
+Physician: "Okay. And did you have any vomiting?"
+
+Physician: "Okay. And along with the sensation of having to pee and not being able to pee, was there any pain when you were able to pee?"
+
+Physician: "Right."
+
+Physician: "Okay. I just want to move on now and ask you some more questions about your health."
+
+Physician: "How would you describe your overall health?"
+
+Physician: "Okay. Great. Do you see a doctor regularly?"
+
+Physician: "Okay. Who is the doctor?"
+
+Physician: "And does he treat you for any, or he or she?"
+
+Physician: "She. Sorry, she."
+
+Physician: "Does she treat you for any medical conditions?"
+
+Physician: "Okay. Have you been in the hospital ever?"
+
+Physician: "Just had my kids."
+
+Physician: "Okay. And any surgeries that you've had?"
+
+Physician: "Just want to ask you also if there are any medicines that you take."
+
+Physician: "No prescription medications."
+
+Physician: "Okay. Other than the Tylenol that you took this morning."
+
+Physician: "Any allergies that you have?"
+
+Physician: "Okay."
+
+Physician: "Nothing at all."
+
+Physician: "All right. I just want to ask you now about your family history."
+
+Physician: "Are there any diseases that run in your family?"
+
+Physician: "Anybody in your family that you know of ever have kidney problems?"
+
+Physician: "Okay. Kidney stones?"
+
+Physician: "Okay. So I'm just going to move on now and ask you some questions about your daily life and some of your health habits."
+
+Physician: "Do you drink alcohol?"
+
+Physician: "Okay. And no smoking?"
+
+Physician: "Okay."
+
+Physician: "I never smoked."
+
+Physician: "And you don't do any other kinds of recreational drugs?"
+
+Physician: "Okay. And what do you do for a living?"
+
+Physician: "Okay. All right. So are you missing work today?"
+
+Physician: "Okay. Is that going to be a problem?"
+
+Physician: "Okay. They're pretty understanding."
+
+Physician: "Okay. Well, that's good. I'm glad. And you mentioned your husband earlier that you woke him up this morning. Can you tell me a little bit about your support systems?"
+
+Physician: "Okay. Okay. Last night when you had this pain, was it ever so bad that you thought about going to the hospital?"
+
+Physician: "Okay. So you never made it, but if you had really needed to go, he would have been able to help you. Take you."
+
+Physician: "Okay. All right. I'm glad you have that support in your life. In terms of the history, I feel like we've gotten a pretty good idea of what's going on and the symptoms that you've had. So at this point, I think we just need to do the physical exam, see if you need any tests, and then we'll move on from there."
+
+Physician: "Okay."
+
+Physician: "Thank you very much."

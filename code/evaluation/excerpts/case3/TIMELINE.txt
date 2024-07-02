@@ -1,0 +1,67 @@
+Physician: "Okay, so tell me a little bit about what brought you to the office today."
+
+Patient: "Well, I'm having a pain in the left part of my chest and I'm worried it could be my heart."
+
+Physician: "Oh, I'm really sorry to hear about that. Can you tell me a little bit about that?"
+
+Patient: "Sure. It's an aching pain and sometimes it gets sharp and it moves a little bit and I hear that can be heart pain."
+
+Physician: "Oh, okay. And what makes it sharp?"
+
+Patient: "When I move, when I lift things with my left arm."
+
+Physician: "Okay, and is there anything that makes the pain better?"
+
+Patient: "I've been taking some Advil. That's helped a little bit."
+
+Physician: "Okay, how much Advil are you taking?"
+
+Patient: "Two in the morning and two in the afternoon."
+
+Physician: "Okay, do you know what the dose is of the Advil?"
+
+Patient: "I don't."
+
+Physician: "Okay, anything else that makes your pain better?"
+
+Patient: "Just not moving."
+
+Physician: "Okay, and you said lifting makes it worse."
+
+Patient: "Yeah."
+
+Physician: "Okay, do you lift on a regular basis or did you notice it somehow?"
+
+Patient: "Past few days, I've just been not moving and being low-key with it, seeing if it get better, but I'm gonna have to go back to work in a couple days and I do a lot of lifting for my job and I'm worried if that's gonna interfere with that or if it's my heart, it might make it worse."
+
+Physician: "Okay, so you mentioned a couple days. It's been going on for how long now?"
+
+Patient: "It started about two nights ago."
+
+Physician: "Two nights ago. Okay, and is it getting better or worse over time?"
+
+Patient: "It's about the same."
+
+Physician: "About the same. Okay, and you're gonna be going back to work tomorrow, you said?"
+
+Patient: "Yeah."
+
+Physician: "Okay, and you lift boxes at work?"
+
+Patient: "I do."
+
+Physician: "Okay, and do you think your boss would be okay with you taking some time off if you needed to?"
+
+Patient: "Sure, if I get a doctor's note."
+
+Physician: "Okay, I'll see if I can do that for you. Do you have any other symptoms besides the pain in your chest?"
+
+Patient: "No."
+
+Physician: "Okay, like any coughing, any shortness of breath?"
+
+Patient: "No."
+
+Physician: "Nothing like that? Okay. So I'd just like to summarize a little bit. So it sounds like you've had chest pain for two days now. Sometimes it's an ache, sometimes it's sharp. It's made worse if you're lifting things and you're worried because at work you lift boxes. It's made better by Advil. You said you've taken like two in the morning, two in the afternoon. That seems to help. You're not sure what the dose is on that. And it doesn't radiate anywhere. You have no other symptoms with that. Does that sound about right?"
+
+Patient: "Yeah."

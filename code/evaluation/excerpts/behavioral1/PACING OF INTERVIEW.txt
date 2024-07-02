@@ -1,0 +1,53 @@
+Physician: "Okay. Nice to meet you. I'm a second-year medical student. I understand you've come in today because you're interested in quitting smoking. Is that correct?"
+
+Physician: "All right. So I'm just going to give you a brief on what things we'll go through today. So I'll start off by asking you questions about your current medical history, and then your past medical history, family history, social history. Get to know what you know about smoking and its effects on your body, and then we'll go through a plan. Does that sound like a good idea?"
+
+Physician: "All right. If anything comes up, you can just stop me or just remember for later. Sound good?"
+
+Physician: "Okay. Is there a particular reason?"
+
+Physician: "Sorry to hear about that."
+
+Physician: "Right. So it's been difficult at home. I'm sure it has been difficult on you and your family. So you mentioned that you're taking vitamin D, and it's mostly to just help you with your mood. Is that correct?"
+
+Physician: "Okay. So what makes you think it's going to work this time around?"
+
+Physician: "Okay. So that's motivational to you in terms of your parents were able to do it, so hopefully you'll be able to follow suit with them."
+
+Physician: "Okay. And how about asthma?"
+
+Physician: "Okay. Going on to social history, so you mentioned mom and dad. Do you currently live with them?"
+
+Physician: "Okay. So it's probably been tough on you in terms of your father's health history and also school. So who really serves as your social support? Would you say it's your parents, or do you have friends in the area?"
+
+Physician: "Okay. And do you work currently, or do you stay at home, or what exactly do you do?"
+
+Physician: "Okay. So later on when we discuss different treatment options to help you quit smoking, that's one thing we can discuss is your financial situation, and we can definitely take that into account."
+
+Physician: "Okay. All right. Good. So things that I learned about you in terms of your history would be you have no remarkable medical history."
+
+Physician: "Okay. So you mentioned your parents had insurance and they used medication. What do they use to quit smoking?"
+
+Physician: "Okay. All right. So we can definitely discuss that later on. Okay. So in terms of, I'm going to ask you questions about your own knowledge of smoking. So do you know the effects of smoking on your body and what it can do potentially?"
+
+Physician: "Okay. So it sounds like you have a pretty good base of knowledge. Smoking can increase your risk of developing lung disease and lung cancer. It can also contribute to heart disease as well. Other things in terms of your appearance, it can actually discolor nails. It can affect hair. I don't think that will be a problem though. And it can also affect the teeth as well. So different effects all over. Is there anything in particular that triggers you to start smoking?"
+
+Physician: "Okay. And do you smoke throughout the day, or is it something you're just smoking while you're driving in your car or while you're at home? Is there like a particular trigger for you?"
+
+Physician: "Okay. All right. Do you have any questions or any other concerns?"
+
+Physician: "Okay. So knowing your knowledge of smoking and knowing what triggers you and the fact that you are smoking continuously throughout the day, so it's not like there's a certain place that stimulates you. Is that correct?"
+
+Physician: "Okay. So now we can actually form a plan together as to how you're going to go about quitting smoking. So the first thing that's a really good idea is to actually pick a date. So it could be an upcoming birthday, or it could be any day that you see suitable. Do you have anything in mind in particular?"
+
+Physician: "Okay. That is very difficult. It's very difficult to give up a habit that you've had for quite a number of years. So I would suggest giving yourself like a week or two and picking a day."
+
+Physician: "Okay. So why don't we pick a date in two weeks from now? So two weeks from today, we'll say that's your quit date."
+
+Physician: "Okay, good. So we can definitely discuss that with Dr. Lelko when she comes in, and we can actually sign the contract today. And when you receive the contract and the calendar, just try to put them in places where you tend to smoke. So you mentioned in your bedroom, so put it around your bed. Also show your mom and show your dad because it'll make it believable for them that you're actually in this for good for the long term."
+
+Physician: "Okay. Excellent. So just kind of do you have any questions in the end, or is this any other concerns?"
+
+Physician: "You know, that's a practical thought because not all the therapies will work for everyone. But I think it's a really good idea. Studies have actually shown that Shantix is a very effective therapy. But we can definitely try out the Shantix, see how it works for about a month. And then if that doesn't work, we'll try the different therapy options."
+
+Physician: "Okay. So we'll definitely follow up with you. And if you have any questions before the follow-up visit after about three weeks, then you can definitely come in or you can call. So don't feel afraid. We're in this with you 100%. So we're here to support you if you have any questions or anything. So we'll schedule a follow-up visit with Dr. Lelko when she comes in. So we look forward to seeing you in about three weeks."

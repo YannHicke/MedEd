@@ -1,0 +1,255 @@
+Physician: "What brings you in today?"
+
+Patient: "I'm concerned about a pain I have in my chest. And because of where it is, I'm worried it could be my heart."
+
+Physician: "Oh, okay. Is there anything else that brought you in today?"
+
+Patient: "I'm just really concerned about my heart and then how it might impact my job as well."
+
+Physician: "Okay. So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job. Okay. Is there anything else you'd like to talk about today before we move on?"
+
+Patient: "No, that's it."
+
+Physician: "Okay. So I'll just ask a little bit about your chest pain, and then we'll get some information that will help me assess your risk of heart disease since it sounds like you're concerned about that, and then we'll find out a little bit about your job. Okay. Is that okay?"
+
+Patient: "Sure."
+
+Physician: "All right. So why don't you tell me about when your chest pain started."
+
+Patient: "About two nights ago, I noticed the pain, and I thought it might have just went away on its own, but it hasn't, so I'm getting more nervous about it."
+
+Physician: "Okay. Well, I'm glad you came in. What were you doing at the time when your chest pain started?"
+
+Patient: "I was mountain biking, and I ended up falling off and hit myself, but right here in my chest. So I know that's where the heart is, so I'm worried it could have shaken things up a little bit."
+
+Physician: "Okay. So you were mountain biking, and you fell off, you hit your chest. Did you injure any other part of your body during the accident?"
+
+Patient: "No."
+
+Physician: "Were you wearing a helmet?"
+
+Patient: "Yep, I was wearing a helmet."
+
+Physician: "That's good to hear. Okay. And had you been doing anything unusual before mountain biking?"
+
+Patient: "No. It's pretty typical Saturday. I was at my buddy Ben's house, and it was starting to get dark, so we wanted to get one last ride down the hill. So I was rushing a little bit because of the time, and then there was just something on the ground like a stone I didn't see, and I hit it and fell off."
+
+Physician: "Okay. Do you usually mountain bike at night?"
+
+Patient: "Well, not at night, but it was dusk, and we were just, you know, lost track of time. And, you know, we were having fun before that, and, yeah, I didn't want to bring my mountain bike out there for no reason and not at least use it once."
+
+Physician: "Okay. You said you were having fun beforehand. Was there anything in particular that you were doing?"
+
+Patient: "We were just socializing, drinking a little bit, hanging out."
+
+Physician: "Okay. And how much had you had to drink before you rode your mountain bike?"
+
+Patient: "I bring a six-pack with me. I didn't finish the last one, but almost."
+
+Physician: "Okay. Do you feel like you were drunk or feeling the effects of the alcohol at the time of the accident?"
+
+Patient: "Maybe a little buzzed."
+
+Physician: "Okay. And have you ridden your mountain bike after drinking in the past?"
+
+Patient: "I have, yeah."
+
+Physician: "You have. Okay. Any other accidents in the past?"
+
+Patient: "Well, minor things. You know, with that sport, the trails change sometimes, or sometimes a bike will slip. I've gotten some scrapes, but never anything serious. Like I say, I wear a helmet."
+
+Physician: "Good. Well, I'm glad to hear that you're wearing a helmet. And it sounds like maybe mountain biking at night isn't the best idea, whether or not you've been drinking just because you can't see that well."
+
+Patient: "That's true."
+
+Physician: "But in terms of the chest pain, I'd like to talk a little bit more about that."
+
+Patient: "Sure."
+
+Physician: "So it started two nights ago when you were mountain biking and you hit your chest on the handles. And tell me how it's been since that point."
+
+Patient: "Well, at the time I was a little concerned because of where I got hit. And maybe because I was buzzed, I didn't feel it as serious."
+
+Physician: "I see"
+
+Patient: "Yesterday it was more severe, the pain. And it hasn't gone away yet, so that's why I'm getting a little nervous about it."
+
+Physician: "Okay. Can you tell me about what the pain feels like to you?"
+
+Patient: "It's like an aching pain that's always there."
+
+Physician: "Okay, so it's always there?"
+
+Patient: "Yeah. It doesn't come and go?"
+
+Patient: "No, there's a sharpness that will come sometimes when I move."
+
+Physician: "Okay"
+
+Patient: "And it's on my left side too."
+
+Physician: "It's on your left side. Okay. And you said the sharpness comes on when you move."
+
+Patient: "Yeah, especially I tried reaching for a jar of peanut butter that's about this high in my kitchen, and that was tough."
+
+Physician: "Okay. Anything else that makes the pain worse?"
+
+Patient: "No, just really the movement."
+
+Physician: "Okay. Anything that makes your pain better?"
+
+Patient: "I've been taking some Advil, and that's helped, and just staying still."
+
+Physician: "Okay. Anything else?"
+
+Patient: "No."
+
+Physician: "Okay. And does your pain radiate anywhere?"
+
+Patient: "No, just when I move kind of out from the chest a little bit. And I'm left-handed, unfortunately, so I keep forgetting, and I keep moving with that arm."
+
+Physician: "Okay. And any other symptoms associated with the pain?"
+
+Patient: "No."
+
+Physician: "Okay. So moving on to your past medical history, can you tell me about any ongoing medical problems that you might have?"
+
+Patient: "I'm pretty healthy otherwise. I have seasonal allergies."
+
+Physician: "Okay. Do you take any medications?"
+
+Patient: "Occasionally I'll take Flonase when it's, you know, early fall, it kind of acts up."
+
+Physician: "Okay. Any other medications that you take?"
+
+Patient: "No."
+
+Physician: "Okay. And have you ever had surgery in the past?"
+
+Patient: "I haven't."
+
+Physician: "You have not. Okay. And then since you mentioned before that you're concerned about your heart health, sometimes family history can give us some information about that. Can you tell me a little bit about anything that runs in your family?"
+
+Patient: "Yeah, my mom's had heart issues. She grew up with diabetes, so maybe that was a factor. But I remember when I was pretty young, she had to have surgery on her heart."
+
+Physician: "Okay."
+
+Patient: "And I know that can be hereditary too."
+
+Physician: "Okay. Do you know if she had atherosclerosis?"
+
+Physician: "I don't think so."
+
+Physician: "Or angina or anything like that?"
+
+Patient: "I don't know."
+
+Physician: "Okay. And you said diabetes."
+
+Patient: "Yeah."
+
+Physician: "Do you know if she had type 1 diabetes or type 2 diabetes?"
+
+Patient: "I think type 1."
+
+Physician: "Okay. Do you know if she takes any medications for the diabetes?"
+
+Patient: "She takes insulin."
+
+Physician: "Okay. Anyone else in your family with heart problems?"
+
+Patient: "No."
+
+Physician: "Okay. Like high blood pressure or anything like that?"
+
+Patient: "Not that I know of."
+
+Physician: "Okay. All right. And in terms of your social history, can you tell me a little bit about your work? You mentioned you're concerned how this might impact your ability to go to work."
+
+Patient: "Sure. I stock shelves, and I feel like, you know, the pain is tolerable if it was low, but over my head it hurts, and even more so than the pain. You know, if I'm having a heart issue, I don't want to do something that kind of pushes me over the edge and makes it worse."
+
+Physician: "Okay. And have you been to work since the accident?"
+
+Patient: "No. Today was a day off. It happened on the weekend, and I'm scheduled to go back tomorrow."
+
+Physician: "Okay. Are you concerned about returning to work?"
+
+Patient: "I am."
+
+Physician: "Okay. Once we finish up the visit and we do the exam and get a better idea of what's causing your pain, I would be more than happy to speak with my preceptor and see if we can get a work excuse for you so you can have some recovery time."
+
+Patient: "Great. Thank you."
+
+Physician: "Does that sound okay?"
+
+Patient: "Yeah."
+
+Physician: "Good. All right. So a couple more questions about your social history. I'd like to return to the mention of alcohol that we talked about before. You said you were drinking before the accident. Do you drink on a regular basis?"
+
+Patient: "Just once a week."
+
+Physician: "Once a week. Okay. And how much do you typically drink in that once-a-week time?"
+
+Patient: "Five or six beers."
+
+Physician: "Five or six beers. Okay. And do you usually feel drunk after that?"
+
+Patient: "No, just a little buzzed."
+
+Physician: "A little buzzed. Okay. And do you ever feel like maybe you're drinking too much or do you feel like you're drinking just as much as other people are drinking?"
+
+Patient: "I would say I drink less than average."
+
+Physician: "Less than average. Okay. Well, from our standpoint, you know, six drinks in one sitting isn't really at the recommended level, especially since it makes you prone to make decisions like going mountain biking at night. So, you know, I might recommend that you try and drink fewer beers in one sitting. Does that sound like something you would consider?"
+
+Patient: "I'll give it some thought because I am pretty scared about this potential injury to my heart. But I'd made the decision to mountain bike before I was drinking."
+
+Physician: "I see."
+
+Patient: "My friend Ben, he drinks way more than I do."
+
+Physician: "Okay."
+
+Patient: "But maybe with my mom's history I should, you know, reevaluate."
+
+Physician: "Yeah. I mean, drinking is definitely one of those things that could impact your heart health, as are some other things like smoking. I'd be interested to know if you smoke any cigarettes."
+
+Patient: "Occasionally, not. I don't consider myself a smoker, but sometimes when I drink I'll have a few."
+
+Physician: "Okay. So smoking is another thing that if you feel like your heart health is a priority, that's something that you could change in your life. Do you think that's something you would consider?"
+
+Patient: "Yeah, probably."
+
+Physician: "Okay. And another question related to that is do you use any drugs?"
+
+Patient: "I don't."
+
+Physician: "You don't. Okay. And in terms of your diet, do you feel like you have a healthy diet?"
+
+Patient: "I think so."
+
+Physician: "Okay. What kinds of foods do you typically eat?"
+
+Patient: "Chicken, fish, more fruits than vegetables, I guess. But I try to consciously eat greens and things like that."
+
+Physician: "That's good. All right. So it sounds like your three main concerns today were your chest pain, that started a couple days ago, your heart health, because you're worried that you might be at risk for heart disease because of your mom, and then also your work. So it sounds like your chest pain is probably related to the mountain biking accident, and we talked about getting you a note for work. And based on what I've heard from your history, it sounds like at your age and with the lifestyle you have, you're not at a terrible risk for heart disease at this time, but making some changes with cutting out alcohol and smoking, I think that that would definitely decrease your risks of heart disease in the future. Do you have any questions about what we've talked about?"
+
+Patient: "Yeah. I just get a little nervous because my mom had her heart surgery when she was a few years younger than I am now. So is that something that could impact me?"
+
+Physician: "And remind me how old you are now."
+
+Patient: "I'm 30. She was 28."
+
+Physician: "Okay. So that really depends on what the cause of her heart surgery was. So some things that cause people to get heart surgery people are born with. Other things that cause a need for heart surgery are a result of disease that you get when you're going along and have lifestyle issues or any diseases. So it sounds like for you, you don't have any current diseases like high blood pressure, high cholesterol, anything like that. So we'll do a physical exam and make sure we don't see anything on your exam that makes us concerned. And as long as that's okay, I don't think that your mom's history is something that will impact you even though the two of you are related."
+
+Patient: "Okay."
+
+Physician: "Okay. Any other questions that you have?"
+
+Patient: "No."
+
+Physician: "Okay. Well, I'll go talk with my preceptor, and you can wait here, change into a gown, and we'll be back in just a few minutes to do your physical exam."
+
+Patient: "Okay."
+
+Physician: "Okay. All right."

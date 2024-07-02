@@ -1,0 +1,5 @@
+Physician: "So I'm going to go talk to Dr. Smith and get you that paperwork, and you just stay right here, and I'll come back."
+Patient: "Very good."
+Physician: "All right? Very nice talking to you, Mr. Jones."
+Patient: "Nice to talk to you. Thank you."
+Physician: "Thank you."

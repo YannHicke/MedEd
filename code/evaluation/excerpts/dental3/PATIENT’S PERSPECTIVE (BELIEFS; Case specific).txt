@@ -1,0 +1,11 @@
+Physician: "Why do you think that happened?"
+Patient: "I mean, a couple. I mean, job stress, you know, project deadlines, those sorts of things. I mean, you know, when you're going out with your friends. A lot of my friends and coworkers smoke, so it's kind of like a situational thing. Just light one up, and it's just really hard to resist that temptation."
+
+Physician: "Have you ever thought about what triggers your desire to smoke? Like, when you get a craving, when does that typically happen?"
+Patient: "Well, like I said, stress, job stress, really brings them on. But usually, like in the mornings, like when I'm driving to work or to an appointment or something, I light one up after a meal with a cup of coffee. That sort of thing usually brings it on. And also, of course, like I said, being in the presence of people smoking, that's like..."
+
+Physician: "Okay, yeah, that's pretty common."
+
+Physician: "Sometimes it's actually helpful to keep a log of when you smoke and when you get your cravings. You know, we talked about all the different medications, but it's important to keep in mind that none of those are magic bullets. To really be successful with a quit attempt, you have to really be ready. It sounds like you might be at that point."
+
+Patient: "Definitely."

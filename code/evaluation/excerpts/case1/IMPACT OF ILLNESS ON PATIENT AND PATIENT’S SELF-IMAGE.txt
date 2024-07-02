@@ -1,0 +1,6 @@
+Physician: "Is that going to be a problem?"
+Patient: "No. I left a message for them and I'm sure it won't be a problem."
+Physician: "Okay. They're pretty understanding."
+Patient: "Yes."
+Physician: "Okay. Well, that's good. I'm glad."
+Physician: "Okay. I'm glad you have that support in your life."

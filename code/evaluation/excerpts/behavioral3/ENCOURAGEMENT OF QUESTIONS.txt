@@ -1,0 +1,5 @@
+Physician: "Do you have any other concerns for today?"
+
+Physician: "Let me know if you do, if you remember anything as we're talking."
+
+Physician: "Do you have any other concerns for us today?"

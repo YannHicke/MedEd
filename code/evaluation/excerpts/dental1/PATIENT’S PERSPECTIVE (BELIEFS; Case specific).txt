@@ -1,0 +1,65 @@
+Physician: "Why did you have the fillings removed? What do you think was the problem?"
+
+Patient: "Well, it's kind of a long story, but about five years ago, I had bought a new car."
+
+Physician: "Okay. You know, that new car smell and all that. And for some reason, I didn't know at the time, but I started getting, you know, dizzy, short of breath,"
+
+Patient: "chest pain, everything. I found out later that it was to do with the inlet, the fresh air inlet."
+
+Physician: "Mm-hmm."
+
+Patient: "But ever since then, I've had trouble."
+
+Patient: "A lot of chemical sensitivities."
+
+Physician: "Okay."
+
+Patient: "Oh, I am allergic to latex, I wanted to tell you that."
+
+Physician: "Okay, good."
+
+Patient: "And no anesthetics for me either, too."
+
+Physician: "Are you allergic to anesthetics?"
+
+Patient: "I think so."
+
+Physician: "Certain anesthetics? Okay. I'll ask you just a few more questions about that later. We'll get into a little bit of the medical history at first."
+
+Physician: "So you feel like you've had dental work in the past pretty much on a regular basis. Is that correct?"
+
+Patient: "Mm-hmm."
+
+Physician: "And just you were in a car, and you're feeling like as soon as you had the new car, certain health problems were starting to happen. Is that correct?"
+
+Patient: "That was kind of this, you know, it kind of snowballed from there. And I don't know if that, you know, was the official trigger."
+
+Physician: "Okay."
+
+Patient: "But ever since then, it's just gotten worse and worse."
+
+Physician: "All right, and so do you think the problems with your teeth, you think they're related to chemical sensitivities? Is that my understanding?"
+
+Patient: "Well, I had the mercury taken out. I had a lab report done. It was like a serum thing."
+
+Physician: "Okay."
+
+Patient: "And I sent some samples out to Colorado, and that's actually the report right here."
+
+Physician: "Oh, okay."
+
+Patient: "If you can take a look later. It's pretty extensive, yeah."
+
+Physician: "Okay. Yeah, I will take a look at this later a little bit. So you think it's just some chemical sensitivities to your teeth, and that's why you had the amalgam fillings removed then. Is that correct?"
+
+Patient: "I wasn't sure if my body was rejecting the mercury or what was happening, but I figured it was a good idea to take them out. I had done some reading on my own, and then with the lab results, they said, you know, mercury wasn't good for me. So I figured I'd have them out."
+
+Physician: "Okay. Well, I mean, there have been some studies done, and the American Dental Association has said that amalgam fillings that have the mercury in it are safe to use. But, however, there are some other materials that we could use. There's some resins and certain other types of materials that we could try. And I'll take a look at this and see if we can find something that you'd be comfortable with that we could try that might be not as sensitive."
+
+Patient: "Definitely no mercury, nothing even remotely related to the mercury."
+
+Physician: "Yeah, we won't put anything in your mouth that you're not comfortable with first. But we'll probably have to do just a little bit of research and a little bit of picking and choosing of what kind of materials that we would use if you needed a few more fillings done. Okay."
+
+Patient: "I have had, you know, friends, you know, make fun of me because they're like, oh, chemical sensitivities and stuff. But it sounds like you'll be able to understand what I'm going through."
+
+Physician: "No, I totally understand. We'll make sure that everything we do that you're comfortable with at first. We're not going to do, you know, anything that you're not comfortable with."

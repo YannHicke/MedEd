@@ -1,0 +1,65 @@
+Physician: "Can I ask you why you take that?"
+
+Physician: "Is there a particular reason?"
+
+Physician: "When exactly did you start smoking?"
+
+Physician: "How many cigarettes do you smoke on a given day?"
+
+Physician: "And you mentioned... So do you know what age you started smoking about?"
+
+Physician: "Have you ever considered quitting in the past, or did you ever quit in the past?"
+
+Physician: "Was there a certain... Did you just quit cold turkey and hope that it would last forever?"
+
+Physician: "So what makes you think it's going to work this time around?"
+
+Physician: "Any history of any traumas or accidents?"
+
+Physician: "And how about asthma?"
+
+Physician: "Do you currently live with them?"
+
+Physician: "What is your level of education, so like the highest level that you completed?"
+
+Physician: "Can I ask you how exactly that happened during your senior year?"
+
+Physician: "Sorry about that. Have you considered going back to school or finishing up your education?"
+
+Physician: "So who really serves as your social support? Would you say it's your parents, or do you have friends in the area?"
+
+Physician: "And do you work currently, or do you stay at home, or what exactly do you do?"
+
+Physician: "Do you have insurance through your job?"
+
+Physician: "Do you have any history of, besides the smoking, do you have any history of alcohol use or recreational drug use?"
+
+Physician: "And are you still keeping up with that, or have you just left it behind you?"
+
+Physician: "Do you know the effects of smoking on your body and what it can do potentially?"
+
+Physician: "Is there anything in particular that triggers you to start smoking?"
+
+Physician: "And do you smoke throughout the day, or is it something you're just smoking while you're driving in your car or while you're at home? Is there like a particular trigger for you?"
+
+Physician: "So would you say you kind of wake up and you smoke, and then when you go to bed, you're also smoking and kind of like?"
+
+Physician: "Do you have any questions or any other concerns?"
+
+Physician: "So it could be an upcoming birthday, or it could be any day that you see suitable. Do you have anything in mind in particular?"
+
+Physician: "Does that sound like something you would be able to do?"
+
+Physician: "Do you think that would be possible to kind of just remove yourself from situations?"
+
+Physician: "Is that something that you're considering, or do you have any other options?"
+
+Physician: "Does that sound, you know?"
+
+Physician: "Do those sound like things that you'd be interested in doing?"
+
+Physician: "Would you be able to repeat back the plan that we've come up with?"
+
+Physician: "Do you have any questions in the end, or is this any other concerns?"
+
+Physician: "Does that sound like a good idea?"

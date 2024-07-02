@@ -1,0 +1,27 @@
+Physician: "Okay. All right. So, I just wanted to start by figuring out why you're here today."
+
+Physician: "Okay. All right. Well, it sounds like the pain is a little bit more urgent right now. So, we'll start with the pain. We may get a little bit of a chance to talk about the incontinence as well. You know, that's a common problem. And we can also set up an appointment in the future to talk more about that. Does that sound okay?"
+
+Physician: "If you had to qualify it or quantify it on a scale where zero is no pain and ten is the worst thing ever, where would you put it?"
+
+Physician: "Okay. Extra strength or regular?"
+
+Physician: "Okay. Well, that's kind of a lot. How come so many?"
+
+Physician: "Okay. That may be too many. We'll have to talk a little bit more about that later. Certainly, they're not doing anything terrible to you, but we should probably talk about some other ways to get some calcium into your system."
+
+Physician: "Okay. All right. Well, that might be something that we want to address too just to make sure that you're drinking enough to be healthy overall."
+
+Physician: "Okay. So I just want to kind of summarize what you've told me so far since I jumped around a little bit and make sure that I got everything right. If anything's wrong, let me know for sure, or if we forgot anything."
+
+Physician: "Okay. Does that sound like a reasonable summary? Anything I missed?"
+
+Physician: "Okay, good. Well, I think I have a pretty good picture of what happened. I just want to ask you some other questions about your medical history."
+
+Physician: "Okay. All right. Were they normal vaginal births or something?"
+
+Physician: "Okay, all right. And have you had any pain with sexual intercourse?"
+
+Physician: "Okay, so I feel like we've gotten a pretty good sense today of the different symptoms that you've been having and I understand that you've been having this really terrible pain and so I think we need to really figure out what's going on with that. And I also do want to address the incontinence a little bit later, but I think at this point it would be good for us to do physical exam, get some more information, and then after that we can talk and I'll tell you what I'm thinking about what what it might be and we can talk together about what our plan will be to go from here. Does that sound okay?"
+
+Physician: "Absolutely, absolutely. That makes perfect sense. It sounds like it was pretty scary, so I think that we're going to be able to come to a conclusion about what this is and give you some strategies for avoiding it in the future. Okay. All right, so I'm just going to give you a few minutes to change into your gown and I'll be right back."

@@ -1,0 +1,15 @@
+Physician: "So tell me why you want to start an exercise program."
+
+Patient: "Well, I've been tired for the last almost year. You know, it seems to be getting progressively worse, so I don't know if it'll help, but I'm hoping it will."
+
+Physician: "And is this something you discussed with your doctor six months ago?"
+
+Patient: "No, I didn't."
+
+Physician: "Well, we might want to talk to the doctor about that, too, to make sure that there are no underlying medical problems. But assuming everything is okay, is there anything that happened about a year ago that you can think of that would have made you tired for any reason?"
+
+Patient: "No, because it wasn't a sudden jump. It was just, like, gradually getting more and more tired as the year went on."
+
+Physician: "Do you have any ideas as to what it might be?"
+
+Patient: "Maybe lack of exercise."

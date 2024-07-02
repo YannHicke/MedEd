@@ -1,0 +1,5 @@
+Physician: Hi. My name is Amy. Mr. Smitherson, is that correct?
+
+Patient: You can call me Tom.
+
+Physician: Okay. Nice to meet you. I'm a second-year medical student. I understand you've come in today because you're interested in quitting smoking. Is that correct?

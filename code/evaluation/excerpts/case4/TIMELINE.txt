@@ -1,0 +1,53 @@
+Physician: "So why don't you tell me about when your chest pain started."
+
+Patient: "About two nights ago, I noticed the pain, and I thought it might have just went away on its own, but it hasn't, so I'm getting more nervous about it."
+
+Physician: "What were you doing at the time when your chest pain started?"
+
+Patient: "I was mountain biking, and I ended up falling off and hit myself, but right here in my chest. So I know that's where the heart is, so I'm worried it could have shaken things up a little bit."
+
+Physician: "So it started two nights ago when you were mountain biking and you hit your chest on the handles. And tell me how it's been since that point."
+
+Patient: "Well, at the time I was a little concerned because of where I got hit. And maybe because I was buzzed, I didn't feel it as serious."
+
+Physician: "I see"
+
+Patient: "Yesterday it was more severe, the pain. And it hasn't gone away yet, so that's why I'm getting a little nervous about it."
+
+Physician: "Can you tell me about what the pain feels like to you?"
+
+Patient: "It's like an aching pain that's always there."
+
+Physician: "Okay, so it's always there?"
+
+Patient: "Yeah. It doesn't come and go?"
+
+Patient: "No, there's a sharpness that will come sometimes when I move."
+
+Physician: "Okay"
+
+Patient: "And it's on my left side too."
+
+Physician: "It's on your left side. Okay. And you said the sharpness comes on when you move."
+
+Patient: "Yeah, especially I tried reaching for a jar of peanut butter that's about this high in my kitchen, and that was tough."
+
+Physician: "Anything else that makes the pain worse?"
+
+Patient: "No, just really the movement."
+
+Physician: "Anything that makes your pain better?"
+
+Patient: "I've been taking some Advil, and that's helped, and just staying still."
+
+Physician: "Anything else?"
+
+Patient: "No."
+
+Physician: "And does your pain radiate anywhere?"
+
+Patient: "No, just when I move kind of out from the chest a little bit. And I'm left-handed, unfortunately, so I keep forgetting, and I keep moving with that arm."
+
+Physician: "Any other symptoms associated with the pain?"
+
+Patient: "No."

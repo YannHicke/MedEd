@@ -1,0 +1,367 @@
+Physician: "Good. So then what I'm going to do is I'm going to ask you a few questions to get a medical history and some reasons behind your wanting to do an exercise program, and then we can get into talking about how to start that. Does that sound okay?"
+
+Patient: "Okay. Sounds great."
+
+Physician: "So how old are you, Velma?"
+
+Patient: "I'm 64."
+
+Physician: "Great. And do you have any medical problems, anything that you know of?"
+
+Patient: "Yeah. I have high cholesterol."
+
+Physician: "Do you take anything for it?"
+
+Patient: "Yeah. Lipitor is it?"
+
+Physician: "Yeah. And do you know how long you've been on that?"
+
+Patient: "For at least three years now."
+
+Physician: "And when was the last time you saw your doctor?"
+
+Patient: "About six months ago."
+
+Physician: "And was everything okay?"
+
+Patient: "Yeah. Everything was fine except for the cholesterol is still running a little high."
+
+Physician: "I'm glad you're on the medication for it. So tell me why you want to start an exercise program."
+
+Patient: "Well, I've been tired for the last almost year. You know, it seems to be getting progressively worse, so I don't know if it'll help, but I'm hoping it will."
+
+Physician: "My guess is that it will. And is this something you discussed with your doctor six months ago?"
+
+Patient: "No, I didn't."
+
+Physician: "Well, we might want to talk to the doctor about that, too, to make sure that there are no underlying medical problems. But assuming everything is okay, is there anything that happened about a year ago that you can think of that would have made you tired for any reason?"
+
+Patient: "No, because it wasn't a sudden jump. It was just, like, gradually getting more and more tired as the year went on."
+
+Physician: "Do you have any ideas as to what it might be?"
+
+Patient: "Maybe lack of exercise."
+
+Physician: "Hey, good thing you're here. That sounds good. Have you thought at all about types of exercise that you might be interested in?"
+
+Patient: "Yeah. If possible, maybe some swimming. And then I don't know that much about the machines, but, you know, I'd like to find out."
+
+Physician: "We can talk about that. So you are interested in starting an exercise program because you've been a little bit more tired lately and you think it might be due to lack of exercise. And you've thought a little bit about starting a program. And I've asked you about your medical history, so I know that you do have high cholesterol."
+
+Patient: "Right."
+
+Physician: "And have you ever had any surgeries?"
+
+Patient: "Yes. I've had twice surgery."
+
+Physician: "Could you tell me about those?"
+
+Patient: "Yeah. One of them was when I was in labor with my son. It just stopped. All the contractions and everything stopped, so they went in and did a C-section. And the other one was I was on my girlfriend's horse and I got thrown off the horse, and so I had a bad disc. And I had to have surgery on the back disc."
+
+Physician: "And is everything okay as a result of those surgeries?"
+
+Patient: "Yeah. Sometimes I get pain in the back and I just use some Motrin and it seems to help."
+
+Physician: "So that could have something to do with what type of exercise program we choose. So what we'll try to do is once we decide on an exercise program, check back with you pretty often so that we make sure your back is okay. Do you take any other medications other than the Lipitor and the Motrin you said once in a while?"
+
+Patient: "Right. No. Nothing else."
+
+Physician: "Do you take any vitamins? Any supplements?"
+
+Patient: "No."
+
+Physician: "Do you have any allergies?"
+
+Patient: "Not that I know of."
+
+Physician: "Good. Tell me about your exercise history. Have you ever exercised routinely?"
+
+Patient: "Yeah. Before the children were born, I used to play tennis a lot and did it, well, probably four or five days a week."
+
+Physician: "Good."
+
+Patient: "But after the children came along, we started doing things as a family. You know, hiking, biking, things like that, playing tennis. But it was a hit-and-miss kind of situation."
+
+Physician: "As happens sometimes with children when they come along. So you said that you stopped exercising regularly around the time you were married and had children. When was that?"
+
+Patient: "Oh, God."
+
+Physician: "Or how old were you?"
+
+Patient: "I was 25 at the time."
+
+Physician: "So it's been a little while since you've done regular exercise. And it's great. It sounds like you have been fairly active on and off since that time. So we have more of a starting point to start an exercise routine."
+
+Patient: "Okay."
+
+Physician: "And have you tried, since you were about 25, to start some sort of regular exercise routine?"
+
+Patient: "Not really, no."
+
+Physician: "Let's see. Is there anything that you think would stop you from exercising? Anything that you're worried about?"
+
+Patient: "Well, I'm kind of leery of going to a gym, although I guess they have the best facility. But since I have the problems and I just don't want to be in a bathing suit, I have horrendous varicose veins, which don't look too nice. So it's kind of making me – I mean, I will do it probably, but it's going to be hard to get into."
+
+Physician: "We'll keep that in mind, too, when we eventually talk about what exactly we should be doing. Tell me something about your family. Who do you live with?"
+
+Patient: "I live with my husband and our dog, Bones. And that's it."
+
+Physician: "How old is your husband?"
+
+Patient: "He's 63."
+
+Physician: "Does he have any medical problems that you know of?"
+
+Patient: "Yeah. He has high blood pressure, but not such that he needs medication for it."
+
+Physician: "Is he active?"
+
+Patient: "Not overly active, no."
+
+Physician: "About the same as you?"
+
+Patient: "Right."
+
+Physician: "How about family in the area? Do you have any other family members around?"
+
+Patient: "Yeah. We have our daughter, Lucy, and she lives in Manchester. And we have our son, Robert, and he's in Westwood, New Jersey."
+
+Physician: "So you have one child in the area and one a little farther away. And do you work?"
+
+Patient: "Yeah, I work part-time at Manchester Community College."
+
+Physician: "What do you do there?"
+
+Patient: "I'm in the art department, so I teach painting, but the one I like best is sculpturing."
+
+Physician: "Sounds cool."
+
+Patient: "Yeah, it is. It's really cool."
+
+Physician: "And how much do you work?"
+
+Patient: "About maybe 20 hours a week."
+
+Physician: "So you spend a fair amount of time there, but not all your time. Run me through a typical day for you. You know, how much sleep you get, how you spend your time outside of school."
+
+Patient: "Okay. I get up usually at 6 o'clock in the morning, let Bones out to go do his business, and then bring him back in, make breakfast for Bill and I."
+
+Physician: "Is Bill your husband?"
+
+Patient: "Husband, yeah."
+
+Physician: "Okay."
+
+Patient: "We have our breakfast and then get ready to go to our respective jobs."
+
+Physician: "What does he do? Sorry to interrupt."
+
+Patient: "He's a high school social studies teacher. And so after I finish, which is usually earlier in the day, I'll come home and maybe clean the condo if I have to. Go out in the yard, read something. Or if it's a really nice day, maybe do some painting out in the yard."
+
+Physician: "Sounds like you really like art."
+
+Patient: "Yeah, I do."
+
+Physician: "Good. So you said you live in a condo. And what town? I didn't ask you what town you live in."
+
+Patient: "Winchelux."
+
+Physician: "Okay. So then you're not too far from your work. What type of neighborhood do you live in?"
+
+Patient: "What we consider a very safe neighborhood."
+
+Physician: "That's good. That means we could have you get out and walk a little bit."
+
+Patient: "Yeah. And that would be safe then."
+
+Physician: "Good. Is there anything that's particularly stressful in your life? Is there something that you worry about? Sometimes stressors can have an effect on people's habits, like eating and exercise and all that."
+
+Patient: "Well, my biggest stress is my mom. She's still in the nursing home. She's been there 30 years."
+
+Physician: "Wow."
+
+Patient: "And she's getting progressively worse."
+
+Physician: "What is she ill with?"
+
+Patient: "Arthritis. She's crumpled up because of the arthritis."
+
+Physician: "And speaking of family, then, if she's had such a serious history of arthritis, that's something to think about for you too."
+
+Patient: "Yes."
+
+Physician: "Does she have any other medical conditions?"
+
+Patient: "No, just the arthritis."
+
+Physician: "How about your father? Is he still alive?"
+
+Patient: "No, he passed away about 10 years ago."
+
+Physician: "And what did he die from?"
+
+Patient: "Heart attack."
+
+Physician: "Okay. So in your family, then, there's a history of heart attack and some arthritis. And you said you yourself have high cholesterol."
+
+Patient: "Right."
+
+Physician: "Now, all of these things are things that exercise can help. Have you heard about the benefits that exercise has?"
+
+Patient: "Not really."
+
+Physician: "Well, exercise is very good for your heart health, for your lung health, pretty much total body health. Sometimes it can help out with weight loss, which then leads to additional benefits for your heart and the rest of your body, including your joints. So it might be important, especially important, if you have a family history of any of those things, to exercise in order to avoid your getting them. Does that make sense?"
+
+Patient: "Yeah, it does."
+
+Physician: "Good. And let's see, so you have a husband who is fairly active, and he's also a teacher. Do you think he would be at all interested in exercising with you?"
+
+Patient: "I think I might be able to get him to exercise with me, yes."
+
+Physician: "And do you think you'd like to exercise with someone, or do you see yourself exercising by yourself?"
+
+Patient: "No, I'd rather have company when I start."
+
+Physician: "I understand that. I would, too. Have you discussed, you know, you said that you haven't discussed an exercise program with him, but you think he might be interested?"
+
+Patient: "Well, I've talked about it, and he said, you know, he would definitely back me on anything I wanted to do."
+
+Physician: "Okay."
+
+Patient: "And I think it would, if I decided I wanted to do ballet dance, I'm sure he wouldn't, you know, want to do that, too."
+
+Physician: "Yeah."
+
+Patient: "So, yeah, but as long as it's within a framework that he can work in, he would go along with me."
+
+Physician: "Good. We can work with that. Is there anyone else who lives nearby that you think would be willing to exercise with you?"
+
+Patient: "Yeah, I kind of mentioned it to my daughter, Lucy, and she goes sporadically to a gym."
+
+Physician: "Okay."
+
+Patient: "So if I could convince her to go more often, she would go with me."
+
+Physician: "And you'd also mentioned that a gym would be something you'd be interested in."
+
+Patient: "Right."
+
+Physician: "Though you mentioned varicose veins. Do you think you'd be less worried about those if your daughter were with you?"
+
+Patient: "Probably."
+
+Physician: "Okay. And does the gym that she'd go to, is that in Manchester where she lives?"
+
+Patient: "Yes, it is."
+
+Physician: "Okay. So then that's close to your work, too."
+
+Patient: "Right."
+
+Physician: "And that might work. Now, gyms can be somewhat of a financial burden. Do you have any financial concerns?"
+
+Patient: "No. I would say we're living comfortably. Well, I've been thinking about retiring, and even if I retire and we lose that, it would still be okay."
+
+Physician: "It would be okay."
+
+Patient: "Yeah."
+
+Physician: "So we might be able to fit in paying for a gym. And do you have insurance?"
+
+Patient: "Yeah, through my husband's work."
+
+Physician: "And do you think your husband would also be interested in going to the gym in Manchester?"
+
+Patient: "It would depend upon what time we go."
+
+Physician: "His schedule. It being a little farther away for him. Okay. Well, let's see. How about we think about your starting a gym program and talking to your daughter, Lucy, and trying to get her involved in that with you. And seeing if your husband would want to do that, too. And what we could do is we could make some sort of alternating routine. You could spend two or three days a week at the gym with Lucy, and you could spend a few days a week doing something with your husband, another type of exercise, if he isn't able to make it to the gym."
+
+Patient: "Sounds good."
+
+Physician: "Okay. Let's see. So at the gym, another benefit is that they often have personal trainers. And what they do is for a first visit at the gym, gyms usually give the new client, say, an hour or so with a personal trainer to walk them around the gym and show them how to use different machines. You said that you would be interested in trying out machines."
+
+Patient: "Right."
+
+Physician: "And their job is to show you how to do that safely and to show you how to use a variety of muscles, which is a good idea."
+
+Patient: "Yes."
+
+Physician: "So I think that that could also help, would probably help you to feel more comfortable in a gym as well."
+
+Patient: "Yes."
+
+Physician: "And do you know if there's a pool in that gym?"
+
+Patient: "I believe there is."
+
+Physician: "All right. And you said that you would like swimming."
+
+Patient: "Oh, yes."
+
+Physician: "If you could put the bathing suit on."
+
+Patient: "Yes."
+
+Physician: "Okay. Well, that's good. And another thing I'd like to do is I would like to talk further in probably another appointment about the pain in your back. And we might do it here at the doctor's office, or I might have you speak with a physical therapist. I'd really like to make sure that any exercises you do on your back would be okay with your back pain with that prior surgery."
+
+Patient: "Oh, yes. Very much so, because I wouldn't want to have to go through the disc operation again."
+
+Physician: "Understandably. I hear those are tough."
+
+Patient: "Yes."
+
+Physician: "Okay. So how about this? Would you like to start exercising as of a few days from now? Would you be ready for that?"
+
+Patient: "Give me at least a week."
+
+Physician: "At least a week?"
+
+Patient: "Yes."
+
+Physician: "Okay. And then what we can do is we can get you back in here or to see the physical therapist within that week. And we can assess your back before you start that exercise program. And also in that week, if you could speak with Lucy and with Bill, your husband, about Bill's going to the gym in Manchester with you and to see how many days a week they'd be interested in going or also what sort of exercises Bill might be interested in if he's not willing or can't go to the gym in Manchester. Such as, say, walking around your neighborhood. You could take your dog for a walk."
+
+Patient: "Yes."
+
+Physician: "Or finding another pool nearby and swimming with you."
+
+Patient: "Oh."
+
+Physician: "That would be another thing. Or even you could do some exercises in the home too. Some people buy little weights that you can do weight exercises with at home."
+
+Patient: "Okay. Yeah, I've seen those in the stores."
+
+Physician: "Okay, good. Good, so you're familiar with them."
+
+Patient: "Right."
+
+Physician: "And then, say, in a week from now, you can start your exercise routine. And I'll give you a calendar, and on that calendar you could write down which exercises you do each day."
+
+Patient: "Okay."
+
+Physician: "And that's good for a few reasons. It's good because you can feel good about what you've done. It's always good to look back and see that you've done it."
+
+Patient: "Right."
+
+Physician: "And it's so that you could bring it back and we could talk about it and discuss any changes we want to make if you're having any pain or if you want to increase your activity, that sort of thing."
+
+Patient: "Okay, that sounds great."
+
+Physician: "So just to make sure that I explained that clearly, I know I was a little jumbled in what I was saying, could you tell me what we just agreed upon and what you got from that?"
+
+Patient: "That I'm going to start at the gym that has the pool and go to that and see if my daughter and or my husband would like to do that and or go to the regular gym and have the personal trainer show me some of the bikes and things that they have and how to use them."
+
+Physician: "Sure. Good. That sounds good. And so I'll let you talk to your family members and we'll set you up for an appointment within the next week."
+
+Patient: "Okay."
+
+Physician: "And then I'll let you start on the exercise program in about a week. And how about I make a follow-up appointment with you for a month from now to talk about how it's going."
+
+Patient: "Sounds good. Sounds very good."
+
+Physician: "Okay. So I'm going to go get the doctor and you can sit here for a few minutes and we'll be back in to discuss."
+
+Patient: "Okay. All right."
+
+Physician: "It was nice to meet you."
+
+Patient: "Nice meeting you."

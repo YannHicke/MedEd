@@ -1,0 +1,4 @@
+Physician: "So what brings you into the office today?"
+Patient: "Well, I'm wanting to do something with exercise, and I'm not really sure what I want to do or why even to do it."
+Physician: "Okay. Well, then I'm glad you came in. We can certainly talk about that. Is there anything else that you're concerned about?"
+Patient: "No."

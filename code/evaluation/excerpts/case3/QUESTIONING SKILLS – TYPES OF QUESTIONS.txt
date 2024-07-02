@@ -1,0 +1,89 @@
+Physician: "Is that how you'd like to be addressed today?"
+
+Physician: "Is that okay?"
+
+Physician: "All right, so tell me a little bit about what brought you to the office today."
+
+Physician: "Can you tell me a little bit about that?"
+
+Physician: "And what makes it sharp?"
+
+Physician: "Is there anything that makes the pain better?"
+
+Physician: "How much Advil are you taking?"
+
+Physician: "Do you know what the dose is of the Advil?"
+
+Physician: "Anything else that makes your pain better?"
+
+Physician: "And you said lifting makes it worse."
+
+Physician: "Do you lift on a regular basis or did you notice it somehow?"
+
+Physician: "It's been going on for how long now?"
+
+Physician: "Is it getting better or worse over time?"
+
+Physician: "And you're gonna be going back to work tomorrow, you said?"
+
+Physician: "And do you think your boss would be okay with you taking some time off if you needed to?"
+
+Physician: "Do you have any other symptoms besides the pain in your chest?"
+
+Physician: "Like any coughing, any shortness of breath?"
+
+Physician: "Does that sound about right?"
+
+Physician: "Do you take any medicines on a daily basis?"
+
+Physician: "Do you know what it is that you take for your allergies?"
+
+Physician: "Any other vitamins or supplements that you take?"
+
+Physician: "And how much fish oil are you taking?"
+
+Physician: "And why is it that you take fish oil?"
+
+Physician: "How long have you been doing that for?"
+
+Physician: "Any other allergies that you have?"
+
+Physician: "Have you ever had surgery before?"
+
+Physician: "Have you ever been hospitalized or been to the emergency room?"
+
+Physician: "Can you tell me a little bit about that?"
+
+Physician: "Does she use insulin for that?"
+
+Physician: "Anyone else in your family with diabetes?"
+
+Physician: "Anyone else in your family with heart problems?"
+
+Physician: "Can you tell me about your living situation?"
+
+Physician: "And do you have any family or friends in the area?"
+
+Physician: "And do you have any friends or significant other?"
+
+Physician: "So do you think that you could look to your girlfriend in a time of need for her to help you out if you were sick or anything like that?"
+
+Physician: "What do you like to do in your free time?"
+
+Physician: "Have you been mountain biking recently?"
+
+Physician: "So you're mountain biking and what happened with that with the chest pain?"
+
+Physician: "And in terms of other things that you do in your free time, do you drink any alcohol?"
+
+Physician: "How much do you drink on the weekends?"
+
+Physician: "Had you been drinking at the time when you were mountain biking?"
+
+Physician: "Do you think that that affected you at all?"
+
+Physician: "Have you ever been injured when drinking in the past?"
+
+Physician: "And do you smoke any cigarettes?"
+
+Physician: "And do you use any drugs?"

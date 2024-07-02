@@ -1,0 +1,11 @@
+Physician: "All right. If anything comes up, you can just stop me or just remember for later. Sound good?"
+
+Physician: "Do you have any questions at this time or any other concerns you've thought of?"
+
+Physician: "Any questions or any other concerns?"
+
+Physician: "Any questions? Any other concerns?"
+
+Physician: "Do you have any questions in the end, or is this any other concerns?"
+
+Physician: "So we'll definitely follow up with you. And if you have any questions before the follow-up visit after about three weeks, then you can definitely come in or you can call."

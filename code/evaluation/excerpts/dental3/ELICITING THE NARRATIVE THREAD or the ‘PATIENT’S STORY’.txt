@@ -1,0 +1,55 @@
+Physician: "How's everything going for you?"
+
+Physician: "Before Kathy comes in to do your prophy, I wanted to just update your history. Have you been having any problems since you were last here for your last visit?"
+
+Physician: "How about your general health? Have there been any changes in your health since you were last here?"
+
+Physician: "Have you seen your physician recently?"
+
+Physician: "Are you on any medications right now?"
+
+Physician: "Any changes in your alcohol intake?"
+
+Physician: "How about your tobacco use?"
+
+Physician: "Do you, do you, have you ever tried to quit before?"
+
+Physician: "Why do you think that happened?"
+
+Physician: "So do you think you would want to quit, do you think?"
+
+Physician: "Have you, you said you tried to quit cold turkey in the past. Have you ever used any of the tobacco cessation products? Are you aware of any of those?"
+
+Physician: "Would you recommend any particular one?"
+
+Physician: "Is it something you're thinking about seriously at this point?"
+
+Physician: "Have you ever thought about what triggers your desire to smoke? Like, when you get a craving, when does that typically happen?"
+
+Physician: "Sometimes it's actually helpful to keep a log of when you smoke and when you get your cravings. You know, we talked about all the different medications, but it's important to keep in mind that none of those are magic bullets. To really be successful with a quit attempt, you have to really be ready. It sounds like you might be at that point."
+
+Physician: "Do you have any suggestions as to how to do that? Because I'm anticipating some really strong ones. Just from trying to quit in the past, they're real and they're there, and I really don't know what to do there."
+
+Physician: "Do you have support?"
+
+Physician: "Well, what might help, what usually helps people, is let other people know up front that you're trying to quit and you need their support. You're going to be irritable, you're going to be moody, especially during the first couple of weeks when your body's going through the nicotine withdrawal. So prepare people for that. You may be avoiding social situations where you're around other smokers. Let people know that in advance, that it's nothing personal. You're just trying to avoid temptation until you get through this critical period as your body's going through that withdrawal. So those are some suggestions."
+
+Physician: "Do you think at this point that you're willing to set an actual quit date, say, within the next month?"
+
+Physician: "So why don't we try to come up with a quit date? You said your wife doesn't smoke, so I would suggest trying to quit over a weekend when you're away from work and you're away from people who are smoking around you. How does that sound?"
+
+Physician: "Would that be a reasonable time frame for you?"
+
+Physician: "What you need to do is clean out your ashtrays at home, at work, in the car. Clean out the car so that it smells nice and fresh."
+
+Physician: "Any questions that you have at this point?"
+
+Physician: "Okay, great. Well, if you do have any questions after you go through the material, please make sure to give me a call."
+
+Physician: "Either myself or anyone in the office will certainly be willing to help you in whatever way we can. If you decide you want to go with one of the medications that we talked about, the Cantix or the Zyban, those do require a prescription. I'll be happy to write a prescription for you and provide any additional information about the products if you feel like you need it."
+
+Physician: "Okay, all right. So then what I'll do is I'll plan on calling you, say, within a couple of days."
+
+Physician: "After your actual quit date, which you said is going to be two weeks from this Saturday. From this Saturday."
+
+Physician: "All right, great. Unless I hear from you before then, if you have any questions. Sure, sure. As we talked about. Does that sound okay?"
