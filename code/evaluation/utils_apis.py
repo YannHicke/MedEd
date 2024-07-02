@@ -9,25 +9,35 @@ import os
 import json
 import random
 from mirs_prompts import mirs_prompts
+from mirs_prompts_opro import mirs_prompts_opro
 from nojson_mirs_prompts import nojson_mirs_prompts
 from mirs_prompts_noExamples import mirs_prompts_noExamples
 from nojson_mirs_prompts_noExamples import nojson_mirs_prompts_noExamples
 
 # initialize models
 client_openai = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-client_together = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
-genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
-client_anthropic = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-co = cohere.Client(os.environ["COHERE_API_KEY"])
+#client_together = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
+#genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
+#client_anthropic = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+#co = cohere.Client(os.environ["COHERE_API_KEY"])
 
 
-def openai_api_call(transcript, prompt):
-    response_openai = client_openai.chat.completions.create(
-        model="gpt-4o",
-        response_format={"type": "json_object"},
-        messages=[{"role": "system", "content": prompt},
-                {"role": "user", "content": transcript}]
-    )
+def openai_api_call(transcript, prompt, response_type="json_object"):
+    if response_type:
+        response_openai = client_openai.chat.completions.create(
+            model="gpt-4o",
+            response_format={"type": response_type},
+            messages=[{"role": "system", "content": prompt},
+                      {"role": "user", "content": transcript}],
+            temperature=0  # for reproducibility
+        )
+    else:
+        response_openai = client_openai.chat.completions.create(
+            model="gpt-4o",
+            messages=[{"role": "system", "content": prompt},
+                      {"role": "user", "content": transcript}],
+            temperature=0 #for reproducibility
+        )
     return response_openai
 
 
@@ -86,6 +96,7 @@ def together_api_call(transcript, prompt):
 def parse_json(response):
     try:
         score = json.loads(response.choices[0].message.content)["score"]
+        score = score.replace('"', '').strip() # remove additional quotations if present
         explanation = json.loads(response.choices[0].message.content)["explanation"]
     except:
         score = "N/A"
@@ -115,7 +126,7 @@ api_call_map = {
 def get_prompts_call_map(examples, prompt_type):
     if examples:
         if prompt_type == "json":
-            return mirs_prompts
+            return mirs_prompts_opro
         elif prompt_type == "string":
             return nojson_mirs_prompts
     else:

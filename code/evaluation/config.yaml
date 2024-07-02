@@ -1,6 +1,8 @@
-conversation_file: "case1.txt"
+conversation_file: "dental3.txt"
 examples: true
 mirs: true
+extract_excerpts: true
+score_from_excerpts: true
 checklist: false
 # model_list: ["openai", "gemini", "anthropic", "cohere", "together"]
 model_list: ["openai"]
