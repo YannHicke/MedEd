@@ -1,6 +1,14 @@
-conversation_file: "case1.txt"
+conversation_files: ["behavioral1.txt"]
+# conversation_files: ["case1.txt"]
 examples: true
 mirs: true
 checklist: false
-# model_list: ["openai", "gemini", "anthropic", "cohere", "together"]
-model_list: ["openai"]
+# model_list: ["openai", "gemini", "anthropic", "cohere", "together", "fireworks"]
+# model_list: ["openai"]
+# model_list: ["together"]
+# model_list: ["openai"]
+# model_list: ["anthropic"]
+# model_list: ["gemini"]
+# model_list: ["together"]
+# model_list: ["cohere"]
+model_list: ["fireworks"]
