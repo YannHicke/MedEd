@@ -64,6 +64,7 @@ def end_chat():
     os.kill(os.getpid(), signal.SIGINT)
 
 def add_text(history, text):
+    breakpoint()
     messages.append({"role": "user", "content": text})
     convo_history.append({"role": "user", "content": text})
     history = history + [(text, None)]
@@ -81,6 +82,37 @@ def bot(history):
     convo_history.append({"role": "assistant", "content": reply})
     history[-1][1] = reply
     return history
+
+# with open('/Users/yannhicke/Desktop/Research/llm-med-ed-digital-platform/Uconn/Case2/case2_transcript.txt', 'r') as file:
+#     transcript = file.read()
+
+# #isolate all physician utterances
+# import tiktoken
+# tokenizer = tiktoken.encoding_for_model("gpt-4-0125-preview")
+# def count_tokens(messages):
+#     num_tokens = 0
+#     for message in messages:
+#         num_tokens += len(tokenizer.encode(message["content"]))
+#     return num_tokens
+
+# import re
+# physician_utterances = re.findall(r'Physician:(.*?)(?=\n\nPatient:|$)', transcript, re.DOTALL)
+# num_input_tokens = 0
+# num_output_tokens = 0
+# for utterance in physician_utterances:
+#     messages.append({"role": "user", "content": utterance})
+#     convo_history.append({"role": "user", "content": utterance})
+#     num_input_tokens += count_tokens(messages)
+#     response = client.chat.completions.create(
+#             model="gpt-4-0125-preview", 
+#             messages=messages
+#         )
+#     reply= response.choices[0].message.content
+#     num_output_tokens += len(tokenizer.encode(reply))
+#     messages.append({"role": "assistant", "content": reply})
+#     convo_history.append({"role": "assistant", "content": reply})
+
+# breakpoint()
 
 
 with gr.Blocks(title="OSCE_Patient",theme=gr.themes.Soft(),css=CSS) as demo:
