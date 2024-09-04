@@ -1,0 +1,23 @@
+Physician: "So you're here to talk about your eating habits and how to change them and make them better."
+
+Physician: "So would you like to discuss making a change?"
+
+Patient: "Please."
+
+Physician: "So that's something you'd be willing to start up with?"
+
+Patient: "I'd like to do that as soon as possible."
+
+Physician: "So is that something you'd be willing to enroll in?"
+
+Patient: "Actually, I was thinking, and yes, that sounds like something I would do. Now that we're talking about it, I'm starting to think."
+
+Physician: "But you're looking into how to cook, so maybe that's just a default way to make friends."
+
+Patient: "That's a good idea. I like that."
+
+Physician: "And you could sign that, and that could just make it more official, and you could feel more motivated to do it, too."
+
+Patient: "Very good. I'd be happy to sign that. I'm feeling pretty motivated. Great. This conversation is getting me excited."
+
+Physician: "Well, I'm glad. I'm really glad that you're motivated to take the first step in eating healthfully, and that'll be really good for you, I'm sure."

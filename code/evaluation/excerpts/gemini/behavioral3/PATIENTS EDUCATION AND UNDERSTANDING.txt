@@ -1,0 +1,3 @@
+Physician: "So, for example, you eat cereal with whole milk. Like, have you thought about trying 1% or 2% milk just to bring down the fat content a bit?"
+Patient: "That's a good idea. I hadn't thought of it."
+Physician: "Okay. Well, there's something you can do right now before seeing a dietician."

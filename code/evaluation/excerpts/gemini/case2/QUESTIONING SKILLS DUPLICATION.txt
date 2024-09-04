@@ -1,0 +1,20 @@
+Physician: "And you said the pain does radiate a little bit. It moves into your groin a little bit."
+Patient: "Mm-hmm"
+Physician: "Okay. Anything make the pain better?"
+
+Physician: "But that didn't seem to do much?"
+Patient: "No."
+Physician: "And walking around didn't seem to do much either?"
+Patient: "No."
+
+Physician: "So you've had this pain that woke you up out of sleep this morning. It was really severe, tearing pain in your right side, about a 10 out of 10, really one of the worst pains you've ever had. Moves into your groin a little bit, and you tried to walk around, took some Tylenol, nothing really helped to make it any better. And at the same time, you also had this feeling that you had to pee, and you tried to pee and weren't able to pass any urine until later this morning when you finally were able to pass some urine, but you noticed it was kind of a funny reddish color. And at the same time, you had some nausea, but no vomiting, and you haven't really had any other urinary symptoms. I'm not sure if I asked that. Have you had any pain with urinating?"
+
+Physician: "Okay. All right. And any surgeries?"
+Patient: "I had my tubes tied after the last child was born."
+Physician: "Okay. How about medications? We already talked about the Tums that you're taking. You've taken some Tylenol. Do you take any other medicines?"
+
+Physician: "Okay. How about alcohol? Do you drink alcohol?"
+Patient: "Occasionally."
+Physician: "Okay. How much do you think you normally drink?"
+Patient: "Oh, I would say if we go out to dinner. I'd have a glass of wine or, you know, if we go to a party or something."
+Physician: "Okay, all right. If you had to say number of times per week or per month, about how many times?"

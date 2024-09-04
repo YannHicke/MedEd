@@ -1,0 +1,47 @@
+Physician: "Now, all of these things are things that exercise can help. Have you heard about the benefits that exercise has?"
+
+Patient: "Not really."
+
+Physician: "Well, exercise is very good for your heart health, for your lung health, pretty much total body health. Sometimes it can help out with weight loss, which then leads to additional benefits for your heart and the rest of your body, including your joints. So it might be important, especially important, if you have a family history of any of those things, to exercise in order to avoid your getting them. Does that make sense?"
+
+Patient: "Yeah, it does."
+
+Physician: "Okay. Let's see. So at the gym, another benefit is that they often have personal trainers. And what they do is for a first visit at the gym, gyms usually give the new client, say, an hour or so with a personal trainer to walk them around the gym and show them how to use different machines. You said that you would be interested in trying out machines."
+
+Patient: "Right."
+
+Physician: "And their job is to show you how to do that safely and to show you how to use a variety of muscles, which is a good idea."
+
+Patient: "Yes."
+
+Physician: "And another thing I'd like to do is I would like to talk further in probably another appointment about the pain in your back. And we might do it here at the doctor's office, or I might have you speak with a physical therapist. I'd really like to make sure that any exercises you do on your back would be okay with your back pain with that prior surgery."
+
+Patient: "Oh, yes. Very much so, because I wouldn't want to have to go through the disc operation again."
+
+Physician: "Understandably. I hear those are tough."
+
+Patient: "Yes."
+
+Physician: "And then, say, in a week from now, you can start your exercise routine. And I'll give you a calendar, and on that calendar you could write down which exercises you do each day."
+
+Patient: "Okay."
+
+Physician: "And that's good for a few reasons. It's good because you can feel good about what you've done. It's always good to look back and see that you've done it."
+
+Patient: "Right."
+
+Physician: "And it's so that you could bring it back and we could talk about it and discuss any changes we want to make if you're having any pain or if you want to increase your activity, that sort of thing."
+
+Patient: "Okay, that sounds great."
+
+Physician: "So just to make sure that I explained that clearly, I know I was a little jumbled in what I was saying, could you tell me what we just agreed upon and what you got from that?"
+
+Patient: "That I'm going to start at the gym that has the pool and go to that and see if my daughter and or my husband would like to do that and or go to the regular gym and have the personal trainer show me some of the bikes and things that they have and how to use them."
+
+Physician: "Sure. Good. That sounds good. And so I'll let you talk to your family members and we'll set you up for an appointment within the next week."
+
+Patient: "Okay."
+
+Physician: "And then I'll let you start on the exercise program in about a week. And how about I make a follow-up appointment with you for a month from now to talk about how it's going."
+
+Patient: "Sounds good. Sounds very good."

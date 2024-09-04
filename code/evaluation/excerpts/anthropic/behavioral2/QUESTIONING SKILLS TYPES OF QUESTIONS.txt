@@ -1,0 +1,47 @@
+Here are the relevant questions used by the physician:
+
+Physician: "So what brings you into the office today?"
+
+Physician: "Is there anything else that you're concerned about?"
+
+Physician: "Do you have any medical problems, anything that you know of?"
+
+Physician: "Do you take anything for it?"
+
+Physician: "And do you know how long you've been on that?"
+
+Physician: "And when was the last time you saw your doctor?"
+
+Physician: "And was everything okay?"
+
+Physician: "So tell me why you want to start an exercise program."
+
+Physician: "Do you have any ideas as to what it might be?"
+
+Physician: "Have you thought at all about types of exercise that you might be interested in?"
+
+Physician: "And have you ever had any surgeries?"
+
+Physician: "Could you tell me about those?"
+
+Physician: "Do you take any other medications other than the Lipitor and the Motrin you said once in a while?"
+
+Physician: "Do you take any vitamins? Any supplements?"
+
+Physician: "Do you have any allergies?"
+
+Physician: "Tell me about your exercise history. Have you ever exercised routinely?"
+
+Physician: "And have you tried, since you were about 25, to start some sort of regular exercise routine?"
+
+Physician: "Let's see. Is there anything that you think would stop you from exercising? Anything that you're worried about?"
+
+Physician: "Tell me something about your family. Who do you live with?"
+
+Physician: "Run me through a typical day for you. You know, how much sleep you get, how you spend your time outside of school."
+
+Physician: "Is there anything that's particularly stressful in your life? Is there something that you worry about?"
+
+Physician: "Have you heard about the benefits that exercise has?"
+
+Physician: "And do you think you'd like to exercise with someone, or do you see yourself exercising by yourself?"

@@ -1,0 +1,27 @@
+Physician: "Okay, and you said lifting makes it worse."
+
+Physician: "Okay, so you mentioned a couple days. It's been going on for how long now?"
+
+Physician: "Two nights ago. Okay, and is it getting better or worse over time?"
+
+Physician: "About the same. Okay, and you're gonna be going back to work tomorrow, you said?"
+
+Physician: "Okay, and you lift boxes at work?"
+
+Physician: "Okay, so you said she grew up with diabetes so she's had diabetes for a long time."
+
+Physician: "Does she use insulin for that?"
+
+Physician: "Okay. And you said she also had a heart surgery?"
+
+Physician: "And you said you take Flonase for that?"
+
+Physician: "So you're mountain biking and what happened with that with the chest pain?"
+
+Physician: "Oh, I see. Okay. So you hit your chest when you were mountain biking and your chest pain started after that."
+
+Physician: "Okay. And so you were mountain biking on the weekend and you drink on the weekend. Had you been drinking at the time when you were mountain biking?"
+
+Physician: "Okay. Do you think that that affected you at all?"
+
+

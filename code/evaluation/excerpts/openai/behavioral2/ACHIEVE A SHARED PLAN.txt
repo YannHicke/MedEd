@@ -1,0 +1,35 @@
+Physician: "Great. So then what I'm going to do is I'm going to ask you a few questions to get a medical history and some reasons behind your wanting to do an exercise program, and then we can get into talking about how to start that. Does that sound okay?"
+
+Physician: "Well, we might want to talk to the doctor about that, too, to make sure that there are no underlying medical problems. But assuming everything is okay, is there anything that happened about a year ago that you can think of that would have made you tired for any reason?"
+
+Physician: "So that could have something to do with what type of exercise program we choose. So what we'll try to do is once we decide on an exercise program, check back with you pretty often so that we make sure your back is okay."
+
+Physician: "Now, all of these things are things that exercise can help. Have you heard about the benefits that exercise has?"
+
+Physician: "Well, exercise is very good for your heart health, for your lung health, pretty much total body health. Sometimes it can help out with weight loss, which then leads to additional benefits for your heart and the rest of your body, including your joints. So it might be important, especially important, if you have a family history of any of those things, to exercise in order to avoid your getting them. Does that make sense?"
+
+Physician: "How about we think about your starting a gym program and talking to your daughter, Lucy, and trying to get her involved in that with you. And seeing if your husband would want to do that, too. And what we could do is we could make some sort of alternating routine. You could spend two or three days a week at the gym with Lucy, and you could spend a few days a week doing something with your husband, another type of exercise, if he isn't able to make it to the gym."
+
+Physician: "Okay. Let's see. So at the gym, another benefit is that they often have personal trainers. And what they do is for a first visit at the gym, gyms usually give the new client, say, an hour or so with a personal trainer to walk them around the gym and show them how to use different machines. You said that you would be interested in trying out machines."
+
+Physician: "And another thing I'd like to do is I would like to talk further in probably another appointment about the pain in your back. And we might do it here at the doctor's office, or I might have you speak with a physical therapist. I'd really like to make sure that any exercises you do on your back would be okay with your back pain with that prior surgery."
+
+Physician: "Okay. And then what we can do is we can get you back in here or to see the physical therapist within that week. And we can assess your back before you start that exercise program. And also in that week, if you could speak with Lucy and with Bill, your husband, about Bill's going to the gym in Manchester with you and to see how many days a week they'd be interested in going or also what sort of exercises Bill might be interested in if he's not willing or can't go to the gym in Manchester. Such as, say, walking around your neighborhood. You could take your dog for a walk."
+
+Physician: "Or finding another pool nearby and swimming with you."
+
+Physician: "That would be another thing. Or even you could do some exercises in the home too. Some people buy little weights that you can do weight exercises with at home."
+
+Physician: "And then, say, in a week from now, you can start your exercise routine. And I'll give you a calendar, and on that calendar you could write down which exercises you do each day."
+
+Physician: "And that's good for a few reasons. It's good because you can feel good about what you've done. It's always good to look back and see that you've done it."
+
+Physician: "And it's so that you could bring it back and we could talk about it and discuss any changes we want to make if you're having any pain or if you want to increase your activity, that sort of thing."
+
+Physician: "So just to make sure that I explained that clearly, I know I was a little jumbled in what I was saying, could you tell me what we just agreed upon and what you got from that?"
+
+Patient: "That I'm going to start at the gym that has the pool and go to that and see if my daughter and or my husband would like to do that and or go to the regular gym and have the personal trainer show me some of the bikes and things that they have and how to use them."
+
+Physician: "Sure. Good. That sounds good. And so I'll let you talk to your family members and we'll set you up for an appointment within the next week."
+
+Physician: "And then I'll let you start on the exercise program in about a week. And how about I make a follow-up appointment with you for a month from now to talk about how it's going."

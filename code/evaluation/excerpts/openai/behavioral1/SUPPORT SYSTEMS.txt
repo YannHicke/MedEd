@@ -1,0 +1,25 @@
+Physician: "So it's probably been tough on you in terms of your father's health history and also school. So who really serves as your social support? Would you say it's your parents, or do you have friends in the area?"
+
+Patient: "Well, it's mostly my parents since I'm at home. I don't really have that many friends in the area since most of my friends are out of state where I went to school."
+
+Physician: "Okay. Do you have insurance through your job?"
+
+Patient: "No. That's the unfortunate part."
+
+Physician: "Okay. So later on when we discuss different treatment options to help you quit smoking, that's one thing we can discuss is your financial situation, and we can definitely take that into account."
+
+Physician: "The other thing you mentioned is that you live attached to your parents' house."
+
+Patient: "That's right."
+
+Physician: "And they mainly serve as your social support. So it's a really good idea to get their support in your efforts. So tell them that you're going to quit smoking, and I'm sure they'll support you considering they themselves quit smoking."
+
+Patient: "My mom has been on my case since she quit."
+
+Physician: "She's a good mom."
+
+Patient: "So I'm sure she'll be happy to hear that."
+
+Physician: "Luckily, considering the financial hardships that you're facing right now, Pfizer actually has a program where they can actually sponsor the prescription for you. So they'll pay everything. They'll take into consideration your salary and the fact that you don't have insurance, and they'll pay for your prescription, and all you have to do is pick it up."
+
+Patient: "That sounds good."

@@ -1,0 +1,3 @@
+Physician: "Is there anything that you wanted to ask me? Any questions that you have?"
+Patient: "No, I just want to know if there's any, you know, what happened last night and if there's anything I could do so to prevent it from happening again."
+Physician: "Absolutely, absolutely. That makes perfect sense. It sounds like it was pretty scary, so I think that we're going to be able to come to a conclusion about what this is and give you some strategies for avoiding it in the future. Okay. All right, so I'm just going to give you a few minutes to change into your gown and I'll be right back."

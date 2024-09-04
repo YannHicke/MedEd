@@ -1,0 +1,5 @@
+Physician: "Well, I'm glad you came in."
+
+Physician: "Good. Well, I'm glad to hear that you're wearing a helmet."
+
+Physician: "Okay. Well, I'm glad to hear that you're wearing a helmet."

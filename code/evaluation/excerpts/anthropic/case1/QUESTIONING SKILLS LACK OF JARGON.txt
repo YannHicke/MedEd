@@ -1,0 +1,9 @@
+Physician: "Can you start from the beginning and really tell me everything you can remember about when it started?"
+
+Physician: "Sounds like it was a long morning for you."
+
+Physician: "Okay. I just want to move on now and ask you some more questions about your health."
+
+Physician: "How would you describe your overall health?"
+
+Physician: "Okay. I'm glad you have that support in your life. In terms of the history, I feel like we've gotten a pretty good idea of what's going on and the symptoms that you've had. So at this point, I think we just need to do the physical exam, see if you need any tests, and then we'll move on from there."

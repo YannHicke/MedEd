@@ -1,0 +1,6 @@
+Physician: "Do you have any ideas as to what it might be?"
+Patient: "Maybe lack of exercise."
+Physician: "Hey, good thing you're here. That sounds good."
+
+Physician: "Is there anything that's particularly stressful in your life? Is there something that you worry about? Sometimes stressors can have an effect on people's habits, like eating and exercise and all that."
+Patient: "Well, my biggest stress is my mom. She's still in the nursing home. She's been there 30 years. And she's getting progressively worse."

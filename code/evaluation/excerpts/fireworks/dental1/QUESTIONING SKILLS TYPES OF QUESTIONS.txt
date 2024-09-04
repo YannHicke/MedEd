@@ -1,0 +1,57 @@
+Physician: So what brought you here today?
+
+Physician: Can you describe the pain to me a little bit?
+
+Physician: How long is the pain, like the duration of the pain? 
+
+Physician: Have you had any problems with it before this or it's just started at 10 days, 10 days ago?
+
+Physician: Why did you have the fillings removed? What do you think was the problem?
+
+Physician: Do you think the problems with your teeth, you think they're related to chemical sensitivities? Is that my understanding?
+
+Physician: What are some of the significant medical problems that you have?
+
+Physician: Any other significant medical problems besides the shortness of breath?
+
+Physician: Any, for example, any, like, heart problems?
+
+Physician: Lung problems?
+
+Physician: Anything diagnosed of it?
+
+Physician: Anything with, like, type 2 diabetes or type 1 diabetes, anything like that?
+
+Physician: Any other medical problems that run in the family, heart problems or lung problems or anything like that?
+
+Physician: Do you live with your mom, or does she live close by?
+
+Physician: So do you have a little bit of family support then at home?
+
+Physician: But no heart murmurs or any diagnosed type of heart problem?
+
+Physician: Are you taking any medications at all?
+
+Physician: What about any herbs or anything, non-prescribed medications?
+
+Physician: Besides the anesthetics and the latex, any other allergies at all that you know of?
+
+Physician: Do you drink?
+
+Physician: What about smoking?
+
+Physician: Any infectious diseases at all, such as HIV?
+
+Physician: Have you been seeing a physician on a regular basis?
+
+Physician: Were you married or are you married at all?
+
+Physician: What about transportation? Is transportation going to be a problem or not?
+
+Physician: Do you work at all now or no?
+
+Physician: So timeframes for the appointments wouldn't be too much of a problem then?
+
+Physician: Does that sound all right?
+
+Physician: We'll probably take a couple pictures of your teeth, x-rays. Is that all right, to take some x-rays of your teeth?

@@ -1,0 +1,25 @@
+Physician: Okay. So we'll establish the appointment for the dietician.
+
+Patient: Okay.
+
+Physician: And this is something that I'd like to work with you together. We could make the appointment together. And then we can also have you make an appointment to see me and Dr. Smith in two weeks to see how, if you had the first appointment, how that went.
+
+Patient: Okay. 
+
+Physician: And also talk about maybe you've already enrolled in the class and how that's coming along.
+
+Patient: Excellent.
+
+Physician: But I really want you to feel like you can contact the office if you have any questions about nutrition or what you should be eating.
+
+Patient: Very good. Thank you.
+
+Physician: So I'm going to go talk to Dr. Smith and get you that paperwork, and you just stay right here, and I'll come back.
+
+Patient: Very good.
+
+Physician: All right? Very nice talking to you, Mr. Jones.
+
+Patient: Nice to talk to you. Thank you.
+
+Physician: Thank you.

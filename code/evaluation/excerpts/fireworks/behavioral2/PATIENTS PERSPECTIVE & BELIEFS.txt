@@ -1,0 +1,35 @@
+Physician: So tell me why you want to start an exercise program.
+
+Patient: Well, I've been tired for the last almost year. You know, it seems to be getting progressively worse, so I don't know if it'll help, but I'm hoping it will.
+
+Physician: My guess is that it will. And is this something you discussed with your doctor six months ago?
+
+Patient: No, I didn't.
+
+Physician: Do you have any ideas as to what it might be?
+
+Patient: Maybe lack of exercise.
+
+Physician: Is there anything that you think would stop you from exercising? Anything that you're worried about?
+
+Patient: Well, I'm kind of leery of going to a gym, although I guess they have the best facility. But since I have the problems and I just don't want to be in a bathing suit, I have horrendous varicose veins, which don't look too nice.
+
+Physician: Sometimes stressors can have an effect on people's habits, like eating and exercise and all that.
+
+Patient: Well, my biggest stress is my mom. She's still in the nursing home. She's been there 30 years.
+
+Physician: Now, all of these things are things that exercise can help. Have you heard about the benefits that exercise has?
+
+Patient: Not really.
+
+Physician: Do you think you'd like to exercise with someone, or do you see yourself exercising by yourself?
+
+Patient: No, I'd rather have company when I start.
+
+Physician: Is there anyone else who lives nearby that you think would be willing to exercise with you?
+
+Patient: Yeah, I kind of mentioned it to my daughter, Lucy, and she goes sporadically to a gym.
+
+Physician: Do you think you'd be less worried about those if your daughter were with you?
+
+Patient: Probably.

@@ -1,0 +1,9 @@
+Physician: "Is there anything else that you want to make sure we address today before we talk more about that pain?"
+
+Physician: "Is there anything else you can think of that you want to make sure we don't miss today?"
+
+Physician: "Okay. So I just want to kind of summarize what you've told me so far since I jumped around a little bit and make sure that I got everything right. If anything's wrong, let me know for sure, or if we forgot anything."
+
+Physician: "Okay. Does that sound like a reasonable summary? Anything I missed?"
+
+Physician: "Is there anything that you wanted to ask me? Any questions that you have?"

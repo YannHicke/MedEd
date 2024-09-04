@@ -1,0 +1,17 @@
+Physician: "Okay, so you mentioned a couple days. It's been going on for how long now?"
+
+Patient: "It started about two nights ago."
+
+Physician: "Two nights ago. Okay, and is it getting better or worse over time?"
+
+Patient: "It's about the same."
+
+Physician: "About the same. Okay, and you're gonna be going back to work tomorrow, you said?"
+
+Patient: "Yeah."
+
+Physician: "Well, I was getting late and we wanted to do, I was at my friend Ben's house and we wanted to go down the mountain one more time before it got dark. So we were kind of rushed and I fell off towards the end, hit a bump that I didn't quite see, hit myself on the bike as I fell. I was okay. Sometimes that happens. But I was worried that the jolt because of where it hit me might've shaken up things in my chest a little bit."
+
+Physician: "Oh, I see. Okay. So you hit your chest when you were mountain biking and your chest pain started after that."
+
+Patient: "Yeah."

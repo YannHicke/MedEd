@@ -1,0 +1,37 @@
+Physician: "Good morning, Ms. Park. My name is Tom."
+
+Physician: "How are you doing today?"
+
+Physician: "Sure. No problem. When you're pregnant, your body is producing hormones such as estrogen and progesterone in high levels."
+
+Physician: "And when your mouth is not ideally clean, there's plaque on your teeth. In that plaque, there's bacteria."
+
+Physician: "Sometimes the body's response against the bacteria with the hormones can be inflammation and can cause gingivitis."
+
+Physician: "When you eliminate that plaque by brushing and flossing and having dental cleanings during your pregnancy, there will be no gingivitis."
+
+Physician: "And actually, if you do not take care of this and you have plaque and gingivitis during your pregnancy, there has been research that's shown that that can lead to early birth, preterm birth, and low birth weight."
+
+Physician: "So there's pretty strong evidence to suggest there is a correlation between the two."
+
+Physician: "Okay, you're going to want to do that once a day before you go to bed at least. Ideally, you want to do it after every meal. If we keep your oral hygiene up to status and we keep you coming in for dental cleanings and just have an overall dental exam, dental cleanings during your second trimester of pregnancy, the hope is that we can eliminate your gingivitis and eliminate the possibility that it might lead to an early birth for your baby and a low birth weight."
+
+Physician: "Okay. So you don't want to get, in your culture, too big, and you want to keep the baby size smaller when you have the baby."
+
+Physician: "We can do it as it currently is without medication."
+
+Physician: "As I mentioned before, we need to get your oral hygiene."
+
+Physician: "Good. Brushing twice a day, flossing at least once a day. Then we have to have you come in for a dental exam, periodontal exam, where we examine all the gum tissue in your mouth. And we see exactly what the problem is so we can make a proper diagnosis."
+
+Physician: "Yeah, I can completely understand that you don't want to put chemicals in your body with your belief system and whatnot during the pregnancy. But I think if we weigh the risks and benefits, I think it's less risky for the baby, with the research that we know about, to have some anesthetic if you need a deep cleaning, have some anesthetic put in your mouth, and have the cleaning done to decrease the amount of gingivitis in your mouth. Do you have any other concerns or problems with the treatment that we're going to be giving?"
+
+Physician: "Right, exactly. Obviously, it's your decision whether or not you want to postpone it or not. But I'm highly recommending that you have it done now, during your second trimester, which you're just entering into. Because, like I said, there is a relationship between having the gum disease and low birth weight and premature birth. There's a high association between the two. If we can take care of your oral hygiene situation, give you a full dental cleaning, come into the office, and we'll clean everything off your teeth, that's basically going to solve the problem, if it's done correctly."
+
+Physician: "Certainly, we can evaluate. We have to have you come in for a periodontal exam, which we might be able to do later in this visit, depending on if we have time."
+
+Physician: "Sure. When we give you the anesthesia, we will keep it just in the area of your mouth that we're working on, and we'll try to give you as little as possible to make it effective."
+
+Physician: "Yes, we have a lot of scientific evidence that anesthetic is safe. There are certain instances that have been described in the past where people have reacted poorly to the anesthetic, but there's no evidence currently that's linking getting dental anesthesia, such as lidocaine or novocaine, as you know it, to any harmful effects on the child."
+
+Physician: "So do you understand everything that I'm telling you about? Could you just tell me what you think that I'm telling you, just so we're both on the same page?"

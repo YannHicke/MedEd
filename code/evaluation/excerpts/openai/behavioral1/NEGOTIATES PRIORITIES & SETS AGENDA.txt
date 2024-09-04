@@ -1,0 +1,65 @@
+Physician: "All right. So I'm just going to give you a brief on what things we'll go through today. So I'll start off by asking you questions about your current medical history, and then your past medical history, family history, social history. Get to know what you know about smoking and its effects on your body, and then we'll go through a plan. Does that sound like a good idea?"
+
+Patient: "That sounds good."
+
+Physician: "Okay. So besides your concern about quitting smoking, do you have any other things that you would like to speak about today?"
+
+Patient: "No. That was pretty much it."
+
+Physician: "All right. If anything comes up, you can just stop me or just remember for later. Sound good?"
+
+Patient: "Okay."
+
+Physician: "So later on when we discuss different treatment options to help you quit smoking, that's one thing we can discuss is your financial situation, and we can definitely take that into account."
+
+Patient: "Sure."
+
+Physician: "Sound good?"
+
+Patient: "Sure."
+
+Physician: "Okay. So now we can actually form a plan together as to how you're going to go about quitting smoking. So the first thing that's a really good idea is to actually pick a date. So it could be an upcoming birthday, or it could be any day that you see suitable. Do you have anything in mind in particular?"
+
+Patient: "Well, I'm ready to stop any time, but I don't know. I wanted to ask your recommendation about that."
+
+Physician: "Okay."
+
+Patient: "Because the last time I stopped just on my own, it didn't work."
+
+Physician: "Yeah, and I think the fact last two times you tried to quit were you went cold turkey."
+
+Patient: "Right."
+
+Physician: "That is very difficult. It's very difficult to give up a habit that you've had for quite a number of years. So I would suggest giving yourself like a week or two and picking a day."
+
+Patient: "Okay."
+
+Physician: "So why don't we pick a date in two weeks from now? So two weeks from today, we'll say that's your quit date."
+
+Patient: "Sure."
+
+Physician: "Sound good?"
+
+Patient: "Right."
+
+Physician: "Do those sound like things that you'd be interested in doing?"
+
+Patient: "Yeah, I could do them. The calendar sounds like a really good idea."
+
+Physician: "Okay, good. So we can definitely discuss that with Dr. Lelko when she comes in, and we can actually sign the contract today. And when you receive the contract and the calendar, just try to put them in places where you tend to smoke. So you mentioned in your bedroom, so put it around your bed. Also show your mom and show your dad because it'll make it believable for them that you're actually in this for good for the long term."
+
+Patient: "Okay."
+
+Physician: "And it'll serve as your own personal motivation. Does that sound good?"
+
+Patient: "Sounds good."
+
+Physician: "Okay. So from everything that we've discussed, I just want to make sure that I've said things clearly and that I haven't misspoke. Would you be able to repeat back the plan that we've come up with?"
+
+Patient: "Okay. So I'm picking a date, which is two weeks from today, to be my last day of smoking. And before that day, I'm going to try to remove anything that reminds me of smoking, you know, ashtrays and cigarettes and try to wash my sheets and clean up my car and things like that."
+
+Physician: "Good."
+
+Patient: "And we're going to try this drug, the Shantix, which I can get through Pfizer, so we have to do some paperwork for that. And also I'm going to tell my family and my friends that I'm going to try to quit smoking now and try to avoid friends who smoke at places where I normally smoke. And I'll sign a contract and have a calendar to remind me of my commitment."
+
+Physician: "Okay. Excellent. So just kind of do you have any questions in the end, or is this any other concerns?"

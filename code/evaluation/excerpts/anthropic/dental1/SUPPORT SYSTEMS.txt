@@ -1,0 +1,15 @@
+Physician: "So do you have a little bit of family support then at home?"
+
+Patient: "Well, she's 78, and the diabetes really affects her. So, I mean, it's more about her than it is about me at this point."
+
+Physician: "Okay. What about transportation? Is transportation going to be a problem or not?"
+
+Patient: "Well, I can't take public transportation. I don't know what I'm going to be exposed to with that."
+
+Physician: "Okay."
+
+Patient: "So I have friends drive me."
+
+Physician: "Okay. So you would be able to come if a friend could drive you?"
+
+Patient: "Yeah. My mom absolutely can't."

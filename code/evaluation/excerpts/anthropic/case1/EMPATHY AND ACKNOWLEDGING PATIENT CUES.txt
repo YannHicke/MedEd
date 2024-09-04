@@ -1,0 +1,13 @@
+Physician: "Sounds like it was a long morning for you."
+
+Physician: "Okay. I just want to ask you now about your family history."
+
+Physician: "Okay. All right. So are you missing work today?"
+
+Physician: "Okay. They're pretty understanding."
+
+Physician: "Okay. Okay. Last night when you had this pain, was it ever so bad that you thought about going to the hospital?"
+
+Physician: "Okay. So you never made it, but if you had really needed to go, he would have been able to help you. Take you."
+
+Physician: "Okay. All right. I'm glad you have that support in your life."

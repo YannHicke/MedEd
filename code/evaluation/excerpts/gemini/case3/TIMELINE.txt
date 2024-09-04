@@ -1,0 +1,8 @@
+Physician: "Okay, so you mentioned a couple days. It's been going on for how long now?"
+Patient: "It started about two nights ago."
+Physician: "Two nights ago. Okay, and is it getting better or worse over time?"
+Patient: "It's about the same."
+Physician: "About the same. Okay, and you're gonna be going back to work tomorrow, you said?"
+Patient: "Yeah."
+Physician: "Okay. So you hit your chest when you were mountain biking and your chest pain started after that."
+Patient: "Yeah." 

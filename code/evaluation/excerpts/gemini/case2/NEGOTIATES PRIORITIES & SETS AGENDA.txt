@@ -1,0 +1,2 @@
+Physician: "Okay. All right. Well, it sounds like the pain is a little bit more urgent right now. So, we'll start with the pain. We may get a little bit of a chance to talk about the incontinence as well. You know, that's a common problem. And we can also set up an appointment in the future to talk more about that. Does that sound okay?"
+Patient: "Yeah."

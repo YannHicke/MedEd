@@ -1,0 +1,3 @@
+Physician: "Okay. All right, so I'm just going to give you a few minutes to change into your gown and I'll be right back."
+Patient: "Okay."
+Physician: "All right. Thank you very much. Nice to meet you." 

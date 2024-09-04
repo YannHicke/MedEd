@@ -1,0 +1,3 @@
+Physician: "So what brings you in today?"
+Patient: "Well, I had an episode last night where I had really bad pain, low down in my belly."
+Physician: "Can you start from the beginning and really tell me everything you can remember about when it started?"

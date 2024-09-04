@@ -1,0 +1,47 @@
+Physician: What brings you into the dental clinic today?
+
+Patient: I have like bleeding in my gum, so I just wonder what happened.
+
+Physician: Okay. Are you feeling any pain with that bleeding?
+
+Patient: Not much, but a little sore when I brush my teeth.
+
+Physician: Is that the only time that it happens when you're brushing your teeth or you're flossing?
+
+Patient: During the day, sometimes sore, but mainly when I brush my teeth, sore and bleeding.
+
+... 
+
+Physician: Before we go into this any further, I'd like to know about your medical history. Do you have any significant medical problems right now?
+
+Patient: No.
+
+Physician: Nothing you know of? No history of diabetes, high blood pressure, cancer, anything like that?
+
+Patient: No.
+
+... 
+
+Physician: So do you understand everything that I'm telling you about? Could you just tell me what you think that I'm telling you, just so we're both on the same page?
+
+Patient: Mm-hmm. Yeah, as long as you have a strong scientific evidence it's not going to affect the fetus, then, yeah, I think I'm going to consider to take maybe.
+
+Physician: Mm-hmm.
+
+Patient: Yeah.
+
+Physician: Okay.
+
+Patient: My confidence level is reaching to the highest.
+
+Physician: Excellent. Yeah. Generally, who do you consult with for your health decisions? Do you have someone, like, are you married? Do you have any family members other than your husband?
+
+Patient: Usually I'm generally healthy, so not much to discuss with, but I live with my husband and parents-in-law.
+
+... 
+
+Physician: So do you have any other questions for me today?
+
+Patient: I think you pretty much explained.
+
+Physician: Okay.

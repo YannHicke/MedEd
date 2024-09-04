@@ -1,0 +1,8 @@
+Physician: "So you're here to talk about how you can change that to make it a little bit more healthier for you."
+Patient: "That's exactly why I came."
+
+Physician: "And that would also be a really good way for you to meet people and to get more integrated into your community, since you said you're kind of lonely out in the rural Burlington area."
+Patient: "Yeah, I could try to do that. I don't generally go looking to make friends."
+
+Physician: "But you're looking into how to cook, so maybe that's just a default way to make friends."
+Patient: "That's a good idea. I like that." 

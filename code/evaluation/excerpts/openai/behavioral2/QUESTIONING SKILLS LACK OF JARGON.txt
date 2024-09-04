@@ -1,0 +1,35 @@
+Physician: "So what brings you into the office today?"
+
+Physician: "Great. So then what I'm going to do is I'm going to ask you a few questions to get a medical history and some reasons behind your wanting to do an exercise program, and then we can get into talking about how to start that. Does that sound okay?"
+
+Physician: "And is this something you discussed with your doctor six months ago?"
+
+Physician: "Well, we might want to talk to the doctor about that, too, to make sure that there are no underlying medical problems."
+
+Physician: "Hey, good thing you're here. That sounds good. Have you thought at all about types of exercise that you might be interested in?"
+
+Physician: "So that could have something to do with what type of exercise program we choose. So what we'll try to do is once we decide on an exercise program, check back with you pretty often so that we make sure your back is okay."
+
+Physician: "That's good. That means we could have you get out and walk a little bit."
+
+Physician: "Well, exercise is very good for your heart health, for your lung health, pretty much total body health. Sometimes it can help out with weight loss, which then leads to additional benefits for your heart and the rest of your body, including your joints. So it might be important, especially important, if you have a family history of any of those things, to exercise in order to avoid your getting them. Does that make sense?"
+
+Physician: "And what they do is for a first visit at the gym, gyms usually give the new client, say, an hour or so with a personal trainer to walk them around the gym and show them how to use different machines. You said that you would be interested in trying out machines."
+
+Physician: "And their job is to show you how to do that safely and to show you how to use a variety of muscles, which is a good idea."
+
+Physician: "And another thing I'd like to do is I would like to talk further in probably another appointment about the pain in your back. And we might do it here at the doctor's office, or I might have you speak with a physical therapist. I'd really like to make sure that any exercises you do on your back would be okay with your back pain with that prior surgery."
+
+Physician: "Okay. And then what we can do is we can get you back in here or to see the physical therapist within that week. And we can assess your back before you start that exercise program. And also in that week, if you could speak with Lucy and with Bill, your husband, about Bill's going to the gym in Manchester with you and to see how many days a week they'd be interested in going or also what sort of exercises Bill might be interested in if he's not willing or can't go to the gym in Manchester. Such as, say, walking around your neighborhood. You could take your dog for a walk."
+
+Physician: "Or finding another pool nearby and swimming with you."
+
+Physician: "That would be another thing. Or even you could do some exercises in the home too. Some people buy little weights that you can do weight exercises with at home."
+
+Physician: "And then, say, in a week from now, you can start your exercise routine. And I'll give you a calendar, and on that calendar you could write down which exercises you do each day."
+
+Physician: "And that's good for a few reasons. It's good because you can feel good about what you've done. It's always good to look back and see that you've done it."
+
+Physician: "And it's so that you could bring it back and we could talk about it and discuss any changes we want to make if you're having any pain or if you want to increase your activity, that sort of thing."
+
+Physician: "So just to make sure that I explained that clearly, I know I was a little jumbled in what I was saying, could you tell me what we just agreed upon and what you got from that?"

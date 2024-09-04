@@ -1,0 +1,19 @@
+Physician: "Do you think you would want to quit, do you think?"
+
+Patient: "Absolutely, yeah. I mean, like I said, this has got to happen before. I would really like to be rid of this within four months, you know, before the baby's born."
+
+Physician: "Is it something you're thinking about seriously at this point?"
+
+Patient: "Yeah, I feel like I'm ready at this point. I mean, I feel like if I don't do it now, it's never going to happen because the baby will come and I'll be even more stressed out, and I kind of want to get this out of the way before that happens."
+
+Physician: "It sounds like you might be at that point."
+
+Patient: "Definitely."
+
+Physician: "Do you think at this point that you're willing to set an actual quit date, say, within the next month?"
+
+Patient: "Yeah, the sooner the better, yeah."
+
+Physician: "Would that be a reasonable time frame for you?"
+
+Patient: "Yeah."

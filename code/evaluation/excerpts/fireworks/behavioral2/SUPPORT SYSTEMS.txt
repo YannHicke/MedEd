@@ -1,0 +1,47 @@
+Physician: Tell me something about your family. Who do you live with?
+
+Patient: I live with my husband and our dog, Bones. And that's it.
+
+Physician: How old is your husband?
+
+Patient: He's 63.
+
+Physician: Does he have any medical problems that you know of?
+
+Patient: Yeah. He has high blood pressure, but not such that he needs medication for it.
+
+Physician: Is he active?
+
+Patient: Not overly active, no.
+
+Physician: About the same as you?
+
+Patient: Right.
+
+Physician: How about family in the area? Do you have any other family members around?
+
+Patient: Yeah. We have our daughter, Lucy, and she lives in Manchester. And we have our son, Robert, and he's in Westwood, New Jersey.
+
+Physician: Do you work?
+
+Patient: Yeah, I work part-time at Manchester Community College.
+
+Physician: And how much do you work?
+
+Patient: About maybe 20 hours a week.
+
+Physician: And do you have insurance?
+
+Patient: Yeah, through my husband's work.
+
+Physician: Do you have any financial concerns?
+
+Patient: No. I would say we're living comfortably. Well, I've been thinking about retiring, and even if I retire and we lose that, it would still be okay.
+
+Physician: It would be okay.
+
+Physician: And do you think your husband would also be interested in going to the gym in Manchester?
+
+Patient: It would depend upon what time we go. 
+
+Physician: His schedule. It being a little farther away for him. Okay. Well, let's see. How about we think about your starting a gym program and talking to your daughter, Lucy, and trying to get her involved in that with you. And seeing if your husband would want to do that, too.

@@ -1,0 +1,31 @@
+Physician: Okay, all right. So, I just wanted to start by figuring out why you're here today.
+
+Patient: Well, I had an episode last night where I had really bad pain low in my belly.
+
+Physician: Okay. Is there anything else that you want to make sure we address today before we talk more about that pain?
+
+Patient: Well, I guess the other thing is every once in a while I feel like I'm leaking urine.
+
+Physician: Okay. 
+
+Physician: Is there anything else you can think of that you want to make sure we don't miss today?
+
+Patient: No.
+
+Physician: Okay. Can you tell me a little bit more about the pain? Where it's located?
+
+Patient: It was right down here. My right side.
+
+Physician: Okay. Did it move anywhere?
+
+Patient: It kind of. It started right there, but then it went down into my groin area.
+
+Physician: Okay. All right. What kind of pain was it?
+
+Patient: It was really bad. I would call it maybe tearing pain.
+
+Physician: Okay. That must have been scary.
+
+Patient: It was awful, yeah. Very frightening.
+
+... (rest of the conversation where the physician continues to ask open-ended questions and listen attentively to the patient's responses)

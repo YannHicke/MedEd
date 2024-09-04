@@ -1,0 +1,15 @@
+Physician: "Well, that's wonderful. I'm glad to hear that."
+
+Physician: "That's great. That's really good."
+
+Physician: "I'm glad. I'm really glad that you're motivated to take the first step in eating healthfully, and that'll be really good for you, I'm sure."
+
+Physician: "And that would also be a really good way for you to meet people and to get more integrated into your community, since you said you're kind of lonely out in the rural Burlington area."
+
+Physician: "But you're looking into how to cook, so maybe that's just a default way to make friends."
+
+Physician: "I'm glad. I'm glad. And also, I could bring in a calendar for you to fill out and just kind of keep a food journal to see what kind of foods you're eating and how you can make changes right now, even."
+
+Physician: "Oh, wonderful. So is that something you'd be willing to enroll in?"
+
+Physician: "Great. I'm glad."

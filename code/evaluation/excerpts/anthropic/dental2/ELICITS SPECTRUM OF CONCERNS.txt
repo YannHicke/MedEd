@@ -1,0 +1,11 @@
+Physician: "What brings you into the dental clinic today?"
+
+Patient: "I have like bleeding in my gum, so I just wonder what happened."
+
+Physician: "Okay. Are you feeling any pain with that bleeding?"
+
+Patient: "Not much, but a little sore when I brush my teeth."
+
+Physician: "Is that the only time that it happens when you're brushing your teeth or you're flossing?"
+
+Patient: "During the day, sometimes sore, but mainly when I brush my teeth, sore and bleeding."

@@ -1,0 +1,35 @@
+Physician: "Okay. Can you tell me a little bit more about the pain? Where it's located?"
+
+Patient: "It was right down here. My right side."
+
+Physician: "Okay. Did it move anywhere?"
+
+Patient: "It kind of. It started right there, but then it went down into my groin area."
+
+Physician: "Okay. All right. What kind of pain was it?"
+
+Patient: "It was really bad. I would call it maybe tearing pain."
+
+Physician: "Okay. That must have been scary."
+
+Patient: "It was awful, yeah. Very frightening."
+
+Physician: "Have you ever had a pain like that before?"
+
+Patient: "No. Never."
+
+Physician: "Okay. If you had to qualify it or quantify it on a scale where zero is no pain and ten is the worst thing ever, where would you put it?"
+
+Patient: "I would say pretty bad. Maybe a ten."
+
+Physician: "I just want to jump back to the pain now so I wouldn't get the whole story about that. Were there any other symptoms that you noticed at the same time as you had this pain?"
+
+Patient: "Yeah. I kept having, feeling like I had to pee."
+
+Physician: "Okay. Were you ever able to go?"
+
+Patient: "Yeah. Very early this morning, I'd say it must have been about almost five o'clock."
+
+Physician: "Okay. All right. And was there anything unusual about the urine?"
+
+Patient: "Yeah. It was kind of, I don't know, brownish color."

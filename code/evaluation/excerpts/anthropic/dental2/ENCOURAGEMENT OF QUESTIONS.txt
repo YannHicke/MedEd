@@ -1,0 +1,15 @@
+Physician: "Do you have any other questions for me today?"
+
+Patient: "I think you pretty much explained."
+
+Physician: "Okay."
+
+Patient: "But I'd like to know after, I mean, examine, like how many visits should I come if I decide to take the deep cleaning or whatever treatment?"
+
+[The physician then explains the treatment plan]
+
+Physician: "Excellent. Do you have any other questions for me?"
+
+Patient: "No."
+
+Physician: "Okay, great. It was a pleasure to meet you."

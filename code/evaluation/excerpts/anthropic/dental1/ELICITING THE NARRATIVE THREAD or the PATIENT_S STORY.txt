@@ -1,0 +1,31 @@
+Physician: "So probably what the plan is going to be is that I'm going to ask you a few questions. They'll probably be dental-related and medical-related just so we can kind of get an idea of what's going on. And then we'll probably just do an exam, take a look in your mouth, and see what we can do and kind of make a plan for you. Does that sound good?"
+
+Patient: "Sure."
+
+Physician: "Okay. Alright. So what brought you here today?"
+
+Patient: "Well, I have a lot of soreness right here. I think it's abscessed. I'm not really sure."
+
+Physician: "Okay." 
+
+Patient: "It's really painful." 
+
+Physician: "It's very painful. On both sides?"
+
+Patient: "Both sides, yeah."
+
+Physician: "On the lower? Okay. Can you describe the pain to me a little bit?"
+
+Patient: "Right now it's throbbing." 
+
+Physician: "It's throbbing pain." 
+
+Patient: "It has been for a while, yeah."
+
+Physician: "Okay. How long is the pain, like the duration of the pain?" 
+
+Patient: "Like how long have I had it or how long does it last?"
+
+Physician: "Yeah, yeah. Kind of just describe a little bit to me." 
+
+Patient: "Probably, well, it's been on and off, but the way that it's been like this, it's been like about 10 days."

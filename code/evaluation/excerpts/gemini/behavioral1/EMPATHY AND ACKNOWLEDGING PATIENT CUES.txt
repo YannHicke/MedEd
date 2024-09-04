@@ -1,0 +1,3 @@
+Physician: "Sorry to hear about that."
+
+Physician: "So it's probably been tough on you in terms of your father's health history and also school."

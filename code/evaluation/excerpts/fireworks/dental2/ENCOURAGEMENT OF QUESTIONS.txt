@@ -1,0 +1,11 @@
+Physician: So do you have any other questions for me today?
+
+Patient: I think you pretty much explained. 
+
+Physician: Okay.  
+
+... 
+
+Physician: Excellent. Do you have any other questions for me?
+
+Patient: No.

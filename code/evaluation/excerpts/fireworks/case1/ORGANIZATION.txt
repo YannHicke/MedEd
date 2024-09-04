@@ -1,0 +1,18 @@
+Physician: So what brings you in today?
+Patient: Well, I had an episode last night where I had really bad pain, low down in my belly.
+Physician: Can you start from the beginning and really tell me everything you can remember about when it started?
+...
+Physician: Okay. I just want to move on now and ask you some more questions about your health.
+Patient: Okay
+Physician: How would you describe your overall health?
+...
+Physician: Okay. I just want to ask you now about your family history.
+Patient: Okay.
+Physician: Are there any diseases that run in your family?
+...
+Physician: Okay. So I'm just going to move on now and ask you some questions about your daily life and some of your health habits.
+Patient: Okay.
+Physician: Do you drink alcohol?
+...
+Physician: Okay. All right. I'm glad you have that support in your life. In terms of the history, I feel like we've gotten a pretty good idea of what's going on and the symptoms that you've had. So at this point, I think we just need to do the physical exam, see if you need any tests, and then we'll move on from there.
+Patient: Okay.

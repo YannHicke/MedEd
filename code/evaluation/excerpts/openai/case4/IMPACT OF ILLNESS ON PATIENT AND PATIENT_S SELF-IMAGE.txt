@@ -1,0 +1,59 @@
+Physician: "Okay. So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job."
+
+Physician: "And in terms of your social history, can you tell me a little bit about your work? You mentioned you're concerned how this might impact your ability to go to work."
+
+Patient: "Sure. I stock shelves, and I feel like, you know, the pain is tolerable if it was low, but over my head it hurts, and even more so than the pain. You know, if I'm having a heart issue, I don't want to do something that kind of pushes me over the edge and makes it worse."
+
+Physician: "Okay. Are you concerned about returning to work?"
+
+Patient: "I am."
+
+Physician: "Once we finish up the visit and we do the exam and get a better idea of what's causing your pain, I would be more than happy to speak with my preceptor and see if we can get a work excuse for you so you can have some recovery time."
+
+Patient: "Great. Thank you."
+
+Physician: "Does that sound okay?"
+
+Patient: "Yeah."
+
+Physician: "Okay. Well, from our standpoint, you know, six drinks in one sitting isn't really at the recommended level, especially since it makes you prone to make decisions like going mountain biking at night. So, you know, I might recommend that you try and drink fewer beers in one sitting. Does that sound like something you would consider?"
+
+Patient: "I'll give it some thought because I am pretty scared about this potential injury to my heart. But I'd made the decision to mountain bike before I was drinking."
+
+Physician: "I see."
+
+Patient: "My friend Ben, he drinks way more than I do."
+
+Physician: "Okay."
+
+Patient: "But maybe with my mom's history I should, you know, reevaluate."
+
+Physician: "Yeah. I mean, drinking is definitely one of those things that could impact your heart health, as are some other things like smoking. I'd be interested to know if you smoke any cigarettes."
+
+Patient: "Occasionally, not. I don't consider myself a smoker, but sometimes when I drink I'll have a few."
+
+Physician: "Okay. So smoking is another thing that if you feel like your heart health is a priority, that's something that you could change in your life. Do you think that's something you would consider?"
+
+Patient: "Yeah, probably."
+
+Physician: "Okay. And another question related to that is do you use any drugs?"
+
+Patient: "I don't."
+
+Physician: "You don't. Okay. And in terms of your diet, do you feel like you have a healthy diet?"
+
+Patient: "I think so."
+
+Physician: "Okay. What kinds of foods do you typically eat?"
+
+Patient: "Chicken, fish, more fruits than vegetables, I guess. But I try to consciously eat greens and things like that."
+
+Physician: "That's good. All right. So it sounds like your three main concerns today were your chest pain, that started a couple days ago, your heart health, because you're worried that you might be at risk for heart disease because of your mom, and then also your work. So it sounds like your chest pain is probably related to the mountain biking accident, and we talked about getting you a note for work. And based on what I've heard from your history, it sounds like at your age and with the lifestyle you have, you're not at a terrible risk for heart disease at this time, but making some changes with cutting out alcohol and smoking, I think that that would definitely decrease your risks of heart disease in the future. Do you have any questions about what we've talked about?"
+
+Patient: "Yeah. I just get a little nervous because my mom had her heart surgery when she was a few years younger than I am now. So is that something that could impact me?"
+
+Physician: "And remind me how old you are now."
+
+Patient: "I'm 30. She was 28."
+
+Physician: "Okay. So that really depends on what the cause of her heart surgery was. So some things that cause people to get heart surgery people are born with. Other things that cause a need for heart surgery are a result of disease that you get when you're going along and have lifestyle issues or any diseases. So it sounds like for you, you don't have any current diseases like high blood pressure, high cholesterol, anything like that. So we'll do a physical exam and make sure we don't see anything on your exam that makes us concerned. And as long as that's okay, I don't think that your mom's history is something that will impact you even though the two of you are related."

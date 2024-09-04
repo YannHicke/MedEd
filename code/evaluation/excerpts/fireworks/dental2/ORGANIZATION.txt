@@ -1,0 +1,35 @@
+Physician: Good morning, Ms. Park. My name is Tom.
+
+Patient: Hi. 
+
+Physician: How are you doing today?
+
+Patient: Very good. How are you?
+
+Physician: Good, thank you. What brings you into the dental clinic today?
+
+...
+
+Physician: Now, I just want to ask you, in the past have you or do you currently smoke or drink any alcoholic beverages?
+
+...
+
+Physician: Do you have any other questions for me today?
+
+Patient: I think you pretty much explained. 
+
+Physician: Okay.  
+
+Patient: But I'd like to know after, I mean, examine, like how many visits should I come if I decide to take the deep cleaning or whatever treatment?
+
+Physician: Sure. So I'm just going to tell you what our overall plan is. What we're going to do is we'll, I think we have time now, we're going to do a complete periodontal exam on you.
+
+...
+
+Physician: Do you have any other questions for me?
+
+Patient: No. 
+
+Physician: Okay, great. It was a pleasure to meet you.
+
+Patient: Yeah. Thank you very much.

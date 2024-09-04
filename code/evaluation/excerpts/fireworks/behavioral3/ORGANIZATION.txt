@@ -1,0 +1,19 @@
+Physician: Hi, Mr. Jones. I'm Natarcia. I'm a second-year medical student working with Dr. Smith today. Is it okay if I call you Mr. Jones?
+
+Patient: That's fine.
+
+Physician: What brings you in today?
+
+Physician: Okay. So before I continue with talking about food and everything, why don't you tell me a little bit about yourself? How is your health?
+
+Physician: So you're here to talk about your eating habits and how to change them and make them better. Do you have any other concerns for today?
+
+Physician: Okay. Let me know if you do, if you remember anything as we're talking.
+
+Physician: So, for example, you eat cereal with whole milk. Like, have you thought about trying 1% or 2% milk just to bring down the fat content a bit?
+
+Physician: Do you have any other concerns for us today?
+
+Physician: So I'm going to go talk to Dr. Smith and get you that paperwork, and you just stay right here, and I'll come back.
+
+Physician: All right? Very nice talking to you, Mr. Jones.

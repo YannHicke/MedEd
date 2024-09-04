@@ -1,0 +1,383 @@
+Physician: Hi. My name is Amy. Mr. Smitherson, is that correct?
+
+Patient: You can call me Tom.
+
+Physician: Okay. Nice to meet you. I'm a second-year medical student. I understand you've come in today because you're interested in quitting smoking. Is that correct?
+
+Patient: That's right.
+
+Physician: Okay. How old are you, Tom?
+
+Patient: I'm 23.
+
+Physician: All right. So I'm just going to give you a brief on what things we'll go through today. So I'll start off by asking you questions about your current medical history, and then your past medical history, family history, social history. Get to know what you know about smoking and its effects on your body, and then we'll go through a plan. Does that sound like a good idea?
+
+Patient: That sounds good.
+
+Physician: Okay. So besides your concern about quitting smoking, do you have any other things that you would like to speak about today?
+
+Patient: No. That was pretty much it.
+
+Physician: All right. If anything comes up, you can just stop me or just remember for later. Sound good?
+
+Patient: Okay.
+
+Physician: So in terms of your current health status, on a scale of 0 to 10, what would you rate it as?
+
+Patient: Well, I'll probably put it about 7 or 8.
+
+Physician: Okay. Is there a particular reason?
+
+Patient: Well, mostly because of the smoking. And I don't get enough exercise, but it's mostly the smoking.
+
+Physician: All right. Are there any illnesses or medical conditions that you are currently experiencing?
+
+Patient: No.
+
+Physician: Okay. Do you take any medications or any vitamins?
+
+Patient: Well, I take vitamin D.
+
+Physician: Can I ask you why you take that?
+
+Patient: Well, I read that it can help with the mood, and lately I haven't been feeling, you know, in high spirits, so I decided to try that.
+
+Physician: Is there a particular reason?
+
+Patient: Well, different reasons, but lately it's because my father was diagnosed with lung cancer and...
+
+Physician: Sorry to hear about that.
+
+Patient: Right. So it's been difficult at home. I'm sure it has been difficult on you and your family. So you mentioned that you're taking vitamin D, and it's mostly to just help you with your mood. Is that correct?
+
+Patient: That's right.
+
+Physician: Any herbal supplements or anything else that you're currently taking?
+
+Patient: No, that's it.
+
+Physician: With regards to your smoking, when exactly did you start smoking?
+
+Patient: Well, it's been a while. I guess I started smoking soon after I started college...
+
+Physician: Okay.
+
+Patient: ...because other kids were doing it, and it was just part of the scene.
+
+Physician: So kind of like peer pressure and kind of influence.
+
+Patient: Yeah. Not really pressure, but it's just a thing to do.
+
+Physician: How many cigarettes do you smoke on a given day?
+
+Patient: Well, now I smoke about half a pack a day.
+
+Physician: Okay. And you mentioned... So do you know what age you started smoking about?
+
+Patient: It was in college, like 18 or... I was about 18.
+
+Physician: Okay. Have you ever considered quitting in the past, or did you ever quit in the past?
+
+Patient: Well, there were two times I tried to stop smoking because, I mean, although I was doing it, I knew it wasn't good for my health.
+
+Physician: Yeah.
+
+Patient: But it didn't really work out. I mean, I would stop for two or three days and...
+
+Physician: Okay. Was there a certain... Did you just quit cold turkey and hope that it would last forever?
+
+Patient: Basically, yeah. I just stopped.
+
+Physician: Okay. So what makes you think it's going to work this time around?
+
+Patient: Well, that's the thing. I'm not sure, but my father got diagnosed with lung cancer, and he and my mother were able to stop. They tried a new treatment, so I want to try that as well.
+
+Physician: Okay. So that's motivational to you in terms of your parents were able to do it, so hopefully you'll be able to follow suit with them.
+
+Patient: That's what I hope, yeah.
+
+Physician: Okay. In terms of your past medical history, any history of any illnesses, injuries, or surgeries?
+
+Patient: No, with me, no. I've been fine.
+
+Physician: Okay. Any history of any traumas or accidents?
+
+Patient: No.
+
+Physician: Okay. And in terms of medications or vitamins, you just mentioned the vitamin D, and is there anything else that you've used in the past?
+
+Patient: No, just really that.
+
+Physician: Okay. Going on to family history, so you mentioned your mom and your dad, and I'm assuming they're both still alive. Is that correct?
+
+Patient: That's right, yes.
+
+Physician: Okay. And how old are they?
+
+Patient: Well, they're both in their mid-50s. My dad's older than my mom.
+
+Physician: Okay. Besides lung cancer, in terms of your father's history, is there any history of heart disease, lung disease besides cancer?
+
+Patient: No. He had always been healthy before this.
+
+Physician: Okay. Any history of high blood pressure or high cholesterol?
+
+Patient: Not that I know of, no.
+
+Physician: Okay. And how about asthma?
+
+Patient: No.
+
+Physician: Okay. And same thing for your mom. Any history of those diseases?
+
+Patient: No. She's always been well.
+
+Physician: Okay. Good to hear. Do you have any siblings?
+
+Patient: No. I'm an only child.
+
+Physician: Okay. Going on to social history, so you mentioned mom and dad. Do you currently live with them?
+
+Patient: Well, yeah. I live in sort of an apartment at home. I live above the garage.
+
+Physician: Okay. And what is your level of education, so like the highest level that you completed?
+
+Patient: Well, I started college, but I wasn't able to finish because other things got in the way.
+
+Physician: Okay. 
+
+Patient: So I, in fact, I flunked out with a year left.
+
+Physician: Okay. Can I ask you how exactly that happened during your senior year?
+
+Patient: Yeah. I just got distracted. I mean, I realized I was hanging with the wrong crowd.
+
+Physician: Okay. 
+
+Patient: But I think by the time I realized it, it was a little too late, and I wasn't able to complete the year.
+
+Physician: Sorry about that. Have you considered going back to school or finishing up your education?
+
+Patient: Well, I've thought about it, but I haven't made any concrete plans.
+
+Physician: Okay. So it's probably been tough on you in terms of your father's health history and also school. So who really serves as your social support? Would you say it's your parents, or do you have friends in the area?
+
+Patient: Well, it's mostly my parents since I'm at home. I don't really have that many friends in the area since most of my friends are out of state where I went to school.
+
+Physician: Okay. And do you work currently, or do you stay at home, or what exactly do you do?
+
+Patient: I've been working as a medical technician.
+
+Physician: Okay. 
+
+Patient: So that's all right. 
+
+Physician: It keeps you busy, right?
+
+Patient: Right.
+
+Physician: Okay. Do you have insurance through your job?
+
+Patient: No. That's the unfortunate part.
+
+Physician: Okay. So later on when we discuss different treatment options to help you quit smoking, that's one thing we can discuss is your financial situation, and we can definitely take that into account.
+
+Patient: Sure. 
+
+Physician: Sound good?
+
+Patient: Sure.
+
+Physician: Okay. Do you have any history of, besides the smoking, do you have any history of alcohol use or recreational drug use?
+
+Patient: Well, like I said, when I was kind of taking the wrong road in college, I did quite a bit of that.
+
+Physician: Okay. And are you still keeping up with that, or have you just left it behind you?
+
+Patient: Well, now I'm drinking not so much, about two or three beers a week.
+
+Physician: Okay. So reduced your levels of intake.
+
+Patient: Definitely.
+
+Physician: Okay. All right. Good. So things that I learned about you in terms of your history would be you have no remarkable medical history. 
+
+Patient: Right. 
+
+Physician: Your father was unfortunately diagnosed with lung cancer. So you are taking the vitamin D to improve your mood. 
+
+Patient: Right. 
+
+Physician: And you currently are a medical technician, but you have no medical insurance.
+
+Patient: Right.
+
+Physician: Okay. So we could definitely find a feasible option in terms of treatment. Do you have any questions at this time or any other concerns you've thought of?
+
+Patient: No. You already mentioned it. I was concerned about how much the medication would cost. I don't know how much it cost my parents because they had good insurance.
+
+Physician: Okay. So you mentioned your parents had insurance and they used medication. What do they use to quit smoking?
+
+Patient: Well, they use, I think it's a new drug. It's called Shantix or something like that.
+
+Physician: Okay. All right. So we can definitely discuss that later on. Okay. So in terms of, I'm going to ask you questions about your own knowledge of smoking. So do you know the effects of smoking on your body and what it can do potentially?
+
+Patient: Well, that's the thing. I was studying nursing, so I know a little bit about that.
+
+Physician: Okay. 
+
+Patient: You know, obviously lung cancer and other lung diseases. And I think it can also cause heart problems.
+
+Physician: Okay. So it sounds like you have a pretty good base of knowledge. Smoking can increase your risk of developing lung disease and lung cancer. It can also contribute to heart disease as well. Other things in terms of your appearance, it can actually discolor nails. It can affect hair. I don't think that will be a problem though. And it can also affect the teeth as well. So different effects all over. Is there anything in particular that triggers you to start smoking?
+
+Patient: For me now, it's mostly stress. It used to be when I was with other people, but now it's just mostly stress.
+
+Physician: Okay. And do you smoke throughout the day, or is it something you're just smoking while you're driving in your car or while you're at home? Is there like a particular trigger for you?
+
+Patient: Well, I kind of have a habit of doing it throughout the day, so it's just normal for me to do now.
+
+Physician: Okay. So would you say you kind of wake up and you smoke, and then when you go to bed, you're also smoking and kind of like?
+
+Patient: Yeah. Right when I wake up, I have a cigarette and coffee, and I think I basically smoke through the end of the day.
+
+Physician: Okay. All right. Do you have any questions or any other concerns?
+
+Patient: No. Right now, I don't have any questions.
+
+Physician: Okay. So knowing your knowledge of smoking and knowing what triggers you and the fact that you are smoking continuously throughout the day, so it's not like there's a certain place that stimulates you. Is that correct?
+
+Patient: No. It's anywhere, anytime.
+
+Physician: Okay. So now we can actually form a plan together as to how you're going to go about quitting smoking. So the first thing that's a really good idea is to actually pick a date. So it could be an upcoming birthday, or it could be any day that you see suitable. Do you have anything in mind in particular?
+
+Patient: Well, I'm ready to stop any time, but I don't know. I wanted to ask your recommendation about that.
+
+Physician: Okay. 
+
+Patient: Because the last time I stopped just on my own, it didn't work.
+
+Physician: Yeah, and I think the fact last two times you tried to quit were you went cold turkey.
+
+Patient: Right.
+
+Physician: That is very difficult. It's very difficult to give up a habit that you've had for quite a number of years. So I would suggest giving yourself like a week or two and picking a day.
+
+Patient: Okay. 
+
+Physician: It could be any day of the week, and you pick that day and you say to yourself, the day before you're going to clear your house and clear your car of anything that reminds you of smoking. So ashtrays, cigarettes, matches. If you smoke in a particular jacket or clothing, it's a good idea to wash those things to prepare yourself. 
+
+Patient: That's a good idea.
+
+Physician: So it's kind of like you're not reminding yourself of your temptation to smoke. Does that sound like something you would be able to do?
+
+Patient: Yeah, that sounds like a good idea. I didn't think about that before.
+
+Physician: Okay. So why don't we pick a date in two weeks from now? So two weeks from today, we'll say that's your quit date.
+
+Patient: Sure. 
+
+Physician: And we can definitely give you a calendar so it will be easy to track.
+
+Patient: Okay, that will help. 
+
+Physician: So the day before you want to clear everything. Just throw everything away, ashtrays, cigarettes, everything I had mentioned. And you mentioned you're smoking from the morning until the time you're going to sleep, so your sheets probably absorb that smell. So it's probably a good idea to wash bed sheets and kind of make yourself resistant to temptation.
+
+Patient: Okay. 
+
+Physician: The other thing you mentioned is that you live attached to your parents' house.
+
+Patient: That's right. 
+
+Physician: And they mainly serve as your social support. So it's a really good idea to get their support in your efforts. So tell them that you're going to quit smoking, and I'm sure they'll support you considering they themselves quit smoking.
+
+Patient: My mom has been on my case since she quit. 
+
+Physician: She's a good mom. 
+
+Patient: So I'm sure she'll be happy to hear that.
+
+Physician: Okay. You also want to make sure you tell your friends. So tell any friends that do smoke not to smoke around you if possible. Or if you need to, just try avoiding situations which you'll end up having being around the smell of smoke or being around people that are smoking.
+
+Patient: Right. 
+
+Physician: Because it would be more tempted, and it will be harder for you. So do you think that would be possible to kind of just remove yourself from situations?
+
+Patient: I'll definitely make every effort to do that because I really want to stop now.
+
+Physician: Yeah. That's good. And you have valid motivation, I mean, considering your father's history.
+
+Patient: Exactly.
+
+Physician: So I think it'll be successful this time around. And then the other thing is that there are certain behaviors that you can actually change. For example, when you have a temptation to smoke, carry around gum with you or hard candy so you can put that in your mouth. So that'll help you, actually.
+
+Patient: Okay. 
+
+Physician: Other things that have been shown to help people quit smoking is improvements in diet and exercising. So keeping your mind busy with other activities is really important. And that would be where exercising comes into play. And that would also help you with your initial goal. You said you're concerned about not getting exercise in the beginning.
+
+Patient: Right.
+
+Physician: So you would essentially kill two birds with one stone by exercising and making your mind busy with that. The other thing is eating a lot of fruits and vegetables, so improving your diet, and also reducing caffeine intake. So reducing coffee would be a really good idea in terms of reducing cravings.
+
+Patient: But I only drink one coffee in the morning. Is that a problem?
+
+Physician: It's not like you have to give it up right away because I'm sure it probably helps you wake up in the morning and start the day.
+
+Patient: Right. 
+
+Physician: So, that's fine.
+
+Patient: Okay.
+
+Physician:  And then in terms of the ñ there are numerous medications. So you have nicotine gum, nicotine inhalers, patches. There are also recently medications, for example, Zyban or Chantix. You mentioned before that your parents were successful quitters with Chantix.
+
+Patient: Right. 
+
+Physician: Is that something that you're considering, or do you have any other options?
+
+Patient: Well, because they both tried it and it worked for them, I would want to try the same thing instead of trying different things in case they don't work.
+
+Physician: Okay. Luckily, considering the financial hardships that you're facing right now, Pfizer actually has a program where they can actually sponsor the prescription for you. So they'll pay everything. They'll take into consideration your salary and the fact that you don't have insurance, and they'll pay for your prescription, and all you have to do is pick it up.
+
+Patient: That sounds good. 
+
+Physician: Sound good?
+
+Patient: Right. 
+
+Physician: Seems like everything's kind of fitting into place. 
+
+Patient: It seems like I chose the right time.
+
+Physician: Yeah. Sounds good. Any questions? Any other concerns?
+
+Patient: Well, the only question I have is I don't know much about the medication.
+
+Physician: Okay. 
+
+Patient: How does it work, and how would I take it?
+
+Physician: So it's actually in a pill form, so it's actually very easy for you to take. Are you able to swallow pills?
+
+Patient: Oh, yes. 
+
+Physician: You mentioned vitamin D before. 
+
+Patient: Yeah, that would be fine.
+
+Physician: Okay. What it does is it actually binds to the places where nicotine would bind in your brain, and it prevents nicotine from binding. So it kind of fulfills your cravings without you actually smoking.
+
+Patient: Ah, I see. Okay. 
+
+Physician: Does that sound, you know?
+
+Patient: That sounds good. Okay. Yeah, I want to try it.
+
+Physician: So we can definitely discuss that and going about applying for the Pfizer program. Okay. The other thing that patients sometimes are offered is the option to have a contract and a calendar. So what a calendar allows you to do is it allows you to keep a log of how you're doing, and you can also, like some patients, put stars on days. It makes them feel good about themselves, and it essentially tells us how you're doing with your attempt to quit smoking and what are your weaknesses. So, like, were you hanging out with friends that were smoking, and on a given day you actually ended up smoking that day? So you can take notes on the calendar, and it also serves as a motivation to yourself. So if you keep it in your car, if you keep it near your bedside or on your refrigerator, you'll know that, okay, my goal is to quit smoking, and this is a calendar that's keeping track of how I'm doing. The other option also is a contract. So what a contract essentially will do is it emphasizes that this is a joint effort between us and you and that you're not in this alone, and it kind of solidifies your goal to quit smoking.
+
+Patient: Okay. 
+
+Physician: Do those sound like things that you'd be interested in doing?
+
+Patient: Yeah, I could do them. The calendar sounds like a really good idea.
+
+Physician: Okay,

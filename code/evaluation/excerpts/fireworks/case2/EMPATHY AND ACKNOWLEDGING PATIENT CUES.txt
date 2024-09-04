@@ -1,0 +1,3 @@
+Physician: "That must have been scary."
+
+Physician: "It sounds like it was pretty scary, so I think that we're going to be able to come to a conclusion about what this is and give you some strategies for avoiding it in the future."

@@ -1,0 +1,137 @@
+Physician: "So, I just wanted to start by figuring out why you're here today."
+
+Physician: "Okay. Is there anything else that you want to make sure we address today before we talk more about that pain?"
+
+Physician: "Okay. Is there anything else you can think of that you want to make sure we don't miss today?"
+
+Physician: "Okay. All right. Well, it sounds like the pain is a little bit more urgent right now. So, we'll start with the pain. We may get a little bit of a chance to talk about the incontinence as well. You know, that's a common problem. And we can also set up an appointment in the future to talk more about that. Does that sound okay?"
+
+Physician: "Okay. Can you tell me a little bit more about the pain? Where it's located?"
+
+Physician: "Okay. Did it move anywhere?"
+
+Physician: "Okay. All right. What kind of pain was it?"
+
+Physician: "Okay. That must have been scary."
+
+Physician: "Have you ever had a pain like that before?"
+
+Physician: "Okay. If you had to qualify it or quantify it on a scale where zero is no pain and ten is the worst thing ever, where would you put it?"
+
+Physician: "Okay. And you said the pain does radiate a little bit. It moves into your groin a little bit."
+
+Physician: "Okay. Anything make the pain better?"
+
+Physician: "Okay. What did you try?"
+
+Physician: "Okay. How much Tylenol did you take?"
+
+Physician: "Okay. Extra strength or regular?"
+
+Physician: "Okay. But that didn't seem to do much?"
+
+Physician: "And walking around didn't seem to do much either?"
+
+Physician: "Okay. Does anything seem to make it worse?"
+
+Physician: "Okay. All right. Are there any other medicines that you take on a regular basis?"
+
+Physician: "Okay. Anything over-the-counter?"
+
+Physician: "Okay. All right. How many Tums do you take?"
+
+Physician: "Okay. Well, that's kind of a lot. How come so many?"
+
+Physician: "Okay. Have you been told that you had osteoporosis?"
+
+Physician: "Okay. Anybody in your family have osteoporosis?"
+
+Physician: "Okay. So more of a preventive sort of thing?"
+
+Physician: "Okay. I just want to jump back to the pain now so I wouldn't get the whole story about that. Were there any other symptoms that you noticed at the same time as you had this pain?"
+
+Physician: "Okay. Were you ever able to go?"
+
+Physician: "Okay. All right. And was there anything unusual about the urine?"
+
+Physician: "Okay. All right. And have you ever seen that kind of color of urine before?"
+
+Physician: "Okay. Just a couple other questions about when you were having the pain. Did you ever feel any nausea?"
+
+Physician: "Okay. Did you have any vomiting?"
+
+Physician: "Okay. How about any changes in your bowels in the last few days or today?"
+
+Physician: "Okay. All right. And it wasn't diarrhea?"
+
+Physician: "Okay. About your menstrual history, are you currently having menses?"
+
+Physician: "Okay. When was the last time?"
+
+Physician: "Okay. All right. So it's been a while. Have you had any vaginal discharge at all?"
+
+Physician: "Anything like that? All right. And have you had a fever that you know of?"
+
+Physician: "About in terms of your diet, anything new in terms of your diet, eating more protein than normal or anything?"
+
+Physician: "Pretty much the same. Okay. How about fluid intake? What do you normally drink during the day?"
+
+Physician: "Okay. So maybe you've been drinking a little less than normal?"
+
+Physician: "Okay. All right. Well, that might be something that we want to address too just to make sure that you're drinking enough to be healthy overall."
+
+Physician: "Okay. So I just want to kind of summarize what you've told me so far since I jumped around a little bit and make sure that I got everything right. If anything's wrong, let me know for sure, or if we forgot anything."
+
+Physician: "Okay. So you've had this pain that woke you up out of sleep this morning. It was really severe, tearing pain in your right side, about a 10 out of 10, really one of the worst pains you've ever had. Moves into your groin a little bit, and you tried to walk around, took some Tylenol, nothing really helped to make it any better. And at the same time, you also had this feeling that you had to pee, and you tried to pee and weren't able to pass any urine until later this morning when you finally were able to pass some urine, but you noticed it was kind of a funny reddish color. And at the same time, you had some nausea, but no vomiting, and you haven't really had any other urinary symptoms. I'm not sure if I asked that. Have you had any pain with urinating?"
+
+Physician: "Okay. Does that sound like a reasonable summary? Anything I missed?"
+
+Physician: "Okay. Well, I think I have a pretty good picture of what happened. I just want to ask you some other questions about your medical history."
+
+Physician: "Are there any medical problems that you're being treated for?"
+
+Physician: "That's good. Have you been in the hospital at all?"
+
+Physician: "Okay. All right. Were they normal vaginal births or something?"
+
+Physician: "Okay. All right. And any surgeries?"
+
+Physician: "Okay. How about medications? We already talked about the Tums that you're taking. You've taken some Tylenol. Do you take any other medicines?"
+
+Physician: "Okay. All right. And do you have any allergies?"
+
+Physician: "Okay. To medicines or foods?"
+
+Physician: "Environmental allergies?"
+
+Physician: "Okay, good. Now I just want to move on and ask you a little bit about your family history."
+
+Physician: "Okay. Is there anything that runs in your family? Any kinds of diseases?"
+
+Physician: "Okay. Has anyone in your family ever had renal failure or renal calculi that you know of?"
+
+Physician: "I just want to ask you now some questions about your daily life just to get a better sense of what life is like for you and if any of that can have any impact on your problem today. Do you smoke at all?"
+
+Physician: "Okay, that's great. Have you ever smoked?"
+
+Physician: "Oh, that's excellent. Wonderful thing you can do for your health. How about alcohol? Do you drink alcohol?"
+
+Physician: "Okay. How much do you think you normally drink?"
+
+Physician: "Okay, all right. If you had to say number of times per week or per month, about how many times?"
+
+Physician: "All right, so a pretty small amount. Okay. Have you ever done any other kinds of recreational drugs?"
+
+Physician: "Okay, all right. And just this is a question that we ask everyone and particularly with belly pain. Are you sexually active?"
+
+Physician: "Okay. With?"
+
+Physician: "Okay, all right. Any other partners?"
+
+Physician: "Okay, all right. And have you had any pain with sexual intercourse?"
+
+Physician: "Okay, so I feel like we've gotten a pretty good sense today of the different symptoms that you've been having and I understand that you've been having this really terrible pain and so I think we need to really figure out what's going on with that. And I also do want to address the incontinence a little bit later, but I think at this point it would be good for us to do physical exam, get some more information, and then after that we can talk and I'll tell you what I'm thinking about what what it might be and we can talk together about what our plan will be to go from here. Does that sound okay?"
+
+Physician: "Okay. Is there anything that you wanted to ask me? Any questions that you have?"
+
+Physician: "Absolutely, absolutely. That makes perfect sense. It sounds like it was pretty scary, so I think that we're going to be able to come to a conclusion about what this is and give you some strategies for avoiding it in the future. Okay. All right, so I'm just going to give you a few minutes to change into your gown and I'll be right back."

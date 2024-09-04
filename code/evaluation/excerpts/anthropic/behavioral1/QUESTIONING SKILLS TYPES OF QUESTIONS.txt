@@ -1,0 +1,23 @@
+Here are the relevant questions used by the physician:
+
+Physician: "Okay. How old are you, Tom?"
+
+Physician: "So in terms of your current health status, on a scale of 0 to 10, what would you rate it as?"
+
+Physician: "Okay. Is there a particular reason?"
+
+Physician: "Can I ask you why you take that?"
+
+Physician: "Is there a particular reason?"
+
+Physician: "With regards to your smoking, when exactly did you start smoking?"
+
+Physician: "How many cigarettes do you smoke on a given day?"
+
+Physician: "Okay. So what makes you think it's going to work this time around?"
+
+Physician: "Can I ask you how exactly that happened during your senior year?"
+
+Physician: "Is there anything in particular that triggers you to start smoking?"
+
+Physician: "Do you have anything in mind in particular?"

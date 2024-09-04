@@ -1,0 +1,47 @@
+Physician: "So tell me why you want to start an exercise program."
+
+Patient: "Well, I've been tired for the last almost year. You know, it seems to be getting progressively worse, so I don't know if it'll help, but I'm hoping it will."
+
+Physician: "And is this something you discussed with your doctor six months ago?"
+
+Patient: "No, I didn't."
+
+Physician: "Well, we might want to talk to the doctor about that, too, to make sure that there are no underlying medical problems. But assuming everything is okay, is there anything that happened about a year ago that you can think of that would have made you tired for any reason?"
+
+Patient: "No, because it wasn't a sudden jump. It was just, like, gradually getting more and more tired as the year went on."
+
+Physician: "Do you have any ideas as to what it might be?"
+
+Patient: "Maybe lack of exercise."
+
+Physician: "Hey, good thing you're here. That sounds good."
+
+Physician: "Is there anything that you think would stop you from exercising? Anything that you're worried about?"
+
+Patient: "Well, I'm kind of leery of going to a gym, although I guess they have the best facility. But since I have the problems and I just don't want to be in a bathing suit, I have horrendous varicose veins, which don't look too nice. So it's kind of making me – I mean, I will do it probably, but it's going to be hard to get into."
+
+Physician: "We'll keep that in mind, too, when we eventually talk about what exactly we should be doing."
+
+Physician: "Is there anything that's particularly stressful in your life? Is there something that you worry about? Sometimes stressors can have an effect on people's habits, like eating and exercise and all that."
+
+Patient: "Well, my biggest stress is my mom. She's still in the nursing home. She's been there 30 years."
+
+Physician: "Wow."
+
+Patient: "And she's getting progressively worse."
+
+Physician: "What is she ill with?"
+
+Patient: "Arthritis. She's crumpled up because of the arthritis."
+
+Physician: "And speaking of family, then, if she's had such a serious history of arthritis, that's something to think about for you too."
+
+Patient: "Yes."
+
+Physician: "Now, all of these things are things that exercise can help. Have you heard about the benefits that exercise has?"
+
+Patient: "Not really."
+
+Physician: "Well, exercise is very good for your heart health, for your lung health, pretty much total body health. Sometimes it can help out with weight loss, which then leads to additional benefits for your heart and the rest of your body, including your joints. So it might be important, especially important, if you have a family history of any of those things, to exercise in order to avoid your getting them. Does that make sense?"
+
+Patient: "Yeah, it does."

@@ -1,0 +1,11 @@
+Physician: All right. So I'm just going to give you a brief on what things we'll go through today. So I'll start off by asking you questions about your current medical history, and then your past medical history, family history, social history. Get to know what you know about smoking and its effects on your body, and then we'll go through a plan. Does that sound like a good idea?
+
+Patient: That sounds good.
+
+Physician: Okay. So besides your concern about quitting smoking, do you have any other things that you would like to speak about today?
+
+Patient: No. That was pretty much it.
+
+Physician: All right. If anything comes up, you can just stop me or just remember for later. Sound good?
+
+Patient: Okay.

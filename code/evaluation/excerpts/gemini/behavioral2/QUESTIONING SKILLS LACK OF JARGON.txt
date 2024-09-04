@@ -1,0 +1,21 @@
+Physician: "So you are interested in starting an exercise program because you've been a little bit more tired lately and you think it might be due to lack of exercise. And you've thought a little bit about starting a program. And I've asked you about your medical history, so I know that you do have high cholesterol."
+
+Physician: "Sometimes stressors can have an effect on people's habits, like eating and exercise and all that."
+
+Physician: "Now, all of these things are things that exercise can help. Have you heard about the benefits that exercise has?"
+
+Physician: "Well, exercise is very good for your heart health, for your lung health, pretty much total body health. Sometimes it can help out with weight loss, which then leads to additional benefits for your heart and the rest of your body, including your joints. So it might be important, especially important, if you have a family history of any of those things, to exercise in order to avoid your getting them. Does that make sense?"
+
+Physician: "And do you know if there's a pool in that gym?"
+
+Physician: "Gyms can be somewhat of a financial burden. Do you have any financial concerns?"
+
+Physician: "And what they do is for a first visit at the gym, gyms usually give the new client, say, an hour or so with a personal trainer to walk them around the gym and show them how to use different machines. You said that you would be interested in trying out machines."
+
+Physician: "And their job is to show you how to do that safely and to show you how to use a variety of muscles, which is a good idea."
+
+Physician: "Such as, say, walking around your neighborhood. You could take your dog for a walk."
+
+Physician: "Or finding another pool nearby and swimming with you."
+
+Physician: "That would be another thing. Or even you could do some exercises in the home too. Some people buy little weights that you can do weight exercises with at home."

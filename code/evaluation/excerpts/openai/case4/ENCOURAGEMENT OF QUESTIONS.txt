@@ -1,0 +1,5 @@
+Physician: "Is there anything else you'd like to talk about today before we move on?"
+
+Physician: "Do you have any questions about what we've talked about?"
+
+Physician: "Any other questions that you have?"

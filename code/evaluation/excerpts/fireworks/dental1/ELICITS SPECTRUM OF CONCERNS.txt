@@ -1,0 +1,15 @@
+Physician: Okay. Alright. So what brought you here today?
+
+Patient: Well, I have a lot of soreness right here. I think it's abscessed. I'm not really sure.
+
+Physician: Okay. 
+
+Patient: It's really painful. 
+
+Physician: It's very painful. On both sides?
+
+Patient: Both sides, yeah.
+
+Physician: On the lower? Okay. Can you describe the pain to me a little bit?
+
+... (rest of the conversation where the physician asks follow-up questions to understand the patient's concerns)

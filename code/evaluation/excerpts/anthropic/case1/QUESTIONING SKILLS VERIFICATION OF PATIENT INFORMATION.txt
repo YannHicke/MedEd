@@ -1,0 +1,37 @@
+Physician: "Can you start from the beginning and really tell me everything you can remember about when it started?"
+
+Physician: "Can you tell me more about the pain? It was a tearing pain."
+
+Physician: "And where was it?"
+
+Physician: "And did it move anywhere?"
+
+Physician: "Okay. So this was about 1 in the morning. What did you do then? What happened next?"
+
+Physician: "Okay. How long did the pain last?"
+
+Physician: "Okay. Was there anything different about the urine that came out?"
+
+Physician: "Okay. Is that something that you've seen before?"
+
+Physician: "Okay. And while this was going on, while the pain was going on, was it constant? Did it come and go, or was it really constant for those hours?"
+
+Physician: "Okay. Yeah. Any other symptoms that you felt at the same time?"
+
+Physician: "Okay. And did those symptoms last throughout with the pain as well, or did they come and go?"
+
+Physician: "Okay. Have you had any changes in your bowels?"
+
+Physician: "Like diarrhea, constipation?"
+
+Physician: "Okay. All right. And do you still get your menses?"
+
+Physician: "Okay. And how long has it been since you got your period?"
+
+Physician: "Okay. And did you have any vomiting?"
+
+Physician: "Okay. And along with the sensation of having to pee and not being able to pee, was there any pain when you were able to pee?"
+
+Physician: "Anybody in your family that you know of ever have kidney problems?"
+
+Physician: "Okay. Kidney stones?"

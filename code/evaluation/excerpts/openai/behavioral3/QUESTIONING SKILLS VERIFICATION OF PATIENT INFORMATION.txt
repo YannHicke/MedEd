@@ -1,0 +1,123 @@
+Physician: "Is she entering her first year?"
+
+Physician: "Where is she going to school?"
+
+Physician: "And what did she use to cook for you?"
+
+Physician: "Which antidepressant?"
+
+Physician: "And how many milligrams?"
+
+Physician: "And you're taking it every day?"
+
+Physician: "And is it helping?"
+
+Physician: "Do you have any other health concerns? Diabetes? No. High blood pressure? No. High cholesterol? Cancer?"
+
+Physician: "Any hospitalizations or surgeries?"
+
+Physician: "And from what did she die?"
+
+Physician: "And you said your father is still alive?"
+
+Physician: "And how is his health?"
+
+Physician: "Do you feel tired?"
+
+Physician: "And do you have any brothers and sisters?"
+
+Physician: "Have you ever used any tobacco products, or do you still use them now?"
+
+Physician: "Oh, well, great. And how much do you drink?"
+
+Physician: "Okay. And has alcohol ever been a problem for you?"
+
+Physician: "Tell me a little bit more about your wife. When did you break up?"
+
+Physician: "And you got full custody of your daughter?"
+
+Physician: "And so now with your daughter gone, are you living with anyone?"
+
+Physician: "Okay. What's your cat's name?"
+
+Physician: "And another question about, so you said you don't drink, and you don't smoke, which is any recreational drugs?"
+
+Physician: "Good. Okay. And so you said that you lived alone. Where do you live?"
+
+Physician: "Okay. And is that a rural area? I'm not really familiar with it."
+
+Physician: "And what do you do for a living?"
+
+Physician: "You must have a really nice yard yourself."
+
+Physician: "Nice, nice. Okay. And so you mentioned your dad. Where does he live?"
+
+Physician: "Okay. So the Zoloft is making you feel better, but when you are feeling kind of down, do you feel like you have a social support network?"
+
+Physician: "Okay. All right. Do you call your daughter once in a while at college?"
+
+Physician: "So have you thought about asking her for her old recipes or anything like that?"
+
+Physician: "I can understand that."
+
+Physician: "Good. All right. But in the meantime, I could certainly help you out. So tell me a little bit more about the nutrition. You eat beef jerky and cereal, and what kind of milk do you use?"
+
+Physician: "Okay. And you used to eat really good things, and bean salads and ginger, and it sounds really good."
+
+Physician: "So you're here to talk about how you can change that to make it a little bit more healthier for you."
+
+Physician: "Okay, good. So would you like to discuss making a change?"
+
+Physician: "Okay, great. Absolutely. So I have a couple of ideas. You mentioned that you were financially stable. Did you say if you had insurance?"
+
+Physician: "Okay, that's good. Because one of my suggestions would be to have you talk to a registered dietician."
+
+Physician: "So that's something you'd be willing to start up with?"
+
+Physician: "Okay, that's great. Good. So we could, after this, we could make an appointment with a dietician that you can go talk to about that. Also, I mean, a dietician could tell you what kind of foods you should and shouldn't eat, but he or she can't really teach you how to cook. Do you know how to cook?"
+
+Physician: "All right. I'm sure the dietician won't recommend a Fry Daddy, but I'm sure she can give you good recommendations of ways to prepare food that would be healthier for you."
+
+Physician: "Now, about teaching you how to cook, is there any kind of, do you know of any kind of community resources in your area where they can do classes or little tutorials on cooking?"
+
+Physician: "Oh, great. How convenient. That's great."
+
+Physician: "Oh, wonderful. So is that something you'd be willing to enroll in?"
+
+Physician: "And that would also be a really good way for you to meet people and to get more integrated into your community, since you said you're kind of lonely out in the rural Burlington area."
+
+Physician: "Right."
+
+Physician: "But you're looking into how to cook, so maybe that's just a default way to make friends."
+
+Physician: "That's great. I'm glad."
+
+Physician: "Okay. So we'll establish the appointment for the dietician."
+
+Physician: "And this is something that I'd like to work with you together. We could make the appointment together. And then we can also have you make an appointment to see me and Dr. Smith in two weeks to see how, if you had the first appointment, how that went."
+
+Physician: "And also talk about maybe you've already enrolled in the class and how that's coming along."
+
+Physician: "But I really want you to feel like you can contact the office if you have any questions about nutrition or what you should be eating."
+
+Physician: "Okay. Great. And Mr. Jones, you talked about the community health class, the adult education at the high school. And that should start up in two weeks, you said?"
+
+Physician: "Okay. Good. And what I can do is go talk to Dr. Smith and come back. And I can bring in a contract for you to sign that just says that you'll be willing to start up this new nutritional movement for you to feel better about yourself."
+
+Physician: "And you could sign that, and that could just make it more official, and you could feel more motivated to do it, too."
+
+Physician: "I'm feeling pretty motivated. Great. This conversation is getting me excited."
+
+Physician: "Oh, I'm good. I'm glad. I'm glad. And also, I could bring in a calendar for you to fill out and just kind of keep a food journal to see what kind of foods you're eating and how you can make changes right now, even."
+
+Physician: "So, for example, you eat cereal with whole milk. Like, have you thought about trying 1% or 2% milk just to bring down the fat content a bit?"
+
+Physician: "Okay. Well, there's something you can do right now before seeing a dietician."
+
+Physician: "Do you have any other concerns for us today?"
+
+Physician: "Well, I'm glad. I'm really glad that you're motivated to take the first step in eating healthfully, and that'll be really good for you, I'm sure."
+
+Physician: "So I'm going to go talk to Dr. Smith and get you that paperwork, and you just stay right here, and I'll come back."
+
+Physician: "All right? Very nice talking to you, Mr. Jones."

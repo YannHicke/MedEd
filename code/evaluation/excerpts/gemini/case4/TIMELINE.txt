@@ -1,0 +1,8 @@
+Physician: "So why don't you tell me about when your chest pain started."
+Patient: "About two nights ago, I noticed the pain, and I thought it might have just went away on its own, but it hasn't, so I'm getting more nervous about it."
+Physician: "Okay. Well, I'm glad you came in. What were you doing at the time when your chest pain started?"
+Patient: "I was mountain biking, and I ended up falling off and hit myself, but right here in my chest. So I know that's where the heart is, so I'm worried it could have shaken things up a little bit."
+Physician: "So it started two nights ago when you were mountain biking and you hit your chest on the handles. And tell me how it's been since that point."
+Patient: "Well, at the time I was a little concerned because of where I got hit. And maybe because I was buzzed, I didn't feel it as serious. " 
+Physician: "I see"
+Patient: "Yesterday it was more severe, the pain. And it hasn't gone away yet, so that's why I'm getting a little nervous about it."

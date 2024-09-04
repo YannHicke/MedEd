@@ -1,0 +1,9 @@
+Physician: What brings you in today?
+
+Physician: Do you have any other concerns for today?
+
+Physician: Okay. Let me know if you do, if you remember anything as we're talking.
+
+Physician: Do you have any other health concerns? Diabetes? No. High blood pressure? No. High cholesterol? Cancer?
+
+Physician: Do you have any other concerns for us today?

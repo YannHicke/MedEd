@@ -1,0 +1,15 @@
+Physician: "Okay. So I just want to kind of summarize what you've told me so far since I jumped around a little bit and make sure that I got everything right. If anything's wrong, let me know for sure, or if we forgot anything."
+
+Patient: "Okay"
+
+Physician: "Okay. So you've had this pain that woke you up out of sleep this morning. It was really severe, tearing pain in your right side, about a 10 out of 10, really one of the worst pains you've ever had. Moves into your groin a little bit, and you tried to walk around, took some Tylenol, nothing really helped to make it any better. And at the same time, you also had this feeling that you had to pee, and you tried to pee and weren't able to pass any urine until later this morning when you finally were able to pass some urine, but you noticed it was kind of a funny reddish color. And at the same time, you had some nausea, but no vomiting, and you haven't really had any other urinary symptoms. I'm not sure if I asked that. Have you had any pain with urinating?"
+
+Patient: "No."
+
+Physician: "Okay. Does that sound like a reasonable summary? Anything I missed?"
+
+Patient: "I remember that I was also pretty sweaty during the whole thing."
+
+Physician: "Okay."
+
+Patient: "I felt nauseous."

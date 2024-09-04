@@ -1,0 +1,77 @@
+Physician: "So what brings you in today?"
+
+Physician: "Can you start from the beginning and really tell me everything you can remember about when it started?"
+
+Physician: "Can you tell me more about the pain? It was a tearing pain."
+
+Physician: "And where was it?"
+
+Physician: "And did it move anywhere?"
+
+Physician: "Anything you did to try to help it?"
+
+Physician: "What did you do then? What happened next?"
+
+Physician: "Okay. How long did the pain last?"
+
+Physician: "I’m assuming you don't have it now."
+
+Physician: "Was there anything different about the urine that came out?"
+
+Physician: "Is that something that you've seen before?"
+
+Physician: "And while this was going on, while the pain was going on, was it constant? Did it come and go, or was it really constant for those hours?"
+
+Physician: "Any other symptoms that you felt at the same time?"
+
+Physician: "And did those symptoms last throughout with the pain as well, or did they come and go?"
+
+Physician: "Have you had any changes in your bowels?"
+
+Physician: "Like diarrhea, constipation?"
+
+Physician: "And do you still get your menses?"
+
+Physician: "And how long has it been since you got your period?"
+
+Physician: "And did you have any vomiting?"
+
+Physician: "And along with the sensation of having to pee and not being able to pee, was there any pain when you were able to pee?"
+
+Physician: "How would you describe your overall health?"
+
+Physician: "Do you see a doctor regularly?"
+
+Physician: "Who is the doctor?"
+
+Physician: "Does she treat you for any medical conditions?"
+
+Physician: "Have you been in the hospital ever?"
+
+Physician: "And any surgeries that you've had?"
+
+Physician: "Just want to ask you also if there are any medicines that you take."
+
+Physician: "Any allergies that you have?"
+
+Physician: "Are there any diseases that run in your family?"
+
+Physician: "Anybody in your family that you know of ever have kidney problems?"
+
+Physician: "Kidney stones?"
+
+Physician: "Do you drink alcohol?"
+
+Physician: "And no smoking?"
+
+Physician: "And you don't do any other kinds of recreational drugs?"
+
+Physician: "And what do you do for a living?"
+
+Physician: "So are you missing work today?"
+
+Physician: "Is that going to be a problem?"
+
+Physician: "Can you tell me a little bit about your support systems?"
+
+Physician: "Okay. Last night when you had this pain, was it ever so bad that you thought about going to the hospital?"

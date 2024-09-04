@@ -1,0 +1,3 @@
+Physician: "How's everything going for you?"
+Patient: "Very well. Very well."
+Physician: "Have you been having any problems since you were last here for your last visit?"

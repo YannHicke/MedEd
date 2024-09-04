@@ -1,0 +1,67 @@
+Physician: All right. So why don't you tell me about when your chest pain started.
+
+Patient: About two nights ago, I noticed the pain, and I thought it might have just went away on its own, but it hasn't, so I'm getting more nervous about it.
+
+Physician: Okay. Well, I'm glad you came in. What were you doing at the time when your chest pain started?
+
+Patient: I was mountain biking, and I ended up falling off and hit myself, but right here in my chest. So I know that's where the heart is, so I'm worried it could have shaken things up a little bit.
+
+Physician: Okay. So it started two nights ago when you were mountain biking and you hit your chest on the handles. And tell me how it's been since that point.
+
+Patient: Well, at the time I was a little concerned because of where I got hit. And maybe because I was buzzed, I didn't feel it as serious. 
+
+Physician: I see
+
+Patient: Yesterday it was more severe, the pain. And it hasn't gone away yet, so that's why I'm getting a little nervous about it.
+
+Physician: Okay. So moving on to your past medical history, can you tell me about any ongoing medical problems that you might have?
+
+Patient: I'm pretty healthy otherwise. I have seasonal allergies.
+
+Physician: Okay. Do you take any medications?
+
+Patient: Occasionally I'll take Flonase when it's, you know, early fall, it kind of acts up.
+
+Physician: Okay. Any other medications that you take?
+
+Patient: No.
+
+Physician: Okay. And have you ever had surgery in the past?
+
+Patient: I haven't.
+
+Physician: You have not. Okay. And then since you mentioned before that you're concerned about your heart health, sometimes family history can give us some information about that. Can you tell me a little bit about anything that runs in your family?
+
+Patient: Yeah, my mom's had heart issues. She grew up with diabetes, so maybe that was a factor. But I remember when I was pretty young, she had to have surgery on her heart.
+
+Physician: Okay. 
+
+Patient: And I know that can be hereditary too.
+
+Physician: Okay. Do you know if she had atherosclerosis?
+
+Physician: I don't think so. 
+
+Physician: Or angina or anything like that?
+
+Patient: I don't know.
+
+Physician: Okay. And you said diabetes.
+
+Patient: Yeah. 
+
+Physician: Do you know if she had type 1 diabetes or type 2 diabetes?
+
+Patient: I think type 1.
+
+Physician: Okay. Do you know if she takes any medications for the diabetes?
+
+Patient: She takes insulin.
+
+Physician: Okay. Anyone else in your family with heart problems?
+
+Patient: No.
+
+Physician: Okay. Like high blood pressure or anything like that?
+
+Patient: Not that I know of.

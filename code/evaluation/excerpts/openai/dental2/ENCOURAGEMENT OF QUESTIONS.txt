@@ -1,0 +1,9 @@
+Physician: "Do you have any other concerns or problems with the treatment that we're going to be giving?"
+
+Physician: "Do you have any concerns about stressing the baby while you're in the chair? Do you have any anxiety when you're sitting in the dental chair or trouble sitting through a procedure?"
+
+Physician: "So do you have any other questions for me today?"
+
+Physician: "Do you have any other questions for me?"
+
+Physician: "Do you have any other questions for me?"

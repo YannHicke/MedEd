@@ -1,0 +1,5 @@
+Physician: "And you mentioned your husband earlier that you woke him up this morning. Can you tell me a little bit about your support systems?"
+Patient: "I guess he's probably the main support system. I mean, he was helpful last night or was trying to be. Yeah. And he drove me in this morning."
+Physician: "Okay. So you never made it, but if you had really needed to go, he would have been able to help you. Take you."
+Patient: "Oh, yeah."
+Physician: "Okay. All right. I'm glad you have that support in your life."

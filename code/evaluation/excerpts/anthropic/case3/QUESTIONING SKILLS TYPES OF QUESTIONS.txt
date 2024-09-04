@@ -1,0 +1,93 @@
+"All right, so tell me a little bit about what brought you to the office today."
+
+"Oh, I'm really sorry to hear about that. Can you tell me a little bit about that?"
+
+"Oh, okay. And what makes it sharp?"
+
+"Okay, and is there anything that makes the pain better?"
+
+"Okay, how much Advil are you taking?"
+
+"Okay, do you know what the dose is of the Advil?"
+
+"Okay, anything else that makes your pain better?"
+
+"Okay, do you lift on a regular basis or did you notice it somehow?"
+
+"Okay, so you mentioned a couple days. It's been going on for how long now?"
+
+"Two nights ago. Okay, and is it getting better or worse over time?"
+
+"About the same. Okay, and you're gonna be going back to work tomorrow, you said?"
+
+"Okay, and you lift boxes at work?"
+
+"Okay, and do you think your boss would be okay with you taking some time off if you needed to?"
+
+"Okay, do you have any other symptoms besides the pain in your chest?"
+
+"Okay, like any coughing, any shortness of breath?"
+
+"In terms of your past medical history, do you have any ongoing medical problems?"
+
+"Nothing serious? Okay. Do you take any medicines on a daily basis?"
+
+"Okay. Do you know what it is that you take for your allergies?"
+
+"Okay. Any other vitamins or supplements that you take?"
+
+"Okay. And how much fish oil are you taking?"
+
+"Okay. And why is it that you take fish oil?"
+
+"Okay. How long have you been doing that for?"
+
+"Okay. And you mentioned you have allergies. Is that seasonal allergies?"
+
+"Okay. Any other allergies that you have?"
+
+"Okay. Have you ever had surgery before?"
+
+"Have you ever been hospitalized or been to the emergency room?"
+
+"No? Okay. And how about your family history? Can you tell me a little bit about that?"
+
+"Oh, okay. So you said she grew up with diabetes so she's had diabetes for a long time."
+
+"Does she use insulin for that?"
+
+"Okay. And you said she also had a heart surgery?"
+
+"Oh, okay. Anyone else in your family with diabetes?"
+
+"Anyone else in your family with heart problems?"
+
+"So in terms of your social history, we talked about your work. You lift boxes. Can you tell me about your living situation?"
+
+"Okay. And do you have any family or friends in the area?"
+
+"Okay. And do you have any friends or significant other?"
+
+"Okay. So do you think that you could look to your girlfriend in a time of need for her to help you out if you were sick or anything like that?"
+
+"Okay. Well, that's understandable. And in terms of other recreational activities, what do you like to do in your free time?"
+
+"You like to mountain bike. Okay. Have you been mountain biking recently?"
+
+"Oh, okay. So you're mountain biking and what happened with that with the chest pain?"
+
+"Oh, I see. Okay. So you hit your chest when you were mountain biking and your chest pain started after that."
+
+"Okay. And in terms of other things that you do in your free time, do you drink any alcohol?"
+
+"On the weekends. Okay. How much do you drink on the weekends?"
+
+"Okay. And so you were mountain biking on the weekend and you drink on the weekend. Had you been drinking at the time when you were mountain biking?"
+
+"Okay. Do you think that that affected you at all?"
+
+"Okay. Have you ever been injured when drinking in the past?"
+
+"Okay. And do you smoke any cigarettes?"
+
+"Okay. And do you use any drugs?"

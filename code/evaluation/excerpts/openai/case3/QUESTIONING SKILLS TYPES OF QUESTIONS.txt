@@ -1,0 +1,101 @@
+Physician: "Is that how you'd like to be addressed today?"
+
+Physician: "Okay, so I'd like to just talk with you for a little bit before the doctor comes in about what brings you in. Is that okay?"
+
+Physician: "All right, so tell me a little bit about what brought you to the office today."
+
+Physician: "Can you tell me a little bit about that?"
+
+Physician: "And what makes it sharp?"
+
+Physician: "Okay, and is there anything that makes the pain better?"
+
+Physician: "Okay, how much Advil are you taking?"
+
+Physician: "Okay, do you know what the dose is of the Advil?"
+
+Physician: "Okay, anything else that makes your pain better?"
+
+Physician: "Okay, do you lift on a regular basis or did you notice it somehow?"
+
+Physician: "Okay, so you mentioned a couple days. It's been going on for how long now?"
+
+Physician: "Two nights ago. Okay, and is it getting better or worse over time?"
+
+Physician: "About the same. Okay, and you're gonna be going back to work tomorrow, you said?"
+
+Physician: "Okay, and you lift boxes at work?"
+
+Physician: "Okay, and do you think your boss would be okay with you taking some time off if you needed to?"
+
+Physician: "Okay, I'll see if I can do that for you. Do you have any other symptoms besides the pain in your chest?"
+
+Physician: "Okay, like any coughing, any shortness of breath?"
+
+Physician: "Nothing like that? Okay."
+
+Physician: "Okay. In terms of your past medical history, do you have any ongoing medical problems?"
+
+Physician: "Nothing serious? Okay. Do you take any medicines on a daily basis?"
+
+Physician: "Okay. Do you know what it is that you take for your allergies?"
+
+Physician: "Flonase. Okay. Any other vitamins or supplements that you take?"
+
+Physician: "Okay. And how much fish oil are you taking?"
+
+Physician: "Okay. And why is it that you take fish oil?"
+
+Physician: "Okay. How long have you been doing that for?"
+
+Physician: "Okay. And you mentioned you have allergies. Is that seasonal allergies?"
+
+Physician: "Okay. Any other allergies that you have?"
+
+Physician: "Okay. Have you ever had surgery before?"
+
+Physician: "Have you ever been hospitalized or been to the emergency room?"
+
+Physician: "No? Okay. And how about your family history? Can you tell me a little bit about that?"
+
+Physician: "Oh, okay. So you said she grew up with diabetes so she's had diabetes for a long time."
+
+Physician: "Does she use insulin for that?"
+
+Physician: "Okay. And you said she also had a heart surgery?"
+
+Physician: "Oh, okay. Anyone else in your family with diabetes?"
+
+Physician: "Anyone else in your family with heart problems?"
+
+Physician: "No? Okay."
+
+Physician: "Can you tell me about your living situation?"
+
+Physician: "Okay. And do you have any family or friends in the area?"
+
+Physician: "Okay. And do you have any friends or significant other?"
+
+Physician: "Okay. So do you think that you could look to your girlfriend in a time of need for her to help you out if you were sick or anything like that?"
+
+Physician: "Okay. Well, that's understandable. And in terms of other recreational activities, what do you like to do in your free time?"
+
+Physician: "You like to mountain bike. Okay. Have you been mountain biking recently?"
+
+Physician: "Oh, okay. So you're mountain biking and what happened with that with the chest pain?"
+
+Physician: "Okay. And in terms of other things that you do in your free time, do you drink any alcohol?"
+
+Physician: "On the weekends. Okay. How much do you drink on the weekends?"
+
+Physician: "Okay. And so you were mountain biking on the weekend and you drink on the weekend. Had you been drinking at the time when you were mountain biking?"
+
+Physician: "Okay. Do you think that that affected you at all?"
+
+Physician: "Okay. Have you ever been injured when drinking in the past?"
+
+Physician: "Okay. And do you smoke any cigarettes?"
+
+Physician: "Okay. And do you use any drugs?"
+
+Physician: "You don't. Okay."

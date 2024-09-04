@@ -1,0 +1,47 @@
+Physician: "Does that sound good?"
+
+Physician: "Okay. Alright. So what brought you here today?"
+
+Physician: "Okay. Can you describe the pain to me a little bit?"
+
+Physician: "Yeah, yeah. Kind of just describe a little bit to me."
+
+Physician: "Okay. Alright. So just so I've got an idea, you're feeling like you have some abscesses in your mouth and they are on both sides on the lower."
+
+Physician: "Okay. Alright. Just so I can get an idea. Now, what about, I'm going to ask just a little bit more about your past dental history because I've kind of got an idea about your chief complaint right now. We'll address that first today, but I want to kind of get an overall picture."
+
+Physician: "Okay. Alright. Why did you have the fillings removed? What do you think was the problem?"
+
+Physician: "Okay. Well, I mean, there have been some studies done, and the American Dental Association has said that amalgam fillings that have the mercury in it are safe to use. But, however, there are some other materials that we could use. There's some resins and certain other types of materials that we could try. And I'll take a look at this and see if we can find something that you'd be comfortable with that we could try that might be not as sensitive."
+
+Physician: "Yeah, we won't put anything in your mouth that you're not comfortable with first. But we'll probably have to do just a little bit of research and a little bit of picking and choosing of what kind of materials that we would use if you needed a few more fillings done. Okay."
+
+Physician: "Okay. All right. So now I kind of have an idea of a little bit about your dental history. So I want to ask you a few questions about medical history because it seems like from your research you've kind of gotten an idea, too, that medical and dental history will be kind of related. It may be part to the problem. It may not. But I'll just ask you a few questions and take it from there. All right?"
+
+Physician: "Okay. All right. And you have to use it all the time or just outside of the house?"
+
+Physician: "Okay. All right. And did a doctor prescribe that for you?"
+
+Physician: "Okay. And how long have you used it?"
+
+Physician: "Maybe a little longer. Okay, so about 18 months with shortness of breath. Do you think you're going to —I think it will be fine if you use it here. If you feel more comfortable, you know, with coming to the dental appointments, with it, that's all right. Do you think it will be fine if we lean you back in the chair and things like that? Will you be all right?"
+
+Physician: "Okay. We can try it out and see, and you may even find out that you don't need it."
+
+Physician: "Yeah, so we'll try it out and see how it works. All right. And see how comfortable you are keeping it on, or you may even feel comfortable later on taking it off, but we'll see. All right?"
+
+Physician: "Okay. All right. Any other significant medical problems besides the shortness of breath?"
+
+Physician: "Okay. All right. But no heart murmurs or any diagnosed type of heart problem?"
+
+Physician: "Okay. All right. I think I have a fairly good idea of medical history and dental history. So what we'll probably do now is take a look, if that's okay, to see what we can find, kind of diagnose the problem a little bit. And we'll focus on those, you know, the problems on the lower teeth if that's, you know, really bothering you. And then we'll probably get a plan for you, kind of a treatment plan, that, you know, you will want to approve. And after I look at this, we'll discuss a lot more about what kind of materials that we can use to fill the teeth or restore the teeth if they need to be restored. Does that sound all right?"
+
+Physician: "No, I totally understand. We'll make sure that everything we do that you're comfortable with at first. We're not going to do, you know, anything that you're not comfortable with."
+
+Physician: "Okay. All right. Does that sound good?"
+
+Physician: "Okay. All right. We'll try to do that and take a look in your mouth. I'll make sure we use some non-latex gloves so that won't be a problem. And I'll be back soon."
+
+Physician: "All right. I will make sure. I'll have you look at the box first. I'll put them out here so you can see them. Does that sound all right?"
+
+Physician: "Sounds good. It was really nice to meet you, and I'll be back in a few minutes."

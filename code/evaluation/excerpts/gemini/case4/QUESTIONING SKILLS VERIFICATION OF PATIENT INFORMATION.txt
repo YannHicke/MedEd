@@ -1,0 +1,33 @@
+Physician: "So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job. Okay. Is there anything else you'd like to talk about today before we move on?"
+
+Physician: "Okay. So you were mountain biking, and you fell off, you hit your chest. Did you injure any other part of your body during the accident?"
+
+Physician: "Okay. And had you been doing anything unusual before mountain biking?"
+
+Physician: "Okay. You said you were having fun beforehand. Was there anything in particular that you were doing?"
+
+Physician: "Okay. And how much had you had to drink before you rode your mountain bike?"
+
+Physician: "Okay. Do you feel like you were drunk or feeling the effects of the alcohol at the time of the accident?"
+
+Physician: "Okay. And have you ridden your mountain bike after drinking in the past?"
+
+Physician: "Okay, so it's always there?"
+
+Physician: "It's on your left side. Okay. And you said the sharpness comes on when you move."
+
+Physician: "Okay. Do you know if she had atherosclerosis?"
+
+Physician: "Or angina or anything like that?"
+
+Physician: "And you said diabetes."
+
+Physician: "Do you know if she had type 1 diabetes or type 2 diabetes?"
+
+Physician: "Do you know if she takes any medications for the diabetes?"
+
+Physician: "Okay. Anyone else in your family with heart problems?"
+
+Physician: "Okay. Like high blood pressure or anything like that?"
+
+Physician: "And remind me how old you are now."

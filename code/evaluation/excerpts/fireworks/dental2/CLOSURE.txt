@@ -1,0 +1,49 @@
+Physician: Do you have any other questions for me today?
+
+Patient: I think you pretty much explained. 
+
+Physician: Okay.  
+
+Patient: But I'd like to know after, I mean, examine, like how many visits should I come if I decide to take the deep cleaning or whatever treatment?
+
+Physician: Sure. So I'm just going to tell you what our overall plan is. What we're going to do is we'll, I think we have time now, we're going to do a complete periodontal exam on you.
+
+Patient: Okay. 
+
+Physician: At that time, we'll be able to tell exactly how many visits you need to come in for.
+
+Patient: Mm-hmm. You're going to need one visit for a general cleaning. 
+
+Patient: Okay. 
+
+Physician: And then one visit for each quadrant that we decide you need a deep cleaning on. 
+
+Patient: Okay. 
+
+Physician: That can be between anywhere from one to four visits.
+
+Patient: Okay. 
+
+Physician: Okay? So the most amount of visits that we're looking at is five.
+
+Patient: Mm-hmm. 
+
+Physician: The least amount is one. 
+
+Patient: Okay. 
+
+Physician: But the number probably lies somewhere in between.
+
+Patient: Mm-hmm. 
+
+Physician: So we'll be able to tell you that at the end of today's visit.
+
+Patient: Okay, excellent. 
+
+Physician: Excellent. Do you have any other questions for me?
+
+Patient: No. 
+
+Physician: Okay, great. It was a pleasure to meet you.
+
+Patient: Yeah. Thank you very much.

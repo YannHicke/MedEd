@@ -1,0 +1,3 @@
+Physician: "Ah, yes, those are quite technical. Gastroesophageal reflux disease is what you might know as acid reflux, and dyspepsia is just another word for indigestion."
+
+This conversation does not contain any instances where the physician explicitly avoided medical jargon and used simpler language. The physician generally used straightforward language throughout the conversation without introducing complex medical terms that needed explanation.

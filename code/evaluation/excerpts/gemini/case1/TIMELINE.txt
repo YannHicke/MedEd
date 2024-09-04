@@ -1,0 +1,26 @@
+Physician: Can you start from the beginning and really tell me everything you can remember about when it started?
+Patient: Sure. It woke me up last night a little after, I'd say about 1 o'clock. And it was an awful, I don't know, I want to say like tearing pain. So I got up. I kind of walked around. Woke up my husband. And, I don't know, it just didn't get any better. It was awful. 
+Physician: So it woke you up out of sleep. 
+Patient: Right. 
+Physician: So this was about 1 in the morning. 
+Patient: Mm-hmm. 
+Physician: What did you do then? What happened next?
+Physician: Okay. How long did the pain last?
+Physician: I’m assuming you don't have it now.
+Patient: No, I don't have it now.
+Patient: Okay. I'd say a little before 5 o'clock this morning, all of a sudden, the pain went away.
+Physician: Hmm. 
+Patient: And I was peeing, and a lot of urine came out.
+Physician: Okay. 
+Patient: And I felt good. 
+Physician: Okay. Was there anything different about the urine that came out?
+Physician: Okay. Is that something that you've seen before?
+Physician: Okay. And while this was going on, while the pain was going on, was it constant? Did it come and go, or was it really constant for those hours?
+Physician: Okay. Yeah. Any other symptoms that you felt at the same time?
+Physician: Okay. And did those symptoms last throughout with the pain as well, or did they come and go?
+Physician: Okay. Have you had any changes in your bowels?
+Physician: Okay. All right. And do you still get your menses?
+Physician: Okay. And how long has it been since you got your period?
+Physician: So it's been a while.
+Physician: Okay. And did you have any vomiting?
+Physician: Okay. And along with the sensation of having to pee and not being able to pee, was there any pain when you were able to pee?

@@ -1,0 +1,31 @@
+Physician: "Hi, Mr. Jones. I'm Natarcia. I'm a second-year medical student working with Dr. Smith today. Is it okay if I call you Mr. Jones?"
+
+Patient: "That's fine."
+
+Physician: "What brings you in today?"
+
+Patient: "I'm concerned about what I've been eating."
+
+Physician: "Why is that?"
+
+Patient: "My daughter, who primarily made the food at our house, has left for college recently. So I'm left to myself to prepare the food, and I'm not that knowledgeable."
+
+Physician: "Is she entering her first year?"
+
+Patient: "She is."
+
+Physician: "Where is she going to school?"
+
+Patient: "She's at Michigan State University."
+
+Physician: "Nice. Cool. That's great. Thank you. Good for her. All right. So what are you eating these days, then?"
+
+Physician: "Okay. Yes. All right. So you're here to talk about your eating habits and how to change them and make them better. Do you have any other concerns for today?"
+
+Patient: "Not particularly, no."
+
+Physician: "Okay. Let me know if you do, if you remember anything as we're talking."
+
+Patient: "Okay."
+
+Physician: "So before I continue with talking about food and everything, why don't you tell me a little bit about yourself? How is your health?"

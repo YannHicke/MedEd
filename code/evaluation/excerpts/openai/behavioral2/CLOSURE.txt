@@ -1,0 +1,19 @@
+Physician: "So just to make sure that I explained that clearly, I know I was a little jumbled in what I was saying, could you tell me what we just agreed upon and what you got from that?"
+
+Patient: "That I'm going to start at the gym that has the pool and go to that and see if my daughter and or my husband would like to do that and or go to the regular gym and have the personal trainer show me some of the bikes and things that they have and how to use them."
+
+Physician: "Sure. Good. That sounds good. And so I'll let you talk to your family members and we'll set you up for an appointment within the next week."
+
+Patient: "Okay."
+
+Physician: "And then I'll let you start on the exercise program in about a week. And how about I make a follow-up appointment with you for a month from now to talk about how it's going."
+
+Patient: "Sounds good. Sounds very good."
+
+Physician: "Okay. So I'm going to go get the doctor and you can sit here for a few minutes and we'll be back in to discuss."
+
+Patient: "Okay. All right."
+
+Physician: "It was nice to meet you."
+
+Patient: "Nice meeting you."

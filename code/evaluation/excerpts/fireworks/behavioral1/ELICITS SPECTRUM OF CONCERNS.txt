@@ -1,0 +1,25 @@
+Physician: Okay. So besides your concern about quitting smoking, do you have any other things that you would like to speak about today?
+
+Patient: No. That was pretty much it.
+
+Physician: All right. If anything comes up, you can just stop me or just remember for later. Sound good?
+
+Physician: Do you have any questions at this time or any other concerns you've thought of?
+
+Patient: No. You already mentioned it. I was concerned about how much the medication would cost. I don't know how much it cost my parents because they had good insurance.
+
+Physician: Do you have any questions or any other concerns?
+
+Patient: No. Right now, I don't have any questions.
+
+Physician: Any questions? Any other concerns?
+
+Patient: Well, the only question I have is I don't know much about the medication.
+
+Physician: Do those sound like things that you'd be interested in doing?
+
+Patient: Yeah, I could do them. The calendar sounds like a really good idea.
+
+Physician: Do you have any questions in the end, or is this any other concerns?
+
+Patient: Well, the question I had, I guess you might have mentioned it, is I was concerned about gaining weight when I stopped smoking. I know that's happened to some people. And, you know, I was also worried about what would happen if this didn't work. I mean, because if this doesn't work, then what am I going to do?

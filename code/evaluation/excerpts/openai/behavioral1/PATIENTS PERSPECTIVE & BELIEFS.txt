@@ -1,0 +1,45 @@
+Physician: "Can I ask you why you take that?"
+
+Patient: "Well, I read that it can help with the mood, and lately I haven't been feeling, you know, in high spirits, so I decided to try that."
+
+Physician: "Is there a particular reason?"
+
+Patient: "Well, different reasons, but lately it's because my father was diagnosed with lung cancer and..."
+
+Physician: "Sorry to hear about that."
+
+Physician: "So that's motivational to you in terms of your parents were able to do it, so hopefully you'll be able to follow suit with them."
+
+Patient: "That's what I hope, yeah."
+
+Physician: "So who really serves as your social support? Would you say it's your parents, or do you have friends in the area?"
+
+Patient: "Well, it's mostly my parents since I'm at home. I don't really have that many friends in the area since most of my friends are out of state where I went to school."
+
+Physician: "So you mentioned your parents had insurance and they used medication. What do they use to quit smoking?"
+
+Patient: "Well, they use, I think it's a new drug. It's called Shantix or something like that."
+
+Physician: "Is there anything in particular that triggers you to start smoking?"
+
+Patient: "For me now, it's mostly stress. It used to be when I was with other people, but now it's just mostly stress."
+
+Physician: "So the other thing you mentioned is that you live attached to your parents' house."
+
+Patient: "That's right."
+
+Physician: "And they mainly serve as your social support. So it's a really good idea to get their support in your efforts. So tell them that you're going to quit smoking, and I'm sure they'll support you considering they themselves quit smoking."
+
+Patient: "My mom has been on my case since she quit."
+
+Physician: "She's a good mom."
+
+Patient: "So I'm sure she'll be happy to hear that."
+
+Physician: "So do you think that would be possible to kind of just remove yourself from situations?"
+
+Patient: "I'll definitely make every effort to do that because I really want to stop now."
+
+Physician: "Yeah. That's good. And you have valid motivation, I mean, considering your father's history."
+
+Patient: "Exactly."

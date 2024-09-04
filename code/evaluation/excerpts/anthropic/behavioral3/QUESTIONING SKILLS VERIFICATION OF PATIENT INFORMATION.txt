@@ -1,0 +1,25 @@
+Physician: "Okay. Which antidepressant?"
+Patient: "It's Zoloft."
+Physician: "And how many milligrams?"
+Patient: "It's 10 milligrams a day."
+Physician: "Okay. And you're taking it every day?"
+Patient: "Yes, I am."
+Physician: "And is it helping?"
+Patient: "I'm much more relaxed. I'm sleeping better. I can really feel the difference."
+
+Physician: "That's good. Do you have any other health concerns? Diabetes? No. High blood pressure? No. High cholesterol? Cancer?"
+Patient: "No."
+
+Physician: "Okay. And how is his health?"
+Patient: "His health is quite good. He's quite fit and everything, although taking this antidepressant that I've been taking, I now see that he probably could use it, too, because he seems to act like I used to feel sort of irritable a lot, and he is always tired."
+Physician: "Do you feel tired?"
+Patient: "I feel much more energized now."
+
+Physician: "Okay. And has alcohol ever been a problem for you?"
+Patient: "No, it's never been a problem. I used to drink a little bit, and my wife and I broke up a while back, and she was quite an alcoholic, and so I thought, I'm going to raise my daughter without alcohol being an issue."
+
+Physician: "And you got full custody of your daughter?"
+Patient: "That's right. I did, yes."
+
+Physician: "Okay. And is that a rural area? I'm not really familiar with it."
+Patient: "It's very much out in the country, yeah. It's a kind of a country, long, winding road that I live on. Mostly forest."

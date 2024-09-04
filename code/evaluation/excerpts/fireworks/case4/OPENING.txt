@@ -1,0 +1,7 @@
+Physician: Hi, I'm Brianna.
+
+Patient: Hi, I'm Dan. 
+
+Physician: Nice to meet you.
+
+Physician: What brings you in today?

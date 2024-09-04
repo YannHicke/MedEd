@@ -1,0 +1,4 @@
+Physician: "So we'll schedule a follow-up visit with Dr. Lelko when she comes in. So we look forward to seeing you in about three weeks."
+Patient: "Okay. Thank you."
+Physician: "It was nice meeting you."
+Patient: "Good to meet you too."

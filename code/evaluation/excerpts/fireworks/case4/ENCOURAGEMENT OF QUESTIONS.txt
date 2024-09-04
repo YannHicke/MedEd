@@ -1,0 +1,7 @@
+Physician: Do you have any questions about what we've talked about?
+
+Patient: Yeah. I just get a little nervous because my mom had her heart surgery when she was a few years younger than I am now. So is that something that could impact me?
+
+Physician: Okay. Any other questions that you have?
+
+Patient: No.

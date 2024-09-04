@@ -1,0 +1,3 @@
+Physician: "So today you've described experiencing a range of symptoms starting with headaches, moving to occasional dizziness, and you've also mentioned some recent issues with your vision. Let me make sure I've got everything: Your headaches began around three weeks ago, initially mild but have increased in frequency and intensity. The dizziness is sporadic, mostly in the mornings, and your vision issues started last week, primarily blurring when reading. Is all of this correct?"
+
+Physician: "Okay, we've covered quite a bit today about your headaches and some of your lifestyle factors."

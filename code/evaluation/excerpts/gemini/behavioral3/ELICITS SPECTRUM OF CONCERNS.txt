@@ -1,0 +1,6 @@
+Physician: "What brings you in today?"
+Patient: "I'm concerned about what I've been eating."
+Physician: "Why is that?"
+Patient: "My daughter, who primarily made the food at our house, has left for college recently. So I'm left to myself to prepare the food, and I'm not that knowledgeable."
+Physician: "Do you have any other concerns for today?"
+Patient: "Not particularly, no."

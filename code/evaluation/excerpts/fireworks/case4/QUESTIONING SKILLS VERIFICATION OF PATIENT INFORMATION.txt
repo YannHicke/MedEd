@@ -1,0 +1,87 @@
+Physician: Oh, okay. Is there anything else that brought you in today?
+
+Physician: Okay. So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job. Okay. Is there anything else you'd like to talk about today before we move on?
+
+Physician: Okay. So I'll just ask a little bit about your chest pain, and then we'll get some information that will help me assess your risk of heart disease since it sounds like you're concerned about that, and then we'll find out a little bit about your job. Okay. Is that okay?
+
+Physician: What were you doing at the time when your chest pain started?
+
+Physician: Did you injure any other part of your body during the accident?
+
+Physician: Were you wearing a helmet?
+
+Physician: And had you been doing anything unusual before mountain biking?
+
+Physician: Do you usually mountain bike at night?
+
+Physician: You said you were having fun beforehand. Was there anything in particular that you were doing?
+
+Physician: And how much had you had to drink before you rode your mountain bike?
+
+Physician: Do you feel like you were drunk or feeling the effects of the alcohol at the time of the accident?
+
+Physician: And have you ridden your mountain bike after drinking in the past?
+
+Physician: Any other accidents in the past?
+
+Physician: So it started two nights ago when you were mountain biking and you hit your chest on the handles. And tell me how it's been since that point.
+
+Physician: Can you tell me about what the pain feels like to you?
+
+Physician: Okay, so it's always there?
+
+Physician: And you said the sharpness comes on when you move.
+
+Physician: Anything else that makes the pain worse?
+
+Physician: Anything that makes your pain better?
+
+Physician: And does your pain radiate anywhere?
+
+Physician: And any other symptoms associated with the pain?
+
+Physician: Do you take any medications?
+
+Physician: Any other medications that you take?
+
+Physician: And have you ever had surgery in the past?
+
+Physician: And then since you mentioned before that you're concerned about your heart health, sometimes family history can give us some information about that. Can you tell me a little bit about anything that runs in your family?
+
+Physician: Do you know if she had atherosclerosis?
+
+Physician: Or angina or anything like that?
+
+Physician: Do you know if she had type 1 diabetes or type 2 diabetes?
+
+Physician: Do you know if she takes any medications for the diabetes?
+
+Physician: Anyone else in your family with heart problems?
+
+Physician: Like high blood pressure or anything like that?
+
+Physician: And in terms of your social history, can you tell me a little bit about your work? You mentioned you're concerned how this might impact your ability to go to work.
+
+Physician: And have you been to work since the accident?
+
+Physician: Are you concerned about returning to work?
+
+Physician: Do you drink on a regular basis?
+
+Physician: And how much do you typically drink in that once-a-week time?
+
+Physician: And do you usually feel drunk after that?
+
+Physician: And do you ever feel like maybe you're drinking too much or do you feel like you're drinking just as much as other people are drinking?
+
+Physician: And I'd be interested to know if you smoke any cigarettes.
+
+Physician: And another question related to that is do you use any drugs?
+
+Physician: And in terms of your diet, do you feel like you have a healthy diet?
+
+Physician: What kinds of foods do you typically eat?
+
+Physician: And remind me how old you are now.
+
+Physician: So that really depends on what the cause of her heart surgery was.

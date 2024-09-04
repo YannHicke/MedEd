@@ -1,0 +1,3 @@
+Physician: "So you are interested in starting an exercise program because you've been a little bit more tired lately and you think it might be due to lack of exercise. And you've thought a little bit about starting a program. And I've asked you about your medical history, so I know that you do have high cholesterol."
+
+Physician: "So in your family, then, there's a history of heart attack and some arthritis. And you said you yourself have high cholesterol."

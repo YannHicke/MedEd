@@ -1,0 +1,63 @@
+Physician: "Tell me something about your family. Who do you live with?"
+
+Patient: "I live with my husband and our dog, Bones. And that's it."
+
+Physician: "How about family in the area? Do you have any other family members around?"
+
+Patient: "Yeah. We have our daughter, Lucy, and she lives in Manchester. And we have our son, Robert, and he's in Westwood, New Jersey."
+
+Physician: "And do you work?"
+
+Patient: "Yeah, I work part-time at Manchester Community College."
+
+Physician: "What do you do there?"
+
+Patient: "I'm in the art department, so I teach painting, but the one I like best is sculpturing."
+
+Physician: "Is there anything that's particularly stressful in your life? Is there something that you worry about? Sometimes stressors can have an effect on people's habits, like eating and exercise and all that."
+
+Patient: "Well, my biggest stress is my mom. She's still in the nursing home. She's been there 30 years."
+
+Physician: "Wow."
+
+Patient: "And she's getting progressively worse."
+
+Physician: "What is she ill with?"
+
+Patient: "Arthritis. She's crumpled up because of the arthritis."
+
+Physician: "And do you think you'd like to exercise with someone, or do you see yourself exercising by yourself?"
+
+Patient: "No, I'd rather have company when I start."
+
+Physician: "I understand that. I would, too. Have you discussed, you know, you said that you haven't discussed an exercise program with him, but you think he might be interested?"
+
+Patient: "Well, I've talked about it, and he said, you know, he would definitely back me on anything I wanted to do."
+
+Physician: "Is there anyone else who lives nearby that you think would be willing to exercise with you?"
+
+Patient: "Yeah, I kind of mentioned it to my daughter, Lucy, and she goes sporadically to a gym."
+
+Physician: "Okay."
+
+Patient: "So if I could convince her to go more often, she would go with me."
+
+Physician: "And you'd also mentioned that a gym would be something you'd be interested in."
+
+Patient: "Right."
+
+Physician: "Though you mentioned varicose veins. Do you think you'd be less worried about those if your daughter were with you?"
+
+Patient: "Probably."
+
+Physician: "And do you have insurance?"
+
+Patient: "Yeah, through my husband's work."
+
+Physician: "And do you think your husband would also be interested in going to the gym in Manchester?"
+
+Patient: "It would depend upon what time we go."
+
+Physician: "His schedule. It being a little farther away for him. Okay. Well, let's see. How about we think about your starting a gym program and talking to your daughter, Lucy, and trying to get her involved in that with you. And seeing if your husband would want to do that, too. And what we could do is we could make some sort of alternating routine. You could spend two or three days a week at the gym with Lucy, and you could spend a few days a week doing something with your husband, another type of exercise, if he isn't able to make it to the gym."
+
+Patient: "Sounds good."

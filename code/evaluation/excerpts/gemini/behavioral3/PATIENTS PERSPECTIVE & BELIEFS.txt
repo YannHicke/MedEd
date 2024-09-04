@@ -1,0 +1,15 @@
+Physician: "So you're here to talk about your eating habits and how to change them and make them better. Do you have any other concerns for today?"
+Patient: "Not particularly, no."
+Physician: "Okay. Let me know if you do, if you remember anything as we're talking."
+Patient: "Okay."
+
+Physician: "So before I continue with talking about food and everything, why don't you tell me a little bit about yourself? How is your health?"
+Patient: "My health is quite good. I did have a little bit of problem with irritability and sleeping."
+Physician: "Okay."
+Patient: "And about three or four months ago I was put on an antidepressant, which seems to be helping quite a lot."
+
+Physician: "So you're here to talk about how you can change that to make it a little bit more healthier for you."
+Patient: "That's exactly why I came."
+
+Physician: "Okay, good. So would you like to discuss making a change?"
+Patient: "Please."

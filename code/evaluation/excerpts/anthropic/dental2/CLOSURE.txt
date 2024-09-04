@@ -1,0 +1,7 @@
+Physician: "Excellent. Do you have any other questions for me?"
+
+Patient: "No."
+
+Physician: "Okay, great. It was a pleasure to meet you."
+
+Patient: "Yeah. Thank you very much."

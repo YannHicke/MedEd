@@ -1,0 +1,7 @@
+Physician: "Okay. And do you have any family or friends in the area?"
+Patient: "My family lives about 45 minutes away."
+Physician: "Okay. And do you have any friends or significant other?"
+Patient: "My girlfriend lives in town."
+Physician: "Okay. So do you think that you could look to your girlfriend in a time of need for her to help you out if you were sick or anything like that?"
+Patient: "Yeah. I've been keeping her updated when she was over and helped me cook. So that stuff's okay. I'm just worried about when I go back to work."
+Physician: "Okay. Well, that's understandable." 

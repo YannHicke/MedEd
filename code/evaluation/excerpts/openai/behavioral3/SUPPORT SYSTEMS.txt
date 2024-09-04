@@ -1,0 +1,39 @@
+Physician: "So the Zoloft is making you feel better, but when you are feeling kind of down, do you feel like you have a social support network?"
+
+Patient: "Well, the guys I work with are really the guys who I know best, and we don't get together much after work occasionally. And I don't spend that much time with my father either. I'm really kind of a loner, I'd say."
+
+Physician: "Okay. All right. Do you call your daughter once in a while at college?"
+
+Patient: "I've spoken to her twice. She's called me. I don't feel like pestering her, and she sounds like she's having a good time, although it's just getting going."
+
+Physician: "You mentioned that you were financially stable. Did you say if you had insurance?"
+
+Patient: "I do."
+
+Physician: "Okay, that's good. Because one of my suggestions would be to have you talk to a registered dietician."
+
+Physician: "Now, about teaching you how to cook, is there any kind of, do you know of any kind of community resources in your area where they can do classes or little tutorials on cooking?"
+
+Patient: "Yeah, it's funny that you mention that, because we get every fall and every spring something in the mail for the adult education, and at the high school in our area, they're doing a basic cooking class. I noticed that was on there."
+
+Physician: "Oh, great. How convenient. That's great."
+
+Patient: "And it's starting in about two weeks, I'd say."
+
+Physician: "Oh, wonderful. So is that something you'd be willing to enroll in?"
+
+Patient: "Actually, I was thinking, and yes, that sounds like something I would do. Now that we're talking about it, I'm starting to think."
+
+Physician: "And that would also be a really good way for you to meet people and to get more integrated into your community, since you said you're kind of lonely out in the rural Burlington area."
+
+Patient: "Yeah, I could try to do that. I don't generally go looking to make friends."
+
+Physician: "Right."
+
+Patient: "But maybe I would."
+
+Physician: "But you're looking into how to cook, so maybe that's just a default way to make friends."
+
+Patient: "That's a good idea. I like that."
+
+Physician: "That's great. I'm glad."

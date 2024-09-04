@@ -1,0 +1,15 @@
+Physician: "So probably what the plan is going to be is that I'm going to ask you a few questions. They'll probably be dental-related and medical-related just so we can kind of get an idea of what's going on. And then we'll probably just do an exam, take a look in your mouth, and see what we can do and kind of make a plan for you. Does that sound good?"
+
+Physician: "Okay. Alright. So what brought you here today?"
+
+Physician: "Okay. Can you describe the pain to me a little bit?"
+
+Physician: "Okay. How long is the pain, like the duration of the pain? "
+
+Physician: "Yeah, yeah. Kind of just describe a little bit to me."
+
+Physician: "Okay. Alright. So just so I've got an idea, you're feeling like you have some abscesses in your mouth and they are on both sides on the lower."
+
+Physician: "Okay. Alright. Just so I can get an idea. Now, what about, I'm going to ask just a little bit more about your past dental history because I've kind of got an idea about your chief complaint right now. We'll address that first today, but I want to kind of get an overall picture. Have you had dental work? You've had dental work done in the past then?"
+
+Physician: "Okay. All right. So this may seem like a broad question, but I know you mentioned it before. What are some of the significant medical problems that you have?"

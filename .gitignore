@@ -1,5 +1,10 @@
-code/rendering/app_results
+code/rendering/app_results/
 code/simulation/conversation_history/.DS_Store
+code/evaluation/results/
+Uconn/videos/
+code/evaluation/.env
+Medical Education.xmind
+code/evaluation/old_code/
 .DS_Store
 code/evaluation/__pycache__/
 code/simulation/__pycache__/

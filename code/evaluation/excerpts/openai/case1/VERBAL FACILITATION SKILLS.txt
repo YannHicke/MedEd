@@ -1,0 +1,19 @@
+Physician: "Hi, my name is Amy. It's nice to meet you."
+
+Physician: "Can you start from the beginning and really tell me everything you can remember about when it started?"
+
+Physician: "Can you tell me more about the pain? It was a tearing pain."
+
+Physician: "Okay. All right. So you tried to walk around. That didn't seem to help."
+
+Physician: "Sounds like it was a long morning for you."
+
+Physician: "Okay. So you never made it, but if you had really needed to go, he would have been able to help you. Take you."
+
+Physician: "Okay. All right. I'm glad you have that support in your life."
+
+Physician: "In terms of the history, I feel like we've gotten a pretty good idea of what's going on and the symptoms that you've had. So at this point, I think we just need to do the physical exam, see if you need any tests, and then we'll move on from there."
+
+Physician: "Okay. So I will be right back."
+
+Physician: "Thank you very much."

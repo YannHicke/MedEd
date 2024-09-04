@@ -1,0 +1,4 @@
+Physician: "So we could definitely find a feasible option in terms of treatment. Do you have any questions at this time or any other concerns you've thought of?"
+Physician: "Okay. All right. Do you have any questions or any other concerns?"
+Physician: "Any questions? Any other concerns?"
+Physician: "So just kind of do you have any questions in the end, or is this any other concerns?"

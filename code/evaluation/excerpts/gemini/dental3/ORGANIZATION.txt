@@ -1,0 +1,33 @@
+Physician: "Before Kathy comes in to do your prophy, I wanted to just update your history. Have you been having any problems since you were last here for your last visit?"
+
+Patient: "Nothing major. You know, occasional bleeding of the gums when I brush and, you know, the usual tobacco stains on the teeth. And the flossing, I know you said to do it every day, but it slips my mind sometimes. It probably averages out to about three or four times a week."
+
+Physician: "Okay. And how often have you been brushing?"
+
+Patient: "At least twice a day."
+
+Physician: "Oh, right. It sounds like you're doing a pretty good job, pretty reasonable job with your oral hygiene. We'll have to work on the flossing a little bit, but not bad. How about your general health? Have there been any changes in your health since you were last here?"
+
+Patient: "Again, nothing major. A few weeks ago I had an episode of bronchitis, and with that came a little bit of shortness of breath. Like when I go running, you know, and when I run sometimes I get a little short of breath or if I take the stairs at work."
+
+Physician: "Okay. No other problems besides that?"
+
+Patient: "No."
+
+Physician: "Have you seen your physician recently?"
+
+Patient: "Not in at least a year, so I'll have to get on that."
+
+Physician: "Okay. Yeah, that's important, especially if you're having symptoms like shortness of breath." 
+
+Patient: "Yeah." 
+
+Physician: "So make sure that your physician evaluates that. Are you on any medications right now?"
+
+Patient: "You know, the occasional Advil for a headache, and then I take a Centrum every day."
+
+Physician: "Okay, great. Any changes in your alcohol intake?"
+
+Patient: "No. I mean, two, three glasses of wine a week with dinner. That's about it."
+
+Physician: "Okay. How about your tobacco use?"

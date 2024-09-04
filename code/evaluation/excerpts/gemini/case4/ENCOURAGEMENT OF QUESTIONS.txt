@@ -1,0 +1,8 @@
+Physician: "Do you have any questions about what we've talked about?"
+Patient: "Yeah. I just get a little nervous because my mom had her heart surgery when she was a few years younger than I am now. So is that something that could impact me?"
+Physician: "And remind me how old you are now."
+Patient: "I'm 30. She was 28."
+Physician: "Okay. So that really depends on what the cause of her heart surgery was. So some things that cause people to get heart surgery people are born with. Other things that cause a need for heart surgery are a result of disease that you get when you're going along and have lifestyle issues or any diseases. So it sounds like for you, you don't have any current diseases like high blood pressure, high cholesterol, anything like that. So we'll do a physical exam and make sure we don't see anything on your exam that makes us concerned. And as long as that's okay, I don't think that your mom's history is something that will impact you even though the two of you are related."
+Patient: "Okay. "
+Physician: "Okay. Any other questions that you have?"
+Patient: "No."

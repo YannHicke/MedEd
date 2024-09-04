@@ -1,0 +1,81 @@
+Here are the relevant questions used by the physician:
+
+Physician: "What brings you in today?"
+
+Physician: "Is there anything else that brought you in today?"
+
+Physician: "Is there anything else you'd like to talk about today before we move on?"
+
+Physician: "So why don't you tell me about when your chest pain started."
+
+Physician: "What were you doing at the time when your chest pain started?"
+
+Physician: "Do you usually mountain bike at night?"
+
+Physician: "Okay. You said you were having fun beforehand. Was there anything in particular that you were doing?"
+
+Physician: "And how much had you had to drink before you rode your mountain bike?"
+
+Physician: "Do you feel like you were drunk or feeling the effects of the alcohol at the time of the accident?"
+
+Physician: "And have you ridden your mountain bike after drinking in the past?"
+
+Physician: "Any other accidents in the past?"
+
+Physician: "Can you tell me about what the pain feels like to you?"
+
+Physician: "Anything else that makes the pain worse?"
+
+Physician: "Anything that makes your pain better?"
+
+Physician: "And does your pain radiate anywhere?"
+
+Physician: "And any other symptoms associated with the pain?"
+
+Physician: "So moving on to your past medical history, can you tell me about any ongoing medical problems that you might have?"
+
+Physician: "Do you take any medications?"
+
+Physician: "And have you ever had surgery in the past?"
+
+Physician: "Can you tell me a little bit about anything that runs in your family?"
+
+Physician: "Do you know if she had atherosclerosis?"
+
+Physician: "Or angina or anything like that?"
+
+Physician: "Do you know if she had type 1 diabetes or type 2 diabetes?"
+
+Physician: "Do you know if she takes any medications for the diabetes?"
+
+Physician: "Anyone else in your family with heart problems?"
+
+Physician: "Okay. Like high blood pressure or anything like that?"
+
+Physician: "And in terms of your social history, can you tell me a little bit about your work?"
+
+Physician: "And have you been to work since the accident?"
+
+Physician: "Are you concerned about returning to work?"
+
+Physician: "Do you drink on a regular basis?"
+
+Physician: "And how much do you typically drink in that once-a-week time?"
+
+Physician: "And do you usually feel drunk after that?"
+
+Physician: "And do you ever feel like maybe you're drinking too much or do you feel like you're drinking just as much as other people are drinking?"
+
+Physician: "I'd be interested to know if you smoke any cigarettes."
+
+Physician: "And another question related to that is do you use any drugs?"
+
+Physician: "And in terms of your diet, do you feel like you have a healthy diet?"
+
+Physician: "What kinds of foods do you typically eat?"
+
+Physician: "Do you have any questions about what we've talked about?"
+
+Physician: "And remind me how old you are now."
+
+Physician: "Okay. Any other questions that you have?"

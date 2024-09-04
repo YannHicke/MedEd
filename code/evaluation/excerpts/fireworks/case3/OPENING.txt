@@ -1,0 +1,9 @@
+Physician: Hi, I'm Brianna. I'm a medical student.
+
+Patient: I'm Dan.
+
+Physician: Nice to meet you, Dan. Is that how you'd like to be addressed today?
+
+Patient: Please.
+
+Physician: Okay, so I'd like to just talk with you for a little bit before the doctor comes in about what brings you in. Is that okay?

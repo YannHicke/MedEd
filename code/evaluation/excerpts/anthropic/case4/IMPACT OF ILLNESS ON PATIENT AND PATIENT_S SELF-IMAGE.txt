@@ -1,0 +1,14 @@
+Physician: "So moving on to your past medical history, can you tell me about any ongoing medical problems that you might have?"
+Patient: "I'm pretty healthy otherwise. I have seasonal allergies."
+
+Physician: "Okay. And in terms of your social history, can you tell me a little bit about your work? You mentioned you're concerned how this might impact your ability to go to work."
+Patient: "Sure. I stock shelves, and I feel like, you know, the pain is tolerable if it was low, but over my head it hurts, and even more so than the pain. You know, if I'm having a heart issue, I don't want to do something that kind of pushes me over the edge and makes it worse."
+
+Physician: "Okay. Are you concerned about returning to work?"
+Patient: "I am."
+
+Physician: "Yeah. I mean, drinking is definitely one of those things that could impact your heart health, as are some other things like smoking. I'd be interested to know if you smoke any cigarettes."
+Patient: "Occasionally, not. I don't consider myself a smoker, but sometimes when I drink I'll have a few."
+
+Physician: "Okay. So smoking is another thing that if you feel like your heart health is a priority, that's something that you could change in your life. Do you think that's something you would consider?"
+Patient: "Yeah, probably."

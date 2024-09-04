@@ -1,0 +1,71 @@
+Physician: "Is that the only time that it happens when you're brushing your teeth or you're flossing?"
+
+Physician: "Okay. How far along are you?"
+
+Physician: "About 20 weeks?"
+
+Physician: "How long is this bleeding, gums? How long have they been going on?"
+
+Physician: "A couple of weeks?"
+
+Physician: "Nothing you know of? No history of diabetes, high blood pressure, cancer, anything like that?"
+
+Physician: "You take the vitamin only? Mm-hmm. And this tea, is it commonly done in your culture, in your Korean, correct?"
+
+Physician: "Okay. Are you doing anything else to alleviate the gum problems, the soreness that you're having from that? Are you putting any medications in your mouth?"
+
+Physician: "Some sort of problem to the baby."
+
+Physician: "You don't want to put any chemicals in your body."
+
+Physician: "I'm not sure. We might have to do a deep cleaning depending on the status of your gums as it currently is. Was that the last time that you went to the dentist?"
+
+Physician: "Okay. So you had a cleaning about a year ago is what you're saying?"
+
+Physician: "And how was your experience?"
+
+Physician: "Do you have any other concerns or problems with the treatment that we're going to be giving?"
+
+Physician: "So is that deep cleaning applied once or twice? I'd like to know how often you..."
+
+Physician: "That means four anesthesia."
+
+Physician: "Do you have any concerns about sitting in the dental chair for a long period of time?"
+
+Physician: "Certainly, we can evaluate. We have to have you come in for a periodontal exam, which we might be able to do later in this visit, depending on if we have time."
+
+Physician: "But it sounds like you're going to need at least one from what you've been saying in your past history. Do you have any concerns about stressing the baby while you're in the chair? Do you have any anxiety when you're sitting in the dental chair or trouble sitting through a procedure?"
+
+Physician: "Sure. When we give you the anesthesia, we will keep it just in the area of your mouth that we're working on, and we'll try to give you as little as possible to make it effective."
+
+Physician: "Do you have some scientific evidence it's safe?"
+
+Physician: "The fetus. Okay. Excuse me."
+
+Physician: "So do you understand everything that I'm telling you about? Could you just tell me what you think that I'm telling you, just so we're both on the same page?"
+
+Physician: "Generally, who do you consult with for your health decisions? Do you have someone, like, are you married? Do you have any family members other than your husband? I see that you're wearing a wedding ring. Do you have any family members other than your husband that you would consult for your health care decisions?"
+
+Physician: "You do not at all? Okay. You haven't used any illicit drugs such as marijuana or cocaine?"
+
+Physician: "Anything else other than that?"
+
+Physician: "Okay, because sometimes those can be linked to gum disease as well."
+
+Physician: "So do you have any other questions for me today?"
+
+Physician: "Sure. So I'm just going to tell you what our overall plan is. What we're going to do is we'll, I think we have time now, we're going to do a complete periodontal exam on you."
+
+Physician: "At that time, we'll be able to tell exactly how many visits you need to come in for."
+
+Physician: "And then one visit for each quadrant that we decide you need a deep cleaning on."
+
+Physician: "Okay? So the most amount of visits that we're looking at is five."
+
+Physician: "The least amount is one."
+
+Physician: "But the number probably lies somewhere in between."
+
+Physician: "So we'll be able to tell you that at the end of today's visit."
+
+Physician: "Do you have any other questions for me?"

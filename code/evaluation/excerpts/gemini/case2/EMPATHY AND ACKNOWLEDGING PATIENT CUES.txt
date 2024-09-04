@@ -1,0 +1,3 @@
+Physician: "Okay. That must have been scary."
+
+Physician: "It was awful, yeah. Very frightening."

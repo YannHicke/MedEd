@@ -1,0 +1,31 @@
+Physician: "So would you like to discuss making a change?"
+
+Patient: "Please."
+
+Physician: "Okay, great. Absolutely. So I have a couple of ideas. You mentioned that you were financially stable. Did you say if you had insurance?"
+
+Patient: "I do."
+
+Physician: "Okay, that's good. Because one of my suggestions would be to have you talk to a registered dietician."
+
+Patient: "Oh, okay."
+
+Physician: "And insurance should cover about five visits or even more, and he or she can give you a good basis of different foods that are good for you and how to change your eating habits to make it more healthy."
+
+Patient: "That sounds like a good idea."
+
+Physician: "So that's something you'd be willing to start up with?"
+
+Patient: "I'd like to do that as soon as possible."
+
+Physician: "Oh, wonderful. So is that something you'd be willing to enroll in?"
+
+Patient: "Actually, I was thinking, and yes, that sounds like something I would do. Now that we're talking about it, I'm starting to think."
+
+Patient: "Very good. I'd be happy to sign that. I'm feeling pretty motivated. Great. This conversation is getting me excited."
+
+Physician: "Oh, I'm good. I'm glad. I'm glad. And also, I could bring in a calendar for you to fill out and just kind of keep a food journal to see what kind of foods you're eating and how you can make changes right now, even."
+
+Patient: "No. You've got me thinking about all these new ideas about how I can make myself eat well, and I'm excited about it. That's really why I'm here."
+
+Physician: "Well, I'm glad. I'm really glad that you're motivated to take the first step in eating healthfully, and that'll be really good for you, I'm sure."

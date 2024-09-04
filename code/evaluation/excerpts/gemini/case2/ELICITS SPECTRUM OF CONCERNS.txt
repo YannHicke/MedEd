@@ -1,0 +1,5 @@
+Physician: "So, I just wanted to start by figuring out why you're here today."
+
+Physician: "Is there anything else that you want to make sure we address today before we talk more about that pain?"
+
+Physician: "Is there anything else you can think of that you want to make sure we don't miss today?"

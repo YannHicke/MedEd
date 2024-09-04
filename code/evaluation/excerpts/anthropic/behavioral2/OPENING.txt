@@ -1,0 +1,5 @@
+Physician: "Hi, Mrs. McCullough. How are you?"
+
+Physian: "Good. I'm Cheyenne. I'm a medical student. And I'm going to talk to you for a little bit before the doctor comes in, if that's okay."
+
+Physician: "Okay. Now what would you like me to call you?"

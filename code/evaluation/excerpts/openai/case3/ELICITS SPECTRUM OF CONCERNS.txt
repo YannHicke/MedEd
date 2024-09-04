@@ -1,0 +1,3 @@
+Physician: "Okay, so I'd like to just talk with you for a little bit before the doctor comes in about what brings you in. Is that okay?"
+
+Physician: "All right, so tell me a little bit about what brought you to the office today."

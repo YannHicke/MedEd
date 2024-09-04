@@ -1,0 +1,39 @@
+Physician: Good morning, Ms. Park. My name is Tom.
+
+Patient: Hi. 
+
+Physician: How are you doing today?
+
+Patient: Very good. How are you?
+
+Physician: Good, thank you. What brings you into the dental clinic today?
+
+Patient: I have like bleeding in my gum, so I just wonder what happened.
+
+Physician: Okay. Are you feeling any pain with that bleeding?
+
+Patient: Not much, but a little sore when I brush my teeth.
+
+Physician: Is that the only time that it happens when you're brushing your teeth or you're flossing?
+
+Patient: During the day, sometimes sore, but mainly when I brush my teeth, sore and bleeding.
+
+Physician: Okay. Now it says in your chart here that you're pregnant?
+
+Patient: Yes.
+
+Physician: Okay. How far along are you?
+
+Patient: I think about 20 weeks.
+
+Physician: About 20 weeks? 
+
+Patient: Yes. 
+
+Physician: Okay. And you're how old?
+
+Patient: I'm 30 years old.
+
+Physician: 30 years old. Excellent. How long is this bleeding, gums? How long have they been going on?
+
+Patient: I think about a couple of weeks.

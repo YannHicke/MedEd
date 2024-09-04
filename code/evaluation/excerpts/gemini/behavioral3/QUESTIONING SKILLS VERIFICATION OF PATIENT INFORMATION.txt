@@ -1,0 +1,41 @@
+Physician: "And how many milligrams?"
+
+Physician: "And you're taking it every day?"
+
+Physician: "And is it helping?"
+
+Physician: "And what did she use to cook for you?"
+
+Physician: "So you're here to talk about your eating habits and how to change them and make them better. Do you have any other concerns for today?"
+
+Physician: "And how is his health?"
+
+Physician: "Do you feel tired?"
+
+Physician: "Tell me a little bit more about your wife. When did you break up?"
+
+Physician: "And you got full custody of your daughter?"
+
+Physician: "So have you thought about asking her for her old recipes or anything like that?"
+
+Physician: "And what kind of milk do you use?"
+
+Physician: "So you're here to talk about how you can change that to make it a little bit more healthier for you."
+
+Physician: "So you said you were financially stable. Did you say if you had insurance?"
+
+Physician: "So that's something you'd be willing to start up with?"
+
+Physician: "Do you know how to cook?"
+
+Physician: "Now, about teaching you how to cook, is there any kind of, do you know of any kind of community resources in your area where they can do classes or little tutorials on cooking?"
+
+Physician: "So is that something you'd be willing to enroll in?"
+
+Physician: "And you said you're kind of lonely out in the rural Burlington area."
+
+Physician: "And that should start up in two weeks, you said?"
+
+Physician: "Like, have you thought about trying 1% or 2% milk just to bring down the fat content a bit?"
+
+Physician: "Do you have any other concerns for us today?"

@@ -1,0 +1,5 @@
+Physician: "So what I'm going to do is I'm going to ask you a few questions to get a medical history and some reasons behind your wanting to do an exercise program, and then we can get into talking about how to start that. Does that sound okay?"
+
+Patient: "Okay. Sounds great."
+
+The physician sets a basic agenda for the conversation, though they don't explicitly negotiate priorities or list all of the patient's concerns (since the patient only had one main concern).

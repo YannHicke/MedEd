@@ -1,0 +1,19 @@
+Physician: Okay. So you're here to talk about your eating habits and how to change them and make them better. Do you have any other concerns for today?
+
+Patient: Not particularly, no.
+
+Physician: Okay. Let me know if you do, if you remember anything as we're talking.
+
+... 
+
+Physician: Do you have any other health concerns? Diabetes? No. High blood pressure? No. High cholesterol? Cancer?
+
+Patient: No.
+
+... 
+
+Physician: Do you have any other concerns for us today?
+
+Patient: No. You've got me thinking about all these new ideas about how I can make myself eat well, and I'm excited about it. That's really why I'm here.
+
+Physician does not negotiate priorities or set an agenda.

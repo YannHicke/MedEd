@@ -1,0 +1,39 @@
+Physician: "Okay. How long is the pain, like the duration of the pain?"
+
+Patient: "Like how long have I had it or how long does it last?"
+
+Physician: "Yeah, yeah. Kind of just describe a little bit to me."
+
+Patient: "Probably, well, it's been on and off, but the way that it's been like this, it's been like about 10 days."
+
+Physician: "It's been about 10 days?"
+
+Patient: "Yeah. I didn't really want to do anything about it, but at this point I know I have to."
+
+Physician: "Okay. Have you had any problems with it before this or it's just started at 10 days, 10 days ago?"
+
+Patient: "Well, I had some mercury fillings that I had taken out about two years ago."
+
+Physician: "Okay."
+
+Patient: "And I don't know if it's related to that, but that might have, you know, started the ball rolling. I don't really know."
+
+Physician: "Okay. Alright. So just so I've got an idea, you're feeling like you have some abscesses in your mouth and they are on both sides on the lower."
+
+Patient: "Yeah."
+
+Physician: "And it's been about 10 days, but you had some mercury fillings, some probably amalgam, are they silver-colored?"
+
+Patient: "Yeah."
+
+Physician: "Silver-colored fillings in the past and you think that might be the cause and you had those removed about two years ago, is that correct?"
+
+Patient: "About two years ago."
+
+Physician: "About two years ago. Okay. Alright. Just so I can get an idea."
+
+Physician: "And how long have you used it?"
+
+Patient: "Oh, I want to say it was shortly after my incident with the car, so probably about 18 months, maybe a little longer."
+
+Physician: "Maybe a little longer. Okay, so about 18 months with shortness of breath."

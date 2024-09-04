@@ -1,0 +1,41 @@
+Here are the relevant questions used by the physician:
+
+Physician: "What brings you in today?"
+
+Physician: "Why is that?"
+
+Physician: "What are you eating these days, then?"
+
+Physician: "And what did she use to cook for you?"
+
+Physician: "So before I continue with talking about food and everything, why don't you tell me a little bit about yourself? How is your health?"
+
+Physician: "Do you feel tired?"
+
+Physician: "Have you ever used any tobacco products, or do you still use them now?"
+
+Physician: "And how much do you drink?"
+
+Physician: "And has alcohol ever been a problem for you?"
+
+Physician: "Tell me a little bit more about your wife. When did you break up?"
+
+Physician: "And so now with your daughter gone, are you living with anyone?"
+
+Physician: "What's your cat's name?"
+
+Physician: "Where do you live?"
+
+Physician: "And what do you do for a living?"
+
+Physician: "So the Zoloft is making you feel better, but when you are feeling kind of down, do you feel like you have a social support network?"
+
+Physician: "So have you thought about asking her for her old recipes or anything like that?"
+
+Physician: "So would you like to discuss making a change?"
+
+Physician: "Do you know how to cook?"
+
+Physician: "Now, about teaching you how to cook, is there any kind of, do you know of any kind of community resources in your area where they can do classes or little tutorials on cooking?"
+
+Physician: "Do you have any other concerns for us today?"

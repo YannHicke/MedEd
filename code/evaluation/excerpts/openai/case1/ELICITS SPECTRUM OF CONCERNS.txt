@@ -1,0 +1,3 @@
+Physician: "So what brings you in today?"
+
+Physician: "Can you start from the beginning and really tell me everything you can remember about when it started?"

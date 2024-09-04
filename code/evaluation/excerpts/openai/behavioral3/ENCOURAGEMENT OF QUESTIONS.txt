@@ -1,0 +1,7 @@
+Physician: "Do you have any other concerns for today?"
+
+Physician: "Okay. Let me know if you do, if you remember anything as we're talking."
+
+Physician: "But I really want you to feel like you can contact the office if you have any questions about nutrition or what you should be eating."
+
+Physician: "Do you have any other concerns for us today?"

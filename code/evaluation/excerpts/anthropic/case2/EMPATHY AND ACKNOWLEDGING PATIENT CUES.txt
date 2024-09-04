@@ -1,0 +1,13 @@
+Physician: "That must have been scary."
+
+Patient: "It was awful, yeah. Very frightening."
+
+Physician: "Okay. That sounds like a reasonable summary? Anything I missed?"
+
+Patient: "I remember that I was also pretty sweaty during the whole thing."
+
+Physician: "Okay."
+
+Patient: "I felt nauseous."
+
+Physician: "Absolutely, absolutely. That makes perfect sense. It sounds like it was pretty scary, so I think that we're going to be able to come to a conclusion about what this is and give you some strategies for avoiding it in the future."

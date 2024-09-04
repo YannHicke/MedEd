@@ -1,0 +1,13 @@
+Physician: "Oh, I'm really sorry to hear about that. Can you tell me a little bit about that?"
+
+Physician: "Okay, and is there anything that makes the pain better?"
+
+Physician: "Okay, how much Advil are you taking?"
+
+Physician: "Okay, do you know what the dose is of the Advil?"
+
+Physician: "Okay, and you're gonna be going back to work tomorrow, you said?"
+
+Physician: "Okay, and do you think your boss would be okay with you taking some time off if you needed to?"
+
+Physician: "So I'd just like to summarize a little bit. So it sounds like you've had chest pain for two days now. Sometimes it's an ache, sometimes it's sharp. It's made worse if you're lifting things and you're worried because at work you lift boxes. It's made better by Advil. You said you've taken like two in the morning, two in the afternoon. That seems to help. You're not sure what the dose is on that. And it doesn't radiate anywhere. You have no other symptoms with that. Does that sound about right?"

@@ -1,0 +1,11 @@
+Physician: "Good morning, Ms. Park. My name is Tom."
+
+Patient: "Hi."
+
+Physician: "How are you doing today?"
+
+Patient: "Very good. How are you?"
+
+Physician: "Good, thank you. What brings you into the dental clinic today?"
+
+Patient: "I have like bleeding in my gum, so I just wonder what happened."

@@ -1,0 +1,37 @@
+Physician: "Can you start from the beginning and really tell me everything you can remember about when it started?"
+
+Patient: "Sure. It woke me up last night a little after, I'd say about 1 o'clock. And it was an awful, I don't know, I want to say like tearing pain. So I got up. I kind of walked around. Woke up my husband. And, I don't know, it just didn't get any better. It was awful."
+
+Physician: "So it woke you up out of sleep."
+
+Patient: "Right."
+
+Physician: "Can you tell me more about the pain? It was a tearing pain."
+
+Patient: "Yeah. I think it's one of the worst pains I've had in my life."
+
+Physician: "And where was it?"
+
+Patient: "Down low on my right side of my abdomen."
+
+Physician: "And did it move anywhere?"
+
+Patient: "Yeah, sometimes it would move down into my groin area."
+
+Physician: "Okay. All right. So you tried to walk around. That didn't seem to help."
+
+Patient: "Right."
+
+Physician: "Anything you did to try to help it?"
+
+Patient: "I did try some Tylenol."
+
+Physician: "Okay."
+
+Patient: "And, I don't know, after half an hour or so, I really didn't feel any difference. I don't think it helped."
+
+Physician: "Okay. So this was about 1 in the morning."
+
+Patient: "Mm-hmm."
+
+Physician: "What did you do then? What happened next?"

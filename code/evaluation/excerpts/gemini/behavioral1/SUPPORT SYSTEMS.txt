@@ -1,0 +1,14 @@
+Physician: So it's probably been tough on you in terms of your father's health history and also school. So who really serves as your social support? Would you say it's your parents, or do you have friends in the area?
+Patient: Well, it's mostly my parents since I'm at home. I don't really have that many friends in the area since most of my friends are out of state where I went to school.
+Physician: Okay. And do you work currently, or do you stay at home, or what exactly do you do?
+Patient: I've been working as a medical technician.
+Physician: Okay. 
+Patient: So that's all right. 
+Physician: It keeps you busy, right?
+Patient: Right.
+Physician: Okay. Do you have insurance through your job?
+Patient: No. That's the unfortunate part.
+Physician: Okay. So later on when we discuss different treatment options to help you quit smoking, that's one thing we can discuss is your financial situation, and we can definitely take that into account.
+Patient: Sure. 
+Physician: Sound good?
+Patient: Sure.

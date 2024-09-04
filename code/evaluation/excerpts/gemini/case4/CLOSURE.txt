@@ -1,0 +1,3 @@
+Physician: "Okay. Well, I'll go talk with my preceptor, and you can wait here, change into a gown, and we'll be back in just a few minutes to do your physical exam."
+Patient: "Okay."
+Physician: "Okay. All right."

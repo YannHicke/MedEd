@@ -1,0 +1,9 @@
+Physician: "Okay, so I'd like to just talk with you for a little bit before the doctor comes in about what brings you in. Is that okay?"
+
+Patient: "Sure."
+
+Physician: "All right, so tell me a little bit about what brought you to the office today."
+
+Patient: "Well, I'm having a pain in the left part of my chest and I'm worried it could be my heart."
+
+Physician: "Oh, I'm really sorry to hear about that. Can you tell me a little bit about that?"

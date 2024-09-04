@@ -1,0 +1,37 @@
+Physician: "So before I continue with talking about food and everything, why don't you tell me a little bit about yourself? How is your health?"
+
+Patient: "My health is quite good. I did have a little bit of problem with irritability and sleeping."
+
+Physician: "Okay."
+
+Patient: "And about three or four months ago I was put on an antidepressant, which seems to be helping quite a lot."
+
+Physician: "Okay. Which antidepressant?"
+
+Patient: "It's Zoloft."
+
+Physician: "And how many milligrams?"
+
+Patient: "It's 10 milligrams a day."
+
+Physician: "Okay. And you're taking it every day?"
+
+Patient: "Yes, I am."
+
+Physician: "And is it helping?"
+
+Patient: "I'm much more relaxed. I'm sleeping better. I can really feel the difference."
+
+Physician: "Okay. Great. Well, that's wonderful. I'm glad to hear that."
+
+Patient: "Thank you."
+
+Physician: "That's good. Do you have any other health concerns? Diabetes? No. High blood pressure? No. High cholesterol? Cancer?"
+
+Patient: "No."
+
+Physician: "Any hospitalizations or surgeries?"
+
+Patient: "No."
+
+Physician: "Okay. How about your family? Are your parents still alive?"

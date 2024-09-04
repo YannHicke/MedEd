@@ -1,0 +1,27 @@
+Physician: "Okay. So besides your concern about quitting smoking, do you have any other things that you would like to speak about today?"
+
+Physician: "All right. If anything comes up, you can just stop me or just remember for later. Sound good?"
+
+Physician: "Sorry to hear about that."
+
+Physician: "Okay. So now we can actually form a plan together as to how you're going to go about quitting smoking."
+
+Physician: "Does that sound like something you would be able to do?"
+
+Physician: "So why don't we pick a date in two weeks from now? So two weeks from today, we'll say that's your quit date."
+
+Physician: "Sound good?"
+
+Physician: "Any questions? Any other concerns?"
+
+Physician: "Does that sound, you know?"
+
+Physician: "Does that sound like a good idea?"
+
+Physician: "Do those sound like things that you'd be interested in doing?"
+
+Physician: "Does that sound good?"
+
+Physician: "Would you be able to repeat back the plan that we've come up with?"
+
+Physician: "Does that sound like a good idea?"

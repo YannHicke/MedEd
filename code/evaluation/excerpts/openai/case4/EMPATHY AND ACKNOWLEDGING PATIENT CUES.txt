@@ -1,0 +1,17 @@
+Physician: "Okay. So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job. Okay. Is there anything else you'd like to talk about today before we move on?"
+
+Physician: "Okay. Well, I'm glad you came in."
+
+Physician: "That's good to hear."
+
+Physician: "Good. Well, I'm glad to hear that you're wearing a helmet."
+
+Physician: "Once we finish up the visit and we do the exam and get a better idea of what's causing your pain, I would be more than happy to speak with my preceptor and see if we can get a work excuse for you so you can have some recovery time."
+
+Physician: "Good. All right."
+
+Physician: "I see."
+
+Physician: "That's good."
+
+Physician: "Okay. Well, I'll go talk with my preceptor, and you can wait here, change into a gown, and we'll be back in just a few minutes to do your physical exam."

@@ -1,0 +1,7 @@
+Physician: "Does that sound all right?"
+
+Patient: "Sounds good."
+
+Physician: "It was really nice to meet you, and I'll be back in a few minutes."
+
+Patient: "All right. Thank you."

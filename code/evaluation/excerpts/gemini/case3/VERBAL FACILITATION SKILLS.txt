@@ -1,0 +1,8 @@
+Physician: "Okay, so you mentioned a couple days. It's been going on for how long now?"
+Physician: "Okay, and you're gonna be going back to work tomorrow, you said?"
+Physician: "Okay, and you lift boxes at work?"
+Physician: "Okay, and do you think your boss would be okay with you taking some time off if you needed to?"
+Physician: "Okay, I'll see if I can do that for you."
+Physician: "Okay. So do you think that you could look to your girlfriend in a time of need for her to help you out if you were sick or anything like that?"
+Physician: "Okay. Well, that's understandable." 
+Physician: "Okay. So it sounds like there's a possibility that your chest pain could be related to the mountain biking incident. And I will talk with my doctor and you can wait here. I'll be back in a few minutes."

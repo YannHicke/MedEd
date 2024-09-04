@@ -1,0 +1,11 @@
+Physician: "Do you, do you, have you ever tried to quit before?"
+
+Patient: "Yeah, I tried a few times cold turkey, and that never lasted more than a week."
+
+Physician: "Why do you think that happened?"
+
+Patient: "I mean, a couple. I mean, job stress, you know, project deadlines, those sorts of things. I mean, you know, when you're going out with your friends. A lot of my friends and coworkers smoke, so it's kind of like a situational thing. Just light one up, and it's just really hard to resist that temptation."
+
+Physician: "Okay, all right. So do you think you would want to quit, do you think?"
+
+Patient: "Absolutely, yeah. I mean, like I said, this has got to happen before. I would really like to be rid of this within four months, you know, before the baby's born."

@@ -1,0 +1,139 @@
+Physician: "It's very painful. On both sides?"
+
+Physician: "On the lower? Okay. Can you describe the pain to me a little bit?"
+
+Physician: "Okay. How long is the pain, like the duration of the pain?"
+
+Physician: "Like how long have I had it or how long does it last?"
+
+Physician: "Yeah, yeah. Kind of just describe a little bit to me."
+
+Physician: "Okay. Have you had any problems with it before this or it's just started at 10 days, 10 days ago?"
+
+Physician: "And it's been about 10 days, but you had some mercury fillings, some probably amalgam, are they silver-colored?"
+
+Physician: "Silver-colored fillings in the past and you think that might be the cause and you had those removed about two years ago, is that correct?"
+
+Physician: "Why did you have the fillings removed? What do you think was the problem?"
+
+Physician: "Are you allergic to anesthetics?"
+
+Physician: "Certain anesthetics? Okay. I'll ask you just a few more questions about that later. We'll get into a little bit of the medical history at first."
+
+Physician: "So you feel like you've had dental work in the past pretty much on a regular basis. Is that correct?"
+
+Physician: "And just you were in a car, and you're feeling like as soon as you had the new car, certain health problems were starting to happen. Is that correct?"
+
+Physician: "All right, and so do you think the problems with your teeth, you think they're related to chemical sensitivities? Is that my understanding?"
+
+Physician: "Okay. Yeah, I will take a look at this later a little bit. So you think it's just some chemical sensitivities to your teeth, and that's why you had the amalgam fillings removed then. Is that correct?"
+
+Physician: "Okay. How often?"
+
+Physician: "Twice a day. Okay. And what kind of products are you using again? I know you mentioned it."
+
+Physician: "All right. So this may seem like a broad question, but I know you mentioned it before. What are some of the significant medical problems that you have?"
+
+Physician: "Okay. Yeah, I noticed you did have the oxygen tank, so I was going to ask you about that. How often do you have to use it?"
+
+Physician: "Okay. And why do you have it?"
+
+Physician: "Okay. All right. And you have to use it all the time or just outside of the house?"
+
+Physician: "Okay. All right. And did a doctor prescribe that for you?"
+
+Physician: "Okay. And how long have you used it?"
+
+Physician: "Maybe a little longer. Okay, so about 18 months with shortness of breath. Do you think you're going to —I think it will be fine if you use it here. If you feel more comfortable, you know, with coming to the dental appointments, with it, that's all right. Do you think it will be fine if we lean you back in the chair and things like that? Will you be all right?"
+
+Physician: "All right. Any other significant medical problems besides the shortness of breath?"
+
+Physician: "Okay, but nothing has been diagnosed?"
+
+Physician: "Okay. All right. Any, for example, any, like, heart problems?"
+
+Physician: "Yourself."
+
+Physician: "Lung problems?"
+
+Physician: "Just the shortness of breath?"
+
+Physician: "Okay. Anything diagnosed of it?"
+
+Physician: "With the shortness of breath?"
+
+Physician: "Okay. Anything with, like, type 2 diabetes or type 1 diabetes, anything like that?"
+
+Physician: "You don't have that? Okay."
+
+Physician: "Your mother does?"
+
+Physician: "All right. Any other?"
+
+Physician: "She has type 2. Any other medical problems that run in the family, heart problems or lung problems or anything like that?"
+
+Physician: "Okay. All right."
+
+Physician: "Just the diabetes? All right. Do you live with your mom, or does she live close by?"
+
+Physician: "You live with her. Okay. So do you have a little bit of family support then at home?"
+
+Physician: "Okay. Yeah. All right. Let's see. What else? Make sure. So we have shortness of breath. We're going to try to start out with go ahead and using the oxygen while you're comfortable. You have had some chest pain that kind of comes and goes."
+
+Physician: "Okay."
+
+Physician: "All right. But no heart murmurs or any diagnosed type of heart problem?"
+
+Physician: "All right. And are you taking any medications at all?"
+
+Physician: "No medications at all. Okay. But you are taking some multivitamins or some type of vitamins?"
+
+Physician: "Okay. What about any herbs or anything, non-prescribed medications?"
+
+Physician: "No. Okay. All right. I know you mentioned latex as being an allergy and some anesthetics, but you don't know what kind of anesthetics?"
+
+Physician: "Okay. There are a few that, you know, anesthetics that we usually use here at the health center. You don't want to use any?"
+
+Physician: "Any?"
+
+Physician: "Okay. Well, if you're allergic to them, we wouldn't use anything, of course, that you're allergic to. If there's large fillings or something like that, you'd probably be more comfortable being numb. But if you don't feel comfortable with that, if you're allergic to something, then we can try it without and see how it goes."
+
+Physician: "All right. Besides the anesthetics and the latex, any other allergies at all that you know of?"
+
+Physician: "Okay. Do you drink?"
+
+Physician: "No. What about smoking?"
+
+Physician: "No. Okay. So, you know, some of those can, you know, be related to dental problems, too. So that's just why I'm asking. All right. Any infectious diseases at all, such as HIV?"
+
+Physician: "Hepatitis?"
+
+Physician: "Tuberculosis? Anything like that?"
+
+Physician: "No? Okay. All right. So I think I have a good idea about medical history a little bit. So have you been seeing a physician on a regular basis?"
+
+Physician: "Okay."
+
+Physician: "So you're pretty familiar with all that."
+
+Physician: "Okay."
+
+Physician: "Okay."
+
+Physician: "What about transportation? Is transportation going to be a problem or not?"
+
+Physician: "Okay."
+
+Physician: "So you would be able to come if a friend could drive you?"
+
+Physician: "Okay. All right. And do you – I know you used to mention you were a nurse. Do you work at all now or no?"
+
+Physician: "Okay. So timeframes for the appointments wouldn't be too much of a problem then?"
+
+Physician: "Okay. All right. All right. I think I have a fairly good idea of medical history and dental history. So what we'll probably do now is take a look, if that's okay, to see what we can find, kind of diagnose the problem a little bit. And we'll focus on those, you know, the problems on the lower teeth if that's, you know, really bothering you. And then we'll probably get a plan for you, kind of a treatment plan, that, you know, you will want to approve. And after I look at this, we'll discuss a lot more about what kind of materials that we can use to fill the teeth or restore the teeth if they need to be restored. Does that sound all right?"
+
+Physician: "We'll go out and get everything ready. We'll probably take a couple pictures of your teeth, x-rays. Is that all right, to take some x-rays of your teeth?"
+
+Physician: "Okay. All right. We'll try to do that and take a look in your mouth. I'll make sure we use some non-latex gloves so that won't be a problem. And I'll be back soon."
+
+Physician: "All right. I will make sure. I'll have you look at the box first. I'll put them out here so you can see them. Does that sound all right?"

@@ -1,0 +1,35 @@
+Physician: What brings you in today?
+
+Patient: I'm concerned about a pain I have in my chest. And because of where it is, I'm worried it could be my heart.
+
+Physician: Oh, okay. Is there anything else that brought you in today?
+
+Patient: I'm just really concerned about my heart and then how it might impact my job as well.
+
+Physician: Okay. So you're concerned about your chest pain. You're concerned about your heart. You're also concerned about your job. Okay. Is there anything else you'd like to talk about today before we move on?
+
+Patient: No, that's it.
+
+Physician: Okay. So I'll just ask a little bit about your chest pain, and then we'll get some information that will help me assess your risk of heart disease since it sounds like you're concerned about that, and then we'll find out a little bit about your job. Okay. Is that okay?
+
+Patient: Sure.
+
+Physician: All right. So why don't you tell me about when your chest pain started.
+
+... 
+
+Physician: So it sounds like your three main concerns today were your chest pain, that started a couple days ago, your heart health, because you're worried that you might be at risk for heart disease because of your mom, and then also your work.
+
+Physician: Do you have any questions about what we've talked about?
+
+Patient: Yeah. I just get a little nervous because my mom had her heart surgery when she was a few years younger than I am now. So is that something that could impact me?
+
+Physician: Okay. Any other questions that you have?
+
+Patient: No.
+
+Physician: Okay. Well, I'll go talk with my preceptor, and you can wait here, change into a gown, and we'll be back in just a few minutes to do your physical exam.
+
+Patient: Okay.
+
+Physician: Okay. All right.

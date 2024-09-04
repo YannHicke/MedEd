@@ -1,0 +1,4 @@
+Physician: "Okay. So I'm going to go get the doctor and you can sit here for a few minutes and we'll be back in to discuss."
+Patient: "Okay. All right. "
+Physician: "It was nice to meet you."
+Patient: "Nice meeting you."

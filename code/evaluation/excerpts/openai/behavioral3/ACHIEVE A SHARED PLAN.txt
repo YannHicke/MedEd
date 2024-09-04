@@ -1,0 +1,51 @@
+Physician: "So you're here to talk about your eating habits and how to change them and make them better."
+
+Physician: "Okay, good. So would you like to discuss making a change?"
+
+Patient: "Please."
+
+Physician: "Okay, great. Absolutely. So I have a couple of ideas. You mentioned that you were financially stable. Did you say if you had insurance?"
+
+Physician: "Because one of my suggestions would be to have you talk to a registered dietician."
+
+Physician: "And insurance should cover about five visits or even more, and he or she can give you a good basis of different foods that are good for you and how to change your eating habits to make it more healthy."
+
+Patient: "That sounds like a good idea."
+
+Physician: "So that's something you'd be willing to start up with?"
+
+Patient: "I'd like to do that as soon as possible."
+
+Physician: "Okay, that's great. Good. So we could, after this, we could make an appointment with a dietician that you can go talk to about that."
+
+Physician: "Now, about teaching you how to cook, is there any kind of, do you know of any kind of community resources in your area where they can do classes or little tutorials on cooking?"
+
+Physician: "Oh, wonderful. So is that something you'd be willing to enroll in?"
+
+Patient: "Actually, I was thinking, and yes, that sounds like something I would do. Now that we're talking about it, I'm starting to think."
+
+Physician: "And that would also be a really good way for you to meet people and to get more integrated into your community, since you said you're kind of lonely out in the rural Burlington area."
+
+Physician: "But you're looking into how to cook, so maybe that's just a default way to make friends."
+
+Physician: "Okay. So we'll establish the appointment for the dietician."
+
+Physician: "And this is something that I'd like to work with you together. We could make the appointment together. And then we can also have you make an appointment to see me and Dr. Smith in two weeks to see how, if you had the first appointment, how that went."
+
+Physician: "And also talk about maybe you've already enrolled in the class and how that's coming along."
+
+Physician: "But I really want you to feel like you can contact the office if you have any questions about nutrition or what you should be eating."
+
+Physician: "And what I can do is go talk to Dr. Smith and come back. And I can bring in a contract for you to sign that just says that you'll be willing to start up this new nutritional movement for you to feel better about yourself."
+
+Physician: "And you could sign that, and that could just make it more official, and you could feel more motivated to do it, too."
+
+Physician: "And also, I could bring in a calendar for you to fill out and just kind of keep a food journal to see what kind of foods you're eating and how you can make changes right now, even."
+
+Physician: "So, for example, you eat cereal with whole milk. Like, have you thought about trying 1% or 2% milk just to bring down the fat content a bit?"
+
+Physician: "Okay. Well, there's something you can do right now before seeing a dietician."
+
+Physician: "Well, I'm glad. I'm really glad that you're motivated to take the first step in eating healthfully, and that'll be really good for you, I'm sure."
+
+Physician: "So I'm going to go talk to Dr. Smith and get you that paperwork, and you just stay right here, and I'll come back."

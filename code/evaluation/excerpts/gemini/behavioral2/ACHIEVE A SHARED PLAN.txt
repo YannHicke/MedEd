@@ -1,0 +1,28 @@
+Physician: So how about this? Would you like to start exercising as of a few days from now? Would you be ready for that?
+Patient: Give me at least a week.
+Physician: At least a week?
+Patient: Yes. 
+Physician: Okay. And then what we can do is we can get you back in here or to see the physical therapist within that week. And we can assess your back before you start that exercise program. And also in that week, if you could speak with Lucy and with Bill, your husband, about Bill's going to the gym in Manchester with you and to see how many days a week they'd be interested in going or also what sort of exercises Bill might be interested in if he's not willing or can't go to the gym in Manchester. Such as, say, walking around your neighborhood. You could take your dog for a walk.
+Patient: Yes.
+Physician: Or finding another pool nearby and swimming with you.
+Patient: Oh. 
+Physician: That would be another thing. Or even you could do some exercises in the home too. Some people buy little weights that you can do weight exercises with at home.
+Patient: Okay. Yeah, I've seen those in the stores.
+Physician: Okay, good. Good, so you're familiar with them.
+Patient: Right. 
+Physician: And then, say, in a week from now, you can start your exercise routine. And I'll give you a calendar, and on that calendar you could write down which exercises you do each day.
+Patient: Okay.
+Physician: And that's good for a few reasons. It's good because you can feel good about what you've done. It's always good to look back and see that you've done it.
+Patient: Right. 
+Physician: And it's so that you could bring it back and we could talk about it and discuss any changes we want to make if you're having any pain or if you want to increase your activity, that sort of thing.
+Patient: Okay, that sounds great. 
+Physician: So just to make sure that I explained that clearly, I know I was a little jumbled in what I was saying, could you tell me what we just agreed upon and what you got from that?
+Patient: That I'm going to start at the gym that has the pool and go to that and see if my daughter and or my husband would like to do that and or go to the regular gym and have the personal trainer show me some of the bikes and things that they have and how to use them.
+Physician: Sure. Good. That sounds good. And so I'll let you talk to your family members and we'll set you up for an appointment within the next week.
+Patient: Okay. 
+Physician: And then I'll let you start on the exercise program in about a week. And how about I make a follow-up appointment with you for a month from now to talk about how it's going.
+Patient: Sounds good. Sounds very good.
+Physician: Okay. So I'm going to go get the doctor and you can sit here for a few minutes and we'll be back in to discuss.
+Patient: Okay. All right. 
+Physician: It was nice to meet you.
+Patient: Nice meeting you.

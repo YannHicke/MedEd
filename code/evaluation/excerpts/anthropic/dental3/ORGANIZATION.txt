@@ -1,0 +1,25 @@
+Physician: "Hey, Kevin. How's it going? It's really good to see you. You know, I can't believe it's been six months that have gone by already since your last visit."
+
+Physician: "How's everything going for you?"
+
+Physician: "That's fantastic. Congratulations."
+
+Physician: "Congratulations. Have you and your wife thought about any names yet for the baby?"
+
+Physician: "That's terrific. Before Kathy comes in to do your prophy, I wanted to just update your history. Have you been having any problems since you were last here for your last visit?"
+
+Physician: "Okay. And how often have you been brushing?"
+
+Physician: "Oh, right. It sounds like you're doing a pretty good job, pretty reasonable job with your oral hygiene. We'll have to work on the flossing a little bit, but not bad. How about your general health? Have there been any changes in your health since you were last here?"
+
+Physician: "Okay. No other problems besides that?"
+
+Physician: "Have you seen your physician recently?"
+
+Physician: "Okay. Yeah, that's important, especially if you're having symptoms like shortness of breath."
+
+Physician: "So make sure that your physician evaluates that. Are you on any medications right now?"
+
+Physician: "Okay, great. Any changes in your alcohol intake?"
+
+Physician: "Okay. How about your tobacco use?"

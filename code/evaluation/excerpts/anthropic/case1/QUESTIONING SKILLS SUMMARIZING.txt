@@ -1,0 +1,5 @@
+Physician: "So this was about 1 in the morning."
+
+Patient: "Mm-hmm."
+
+Physician: "What did you do then? What happened next?"

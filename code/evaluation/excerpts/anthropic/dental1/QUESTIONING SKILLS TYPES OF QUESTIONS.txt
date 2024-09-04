@@ -1,0 +1,21 @@
+Here are the relevant questions asked by the physician:
+
+Physician: "Okay. Alright. So what brought you here today?"
+
+Physician: "Can you describe the pain to me a little bit?"
+
+Physician: "How long is the pain, like the duration of the pain?"
+
+Physician: "Have you had any problems with it before this or it's just started at 10 days, 10 days ago?"
+
+Physician: "Why did you have the fillings removed? What do you think was the problem?"
+
+Physician: "Are you allergic to anesthetics?"
+
+Physician: "How often do you have to use it?"
+
+Physician: "And why do you have it?"
+
+Physician: "All right. Any other significant medical problems besides the shortness of breath?"
+
+Physician: "What about any herbs or anything, non-prescribed medications?"

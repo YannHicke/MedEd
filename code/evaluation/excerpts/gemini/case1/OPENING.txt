@@ -1,0 +1,5 @@
+Physician: Hi, Mrs. Paulton?
+Patient: Yes. 
+Physician: Hi, my name is Amy. It's nice to meet you.
+Patient: Nice to meet you, Amy.
+Physician: So what brings you in today?

@@ -1,0 +1,3 @@
+Physician: "Okay. So I will be right back."
+Patient: "Thank you." 
+Physician: "Thank you very much."
