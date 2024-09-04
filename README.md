@@ -22,7 +22,7 @@ If you do not wish to use any of these APIs, set the corresponding environment v
 2. **Run the evaluation script**:
 
     ```bash
-    python score_chat2.py
+    python score.py
 
 This script will utilize the configuration file `config.yaml` located in the `code/evaluation` directory.
 
