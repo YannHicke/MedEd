@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student discusses the diagnosis and/or prognosis and negotiates a plan with the patient. The student invites the patient to contribute their own thoughts, ideas, suggestions, and preferences.
-     - **Score 4:** The student discusses the diagnosis and/or prognosis and attempts to negotiate a plan with the patient. They invite some patient input, but may not explore the patient's thoughts, ideas, suggestions, and preferences as thoroughly as in a score of 5. The student shows a clear attempt to involve the patient in decision-making, even if not as comprehensively as in a top performance.
-     - **Score 3:** The student discusses the diagnosis and/or prognosis and plan but does not allow the patient to contribute. The discussion lacks full quality. 
-     - **Score 2:** The student makes limited attempts to discuss the diagnosis and/or prognosis with no opportunity for patient input. 
-     - **Score 1:** The student fails to discuss the diagnosis and/or prognosis. 
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student discusses the diagnosis and/or prognosis and negotiates a plan with the patient. The student invites the patient to contribute their own thoughts, ideas, suggestions, and preferences.
+      - **Score 4:** The student discusses the diagnosis and/or prognosis and attempts to negotiate a plan with the patient. They invite some patient input, but may not explore the patient's thoughts, ideas, suggestions, and preferences as thoroughly as in a score of 5. The student shows a clear attempt to involve the patient in decision-making, even if not as comprehensively as in a top performance.
+      - **Score 3:** The student discusses the diagnosis and/or prognosis and plan but does not allow the patient to contribute. The discussion lacks full quality. 
+      - **Score 2:** The student makes limited attempts to discuss the diagnosis and/or prognosis with no opportunity for patient input. 
+      - **Score 1:** The student fails to discuss the diagnosis and/or prognosis. 
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
