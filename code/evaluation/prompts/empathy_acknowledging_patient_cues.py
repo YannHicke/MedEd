@@ -3,13 +3,13 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student uses supportive comments regarding the patient’s emotions. The student uses NURS (Name the emotion, Understand the patient's perspective, Respect the patient's experience, and Support the patient) or specific techniques for demonstrating empathy. 
-     - **Score 4:** NURS or equivalent techniques are mostly employed by the student, but they may not be as well-executed or as frequent. The student shows clear attempts to connect emotionally with the patient, even if occasionally missing opportunities for deeper empathy.
-     - **Score 3:** The student is neutral, neither overly positive nor negative in demonstrating empathy. 
-     - **Score 2:** The student shows limited attempts at empathy, but these are infrequent or sometimes poorly executed. There may be moments of connection, but they are overshadowed by missed opportunities or occasional insensitive comments. The student's approach is inconsistent, sometimes seeming detached or unresponsive to the patient's emotions.
-     - **Score 1:** No empathy is demonstrated. The student uses a negative emphasis or openly criticizes the patient. 
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student uses supportive comments regarding the patient’s emotions. The student uses NURS (Name the emotion, Understand the patient's perspective, Respect the patient's experience, and Support the patient) or specific techniques for demonstrating empathy. 
+      - **Score 4:** NURS or equivalent techniques are mostly employed by the student, but they may not be as well-executed or as frequent. The student shows clear attempts to connect emotionally with the patient, even if occasionally missing opportunities for deeper empathy.
+      - **Score 3:** The student is neutral, neither overly positive nor negative in demonstrating empathy. 
+      - **Score 2:** The student shows limited attempts at empathy, but these are infrequent or sometimes poorly executed. There may be moments of connection, but they are overshadowed by missed opportunities or occasional insensitive comments. The student's approach is inconsistent, sometimes seeming detached or unresponsive to the patient's emotions.
+      - **Score 1:** No empathy is demonstrated. The student uses a negative emphasis or openly criticizes the patient. 
 
   **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
