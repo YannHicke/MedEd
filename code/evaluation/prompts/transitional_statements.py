@@ -11,7 +11,7 @@ To ensure a thorough evaluation, follow these steps:
      - **Score 2:** The student makes some attempt at using transitional statements, but they are often vague, abrupt, or ineffective. The patient may occasionally be confused about the purpose of new questions, but there is still minimal effort to provide context for shifts in topic.
      - **Score 1:** The student progresses from one subsection to another in such a manner that the patient is left with a feeling of uncertainty as to the purpose of the questions. No transitional statements are made. 
 
-  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
