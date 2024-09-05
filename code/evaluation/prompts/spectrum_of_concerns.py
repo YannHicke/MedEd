@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student elicits the patient’s full spectrum of concerns within the first 3-5 minutes of the interview. The student asks a final “Anything else?” or an equivalent to the patient to make sure all concerns have been raised.
-     - **Score 4:** The student elicits the patient’s chief complaint and secondary concerns but fails to ask the final 'Anything else?' question.
-     - **Score 3:** The student elicits some of the patient’s concerns on their chief complaint.
-     - **Score 2:** The student only states the chief complaint without eliciting the patient’s concerns.
-     - **Score 1:** The student fails to elicit the patient’s chief complaint.
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student elicits the patient’s full spectrum of concerns within the first 3-5 minutes of the interview. The student asks a final “Anything else?” or an equivalent to the patient to make sure all concerns have been raised.
+      - **Score 4:** The student elicits the patient’s chief complaint and secondary concerns but fails to ask the final 'Anything else?' question.
+      - **Score 3:** The student elicits some of the patient’s concerns on their chief complaint.
+      - **Score 2:** The student only states the chief complaint without eliciting the patient’s concerns.
+      - **Score 1:** The student fails to elicit the patient’s chief complaint.
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
