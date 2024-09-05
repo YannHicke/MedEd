@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student uses deliberate techniques to check the patient’s understanding of information given during the interview including diagnosis. If English proficiency is limited, an interpreter is offered. Techniques may include asking the patient to repeat information, asking if the patient has additional questions, posing hypothetical situations, or asking the patient to demonstrate techniques. When patient education is a goal, the student determines the patient’s level of interest and provides education appropriately.
-     - **Score 4:** The student makes efforts to ensure comprehension and address patient education, but might miss some opportunities or use less effective methods. The student shows awareness of the importance of patient understanding and education, even if their approach is not as refined or comprehensive as a top performance.
-     - **Score 3:** The student asks the patient if they understand the information but does not use a deliberate technique to check. There is some attempt to determine the interest in patient education but could be more thorough.
-     - **Score 2:** The student makes limited attempts to check the patient's understanding and does not use any specific techniques to ensure comprehension. Attempts at patient education are minimal or poorly executed. The student shows some awareness of the need to verify understanding and provide education, but struggles to implement effective strategies.
-     - **Score 1:** The student fails to assess the patient's level of understanding and does not effectively correct misunderstandings when they are evident, and/or the student fails to address the issue of patient education.
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student uses deliberate techniques to check the patient’s understanding of information given during the interview including diagnosis. If English proficiency is limited, an interpreter is offered. Techniques may include asking the patient to repeat information, asking if the patient has additional questions, posing hypothetical situations, or asking the patient to demonstrate techniques. When patient education is a goal, the student determines the patient’s level of interest and provides education appropriately.
+      - **Score 4:** The student makes efforts to ensure comprehension and address patient education, but might miss some opportunities or use less effective methods. The student shows awareness of the importance of patient understanding and education, even if their approach is not as refined or comprehensive as a top performance.
+      - **Score 3:** The student asks the patient if they understand the information but does not use a deliberate technique to check. There is some attempt to determine the interest in patient education but could be more thorough.
+      - **Score 2:** The student makes limited attempts to check the patient's understanding and does not use any specific techniques to ensure comprehension. Attempts at patient education are minimal or poorly executed. The student shows some awareness of the need to verify understanding and provide education, but struggles to implement effective strategies.
+      - **Score 1:** The student fails to assess the patient's level of understanding and does not effectively correct misunderstandings when they are evident, and/or the student fails to address the issue of patient education.
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
