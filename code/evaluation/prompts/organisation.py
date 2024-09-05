@@ -11,7 +11,7 @@ To ensure a thorough evaluation, follow these steps:
      - **Score 2:** The student's questioning shows some attempt at organization, but there are frequent jumps between topics that may confuse the patient. Time management is inconsistent, with some sections of the interview being noticeably rushed or overly prolonged. While not completely disjointed, the lack of smooth transitions and logical flow is apparent.
      - **Score 1:** The student asks questions that seem disjointed and unorganized. 
 
-  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
