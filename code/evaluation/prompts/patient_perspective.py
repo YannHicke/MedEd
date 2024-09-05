@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student elicits the patient’s healing practices and perspectives on their illness, including their beliefs about its beginning by eliciting the patient’s Feelings about the illness, Ideas of its cause, the impact on daily Function, and their Expectations for treatment and outcomes (FIFE).
-     - **Score 4:** The student elicits most aspects of the patient's perspective on their illness and healing practices. They cover several elements of FIFE, but may miss one or two components or not explore them as deeply. The student shows a clear attempt to understand the patient's viewpoint, even if not as comprehensively as in a score of 5.
-     - **Score 3:** The student elicits some of the patient’s perspective on their illness and/or does not follow through with addressing their beliefs. 
-     - **Score 2:** The student makes limited attempts to elicit the patient's perspective. The student shows some awareness of the importance of the patient's viewpoint but struggles to effectively draw out or address these beliefs and practices.
-     - **Score 1:** The student fails to elicit the patient’s perspective.
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student elicits the patient’s healing practices and perspectives on their illness, including their beliefs about its beginning by eliciting the patient’s Feelings about the illness, Ideas of its cause, the impact on daily Function, and their Expectations for treatment and outcomes (FIFE).
+      - **Score 4:** The student elicits most aspects of the patient's perspective on their illness and healing practices. They cover several elements of FIFE, but may miss one or two components or not explore them as deeply. The student shows a clear attempt to understand the patient's viewpoint, even if not as comprehensively as in a score of 5.
+      - **Score 3:** The student elicits some of the patient’s perspective on their illness and/or does not follow through with addressing their beliefs. 
+      - **Score 2:** The student makes limited attempts to elicit the patient's perspective. The student shows some awareness of the importance of the patient's viewpoint but struggles to effectively draw out or address these beliefs and practices.
+      - **Score 1:** The student fails to elicit the patient’s perspective.
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
