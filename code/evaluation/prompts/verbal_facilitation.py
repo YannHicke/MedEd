@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student uses facilitation skills throughout the interview. Verbal encouragement, use of short statements, and echoing are used regularly when appropriate. The student provides the patient with intermittent verbal encouragement, such as verbally praising the patient for proper health care technique.
-     - **Score 4:** The student frequently uses facilitation skills during the interview, but not as consistently or effectively as in a score of 5. Verbal encouragement, short statements, and echoing are present, but there may be only a few missed opportunities or inappropriate applications. The student provides some verbal encouragement, though it may not always be as timely or specific as in a top performance.
-     - **Score 3:** The student uses some facilitative skills but not consistently or at inappropriate times. Verbal encouragement could be used more effectively.
-     - **Score 2:** The student demonstrates limited use of facilitation skills. There are occasional instances of verbal encouragement, short statements, or echoing, but these are infrequent and often poorly timed or executed. The student shows some awareness of the need for facilitation but struggles to implement these skills effectively, resulting in a less fluid conversation with the patient.
-     - **Score 1:** The student fails to use facilitative skills to encourage the patient to tell their story. 
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student uses facilitation skills throughout the interview. Verbal encouragement, use of short statements, and echoing are used regularly when appropriate. The student provides the patient with intermittent verbal encouragement, such as verbally praising the patient for proper health care technique.
+      - **Score 4:** The student frequently uses facilitation skills during the interview, but not as consistently or effectively as in a score of 5. Verbal encouragement, short statements, and echoing are present, but there may be only a few missed opportunities or inappropriate applications. The student provides some verbal encouragement, though it may not always be as timely or specific as in a top performance.
+      - **Score 3:** The student uses some facilitative skills but not consistently or at inappropriate times. Verbal encouragement could be used more effectively.
+      - **Score 2:** The student demonstrates limited use of facilitation skills. There are occasional instances of verbal encouragement, short statements, or echoing, but these are infrequent and often poorly timed or executed. The student shows some awareness of the need for facilitation but struggles to implement these skills effectively, resulting in a less fluid conversation with the patient.
+      - **Score 1:** The student fails to use facilitative skills to encourage the patient to tell their story. 
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
