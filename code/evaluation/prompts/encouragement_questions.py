@@ -3,13 +3,13 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student encourages the patient to ask questions at the end of a major subsection. The student gives the patient the opportunity to bring up additional topics or points not covered in the interview.
-     - **Score 4:** The student encourages opportunities for the patient to ask questions, though not consistently at the end of every major subsection. They mostly allow for additional topics to be brought up, but may not actively encourage this as thoroughly as in a score of 5. The student shows a clear attempt to be open to patient input, even if not as proactively as in a top performance.
-     - **Score 3:** The student provides the patient with the opportunity to discuss any additional points or ask any additional questions but neither encourages or discourages them. 
-     - **Score 2:** The student makes limited attempts to allow for patient questions or additional topics. The opportunity for the patient to discuss additional topics is minimal. 
-     - **Score 1:** The student fails to provide the patient with the opportunity to ask questions or discuss additional points. The student may discourage the patient’s questions. 
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student encourages the patient to ask questions at the end of a major subsection. The student gives the patient the opportunity to bring up additional topics or points not covered in the interview.
+      - **Score 4:** The student encourages opportunities for the patient to ask questions, though not consistently at the end of every major subsection. They mostly allow for additional topics to be brought up, but may not actively encourage this as thoroughly as in a score of 5. The student shows a clear attempt to be open to patient input, even if not as proactively as in a top performance.
+      - **Score 3:** The student provides the patient with the opportunity to discuss any additional points or ask any additional questions but neither encourages or discourages them. 
+      - **Score 2:** The student makes limited attempts to allow for patient questions or additional topics. The opportunity for the patient to discuss additional topics is minimal. 
+      - **Score 1:** The student fails to provide the patient with the opportunity to ask questions or discuss additional points. The student may discourage the patient’s questions. 
 
   **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
