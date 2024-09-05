@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student asks questions and provides information in language which is easily understood. Content is free of difficult medical terms and jargon. Words are immediately defined for the patient. Language is used that is appropriate to the patient’s level of education.
-     - **Score 4:** The student mostly uses easily understood language, with rare use of medical terms. When medical terms are used, the student mostly defines them, though there might be slight delays or inconsistencies in doing so. The language is mostly appropriate to the patient's education level, with minor lapses.
-     - **Score 3:** The student sometimes uses medical jargon during the interview, failing to define the medical terms for the patient unless specifically requested to do so by the patient.
-     - **Score 2:** Minimal attempts are made by the student to use understandable language or explain terms. The language used is frequently ill-matched to the patient's education level, and there are some efforts to adjust when specifically requested to do so by the patient.
-     - **Score 1:** The student uses difficult medical terms and jargon throughout the interview.
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student asks questions and provides information in language which is easily understood. Content is free of difficult medical terms and jargon. Words are immediately defined for the patient. Language is used that is appropriate to the patient’s level of education.
+      - **Score 4:** The student mostly uses easily understood language, with rare use of medical terms. When medical terms are used, the student mostly defines them, though there might be slight delays or inconsistencies in doing so. The language is mostly appropriate to the patient's education level, with minor lapses.
+      - **Score 3:** The student sometimes uses medical jargon during the interview, failing to define the medical terms for the patient unless specifically requested to do so by the patient.
+      - **Score 2:** Minimal attempts are made by the student to use understandable language or explain terms. The language used is frequently ill-matched to the patient's education level, and there are some efforts to adjust when specifically requested to do so by the patient.
+      - **Score 1:** The student uses difficult medical terms and jargon throughout the interview.
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
