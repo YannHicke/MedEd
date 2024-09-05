@@ -11,7 +11,7 @@ To ensure a thorough evaluation, follow these steps:
      - **Score 2:** The student often repeats questions. Questions are repeated due to the student’s failure to remember previously provided information. The interview flow is disrupted, but not to the extent of a score of 1. 
      - **Score 1:** The student frequently repeats questions seeking information previously provided because they fail to remember the data already obtained. The interview flow is largely disrupted.
 
-  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
