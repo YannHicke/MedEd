@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student begins information gathering with an open-ended question. This is followed up by more specific or direct questions. Each major line of questioning is begun with an open-ended question. No poor question types are used.
-     - **Score 4:** The student mostly uses open-ended questions to begin information gathering and major lines of inquiry, but occasionally starts with more specific or direct questions. Follow-up questions are mostly appropriate. Very few, if any, poor question types (leading, why, or multiple questions) are used.
-     - **Score 3:** The student often fails to begin a line of inquiry with open-ended questions but rather employs specific or direct questions to gather information, or the student uses a few leading questions, why questions, or multiple questions.
-     - **Score 2:** The student frequently uses open-ended questions, often relying on specific or direct questions to gather information. There is a noticeable presence of poor question types (leading, why, or multiple questions), but not to the extent of a score of 1. Some attempts at open-ended questioning are evident, but they are infrequent or poorly executed.
-     - **Score 1:** The student asks many why questions, multiple questions, or leading questions.
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student begins information gathering with an open-ended question. This is followed up by more specific or direct questions. Each major line of questioning is begun with an open-ended question. No poor question types are used.
+      - **Score 4:** The student mostly uses open-ended questions to begin information gathering and major lines of inquiry, but occasionally starts with more specific or direct questions. Follow-up questions are mostly appropriate. Very few, if any, poor question types (leading, why, or multiple questions) are used.
+      - **Score 3:** The student often fails to begin a line of inquiry with open-ended questions but rather employs specific or direct questions to gather information, or the student uses a few leading questions, why questions, or multiple questions.
+      - **Score 2:** The student frequently uses open-ended questions, often relying on specific or direct questions to gather information. There is a noticeable presence of poor question types (leading, why, or multiple questions), but not to the extent of a score of 1. Some attempts at open-ended questioning are evident, but they are infrequent or poorly executed.
+      - **Score 1:** The student asks many why questions, multiple questions, or leading questions.
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
