@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student determines (1) what emotional support the patient has, (2) what financial support the patient has and learns about health care access, (3) other resources available to the patient and family and suggests appropriate community resources. In focused histories (a patient history that concentrates solely on the details surrounding the patient's current chief complaint), one of the three items is sufficient.
-     - **Score 4:** The student addresses most aspects of patient support, covering at least two of the three main areas (emotional, financial, and other resources) or one item in a focused history. The exploration may not be as comprehensive as in a score of 5, but there's a clear attempt to understand the patient's support systems.
-     - **Score 3:** The student determines some of the available support.
-     - **Score 2:** The student makes limited attempts to determine the patient's available support. They may briefly touch on one aspect of support (emotional, financial, or other resources) but fail to explore it thoroughly or miss significant areas. The student shows some awareness of the importance of patient support but struggles to effectively gather comprehensive information or provide relevant suggestions.
-     - **Score 1:** The student fails to determine what support is currently available to the patient. 
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student determines (1) what emotional support the patient has, (2) what financial support the patient has and learns about health care access, (3) other resources available to the patient and family and suggests appropriate community resources. In focused histories (a patient history that concentrates solely on the details surrounding the patient's current chief complaint), one of the three items is sufficient.
+      - **Score 4:** The student addresses most aspects of patient support, covering at least two of the three main areas (emotional, financial, and other resources) or one item in a focused history. The exploration may not be as comprehensive as in a score of 5, but there's a clear attempt to understand the patient's support systems.
+      - **Score 3:** The student determines some of the available support.
+      - **Score 2:** The student makes limited attempts to determine the patient's available support. They may briefly touch on one aspect of support (emotional, financial, or other resources) but fail to explore it thoroughly or miss significant areas. The student shows some awareness of the importance of patient support but struggles to effectively gather comprehensive information or provide relevant suggestions.
+      - **Score 1:** The student fails to determine what support is currently available to the patient. 
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
