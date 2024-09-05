@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student summarizes the data obtained at the end of each major line of inquiry or subsection to verify and/or clarify the information for a complete Hx (History). One summary is sufficient for a focused history (a patient history that concentrates solely on the details surrounding the patient's current chief complaint) either at the end of the HPI (History of Present Illness) or by the end of the interview. 
-     - **Score 4:** The student summarizes data at the end of most major lines of inquiry or subsections, but may miss one or two opportunities. Summaries are mostly accurate but may occasionally lack some detail. For a focused history, the summary is present but might be slightly incomplete or occur at a less optimal time.
-     - **Score 3:** The student summarizes the data at the end of some lines of inquiry but not consistently or completely, or attempts to summarize at the end of the interview and it is incomplete.
-     - **Score 2:** The student makes some attempts at summarizing, but these are infrequent, often incomplete, or occur at inappropriate times. There may be one or two adequate summaries, but the majority of opportunities for summarization are missed. The student shows awareness of the need to summarize but struggles to execute it effectively.
-     - **Score 1:** The student fails to summarize any of the data obtained. 
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student summarizes the data obtained at the end of each major line of inquiry or subsection to verify and/or clarify the information for a complete Hx (History). One summary is sufficient for a focused history (a patient history that concentrates solely on the details surrounding the patient's current chief complaint) either at the end of the HPI (History of Present Illness) or by the end of the interview. 
+      - **Score 4:** The student summarizes data at the end of most major lines of inquiry or subsections, but may miss one or two opportunities. Summaries are mostly accurate but may occasionally lack some detail. For a focused history, the summary is present but might be slightly incomplete or occur at a less optimal time.
+      - **Score 3:** The student summarizes the data at the end of some lines of inquiry but not consistently or completely, or attempts to summarize at the end of the interview and it is incomplete.
+      - **Score 2:** The student makes some attempts at summarizing, but these are infrequent, often incomplete, or occur at inappropriate times. There may be one or two adequate summaries, but the majority of opportunities for summarization are missed. The student shows awareness of the need to summarize but struggles to execute it effectively.
+      - **Score 1:** The student fails to summarize any of the data obtained. 
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
