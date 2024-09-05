@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student always seeks clarification, verification, and specificity of the patient’s responses.
-     - **Score 4:** The student frequently seeks clarification, verification, and specificity of the patient's responses. While not as consistent as a score of 5, the student demonstrates a clear pattern of following up on important details. Few missed opportunities for clarification may occur, but they are minor and do not significantly impact the overall understanding of the patient's situation.
-     - **Score 3:** The student will seek clarification, verification, and specificity of the patient’s responses but not always. They may sometimes accept information at face value, and their overall understanding of the patient’s situation may have some minor holes.
-     - **Score 2:** The student minimally seeks clarification, verification, and specificity. There are noticeable instances where important details are not followed up on, but some effort is made to clarify key points. The student shows awareness of the need for clarification but struggles to apply it consistently or effectively.
-     - **Score 1:** The student fails to clarify or verify the patient's responses, accepting information at face value.
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student always seeks clarification, verification, and specificity of the patient’s responses.
+      - **Score 4:** The student frequently seeks clarification, verification, and specificity of the patient's responses. While not as consistent as a score of 5, the student demonstrates a clear pattern of following up on important details. Few missed opportunities for clarification may occur, but they are minor and do not significantly impact the overall understanding of the patient's situation.
+      - **Score 3:** The student will seek clarification, verification, and specificity of the patient’s responses but not always. They may sometimes accept information at face value, and their overall understanding of the patient’s situation may have some minor holes.
+      - **Score 2:** The student minimally seeks clarification, verification, and specificity. There are noticeable instances where important details are not followed up on, but some effort is made to clarify key points. The student shows awareness of the need for clarification but struggles to apply it consistently or effectively.
+      - **Score 1:** The student fails to clarify or verify the patient's responses, accepting information at face value.
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
