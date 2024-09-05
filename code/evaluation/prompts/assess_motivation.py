@@ -3,13 +3,13 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student inquires how the patient feels about the lifestyle/behavioral change and offers options and plans for the patient to choose from to encourage and/or support the change.
-     - **Score 4:** The student shows awareness of the importance of patient buy-in and provides some support for change, but may miss opportunities to explore the patient's perspective fully or offer a complete range of options.
-     - **Score 3:** The student inquires how the patient feels about changes but does not offer options or plans, or the student assumes the patient will follow the suggested change without assessing the change but does offer options and plans.
-     - **Score 2:** The student makes limited attempts to address lifestyle/behavioral changes but does not offer options or plans. 
-     - **Score 1:** The student fails to assess the patient’s level of motivation to change and does not offer any options or plans.
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student inquires how the patient feels about the lifestyle/behavioral change and offers options and plans for the patient to choose from to encourage and/or support the change.
+      - **Score 4:** The student shows awareness of the importance of patient buy-in and provides some support for change, but may miss opportunities to explore the patient's perspective fully or offer a complete range of options.
+      - **Score 3:** The student inquires how the patient feels about changes but does not offer options or plans, or the student assumes the patient will follow the suggested change without assessing the change but does offer options and plans.
+      - **Score 2:** The student makes limited attempts to address lifestyle/behavioral changes but does not offer options or plans. 
+      - **Score 1:** The student fails to assess the patient’s level of motivation to change and does not offer any options or plans.
 
   **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
