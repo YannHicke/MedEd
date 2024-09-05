@@ -11,7 +11,7 @@ To ensure a thorough evaluation, follow these steps:
      - **Score 2:** The student makes limited attempts to discuss the diagnosis and/or prognosis with no opportunity for patient input. 
      - **Score 1:** The student fails to discuss the diagnosis and/or prognosis. 
 
-  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
