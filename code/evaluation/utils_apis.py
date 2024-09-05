@@ -11,9 +11,6 @@ import os
 import json
 import random
 from mirs_prompts import mirs_prompts
-from nojson_mirs_prompts import nojson_mirs_prompts
-from mirs_prompts_noExamples import mirs_prompts_noExamples
-from nojson_mirs_prompts_noExamples import nojson_mirs_prompts_noExamples
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -115,7 +112,6 @@ def anthropic_api_call(transcript, prompt):
         system="Now parse the following output and return the score and justification only",
         messages=[{"role": "user", "content": response_anthropic.content[0].text}]
     )
-    breakpoint()
     return parse_score_justification(response_anthropic.content[0].text)
 
 def anthropic_api_call_excerpt(transcript, prompt):

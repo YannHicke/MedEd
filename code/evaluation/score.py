@@ -24,7 +24,7 @@ def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=
         scores[model] = {}
         explanations[model] = {}
 
-    intermediary_file_name = f"./results/mirs_scores_{file_name}_intermediary{'_multi_step' if score_from_excerpts else '_noExamples' if not examples else ''}.csv"
+    intermediary_file_name = f"./results/v2/mirs_scores_{file_name}_intermediary{'_multi_step' if score_from_excerpts else '_noExamples' if not examples else ''}.csv"
 
     # Check if intermediary file exists and load it
     if os.path.exists(intermediary_file_name):
@@ -75,7 +75,10 @@ def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=
                 print(f"\n\nModel: {model}")
                 prompt = get_prompts_call_map(examples, prompt_map[model])[item]
                 if not examples:
-                    prompt = prompt.split("Examples:")[0].strip() + '\n\nNow, please evaluate the following medical interview transcript:\n'
+                    if len(prompt.split("Examples:")) > 1:
+                        prompt = prompt.split("Examples:")[0].strip() + '\n\nNow, please evaluate the following medical interview transcript:\n'
+                    else:
+                        prompt = prompt.strip()
                 api_call = api_call_map.get(model)
                 parse_response_model = parse_call_map.get(model)
                 parse_response = (
@@ -85,7 +88,6 @@ def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=
                 )            
 
                 try:
-                    breakpoint()
                     response = api_call(transcript, prompt)
                     score, explanation = parse_response(response)
                     if score == "N/A":
@@ -109,8 +111,7 @@ def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=
         traceback.print_exc()
     finally:
         # Save final results
-        final_file_name = f"./results/mirs_scores_{file_name}_final{'_multi_step' if score_from_excerpts else '_noExamples' if not examples else ''}.csv"
-        # breakpoint()
+        final_file_name = f"./results/v2/mirs_scores_{file_name}_final{'_multi_step' if score_from_excerpts else '_noExamples' if not examples else ''}.csv"
         save_results(scores, explanations, model_list, final_file_name)
 
 
