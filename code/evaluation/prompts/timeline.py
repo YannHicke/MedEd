@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student obtains sufficient information so that a chronology of the chief complaint and history of the present illness can be established. The chronology of all associated symptoms is also established.
-     - **Score 4:** The student obtains most of the information necessary to establish a chronology of the chief complaint and history of the present illness. The chronology of most, but not all, associated symptoms is established. Minor gaps in the timeline may exist.
-     - **Score 3:** The student obtains some of the information necessary to establish a chronology. They may fail to establish a chronology for all associated symptoms. 
-     - **Score 2:** The student obtains limited information about the chronology of the chief complaint and history of the present illness. Significant gaps exist in the timeline, and the chronology of most associated symptoms is not established. 
-     - **Score 1:** The student fails to obtain information necessary to establish a chronology. 
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student obtains sufficient information so that a chronology of the chief complaint and history of the present illness can be established. The chronology of all associated symptoms is also established.
+      - **Score 4:** The student obtains most of the information necessary to establish a chronology of the chief complaint and history of the present illness. The chronology of most, but not all, associated symptoms is established. Minor gaps in the timeline may exist.
+      - **Score 3:** The student obtains some of the information necessary to establish a chronology. They may fail to establish a chronology for all associated symptoms. 
+      - **Score 2:** The student obtains limited information about the chronology of the chief complaint and history of the present illness. Significant gaps exist in the timeline, and the chronology of most associated symptoms is not established. 
+      - **Score 1:** The student fails to obtain information necessary to establish a chronology. 
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
