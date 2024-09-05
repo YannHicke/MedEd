@@ -3,13 +3,13 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** At the end of the interview, the student clearly specifies the future plans: (1) What the student will do (leave and consult, make referrals), (2) What the patient will do (wait, make diet changes, go to Physical Therapy), and (3) When (the time of the next communication or appointment). 
-     - **Score 4:** The student specifies most aspects of the future plans at the end of the interview, but may not cover all three areas (student actions, patient actions, and timing) as comprehensively as in a score of 5. The plans are mostly clear, but some details might be vague or omitted. The student shows a clear attempt to provide closure and future direction, even if not as thoroughly as in a top performance.
-     - **Score 3:** At the end of the interview, the student partially details the plans for the future.
-     - **Score 2:** The student makes limited attempts to specify future plans at the end of the interview. The information provided is vague or incomplete, leaving the patient with an unclear sense of what to expect. The student shows some awareness of the need for closure but struggles to provide a comprehensive plan or clear next steps.
-     - **Score 1:** At the end of the interview, the student fails to specify the plans for the future and the patient leaves the interview without a sense of what to expect. There is no closure whatsoever. 
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** At the end of the interview, the student clearly specifies the future plans: (1) What the student will do (leave and consult, make referrals), (2) What the patient will do (wait, make diet changes, go to Physical Therapy), and (3) When (the time of the next communication or appointment). 
+      - **Score 4:** The student specifies most aspects of the future plans at the end of the interview, but may not cover all three areas (student actions, patient actions, and timing) as comprehensively as in a score of 5. The plans are mostly clear, but some details might be vague or omitted. The student shows a clear attempt to provide closure and future direction, even if not as thoroughly as in a top performance.
+      - **Score 3:** At the end of the interview, the student partially details the plans for the future.
+      - **Score 2:** The student makes limited attempts to specify future plans at the end of the interview. The information provided is vague or incomplete, leaving the patient with an unclear sense of what to expect. The student shows some awareness of the need for closure but struggles to provide a comprehensive plan or clear next steps.
+      - **Score 1:** At the end of the interview, the student fails to specify the plans for the future and the patient leaves the interview without a sense of what to expect. There is no closure whatsoever. 
 
   **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
