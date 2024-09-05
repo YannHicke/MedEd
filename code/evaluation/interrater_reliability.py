@@ -70,9 +70,7 @@ def krippendorff_alpha(ratings, level_of_measurement="nominal"):
 
 
 # Load the newly uploaded CSV file
-# file_path_new = '../../UConn/analysis_results.csv'
-# file_path = '/Users/yannhicke/Desktop/Research/llm-med-ed-digital-platform/code/evaluation/results/merged_results.csv'
-file_path = '/Users/yannhicke/Desktop/Research/llm-med-ed-digital-platform/code/evaluation/results/mirs_scores_final.csv'
+file_path = '/Users/yannhicke/Desktop/Research/llm-med-ed-digital-platform/code/evaluation/results/v2/mirs_scores_final.csv'
 data_new = pd.read_csv(file_path)
 
 # Check the first few rows and column names
@@ -84,6 +82,8 @@ columns = ['Consensus Answer', 'gpt-4o zero shot',
        'Llama few shot', 'Llama multistep', 'Gemini zero shot',
        'Gemini few shot', 'Gemini multistep', 'Claude zero shot',
        'Claude few shot', 'Claude multistep']
+
+columns = ['Consensus Answer', 'gpt-4o zero shot', 'Llama zero shot', 'Gemini zero shot', 'Claude zero shot']
 
 # for column in columns:
 #     # print(column)
@@ -164,10 +164,12 @@ def calculate_kappa_scores(consensus, gpt4, evaluator_name, comparand, score_lis
         'Krippendorff\'s alpha (ratio)': krippendorff_alpha_ratio
     }
 
-models = ['gpt-4o zero shot', 'gpt-4o few shot', 'gpt-4o multistep', 
-          'Claude zero shot', 'Claude few shot', 'Claude multistep',
-          'Llama zero shot', 'Llama few shot', 'Llama multistep',
-          'Gemini zero shot', 'Gemini few shot', 'Gemini multistep']
+# models = ['gpt-4o zero shot', 'gpt-4o few shot', 'gpt-4o multistep', 
+#           'Claude zero shot', 'Claude few shot', 'Claude multistep',
+#           'Llama zero shot', 'Llama few shot', 'Llama multistep',
+#           'Gemini zero shot', 'Gemini few shot', 'Gemini multistep']
+
+models = ['gpt-4o zero shot', 'Llama zero shot', 'Gemini zero shot', 'Claude zero shot']
 
     
 
@@ -189,22 +191,41 @@ for metric in ['Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (qua
 # # export results to csv (only the accuracy off by 1)
 # results['Accuracy off by 1'].to_csv("interrater_reliability_results.csv")
 
-chi_squared_results = pd.DataFrame(index=models, columns=models)
+# Calculate the agreement between the consensus and each model
+results = {}
+for metric in ['Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
+               'Adjusted kappa', 'Thresholded kappa', 'Accuracy', 'Accuracy thresholded', 
+               'Accuracy off by 1', 'Krippendorff\'s alpha (nominal)', 
+               'Krippendorff\'s alpha (ordinal)', 'Krippendorff\'s alpha (interval)', 
+               'Krippendorff\'s alpha (ratio)']:
+    results[metric] = {}
 
-for model1 in models:
-    for model2 in models:
-        # if model1 != model2:
-            # Create a contingency table for the two models
-            contingency_table = pd.crosstab(data_cleaned[model1], data_cleaned[model2])
-            
-            # Perform Chi-Squared test
-            chi2, p, dof, ex = chi2_contingency(contingency_table)
-            
-            # Store the Chi-Squared value in the DataFrame
-            chi_squared_results.loc[model1, model2] = chi2
+for model in models:
+    scores = calculate_kappa_scores(data_cleaned["Consensus Answer"], data_cleaned[model], model, "Consensus Answer")
+    for metric, value in scores.items():
+        results[metric][model] = value
 
-# Export the Chi-Squared results to CSV
-chi_squared_results.to_csv("chi_squared_results.csv")
+# export results
+breakpoint()
+results_df = pd.DataFrame(results).transpose()
+results_df.to_csv("interrater_reliability_results.csv")
+
+# chi_squared_results = pd.DataFrame(index=models, columns=models)
+
+# for model1 in models:
+#     for model2 in models:
+#         # if model1 != model2:
+#             # Create a contingency table for the two models
+#             contingency_table = pd.crosstab(data_cleaned[model1], data_cleaned[model2])
+            
+#             # Perform Chi-Squared test
+#             chi2, p, dof, ex = chi2_contingency(contingency_table)
+            
+#             # Store the Chi-Squared value in the DataFrame
+#             chi_squared_results.loc[model1, model2] = chi2
+
+# # Export the Chi-Squared results to CSV
+# chi_squared_results.to_csv("chi_squared_results.csv")
 
 # # Create a contingency table between two columns
 # contingency_table = pd.crosstab(data_cleaned['gpt-4o zero shot'].dropna(), data_cleaned['Claude zero shot'].dropna())
