@@ -11,7 +11,7 @@ To ensure a thorough evaluation, follow these steps:
      - **Score 2:** The student makes limited attempts to address the impact of the illness on the patient's life or self-image. No counseling or resources are offered. The student shows some awareness of the importance of these issues but struggles to effectively address them or draw out the patient's feelings.
      - **Score 1:** The student fails to acknowledge any impact of the illness on the patient’s life or self-image.
 
-  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
