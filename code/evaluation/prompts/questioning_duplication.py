@@ -3,15 +3,15 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student does not repeat questions, seeking duplication of information that has been previously provided, unless clarification or summarization of prior information is necessary. 
-     - **Score 4:** The student only rarely repeats questions that duplicate information. Questions are repeated for clarification or summarization.
-     - **Score 3:** The student only rarely repeats questions. Questions are repeated not for the purpose of summarization or clarification of information, but as a result of the student’s failure to remember the data.
-     - **Score 2:** The student often repeats questions. Questions are repeated due to the student’s failure to remember previously provided information. The interview flow is disrupted, but not to the extent of a score of 1. 
-     - **Score 1:** The student frequently repeats questions seeking information previously provided because they fail to remember the data already obtained. The interview flow is largely disrupted.
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student does not repeat questions, seeking duplication of information that has been previously provided, unless clarification or summarization of prior information is necessary. 
+      - **Score 4:** The student only rarely repeats questions that duplicate information. Questions are repeated for clarification or summarization.
+      - **Score 3:** The student only rarely repeats questions. Questions are repeated not for the purpose of summarization or clarification of information, but as a result of the student’s failure to remember the data.
+      - **Score 2:** The student often repeats questions. Questions are repeated due to the student’s failure to remember previously provided information. The interview flow is disrupted, but not to the extent of a score of 1. 
+      - **Score 1:** The student frequently repeats questions seeking information previously provided because they fail to remember the data already obtained. The interview flow is largely disrupted.
 
-**Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+  **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
 Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
 
