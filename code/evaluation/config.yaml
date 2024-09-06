@@ -1,7 +1,0 @@
-conversation_files: ["case1.txt", "case2.txt", "case3.txt", "case4.txt", "dental1.txt", "dental2.txt", "dental3.txt", "behavioral1.txt", "behavioral2.txt", "behavioral3.txt"]
-examples: false
-mirs: true
-checklist: false
-extract_excerpts: false
-score_from_excerpts: false
-model_list: ["openai", "anthropic", "fireworks", "gemini"]
