@@ -11,6 +11,7 @@ import os
 import json
 import random
 from mirs_prompts import mirs_prompts
+import yaml
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -18,14 +19,22 @@ load_dotenv()
 MAX_ATTEMPTS = 15
 
 # initialize models
-client_openai = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-client_together = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
-genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
-client_anthropic = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-co = cohere.Client(os.environ["COHERE_API_KEY"])
-client_fireworks = Fireworks(api_key=os.environ["FIREWORKS_API_KEY"])
-print("GOOGLE_API_KEY", os.environ.get("GOOGLE_API_KEY"))
+with open("config.yaml", 'r') as file:
+        config = yaml.safe_load(file)
 
+for model in config["model_list"]:
+    if "openai" in model:
+        client_openai = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+    if "together" in model:
+        client_together = Together(api_key=os.environ.get("TOGETHER_API_KEY"))
+    if "gemini" in model:
+        genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
+    if "anthropic" in model:
+        client_anthropic = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    if "cohere" in model:
+        co = cohere.Client(os.environ["COHERE_API_KEY"])
+    if "fireworks" in model:
+        client_fireworks = Fireworks(api_key=os.environ["FIREWORKS_API_KEY"])
 
 def openai_api_call(transcript, prompt, response_type="json_object"):
     if response_type:
