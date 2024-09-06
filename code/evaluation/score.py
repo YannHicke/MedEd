@@ -71,7 +71,6 @@ def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=
                 if item in scores[model] and scores[model][item] not in ["Error", "Not scored"]:
                     print(f"Skipping already processed item: {item} for model: {model}")
                     continue
-
                 print(f"\n\nModel: {model}")
                 prompt = get_prompts_call_map(examples, prompt_map[model])[item]
                 if not examples:
