@@ -42,7 +42,7 @@ def setup_conda_env():
             import yaml
 
         # Load the environment.yml file
-        with open("environment.yml", "r") as f:
+        with open(os.path.join("environment.yml"), "r") as f:
             env_config = yaml.safe_load(f)
         env_name = env_config.get("name", "default_env_name")  # Get the environment name
 
@@ -63,7 +63,7 @@ def setup_conda_env():
         return env_name, True  # Return True to indicate a new environment was created
     
     else:
-        print("Error: environment.yml file not found in the setup directory.")
+        print("Error: environment.yml file not found. Are you in the setup directory?")
         sys.exit(1)
 
 
@@ -76,7 +76,7 @@ def install_requirements(env_name):
         run_command(f"conda run -n {env_name} pip install -r requirements.txt")
         print("Requirements installed successfully!")
     else:
-        print("Error: requirements.txt file not found.")
+        print("Error: requirements.txt file not found. Are you in the setup directory?")
 
 
 def setup_api_keys():

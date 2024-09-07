@@ -1,9 +1,16 @@
-import sys
-import os
+"""
+score.py 
+--------
+Evaluate the conversation transcripts using the MIRS rubric.
+"""
+
 import json
+import os
 import pandas as pd
+import sys
 import traceback
-# from checklist_prompts import checklist
+
+from utils import get_excerpts, save_results, load_config
 from utils_apis import (
     api_call_map,
     parse_call_map, 
@@ -11,12 +18,24 @@ from utils_apis import (
     get_prompts_call_map,
     prompt_map
 )
-from utils import get_excerpts, save_results, load_config
 
-def score_checklist(transcript, category, items):
-    pass
+# Link to the root directory of the project
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=False):
+
+def score_mirs_single_case(transcript, model_list, file_name, data_path, examples, score_from_excerpts=False):
+    """
+    Score a single case using the MIRS rubric.
+
+    Parameters:
+        transcript (str):           The conversation transcript to score.
+        model_list (list):          The list of models to score.
+        file_name (str):            The name of the conversation file.
+        data_path (str):            The path to the directory of conversation files.
+        examples (bool):            Whether to include examples in the prompt.
+        score_from_excerpts (bool): Whether to score from excerpts.
+    """
+    # Initialize case information
     case_name = os.path.splitext(file_name)[0]
     scores = {}
     explanations = {}
@@ -24,12 +43,16 @@ def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=
         scores[model] = {}
         explanations[model] = {}
 
-    intermediary_file_name = f"./results/v2/mirs_scores_{file_name}_intermediary{'_multi_step' if score_from_excerpts else '_noExamples' if not examples else ''}.csv"
+    # Create intermediary file for intermediate progress
+    case_name = data_path.split('/')[-1]
+    eval_type = 'multistep' if score_from_excerpts else 'zeroshot' if not examples else 'fewshot'
+    intermediary_file_name = f"mirs_scores_{file_name}_intermediary_{eval_type}.csv"
+    intermediary_file_path = os.path.join(ROOT_DIR, 'results', case_name, intermediary_file_name)
 
     # Check if intermediary file exists and load it
-    if os.path.exists(intermediary_file_name):
-        print(f"Resuming from intermediary file: {intermediary_file_name}")
-        intermediary_df = pd.read_csv(intermediary_file_name, index_col=0)
+    if os.path.exists(intermediary_file_path):
+        print(f"Resuming from intermediary file: {intermediary_file_path}")
+        intermediary_df = pd.read_csv(intermediary_file_path, index_col=0)
         for model in model_list:
             score_col = f"scores_{model}"
             explanation_col = f"explanations_{model}"
@@ -41,11 +64,12 @@ def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=
                 scores[model] = {}
                 explanations[model] = {}
 
-    with open(f"./mapping_items_to_score.json", 'r') as file:
-        mapping_items_to_score = json.load(file)
-
+    # Load mapping between cases and assessed MIRS items
+    with open(os.path.join(data_path, 'mapping_items_to_score.json'), 'r') as f:
+        mapping_items_to_score = json.load(f)
     json_prompts = get_prompts_call_map(examples, "json")
     
+    # Begin scoring the case across the MIRS items
     try:
         for item, _ in json_prompts.items():
             if item not in mapping_items_to_score[file_name]:
@@ -58,20 +82,18 @@ def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=
             print(f"\n\nItem: {item}")
 
             for model in model_list:
+                # Multistep scoring
                 if score_from_excerpts:
-                    # Remove .txt extension from conversation_file
                     case = os.path.splitext(case_name)[0]
-                    # Ensure the directory exists
-                    output_dir = os.path.join("./excerpts/", model, case)
-                    # Read the transcript from the appropriate .txt file
+                    output_dir = os.path.join(ROOT_DIR, 'evaluation', 'excerpts', model, case)
                     transcript_file_path = os.path.join(output_dir, f"{item}.txt")
                     with open(transcript_file_path, 'r') as file:
                         transcript = file.read().strip() 
-                # Skip if this item-model pair has already been processed
                 if item in scores[model] and scores[model][item] not in ["Error", "Not scored"]:
                     print(f"Skipping already processed item: {item} for model: {model}")
                     continue
 
+                # Zero-shot and few-shot scoring
                 print(f"\n\nModel: {model}")
                 prompt = get_prompts_call_map(examples, prompt_map[model])[item]
                 if not examples:
@@ -102,38 +124,44 @@ def score_mirs(transcript, examples, model_list, file_name, score_from_excerpts=
                     scores[model][item] = "Error"
                     explanations[model][item] = str(e)
 
-                
                 # Save intermediary results after each item-model pair
                 save_results(scores, explanations, model_list, intermediary_file_name)
 
     except Exception as e:
         print(f"An error occurred: {str(e)}")
         traceback.print_exc()
+
     finally:
         # Save final results
-        final_file_name = f"./results/v2/mirs_scores_{file_name}_final{'_multi_step' if score_from_excerpts else '_noExamples' if not examples else ''}.csv"
-        save_results(scores, explanations, model_list, final_file_name)
+        final_file_name = f"mirs_scores_{file_name}_final_{eval_type}.csv"
+        final_file_path = os.path.join(ROOT_DIR, 'results', case_name, intermediary_file_name)
+        save_results(scores, explanations, model_list, final_file_path)
 
 
-if __name__ == "__main__":
+def score_mirs_all_cases(data_path):
+    """
+    Score all cases in the provided conversation files using the MIRS rubric.
 
+    Parameters:
+        data_path (str): The path to the directory conversation files.
+    """ 
     # Load the configuration file
     config = load_config()
 
     # Check if the conversation file exists
     for file_name in config["conversation_files"]:
-        file_path = os.path.join("../simulation/conversation_history/UConn/", file_name)
+        print(data_path)
+        file_path = os.path.join(data_path, file_name)
         if not os.path.exists(file_path):
             print(f"Error: The file '{file_name}' does not exist.")
             sys.exit(1)
 
-    # Load the transcript
+    # Load each transcript and evaluate it
     for file_name in config["conversation_files"]:
-        file_path = os.path.join("../simulation/conversation_history/UConn/", file_name)
+        file_path = os.path.join(data_path, file_name)
         with open(file_path, 'r') as file:
             transcript = file.read().strip()
-
-        transcript = transcript.replace("User:", "Physician:").replace("Assistant:", "Patient:") #TODO: make it more systematic
+            transcript = transcript.replace("User:", "Physician:").replace("Assistant:", "Patient:") #TODO: make it more systematic
 
         # Print the configuration
         print("\n\n############################################################")
@@ -141,7 +169,7 @@ if __name__ == "__main__":
         print("Examples provided: ", config["examples"])
         print("Extract excerpts: ", config["extract_excerpts"])
         print("Score from excerpts: ", config["score_from_excerpts"])
-        print("Score conversation with Mirs rubric: ", config["mirs"])
+        print("Score conversation with MIRS rubric: ", config["mirs"])
         print("Score conversation with checklist: ", config["checklist"])
         print("Model List: ", config["model_list"])
         print("############################################################\n\n")
@@ -150,7 +178,23 @@ if __name__ == "__main__":
             get_excerpts(transcript, file_name, config["model_list"])
 
         if config["mirs"]:
-            score_mirs(transcript, config["examples"], config["model_list"], file_name, config["score_from_excerpts"])
-
+            score_mirs_single_case(transcript, config["model_list"], file_name, data_path, config["examples"], config["score_from_excerpts"])
 
     print("All conversations have been scored.")
+
+
+if __name__ == "__main__":
+    print('\n\n- - - - - SCORING - - - - -\n\n')
+
+    # Determine which dataset to score
+    score_dataset = None
+    for dataset in os.listdir(os.path.join(ROOT_DIR, 'data')):
+        response = input(f'Would you like to score the {dataset} dataset? (y/n): ').strip().lower()
+        if response == 'y':
+            score_dataset = dataset
+            break
+    if not score_dataset:
+        sys.exit('No dataset selected. Exiting...')
+
+    print(f'\n\nScoring {dataset} dataset...\n\n')
+    score_mirs_all_cases(os.path.join(ROOT_DIR, 'data', score_dataset))

@@ -16,11 +16,16 @@ import yaml
 from dotenv import load_dotenv
 load_dotenv()
 
-MAX_ATTEMPTS = 15
+
+# Link to the root directory of the project
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
+MAX_ATTEMPTS = 15 # TODO: What is this?
 
 # initialize models
-with open("config.yaml", 'r') as file:
-        config = yaml.safe_load(file)
+with open(os.path.join(ROOT_DIR, 'setup', 'config.yml'), 'r') as file:
+    config = yaml.safe_load(file)
 
 for model in config["model_list"]:
     if "openai" in model:

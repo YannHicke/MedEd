@@ -1,22 +1,38 @@
-import pandas as pd
-from sklearn.metrics import cohen_kappa_score
-import numpy as np
-import matplotlib.pyplot as plt
-# import krippendorff
-from scipy.stats import chi2_contingency
-import pandas as pd
+"""
+interrater_reliability.py 
+-------------------------
+This script calculates the inter-rater reliability between the consensus answer and the models' predictions.
+"""
 
+import matplotlib.pyplot as plt
+import numpy as np
+import os
+import pandas as pd
+import yaml
+
+from sklearn.metrics import cohen_kappa_score
+
+
+# Link to the root directory of the project
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+# Threshold for the maximum permissible difference between the consensus answer and the prediction
 THRESHOLD = 2
+
 
 def krippendorff_alpha(ratings, level_of_measurement="nominal"):
     """
     Compute Krippendorff's alpha for inter-rater reliability.
     
-    :param ratings: A list of arrays representing ratings from different coders. 
-                    Each array is one coder's ratings.
-    :param level_of_measurement: The level of measurement: "nominal", "ordinal", "interval", or "ratio".
-                                 Default is "nominal".
-    :return: Krippendorff's alpha as a float.
+    Parameters:
+    - ratings:              A list of arrays representing ratings from different coders. 
+                            Each array is one coder's ratings.
+    - level_of_measurement: The level of measurement: "nominal", "ordinal", "interval", or "ratio".
+                            Default is "nominal".
+
+    Returns: 
+    Krippendorff's alpha as a float.
     """
     def nominal_metric(a, b):
         return a != b
@@ -40,7 +56,7 @@ def krippendorff_alpha(ratings, level_of_measurement="nominal"):
     }[level_of_measurement]
 
     ratings = np.asarray(ratings)
-    n_raters, n_items = ratings.shape
+    _, n_items = ratings.shape
 
     # Mask the missing values with np.nan
     ratings = np.where(np.isnan(ratings), np.nan, ratings)
@@ -67,29 +83,58 @@ def krippendorff_alpha(ratings, level_of_measurement="nominal"):
         return 1.0
     else:
         return 1 - (Do / De)
+    
+
+def model_metadata():
+    # Load in model information
+    config_file = os.path.join(ROOT_DIR, 'setup', 'config.yml')
+    with open(config_file, "r") as f:
+        config = yaml.safe_load(f)
+
+    # Determine models 
+    openai = True if 'openai' in config['model_list'] else False
+    llama = True if 'llama' in config['model_list'] else False
+    gemini = True if 'gemini' in config['model_list'] else False
+    claude = True if 'claude' in config['model_list'] else False
+    cohere = True if 'cohere' in config['model_list'] else False
+    together = True if 'together' in config['model_list'] else False
+
+    # Determine evaluation type
+    zero_shot = ~config['examples']
+    few_shot = config['examples']
+    multistep = config['extract_excerpts'] and config['score_from_excerpts']
+
+    column_data = {
+        'Consensus Answer': True,
+        'GPT Zero-Shot': openai and zero_shot, 'GPT Few-Shot': openai and few_shot, 'GPT Multi-Step': openai and multistep,
+        'Llama Zero-Shot': llama and zero_shot, 'Llama Few-Shot': llama and few_shot, 'Llama Multi-Step': llama and multistep,
+        'Gemini Zero-Shot': gemini and zero_shot, 'Gemini Few-Shot': gemini and few_shot, 'Gemini Multi-Step': gemini and multistep,
+        'Claude Zero-Shot': claude and zero_shot, 'Claude Few-Shot': claude and few_shot, 'Claude Multi-Step': claude and multistep,
+        'Cohere Zero-Shot': cohere and zero_shot, 'Cohere Few-Shot': cohere and few_shot, 'Cohere Multi-Step': cohere and multistep,
+        'Together Zero-Shot': together and zero_shot, 'Together Few-Shot': together and few_shot, 'Together Multi-Step': together and multistep
+    }
+
+    columns = [column for column in column_data if column_data[column]]
+    models = [column for column in columns if column != 'Consensus Answer']
+
+    return columns, models
+
+
+def evaluate():
+    file_path = os.path.join(ROOT_DIR, 'results')
+
+
+columns, models = model_metadata()
 
 
 # Load the newly uploaded CSV file
+# TODO: Fix results path
 file_path = '/Users/yannhicke/Desktop/Research/llm-med-ed-digital-platform/code/evaluation/results/v2/mirs_scores_final.csv'
 data_new = pd.read_csv(file_path)
 
 # Check the first few rows and column names
 data_new.head(), data_new.columns
 
-# columns = ["scores_anthropic", "scores_fireworks", "scores_gemini", "scores_openai"]
-columns = ['Consensus Answer', 'gpt-4o zero shot',
-       'gpt-4o few shot', 'gpt-4o multistep', 'Llama zero shot',
-       'Llama few shot', 'Llama multistep', 'Gemini zero shot',
-       'Gemini few shot', 'Gemini multistep', 'Claude zero shot',
-       'Claude few shot', 'Claude multistep']
-
-columns = ['Consensus Answer', 'gpt-4o zero shot', 'Llama zero shot', 'Gemini zero shot', 'Claude zero shot']
-
-# for column in columns:
-#     # print(column)
-#     print(data_new[column].value_counts())
-#     print(len(data_new[column]))
-#     print("\n\n")
 
 
 # Define a function to adjust ratings
@@ -109,22 +154,6 @@ for column in columns:
     data_cleaned[column] = pd.to_numeric(data_cleaned[column], errors='coerce')
 
 data_cleaned = data_cleaned.dropna(subset=columns)
-
-# Re-attempt the calculation after cleaning
-# consensus_cleaned = data_cleaned['Consensus Answer']
-# gpt4_cleaned_zero_shot = data_cleaned['gpt-4o zero shot']
-# gpt4_cleaned_few_shot = data_cleaned['gpt-4o few shot']
-# gpt4_cleaned_multistep = data_cleaned['gpt-4o multistep']
-# claude_cleaned_zero_shot = data_cleaned['Claude zero shot']
-# claude_cleaned_few_shot = data_cleaned['Claude few shot']
-# claude_cleaned_multistep = data_cleaned['Claude multistep']
-# llama_cleaned_zero_shot = data_cleaned['Llama zero shot']
-# llama_cleaned_few_shot = data_cleaned['Llama few shot']
-# llama_cleaned_multistep = data_cleaned['Llama multistep']
-# gemini_cleaned_zero_shot = data_cleaned['Gemini zero shot']
-# gemini_cleaned_few_shot = data_cleaned['Gemini few shot']
-# gemini_cleaned_multistep = data_cleaned['Gemini multistep']
-
 
 def calculate_kappa_scores(consensus, gpt4, evaluator_name, comparand, score_list=["kappa", "linear", "quadratic", "adjusted", "thresholded", "krippendorff", "accuracy"]):
 
@@ -164,13 +193,6 @@ def calculate_kappa_scores(consensus, gpt4, evaluator_name, comparand, score_lis
         'Krippendorff\'s alpha (ratio)': krippendorff_alpha_ratio
     }
 
-# models = ['gpt-4o zero shot', 'gpt-4o few shot', 'gpt-4o multistep', 
-#           'Claude zero shot', 'Claude few shot', 'Claude multistep',
-#           'Llama zero shot', 'Llama few shot', 'Llama multistep',
-#           'Gemini zero shot', 'Gemini few shot', 'Gemini multistep']
-
-models = ['gpt-4o zero shot', 'Llama zero shot', 'Gemini zero shot', 'Claude zero shot']
-
     
 
 results = {}
@@ -205,57 +227,9 @@ for model in models:
     for metric, value in scores.items():
         results[metric][model] = value
 
-# export results
-breakpoint()
+# export results to csv
 results_df = pd.DataFrame(results).transpose()
 results_df.to_csv("interrater_reliability_results.csv")
-
-# chi_squared_results = pd.DataFrame(index=models, columns=models)
-
-# for model1 in models:
-#     for model2 in models:
-#         # if model1 != model2:
-#             # Create a contingency table for the two models
-#             contingency_table = pd.crosstab(data_cleaned[model1], data_cleaned[model2])
-            
-#             # Perform Chi-Squared test
-#             chi2, p, dof, ex = chi2_contingency(contingency_table)
-            
-#             # Store the Chi-Squared value in the DataFrame
-#             chi_squared_results.loc[model1, model2] = chi2
-
-# # Export the Chi-Squared results to CSV
-# chi_squared_results.to_csv("chi_squared_results.csv")
-
-# # Create a contingency table between two columns
-# contingency_table = pd.crosstab(data_cleaned['gpt-4o zero shot'].dropna(), data_cleaned['Claude zero shot'].dropna())
-
-# # Perform Chi-Squared test
-# chi2, p, dof, ex = chi2_contingency(contingency_table)
-
-# # Print the results
-# print(f'Chi-Squared: {chi2}, p-value: {p}, Degrees of Freedom: {dof}')
-
-
-
-# calculate_kappa_scores(consensus_cleaned, gpt4_cleaned_zero_shot, "GPT4 Zero Shot")
-# calculate_kappa_scores(consensus_cleaned, gpt4_cleaned_few_shot, "GPT4 Few Shot")
-# calculate_kappa_scores(consensus_cleaned, gpt4_cleaned_multistep, "GPT4 Multistep")
-# calculate_kappa_scores(consensus_cleaned, claude_cleaned_zero_shot, "Claude Zero Shot")
-# calculate_kappa_scores(consensus_cleaned, claude_cleaned_few_shot, "Claude Few Shot")
-# calculate_kappa_scores(consensus_cleaned, claude_cleaned_multistep, "Claude Multistep")
-# calculate_kappa_scores(consensus_cleaned, llama_cleaned_zero_shot, "Llama Zero Shot")
-# calculate_kappa_scores(consensus_cleaned, llama_cleaned_few_shot, "Llama Few Shot")
-# calculate_kappa_scores(consensus_cleaned, llama_cleaned_multistep, "Llama Multistep")
-# calculate_kappa_scores(consensus_cleaned, gemini_cleaned_zero_shot, "Gemini Zero Shot")
-# calculate_kappa_scores(consensus_cleaned, gemini_cleaned_few_shot, "Gemini Few Shot")
-# calculate_kappa_scores(consensus_cleaned, gemini_cleaned_multistep, "Gemini Multistep")
-
-# Calcualte agreement between GPT4 and other models
-# calculate_kappa_scores(gpt4_cleaned_zero_shot, claude_cleaned_zero_shot, "GPT4 Zero Shot vs Claude Zero Shot", score_list=["adjusted"])
-# calculate_kappa_scores(gpt4_cleaned_zero_shot, llama_cleaned_zero_shot, "GPT4 Zero Shot vs Llama Zero Shot", score_list=["adjusted"])
-# calculate_kappa_scores(gpt4_cleaned_zero_shot, gemini_cleaned_zero_shot, "GPT4 Zero Shot vs Gemini Zero Shot", score_list=["adjusted"])
-
 
 
 

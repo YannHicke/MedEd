@@ -117,7 +117,7 @@ def str2bool(v):
 
 def load_config():
     parser = argparse.ArgumentParser(description="Score medical interviews")
-    parser.add_argument('--config', type=str, default='./config.yaml', help='Path to config file')
+    parser.add_argument('--config', type=str, default='../../setup/config.yml', help='Path to config file')
     parser.add_argument('--conversation_files', nargs='+', default=None, help='List of conversation files to process')
     parser.add_argument('--examples', type=str2bool, nargs='?', const=True, default=None, help='Provide examples')
     parser.add_argument('--extract_excerpts', type=str2bool, nargs='?', const=True, default=None, help='Extract excerpts')
