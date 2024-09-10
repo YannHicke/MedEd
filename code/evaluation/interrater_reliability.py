@@ -4,17 +4,20 @@ interrater_reliability.py
 This script calculates the inter-rater reliability between the consensus answer and the models' predictions.
 """
 
+import os
+import sys
+
 import matplotlib.pyplot as plt
 import numpy as np
-import os
 import pandas as pd
-import yaml
 
 from sklearn.metrics import cohen_kappa_score
 
+from utils import get_metadata
+
 
 # Link to the root directory of the project
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 # Threshold for the maximum permissible difference between the consensus answer and the prediction
@@ -26,13 +29,13 @@ def krippendorff_alpha(ratings, level_of_measurement="nominal"):
     Compute Krippendorff's alpha for inter-rater reliability.
     
     Parameters:
-    - ratings:              A list of arrays representing ratings from different coders. 
-                            Each array is one coder's ratings.
-    - level_of_measurement: The level of measurement: "nominal", "ordinal", "interval", or "ratio".
-                            Default is "nominal".
+        ratings:              A list of arrays representing ratings from different coders. 
+                              Each array is one coder's ratings.
+        level_of_measurement: The level of measurement: "nominal", "ordinal", "interval", or "ratio".
+                              Default is "nominal".
 
     Returns: 
-    Krippendorff's alpha as a float.
+        Krippendorff's alpha as a float.
     """
     def nominal_metric(a, b):
         return a != b
@@ -85,83 +88,24 @@ def krippendorff_alpha(ratings, level_of_measurement="nominal"):
         return 1 - (Do / De)
     
 
-def model_metadata():
-    # Load in model information
-    config_file = os.path.join(ROOT_DIR, 'setup', 'config.yml')
-    with open(config_file, "r") as f:
-        config = yaml.safe_load(f)
+def calculate_kappa_scores(consensus, gpt4):
+    """
+    Calculate the Cohen's kappa, weighted kappa, accuracy, and adjusted kappa scores 
+    between the consensus and GPT-4 predictions.
 
-    # Determine models 
-    openai = True if 'openai' in config['model_list'] else False
-    llama = True if 'llama' in config['model_list'] else False
-    gemini = True if 'gemini' in config['model_list'] else False
-    claude = True if 'claude' in config['model_list'] else False
-    cohere = True if 'cohere' in config['model_list'] else False
-    together = True if 'together' in config['model_list'] else False
+    Parameters:
+        consensus (array): The consensus answers.
+        gpt4 (array):      The GPT-4 predictions.    
 
-    # Determine evaluation type
-    zero_shot = ~config['examples']
-    few_shot = config['examples']
-    multistep = config['extract_excerpts'] and config['score_from_excerpts']
-
-    column_data = {
-        'Consensus Answer': True,
-        'GPT Zero-Shot': openai and zero_shot, 'GPT Few-Shot': openai and few_shot, 'GPT Multi-Step': openai and multistep,
-        'Llama Zero-Shot': llama and zero_shot, 'Llama Few-Shot': llama and few_shot, 'Llama Multi-Step': llama and multistep,
-        'Gemini Zero-Shot': gemini and zero_shot, 'Gemini Few-Shot': gemini and few_shot, 'Gemini Multi-Step': gemini and multistep,
-        'Claude Zero-Shot': claude and zero_shot, 'Claude Few-Shot': claude and few_shot, 'Claude Multi-Step': claude and multistep,
-        'Cohere Zero-Shot': cohere and zero_shot, 'Cohere Few-Shot': cohere and few_shot, 'Cohere Multi-Step': cohere and multistep,
-        'Together Zero-Shot': together and zero_shot, 'Together Few-Shot': together and few_shot, 'Together Multi-Step': together and multistep
-    }
-
-    columns = [column for column in column_data if column_data[column]]
-    models = [column for column in columns if column != 'Consensus Answer']
-
-    return columns, models
-
-
-def evaluate():
-    file_path = os.path.join(ROOT_DIR, 'results')
-
-
-columns, models = model_metadata()
-
-
-# Load the newly uploaded CSV file
-# TODO: Fix results path
-file_path = '/Users/yannhicke/Desktop/Research/llm-med-ed-digital-platform/code/evaluation/results/v2/mirs_scores_final.csv'
-data_new = pd.read_csv(file_path)
-
-# Check the first few rows and column names
-data_new.head(), data_new.columns
-
-
-
-# Define a function to adjust ratings
-def adjust_scores(consensus, model):
-    """Consider scores that are one unit apart as agreeing."""
-    return np.where(abs(consensus - model) <= 1, consensus, model)
-
-
-# Check for NaN values in both columns
-missing_values = data_new[columns + ["Consensus Answer"]].isnull().sum()
-print("Missing values in the columns: ", missing_values.iloc[0], missing_values.iloc[1])
-
-# Remove rows with NaN values
-data_cleaned = data_new.dropna(subset=columns + ["Consensus Answer"])
-
-for column in columns:
-    data_cleaned[column] = pd.to_numeric(data_cleaned[column], errors='coerce')
-
-data_cleaned = data_cleaned.dropna(subset=columns)
-
-def calculate_kappa_scores(consensus, gpt4, evaluator_name, comparand, score_list=["kappa", "linear", "quadratic", "adjusted", "thresholded", "krippendorff", "accuracy"]):
+    Returns:
+        results (dict): A dictionary of the calculated scores.
+    """
 
     kappa_cleaned = cohen_kappa_score(consensus, gpt4)
     kappa_weighted = cohen_kappa_score(consensus, gpt4, weights='linear')
     kappa_weighted_quadratic = cohen_kappa_score(consensus, gpt4, weights='quadratic')
 
-    adjusted_gpt4 = adjust_scores(consensus, gpt4)
+    adjusted_gpt4 = measure_scores(consensus, gpt4)
     kappa_adjusted = cohen_kappa_score(consensus, adjusted_gpt4)
 
     accuracy = np.mean(consensus == gpt4)
@@ -178,7 +122,7 @@ def calculate_kappa_scores(consensus, gpt4, evaluator_name, comparand, score_lis
     krippendorff_alpha_interval = krippendorff_alpha(ratings, level_of_measurement="interval")
     krippendorff_alpha_ratio = krippendorff_alpha(ratings, level_of_measurement="ratio")
 
-    return {
+    results = {
         'Cohen\'s kappa': kappa_cleaned,
         'Weighted kappa (linear)': kappa_weighted,
         'Weighted kappa (quadratic)': kappa_weighted_quadratic,
@@ -193,43 +137,92 @@ def calculate_kappa_scores(consensus, gpt4, evaluator_name, comparand, score_lis
         'Krippendorff\'s alpha (ratio)': krippendorff_alpha_ratio
     }
 
+    return results
     
 
-results = {}
-for metric in ['Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
-               'Adjusted kappa', 'Thresholded kappa', 'Accuracy', 'Accuracy thresholded', 
-               'Accuracy off by 1', 'Krippendorff\'s alpha (nominal)', 
-               'Krippendorff\'s alpha (ordinal)', 'Krippendorff\'s alpha (interval)', 
-               'Krippendorff\'s alpha (ratio)']:
-    results[metric] = pd.DataFrame(index=models, columns=models)
+def measure_scores(consensus, model):
+    """
+    Measure the difference between scores.
+    Consider scores that are one unit apart as agreeing.
 
-# for model1 in models:
-#     for model2 in models:
-#         if model1 != model2:
-#             scores = calculate_kappa_scores(data_cleaned[model1], data_cleaned[model2], model1, model2, score_list=["adjusted"])
-#             for metric, value in scores.items():
-#                 results[metric].loc[model1, model2] = value
+    Parameters:
+        consensus (array): The consensus answers.
+        model (array):      The model predictions.
 
-# # export results to csv (only the accuracy off by 1)
-# results['Accuracy off by 1'].to_csv("interrater_reliability_results.csv")
-
-# Calculate the agreement between the consensus and each model
-results = {}
-for metric in ['Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
-               'Adjusted kappa', 'Thresholded kappa', 'Accuracy', 'Accuracy thresholded', 
-               'Accuracy off by 1', 'Krippendorff\'s alpha (nominal)', 
-               'Krippendorff\'s alpha (ordinal)', 'Krippendorff\'s alpha (interval)', 
-               'Krippendorff\'s alpha (ratio)']:
-    results[metric] = {}
-
-for model in models:
-    scores = calculate_kappa_scores(data_cleaned["Consensus Answer"], data_cleaned[model], model, "Consensus Answer")
-    for metric, value in scores.items():
-        results[metric][model] = value
-
-# export results to csv
-results_df = pd.DataFrame(results).transpose()
-results_df.to_csv("interrater_reliability_results.csv")
+    Returns:
+        The adjusted model predictions as an array.
+    """
+    return np.where(abs(consensus - model) <= 1, consensus, model)
 
 
+def evaluate(file_path):
+    """
+    Evaluate and save the inter-rater reliability between the consensus answer 
+    and the models' predictions.
 
+    Parameters: 
+        file_path (str): The path to the CSV file containing the data.
+    
+    Returns:
+        None
+    """
+    # Load in the data
+    columns, _, _, _  = get_metadata()
+    models = columns[1:]
+    data_new = pd.read_csv(file_path)
+
+    # Check for and remove NaN values 
+    data_cleaned = data_new.dropna(subset=columns + ["Consensus Answer"])
+    for column in columns:
+        data_cleaned[column] = pd.to_numeric(data_cleaned[column], errors='coerce')
+    data_cleaned = data_cleaned.dropna(subset=columns)
+
+    # Calculate the agreement between the consensus and each model
+    results = {}
+    for metric in ['Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
+                'Adjusted kappa', 'Thresholded kappa', 'Accuracy', 'Accuracy thresholded', 
+                'Accuracy off by 1', 'Krippendorff\'s alpha (nominal)', 
+                'Krippendorff\'s alpha (ordinal)', 'Krippendorff\'s alpha (interval)', 
+                'Krippendorff\'s alpha (ratio)']:
+        results[metric] = {}
+
+    for model in models:
+        scores = calculate_kappa_scores(data_cleaned["Consensus Answer"], data_cleaned[model])
+        for metric, value in scores.items():
+            results[metric][model] = value
+
+    # Export results to CSV
+    results_df = pd.DataFrame(results).transpose()
+    case_name = file_path.split('/')[-2]
+    results_path = os.path.join(ROOT_DIR, 'results', case_name, 'interrater_reliability_results.csv')
+    results_df.to_csv(results_path)
+
+    print(f'\nEvaluation complete. Results saved under `results/{case_name}`.\n\n')
+
+
+if __name__ == "__main__":
+    # Get data path from user input
+    datasets = os.listdir(os.path.join(ROOT_DIR, 'data'))
+
+    print('\n\n- - - - - EVALUATING - - - - -\n\n')
+    
+    # Display datasets with associated numbers
+    print("Please select the number corresponding to the dataset you'd like to use:\n")
+    for idx, dataset in enumerate(datasets, start=1):
+        print(f"\t{idx}. {dataset}")
+    
+    # Get the user's input
+    selected_num = input("\nEnter the number of the dataset: ").strip()
+
+    # Validate the input and convert to an integer
+    try:
+        selected_num = int(selected_num)
+        if 1 <= selected_num <= len(datasets):
+            eval_data = datasets[selected_num - 1]
+        else:
+            sys.exit('Invalid number selected. Exiting...')
+    except ValueError:
+        sys.exit('Invalid input. Exiting...')
+
+    # Evaluate the inter-rater reliability
+    evaluate(os.path.join(ROOT_DIR, 'results', eval_data, 'mirs_scores_final.csv'))

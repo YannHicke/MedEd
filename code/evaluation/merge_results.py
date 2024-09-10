@@ -35,7 +35,7 @@ def merge_results(data_path):
     dataset_name = data_path.split('/')[-1]
     ground_truth_dir = os.path.join(data_path, 'ground_truth')
     columns, techniques, models, model_map = get_metadata()
-    cases = os.listdir(os.path.join(data_path, 'cases'))
+    cases = sorted(os.listdir(os.path.join(data_path, 'cases')))
     questions, nontextual = load_mirs_items()
 
     multi_index = pd.MultiIndex.from_product([questions, cases], names=['Question', 'Casename'])
