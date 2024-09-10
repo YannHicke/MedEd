@@ -1,29 +1,35 @@
-from together import Together
-from openai import OpenAI
-import google.generativeai as genai
-from fireworks.client import Fireworks
+import json
+import os
+import random
+import re
+import time
+
 import anthropic
 import cohere
-import time
-from google.api_core.exceptions import ResourceExhausted
-import re
-import os
-import json
-import random
-from mirs_prompts import mirs_prompts
+import google.generativeai as genai
 import yaml
 
 from dotenv import load_dotenv
-load_dotenv()
+from fireworks.client import Fireworks
+from google.api_core.exceptions import ResourceExhausted
+from openai import OpenAI
+from together import Together
+
+from mirs_prompts import mirs_prompts
 
 
 # Link to the root directory of the project
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Maximum number of attempts for API calls
+MAX_ATTEMPTS = 15
 
-MAX_ATTEMPTS = 15 # TODO: What is this?
 
-# initialize models
+# Load the API keys
+load_dotenv()
+
+
+# Initialize the models
 with open(os.path.join(ROOT_DIR, 'setup', 'config.yml'), 'r') as file:
     config = yaml.safe_load(file)
 
@@ -41,26 +47,51 @@ for model in config["model_list"]:
     if "fireworks" in model:
         client_fireworks = Fireworks(api_key=os.environ["FIREWORKS_API_KEY"])
 
-def openai_api_call(transcript, prompt, response_type="json_object"):
+
+# - - - - - API CALL FUNCTIONALITY - - - - - #
+
+def openai_api_call(transcript, prompt, response_type="json_object", temperature=0):
+    """
+    Call the OpenAI API with the given transcript and prompt.
+
+    Parameters:
+        transcript (str):    The conversation transcript to send to the API.
+        prompt (str):        The prompt to send to the API.
+        response_type (str): The type of response to request from the API.
+        temperature (float): The temperature to use for the API response.
+
+    Returns:
+        response_openai: The response from the OpenAI API.
+    """
     if response_type:
         response_openai = client_openai.chat.completions.create(
             model="gpt-4o",
             response_format={"type": response_type},
             messages=[{"role": "system", "content": prompt},
                       {"role": "user", "content": transcript}],
-            temperature=0  # for reproducibility
+            temperature=temperature  # 0 for reproducibility
         )
     else:
         response_openai = client_openai.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "system", "content": prompt},
                       {"role": "user", "content": transcript}],
-            temperature=0 #for reproducibility
+            temperature=temperature # 0 for reproducibility
         )
     return response_openai
 
 
 def gemini_api_call(transcript, prompt):
+    """
+    Call the Google Gemini API with the given transcript and prompt.
+
+    Parameters:
+        transcript (str):    The conversation transcript to send to the API.
+        prompt (str):        The prompt to send to the API.
+
+    Returns:    
+        response_gemini: The response from the Google Gemini API.
+    """
     model_gemini = genai.GenerativeModel(
         "models/gemini-1.5-pro-exp-0801",
         system_instruction=prompt,
@@ -85,18 +116,18 @@ def gemini_api_call(transcript, prompt):
     return response_gemini
 
 
-# claude_sys_prompt = """
-# You are an expert evaluator of medical interviews conducted by medical students. 
-# Your task is to analyze interview transcripts and provide detailed assessments on various aspects of the interview process. 
-# For each evaluation task, you will:
-
-# 1. Carefully read the provided transcript.
-# 2. Analyze specific aspects of the interview as requested.
-# 3. Provide a detailed reasoning for your evaluation, citing specific examples from the transcript.
-# 4. Assign a score based on the given rubric.
-# """
-
 def anthropic_api_call(transcript, prompt):
+    """
+    Call the Anthropic API with the given transcript and prompt.
+
+    Parameters:
+        transcript (str):    The conversation transcript to send to the API.
+        prompt (str):        The prompt to send to the API.
+
+    Returns:        
+        response_anthropic: The response from the Anthropic API.
+    """
+
     response_anthropic = client_anthropic.messages.create(
         model="claude-3-5-sonnet-20240620",
         max_tokens=1024,
@@ -128,7 +159,18 @@ def anthropic_api_call(transcript, prompt):
     )
     return parse_score_justification(response_anthropic.content[0].text)
 
+
 def anthropic_api_call_excerpt(transcript, prompt):
+    """
+    Call the Anthropic API with the given transcript and prompt.
+
+    Parameters:
+        transcript (str):    The conversation transcript to send to the API.
+        prompt (str):        The prompt to send to the API.
+
+    Returns:        
+        response_anthropic: The response from the Anthropic API.
+    """
     response_anthropic = client_anthropic.messages.create(
         model="claude-3-5-sonnet-20240620",
         max_tokens=1024,
@@ -139,6 +181,16 @@ def anthropic_api_call_excerpt(transcript, prompt):
 
 
 def cohere_api_call(transcript, prompt):
+    """
+    Call the Cohere API with the given transcript and prompt.
+
+    Parameters:
+        transcript (str):    The conversation transcript to send to the API.
+        prompt (str):        The prompt to send to the API.
+
+    Returns:    
+        response_cohere: The response from the Cohere API.
+    """
     response_cohere = co.chat(
     model="command-r-plus",
     message=transcript,
@@ -148,6 +200,16 @@ def cohere_api_call(transcript, prompt):
 
 
 def together_api_call(transcript, prompt):
+    """
+    Call the Together API with the given transcript and prompt.
+
+    Parameters:
+        transcript (str):    The conversation transcript to send to the API.
+        prompt (str):        The prompt to send to the API.
+
+    Returns:
+        response_together: The response from the Together API.
+    """
     attempt = 0
     while attempt < MAX_ATTEMPTS:
         try:
@@ -168,7 +230,18 @@ def together_api_call(transcript, prompt):
 
     return response_together
 
+
 def fireworks_api_call(transcript, prompt):
+    """
+    Call the Fireworks API with the given transcript and prompt.
+
+    Parameters:
+        transcript (str):    The conversation transcript to send to the API.
+        prompt (str):        The prompt to send to the API.
+
+    Returns:
+        response_fireworks: The response from the Fireworks API
+    """
     attempt = 0
     while attempt < MAX_ATTEMPTS:
         try:
@@ -190,7 +263,19 @@ def fireworks_api_call(transcript, prompt):
     return response_fireworks
 
 
+# - - - - - RESPONSE PARSING FUNCTIONALITY - - - - - #
+
 def parse_json(response):
+    """
+    Parse the JSON response from the API and extract the score and justification.
+
+    Parameters:
+        response (str): The JSON response from the API.
+
+    Returns:    
+        score:         The score extracted from the response.
+        justification: The justification extracted from the response.
+    """
     # Extract the JSON part from the response
     json_start = re.search(r'\{', response)
     if json_start:
@@ -224,32 +309,79 @@ def parse_json(response):
     return score, justification
 
 
-    
-
-
 def parse_string(response):
+    """
+    Parse the string response from the API and extract the score and justification.
+
+    Parameters:
+        response (str): The string response from the API.
+
+    Returns:
+        score:           The score extracted from the response.
+        justification:   The justification extracted from the response.
+    """
     try:
         score = response.split("<score>")[1].split("</score>")[0]
     except:
         score = "N/A"
     try:
-        explanation = response.split("<reasoning>")[1].split("</reasoning>")[0]
+        justification = response.split("<reasoning>")[1].split("</reasoning>")[0]
     except:
-        explanation = response
+        justification = response
 
-    return score, explanation
+    return score, justification
 
 
 def parse_openai(response):
+    """
+    Read the OpenAI response and return the content.
+
+    Parameters:
+        response: The response from the OpenAI API.
+
+    Returns:
+        The content of the response.
+    """
     return response.choices[0].message.content
+
 
 def parse_together(response):
+    """
+    Read the Together response and return the content.
+
+    Parameters:
+        response: The response from the Together API.
+
+    Returns:
+        The content of the response.
+    """
     return response.choices[0].message.content
 
+
 def parse_anthropic(response):
+    """
+    Read the Anthropic response and return the content.
+
+    Parameters:
+        response: The response from the Anthropic API.
+
+    Returns:
+        The content of the response.
+    """
     return response.content[0].text
 
+
 def parse_score_justification(text):
+    """
+    Parse the score and justification from the text.
+
+    Parameters:
+        text (str): The text to parse.
+
+    Returns:    
+        score:         The score extracted from the text.
+        justification: The justification extracted from the text.
+    """
     # Extract the score
     score_match = re.search(r'Score:\s*(\d+)', text)
     score = int(score_match.group(1)) if score_match else None
@@ -260,7 +392,17 @@ def parse_score_justification(text):
 
     return score, justification
 
+
 def parse_gemini(response):
+    """
+    Read the Gemini response and return the content.
+
+    Parameters: 
+        response: The response from the Gemini API.
+
+    Returns:
+        The content of the response.
+    """
     if not response:
         return response
     try:
@@ -271,26 +413,34 @@ def parse_gemini(response):
 
     return output
 
+
 def parse_cohere(response):
+    """
+    Read the Cohere response and return the content.
+
+    Parameters:
+        response: The response from the Cohere API.
+
+    Returns:
+        The content of the response.
+    """
     return response.text
 
+
 def parse_fireworks(response):
+    """
+    Read the Fireworks response and return the content.
+
+    Parameters:
+        response: The response from the Fireworks API.
+
+    Returns:    
+        The content of the response
+    """
     return response.choices[0].message.content
-
-
-def get_prompts_call_map(examples, prompt_type):
-    return mirs_prompts
-    # if examples:
-    #     if prompt_type == "json" or prompt_type == "json_score_justification":
-    #         return mirs_prompts
-    #     elif prompt_type == "string":
-    #         return nojson_mirs_prompts
-    # else:
-    #     if prompt_type == "json" or prompt_type == "json_score_justification":
-    #         return mirs_prompts_noExamples
-    #     elif prompt_type == "string":
-    #         return nojson_mirs_prompts_noExamples
         
+
+# - - - - - MAPPINGS - - - - - #
 
 api_call_map = {
     "openai": openai_api_call,
@@ -319,3 +469,6 @@ prompt_map = {
     "together": "json",
     "fireworks": "json"
 }
+
+def get_prompts_call_map(examples, prompt_type):
+    return mirs_prompts
