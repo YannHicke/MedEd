@@ -14,6 +14,7 @@ code/__pycache__/
 Papers/
 code/old/
 code/simulation/conversation_history/.DS_Store
+setup/.env
 
 
 
