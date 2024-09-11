@@ -1,0 +1,12 @@
+anthropic==0.34.2
+cohere==5.9.1
+fireworks-ai==0.15.0
+google-generativeai==0.7.2
+matplotlib
+numpy
+openai==1.43.1
+pandas==2.2.2
+python-dotenv==1.0.1
+together==1.2.11
+scikit-learn
+

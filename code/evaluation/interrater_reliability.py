@@ -1,22 +1,41 @@
-import pandas as pd
-from sklearn.metrics import cohen_kappa_score
-import numpy as np
+"""
+interrater_reliability.py 
+-------------------------
+This script calculates the inter-rater reliability between the consensus answer and the models' predictions.
+"""
+
+import os
+import sys
+
 import matplotlib.pyplot as plt
-# import krippendorff
-from scipy.stats import chi2_contingency
+import numpy as np
 import pandas as pd
 
+from sklearn.metrics import cohen_kappa_score
+
+from utils import get_metadata
+
+
+# Link to the root directory of the project
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
+# Threshold for the maximum permissible difference between the consensus answer and the prediction
 THRESHOLD = [2,3]
+
 
 def krippendorff_alpha(ratings, level_of_measurement="nominal"):
     """
     Compute Krippendorff's alpha for inter-rater reliability.
     
-    :param ratings: A list of arrays representing ratings from different coders. 
-                    Each array is one coder's ratings.
-    :param level_of_measurement: The level of measurement: "nominal", "ordinal", "interval", or "ratio".
-                                 Default is "nominal".
-    :return: Krippendorff's alpha as a float.
+    Parameters:
+        ratings:              A list of arrays representing ratings from different coders. 
+                              Each array is one coder's ratings.
+        level_of_measurement: The level of measurement: "nominal", "ordinal", "interval", or "ratio".
+                              Default is "nominal".
+
+    Returns: 
+        Krippendorff's alpha as a float.
     """
     def nominal_metric(a, b):
         return a != b
@@ -40,7 +59,7 @@ def krippendorff_alpha(ratings, level_of_measurement="nominal"):
     }[level_of_measurement]
 
     ratings = np.asarray(ratings)
-    n_raters, n_items = ratings.shape
+    _, n_items = ratings.shape
 
     # Mask the missing values with np.nan
     ratings = np.where(np.isnan(ratings), np.nan, ratings)
@@ -67,72 +86,26 @@ def krippendorff_alpha(ratings, level_of_measurement="nominal"):
         return 1.0
     else:
         return 1 - (Do / De)
+    
 
+def calculate_kappa_scores(consensus, gpt4):
+    """
+    Calculate the Cohen's kappa, weighted kappa, accuracy, and adjusted kappa scores 
+    between the consensus and GPT-4 predictions.
 
-# Load the newly uploaded CSV file
-file_path = '/Users/yannhicke/Desktop/Research/llm-med-ed-digital-platform/code/evaluation/results/v2/mirs_scores_final.csv'
-data_new = pd.read_csv(file_path)
+    Parameters:
+        consensus (array): The consensus answers.
+        gpt4 (array):      The GPT-4 predictions.    
 
-# Check the first few rows and column names
-data_new.head(), data_new.columns
-
-# columns = ["scores_anthropic", "scores_fireworks", "scores_gemini", "scores_openai"]
-columns = ['Consensus Answer', 'gpt-4o zero shot',
-       'gpt-4o few shot', 'gpt-4o multistep', 'Llama zero shot',
-       'Llama few shot', 'Llama multistep', 'Gemini zero shot',
-       'Gemini few shot', 'Gemini multistep', 'Claude zero shot',
-       'Claude few shot', 'Claude multistep']
-
-columns = ['Consensus Answer', 'gpt-4o zero shot', 'Llama zero shot', 'Gemini zero shot', 'Claude zero shot']
-
-# for column in columns:
-#     # print(column)
-#     print(data_new[column].value_counts())
-#     print(len(data_new[column]))
-#     print("\n\n")
-
-
-# Define a function to adjust ratings
-def adjust_scores(consensus, model):
-    """Consider scores that are one unit apart as agreeing."""
-    return np.where(abs(consensus - model) <= 1, consensus, model)
-
-
-# Check for NaN values in both columns
-missing_values = data_new[columns + ["Consensus Answer"]].isnull().sum()
-print("Missing values in the columns: ", missing_values.iloc[0], missing_values.iloc[1])
-
-# Remove rows with NaN values
-data_cleaned = data_new.dropna(subset=columns + ["Consensus Answer"])
-
-for column in columns:
-    data_cleaned[column] = pd.to_numeric(data_cleaned[column], errors='coerce')
-
-data_cleaned = data_cleaned.dropna(subset=columns)
-
-# Re-attempt the calculation after cleaning
-# consensus_cleaned = data_cleaned['Consensus Answer']
-# gpt4_cleaned_zero_shot = data_cleaned['gpt-4o zero shot']
-# gpt4_cleaned_few_shot = data_cleaned['gpt-4o few shot']
-# gpt4_cleaned_multistep = data_cleaned['gpt-4o multistep']
-# claude_cleaned_zero_shot = data_cleaned['Claude zero shot']
-# claude_cleaned_few_shot = data_cleaned['Claude few shot']
-# claude_cleaned_multistep = data_cleaned['Claude multistep']
-# llama_cleaned_zero_shot = data_cleaned['Llama zero shot']
-# llama_cleaned_few_shot = data_cleaned['Llama few shot']
-# llama_cleaned_multistep = data_cleaned['Llama multistep']
-# gemini_cleaned_zero_shot = data_cleaned['Gemini zero shot']
-# gemini_cleaned_few_shot = data_cleaned['Gemini few shot']
-# gemini_cleaned_multistep = data_cleaned['Gemini multistep']
-
-
-def calculate_kappa_scores(consensus, gpt4, evaluator_name, comparand, score_list=["kappa", "linear", "quadratic", "adjusted", "thresholded", "krippendorff", "accuracy"]):
+    Returns:
+        results (dict): A dictionary of the calculated scores.
+    """
 
     kappa_cleaned = cohen_kappa_score(consensus, gpt4)
     kappa_weighted = cohen_kappa_score(consensus, gpt4, weights='linear')
     kappa_weighted_quadratic = cohen_kappa_score(consensus, gpt4, weights='quadratic')
 
-    adjusted_gpt4 = adjust_scores(consensus, gpt4)
+    adjusted_gpt4 = measure_scores(consensus, gpt4)
     kappa_adjusted = cohen_kappa_score(consensus, adjusted_gpt4)
 
     accuracy = np.mean(consensus == gpt4)
@@ -148,11 +121,10 @@ def calculate_kappa_scores(consensus, gpt4, evaluator_name, comparand, score_lis
 
     ratings = np.array([consensus, gpt4])
     krippendorff_alpha_nominal = krippendorff_alpha(ratings, level_of_measurement="nominal")
-    krippendorff_alpha_ordinal = krippendorff_alpha(ratings, level_of_measurement="ordinal")
     krippendorff_alpha_interval = krippendorff_alpha(ratings, level_of_measurement="interval")
     krippendorff_alpha_ratio = krippendorff_alpha(ratings, level_of_measurement="ratio")
 
-    return {
+    results = {
         'Cohen\'s kappa': kappa_cleaned,
         'Weighted kappa (linear)': kappa_weighted,
         'Weighted kappa (quadratic)': kappa_weighted_quadratic,
@@ -168,98 +140,94 @@ def calculate_kappa_scores(consensus, gpt4, evaluator_name, comparand, score_lis
         'Krippendorff\'s alpha (ratio)': krippendorff_alpha_ratio
     }
 
-# models = ['gpt-4o zero shot', 'gpt-4o few shot', 'gpt-4o multistep', 
-#           'Claude zero shot', 'Claude few shot', 'Claude multistep',
-#           'Llama zero shot', 'Llama few shot', 'Llama multistep',
-#           'Gemini zero shot', 'Gemini few shot', 'Gemini multistep']
-
-models = ['gpt-4o zero shot', 'Llama zero shot', 'Gemini zero shot', 'Claude zero shot']
-
+    return results
     
 
-results = {}
-metrics = [
-    'Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
-    'Adjusted kappa', f'Thresholded kappa {THRESHOLD[0]}', f'Thresholded kappa {THRESHOLD[1]}',
-    'Krippendorff\'s alpha (nominal)', 'Krippendorff\'s alpha (interval)', 
-    'Krippendorff\'s alpha (ratio)', 'Accuracy', f'Accuracy thresholded {THRESHOLD[0]}', f'Accuracy thresholded {THRESHOLD[1]}',
-    'Accuracy off by 1'
-]
-for metric in metrics:
-    results[metric] = pd.DataFrame(index=models, columns=models)
+def measure_scores(consensus, model):
+    """
+    Measure the difference between scores.
+    Consider scores that are one unit apart as agreeing.
 
-# for model1 in models:
-#     for model2 in models:
-#         if model1 != model2:
-#             scores = calculate_kappa_scores(data_cleaned[model1], data_cleaned[model2], model1, model2, score_list=["adjusted"])
-#             for metric, value in scores.items():
-#                 results[metric].loc[model1, model2] = value
+    Parameters:
+        consensus (array): The consensus answers.
+        model (array):      The model predictions.
 
-# # export results to csv (only the accuracy off by 1)
-# results['Accuracy off by 1'].to_csv("interrater_reliability_results.csv")
-
-# Calculate the agreement between the consensus and each model
-results = {}
-
-for metric in metrics:
-    results[metric] = {}
-
-for model in models:
-    scores = calculate_kappa_scores(data_cleaned["Consensus Answer"], data_cleaned[model], model, "Consensus Answer")
-    for metric, value in scores.items():
-        results[metric][model] = value
-
-# export results
-breakpoint()
-results_df = pd.DataFrame(results).transpose()
-results_df.to_csv("interrater_reliability_results.csv")
-
-# chi_squared_results = pd.DataFrame(index=models, columns=models)
-
-# for model1 in models:
-#     for model2 in models:
-#         # if model1 != model2:
-#             # Create a contingency table for the two models
-#             contingency_table = pd.crosstab(data_cleaned[model1], data_cleaned[model2])
-            
-#             # Perform Chi-Squared test
-#             chi2, p, dof, ex = chi2_contingency(contingency_table)
-            
-#             # Store the Chi-Squared value in the DataFrame
-#             chi_squared_results.loc[model1, model2] = chi2
-
-# # Export the Chi-Squared results to CSV
-# chi_squared_results.to_csv("chi_squared_results.csv")
-
-# # Create a contingency table between two columns
-# contingency_table = pd.crosstab(data_cleaned['gpt-4o zero shot'].dropna(), data_cleaned['Claude zero shot'].dropna())
-
-# # Perform Chi-Squared test
-# chi2, p, dof, ex = chi2_contingency(contingency_table)
-
-# # Print the results
-# print(f'Chi-Squared: {chi2}, p-value: {p}, Degrees of Freedom: {dof}')
+    Returns:
+        The adjusted model predictions as an array.
+    """
+    return np.where(abs(consensus - model) <= 1, consensus, model)
 
 
+def evaluate(file_path):
+    """
+    Evaluate and save the inter-rater reliability between the consensus answer 
+    and the models' predictions.
 
-# calculate_kappa_scores(consensus_cleaned, gpt4_cleaned_zero_shot, "GPT4 Zero Shot")
-# calculate_kappa_scores(consensus_cleaned, gpt4_cleaned_few_shot, "GPT4 Few Shot")
-# calculate_kappa_scores(consensus_cleaned, gpt4_cleaned_multistep, "GPT4 Multistep")
-# calculate_kappa_scores(consensus_cleaned, claude_cleaned_zero_shot, "Claude Zero Shot")
-# calculate_kappa_scores(consensus_cleaned, claude_cleaned_few_shot, "Claude Few Shot")
-# calculate_kappa_scores(consensus_cleaned, claude_cleaned_multistep, "Claude Multistep")
-# calculate_kappa_scores(consensus_cleaned, llama_cleaned_zero_shot, "Llama Zero Shot")
-# calculate_kappa_scores(consensus_cleaned, llama_cleaned_few_shot, "Llama Few Shot")
-# calculate_kappa_scores(consensus_cleaned, llama_cleaned_multistep, "Llama Multistep")
-# calculate_kappa_scores(consensus_cleaned, gemini_cleaned_zero_shot, "Gemini Zero Shot")
-# calculate_kappa_scores(consensus_cleaned, gemini_cleaned_few_shot, "Gemini Few Shot")
-# calculate_kappa_scores(consensus_cleaned, gemini_cleaned_multistep, "Gemini Multistep")
+    Parameters: 
+        file_path (str): The path to the CSV file containing the data.
+    
+    Returns:
+        None
+    """
+    # Load in the data
+    columns, _, _, _  = get_metadata()
+    models = columns[1:]
+    data_new = pd.read_csv(file_path)
 
-# Calcualte agreement between GPT4 and other models
-# calculate_kappa_scores(gpt4_cleaned_zero_shot, claude_cleaned_zero_shot, "GPT4 Zero Shot vs Claude Zero Shot", score_list=["adjusted"])
-# calculate_kappa_scores(gpt4_cleaned_zero_shot, llama_cleaned_zero_shot, "GPT4 Zero Shot vs Llama Zero Shot", score_list=["adjusted"])
-# calculate_kappa_scores(gpt4_cleaned_zero_shot, gemini_cleaned_zero_shot, "GPT4 Zero Shot vs Gemini Zero Shot", score_list=["adjusted"])
+    # Check for and remove NaN values 
+    data_cleaned = data_new.dropna(subset=columns + ["Consensus Answer"])
+    for column in columns:
+        data_cleaned[column] = pd.to_numeric(data_cleaned[column], errors='coerce')
+    data_cleaned = data_cleaned.dropna(subset=columns)
+
+    # Calculate the agreement between the consensus and each model
+    results = {}
+    for metric in [
+        'Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
+        'Adjusted kappa', f'Thresholded kappa {THRESHOLD[0]}', f'Thresholded kappa {THRESHOLD[1]}',
+        'Krippendorff\'s alpha (nominal)', 'Krippendorff\'s alpha (interval)', 
+        'Krippendorff\'s alpha (ratio)', 'Accuracy', f'Accuracy thresholded {THRESHOLD[0]}', 
+        f'Accuracy thresholded {THRESHOLD[1]}', 'Accuracy off by 1'
+    ]:
+        results[metric] = {}
+
+    for model in models:
+        scores = calculate_kappa_scores(data_cleaned["Consensus Answer"], data_cleaned[model])
+        for metric, value in scores.items():
+            results[metric][model] = value
+
+    # Export results to CSV
+    results_df = pd.DataFrame(results).transpose()
+    case_name = file_path.split('/')[-2]
+    results_path = os.path.join(ROOT_DIR, 'results', case_name, 'interrater_reliability_results.csv')
+    results_df.to_csv(results_path)
+
+    print(f'\nEvaluation complete. Results saved under `results/{case_name}`.\n\n')
 
 
+if __name__ == "__main__":
+    # Get data path from user input
+    datasets = os.listdir(os.path.join(ROOT_DIR, 'data'))
 
+    print('\n\n- - - - - EVALUATING - - - - -\n\n')
+    
+    # Display datasets with associated numbers
+    print("Please select the number corresponding to the dataset you'd like to use:\n")
+    for idx, dataset in enumerate(datasets, start=1):
+        print(f"\t{idx}. {dataset}")
+    
+    # Get the user's input
+    selected_num = input("\nEnter the number of the dataset: ").strip()
 
+    # Validate the input and convert to an integer
+    try:
+        selected_num = int(selected_num)
+        if 1 <= selected_num <= len(datasets):
+            eval_data = datasets[selected_num - 1]
+        else:
+            sys.exit('Invalid number selected. Exiting...')
+    except ValueError:
+        sys.exit('Invalid input. Exiting...')
+
+    # Evaluate the inter-rater reliability
+    evaluate(os.path.join(ROOT_DIR, 'results', eval_data, 'mirs_scores_final.csv'))

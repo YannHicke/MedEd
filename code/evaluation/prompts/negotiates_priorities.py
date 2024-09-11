@@ -3,13 +3,13 @@ You will be given the transcript of a medical interview between a medical studen
 
 To ensure a thorough evaluation, follow these steps:
 
-**Step 1. Scoring:**
-   - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-     - **Score 5:** The student fully negotiates the priorities of patient concerns. The student lists all of the concerns, sets the agenda at the onset of the interview, and gets the patient’s agreement to the agenda.
-     - **Score 4:** The student mostly negotiates the priorities of patient concerns, but not as thoroughly as in a score of 5. They set the agenda at the onset of the interview before they discuss the patient's spectrum of concerns and get the patient’s agreement to the agenda.
-     - **Score 3:** The student sets the agenda but the student elicits only partial concerns and therefore does not accomplish the complete patient agenda for their visit.
-     - **Score 2:** The student minimally negotiates priorities and fails to accomplish the complete patient agenda. Limited efforts are made to set an agenda.
-     - **Score 1:** The student does not negotiate priorities or set an agenda. The student focuses only on the chief complaint and takes only the physician’s needs into account. 
+  **Step 1. Scoring:**
+    - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
+      - **Score 5:** The student fully negotiates the priorities of patient concerns. The student lists all of the concerns, sets the agenda at the onset of the interview, and gets the patient’s agreement to the agenda.
+      - **Score 4:** The student mostly negotiates the priorities of patient concerns, but not as thoroughly as in a score of 5. They set the agenda at the onset of the interview before they discuss the patient's spectrum of concerns and get the patient’s agreement to the agenda.
+      - **Score 3:** The student sets the agenda but the student elicits only partial concerns and therefore does not accomplish the complete patient agenda for their visit.
+      - **Score 2:** The student minimally negotiates priorities and fails to accomplish the complete patient agenda. Limited efforts are made to set an agenda.
+      - **Score 1:** The student does not negotiate priorities or set an agenda. The student focuses only on the chief complaint and takes only the physician’s needs into account. 
 
   **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
 
@@ -24,6 +24,8 @@ Provide your evaluation in the following JSON format. Provide your entire respon
 
 Now, please evaluate the following medical interview transcript:
 """
+
+
 
 
 
