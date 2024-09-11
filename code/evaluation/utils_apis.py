@@ -50,7 +50,7 @@ for model in config["model_list"]:
 
 # - - - - - API CALL FUNCTIONALITY - - - - - #
 
-def openai_api_call(transcript, prompt, response_type="json_object", temperature=0):
+def openai_api_call(transcript, prompt, response_type="json_object", temperature=1e-19):
     """
     Call the OpenAI API with the given transcript and prompt.
 
@@ -69,14 +69,14 @@ def openai_api_call(transcript, prompt, response_type="json_object", temperature
             response_format={"type": response_type},
             messages=[{"role": "system", "content": prompt},
                       {"role": "user", "content": transcript}],
-            temperature=temperature  # 0 for reproducibility
+            temperature=temperature  # lower for reproducibility
         )
     else:
         response_openai = client_openai.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "system", "content": prompt},
                       {"role": "user", "content": transcript}],
-            temperature=temperature # 0 for reproducibility
+            temperature=temperature # lower for reproducibility
         )
     return response_openai
 
