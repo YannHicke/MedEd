@@ -39,6 +39,7 @@ def score_mirs_single_case(transcript, model_list, file_name, data_path, example
         score_from_excerpts (bool): Whether to score from excerpts.
     """
     # Initialize case information
+    # breakpoint()
     scores = {}
     explanations = {}
     for model in model_list:
@@ -66,7 +67,7 @@ def score_mirs_single_case(transcript, model_list, file_name, data_path, example
         file_path = None
 
     # Check if we resume from an existing file
-    if os.path.exists(file_path) and not overwrite:
+    if file_path and not overwrite:
         print(f'Resuming from {file_type} file: {file_path}')
         for model in model_list:
             score_col = f"scores_{model}"

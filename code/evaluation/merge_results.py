@@ -35,7 +35,8 @@ def merge_results(data_path):
     dataset_name = data_path.split('/')[-1]
     ground_truth_dir = os.path.join(data_path, 'ground_truth')
     columns, techniques, models, model_map = get_metadata()
-    cases = sorted(os.listdir(os.path.join(data_path, 'cases')))
+    cases = sorted(os.listdir(os.path.join(data_path, 'conversation_history')))
+    cases = [case.lower().split('.')[0] for case in cases]
     questions, nontextual = load_mirs_items()
 
     multi_index = pd.MultiIndex.from_product([questions, cases], names=['Question', 'Casename'])
@@ -45,14 +46,14 @@ def merge_results(data_path):
 
     # Combine DataFrames
     for case in cases:
-        ground_truth_df = pd.read_csv(f"{ground_truth_dir}/{case.lower()}.csv", index_col=0)
+        ground_truth_df = pd.read_csv(f"{ground_truth_dir}/{case}.csv", index_col=0)
         for item in ground_truth_df.index:
             results_scores.loc[(item, case), "Consensus Answer"] = ground_truth_df.loc[item, "Consensus Answer"]
         
         # Iterate through each technique
         for technique in techniques:
             stripped_technique = technique.lower().replace(" ", "")
-            results_path = os.path.join(ROOT_DIR, 'results', dataset_name, f"mirs_scores_{case.lower()}.txt_final_{stripped_technique}.csv")
+            results_path = os.path.join(ROOT_DIR, 'results', dataset_name, f"mirs_scores_{case}.txt_final_{stripped_technique}.csv")
             results_file = pd.read_csv(results_path)
             results_file.set_index("Unnamed: 0", inplace=True)
 
@@ -61,7 +62,7 @@ def merge_results(data_path):
                 column_name = f"{model} {technique}"
                 for item in questions:
                     # Fill in non-existent column data
-                    if item not in mapping_items_to_score[case.lower() + ".txt"] or item in nontextual:
+                    if item not in mapping_items_to_score[case + ".txt"] or item in nontextual:
                         results_scores.loc[(item, case), column_name] = "-"
                         results_explanations.loc[(item, case), column_name] = "-"
                         if item not in nontextual:
@@ -92,7 +93,6 @@ def merge_results(data_path):
     results_scores.to_csv(os.path.join(ROOT_DIR, 'results', dataset_name, 'mirs_scores_final.csv'), index=False)
     results_explanations.to_csv(os.path.join(ROOT_DIR, 'results', dataset_name, 'mirs_explanations_final.csv'), index=False)
     print(f'\nMerged. Results saved to `results/{dataset_name}` folder.\n\n')
-
 
 if __name__ == "__main__":
     # Get data path from user input
