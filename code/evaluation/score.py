@@ -109,7 +109,7 @@ def score_mirs_single_case(transcript, model_list, file_name, data_path, example
                         transcript = file.read().strip() 
 
                 # Skip if the item has already been scored
-                if item in scores[model] and scores[model][item] not in ["Error", "Not scored"]:
+                if item in scores[model] and scores[model][item] not in ["Error", "Not scored"] and item not in ['IMPACT OF ILLNESS ON PATIENT AND PATIENT_S SELF-IMAGE']:
                     print(f"Skipping already processed item: {item} for model: {model}")
                     continue
 
