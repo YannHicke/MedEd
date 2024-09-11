@@ -1,0 +1,421 @@
+Physician: Hi, Ms. Austin. Is that right? 
+
+Patient: yeah
+
+Physician: I'm Kylie Haynes. I'm going to be taking a look today. 
+
+Patient: Okay
+
+Physician: So probably what the plan is going to be is that I'm going to ask you a few questions. They'll probably be dental-related and medical-related just so we can kind of get an idea of what's going on. And then we'll probably just do an exam, take a look in your mouth, and see what we can do and kind of make a plan for you. Does that sound good?
+
+Patient : Sure.
+
+Physician: Okay. Alright. So what brought you here today?
+
+Patient: Well, I have a lot of soreness right here. I think it's abscessed. I'm not really sure.
+
+Physician: Okay. 
+
+Patient: It's really painful. 
+
+Physician: It's very painful. On both sides?
+
+Patient: Both sides, yeah.
+
+Physician: On the lower? Okay. Can you describe the pain to me a little bit?
+
+Patient: Right now it's throbbing. 
+
+Physician: It's throbbing pain. 
+
+Patient: It has been for a while, yeah.
+
+Physician: Okay. How long is the pain, like the duration of the pain? 
+
+Patient: Like how long have I had it or how long does it last?
+
+Physician: Yeah, yeah. Kind of just describe a little bit to me. 
+
+Patient: Probably, well, it's been on and off, but the way that it's been like this, it's been like about 10 days.
+
+Physician: It's been about 10 days?
+
+Patient: Yeah. I didn't really want to do anything about it, but at this point I know I have to.
+
+Physician: Okay. Have you had any problems with it before this or it's just started at 10 days, 10 days ago?
+
+Patient: Well, I had some mercury fillings that I had taken out about two years ago.
+
+Physician: Okay. 
+
+Patient: And I don't know if it's related to that, but that might have, you know, started the ball rolling. I don't really know.
+
+Physician: Okay. Alright. So just so I've got an idea, you're feeling like you have some abscesses in your mouth and they are on both sides on the lower.
+
+Patient: Yeah. 
+
+Physician: And it's been about 10 days, but you had some mercury fillings, some probably amalgam, are they silver-colored?
+
+Patient: Yeah. 
+
+Physician: Silver-colored fillings in the past and you think that might be the cause and you had those removed about two years ago, is that correct?
+
+Patient: About two years ago.
+
+Physician: About two years ago. Okay. Alright. Just so I can get an idea. Now, what about, I'm going to ask just a little bit more about your past dental history because I've kind of got an idea about your chief complaint right now. We'll address that first today, but I want to kind of get an overall picture. Have you had dental work? You've had dental work done in the past then?
+
+Patient: I had wisdom teeth removed, I guess it was about 15 years ago.
+
+Physician: Okay. 
+
+Patient: And I've been, you know, very good, regular dental checkups, the whole, you know, thing. About five years ago, I had some issues medical-wise.
+
+Physician: Okay.
+
+Patient: So a little bit different now. I do like baking soda with my teeth. 
+
+Physician: Okay.
+
+Patient: I brush still every day, but no toothpaste.
+
+Physician: No toothpaste. Okay. What kind of dental work have you had in the past? Just the wisdom teeth and a few fillings, is that about it?
+
+Patient: That's about it, yeah.
+
+Physician: Okay. And did you see the dentist regularly or just when it was painful for you?
+
+Patient: Everything was regular up until about two years ago. I had the fillings out and then nothing really since then.
+
+Physician: Okay. Alright. Why did you have the fillings removed? What do you think was the problem?
+
+Patient: Well, it's kind of a long story, but about five years ago, I had bought a new car.
+
+Physician: Okay. You know, that new car smell and all that. And for some reason, I didn't know at the time, but I started getting, you know, dizzy, short of breath, 
+
+Physician: Okay.
+
+Patient: chest pain, everything. I found out later that it was to do with the inlet, the fresh air inlet. 
+
+Physician: Mm-hmm.
+
+Patient: But ever since then, I've had trouble.
+
+Patient: A lot of chemical sensitivities. 
+
+Physician: Okay. 
+
+Patient: Oh, I am allergic to latex, I wanted to tell you that.
+
+Physician: Okay, good. 
+
+Patient: And no anesthetics for me either, too. 
+
+Physician: Are you allergic to anesthetics?
+
+Patient: I think so.
+
+Physician: Certain anesthetics? Okay. I'll ask you just a few more questions about that later. We'll get into a little bit of the medical history at first.
+
+Patient: Okay
+
+Physician: So you feel like you've had dental work in the past pretty much on a regular basis. Is that correct? 
+
+Patient: Mm-hmm.
+
+Physican: And just you were in a car, and you're feeling like as soon as you had the new car, certain health problems were starting to happen. Is that correct?
+
+Patient: That was kind of this, you know, it kind of snowballed from there. And I don't know if that, you know, was the official trigger.
+
+Physician: Okay. 
+
+Patient: But ever since then, it's just gotten worse and worse. 
+
+Physician: All right, and so do you think the problems with your teeth, you think they're related to chemical sensitivities? Is that my understanding?
+
+Patient: Well, I had the mercury taken out. I had a lab report done. It was like a serum thing.
+
+Physician: Okay. 
+
+Patient: And I sent some samples out to Colorado, and that's actually the report right here.
+
+Physician: Oh, okay. 
+
+Patient: If you can take a look later. It's pretty extensive, yeah.
+
+Physician: Okay. Yeah, I will take a look at this later a little bit. So you think it's just some chemical sensitivities to your teeth, and that's why you had the amalgam fillings removed then. Is that correct?
+
+Patient: I wasn't sure if my body was rejecting the mercury or what was happening, but I figured it was a good idea to take them out. I had done some reading on my own, and then with the lab results, they said, you know, mercury wasn't good for me. So I figured I'd have them out.
+
+Physician: Okay. Well, I mean, there have been some studies done, and the American Dental Association has said that amalgam fillings that have the mercury in it are safe to use. But, however, there are some other materials that we could use. There's some resins and certain other types of materials that we could try. And I'll take a look at this and see if we can find something that you'd be comfortable with that we could try that might be not as sensitive.
+
+Patient: Definitely no mercury, nothing even remotely related to the mercury.
+
+Physician: Yeah, we won't put anything in your mouth that you're not comfortable with first. But we'll probably have to do just a little bit of research and a little bit of picking and choosing of what kind of materials that we would use if you needed a few more fillings done. Okay. Now, do you brush and floss regularly?
+
+Patient: Mm-hmm.
+
+Physician: Okay. How often?
+
+Patient: Twice a day.
+
+Physician: Twice a day. Okay. And what kind of products are you using again? I know you mentioned it. 
+
+Patient: Just baking soda.
+
+Physician: Just baking soda? 
+
+Patient: Yeah.
+
+Physician: Okay. All right. So now I kind of have an idea of a little bit about your dental history. So I want to ask you a few questions about medical history because it seems like from your research you've kind of gotten an idea, too, that medical and dental history will be kind of related. It may be part to the problem. It may not. But I'll just ask you a few questions and take it from there. All right? 
+
+Patient: Okay.
+
+Physician: All right. So this may seem like a broad question, but I know you mentioned it before. What are some of the significant medical problems that you have?
+
+Patient: Well, I have shortness of breath.
+
+Physician: Okay. 
+
+Patient: I don't use it at home, though.
+
+Physician: Okay. Yeah, I noticed you did have the oxygen tank, so I was going to ask you about that. How often do you have to use it?
+
+Patient: Whenever I'm out of the house.
+
+Physician: Okay. 
+
+Patient: I don't go out that often, but when I do, I always take it with me.
+
+Physician: Okay. And why do you have it?
+
+Patient: Well, the shortness of breath is part of it. The other part is I just don't want anything coming in as far as chemicals because I am so highly sensitive, so it's more to give me fresh air.
+
+Physician: Okay. All right. And you have to use it all the time or just outside of the house?
+
+Patient: Well, I did use it once in the house. I was feeling a little short of breath, but otherwise just out.
+
+Physician: Okay. All right. And did a doctor prescribe that for you?
+
+Patient: Yeah. Well, we kind of talked about it together. Talked about it a little bit.
+
+Physician: Okay. And how long have you used it?
+
+Patient: Oh, I want to say it was shortly after my incident with the car, so probably about 18 months, maybe a little longer.
+
+Physician: Maybe a little longer. Okay, so about 18 months with shortness of breath. Do you think you're going to —I think it will be fine if you use it here. If you feel more comfortable, you know, with coming to the dental appointments, with it, that's all right. Do you think it will be fine if we lean you back in the chair and things like that? Will you be all right?
+
+Patient: I think so.
+
+Physician: Okay. We can try it out and see, and you may even find out that you don't need it.
+
+Patient: Yeah, I really want to keep this in.
+
+Physician: Yeah, so we'll try it out and see how it works. All right. And see how comfortable you are keeping it on, or you may even feel comfortable later on taking it off, but we'll see. All right?
+
+Patient: All right. We'll see.
+
+Physician: All right. Any other significant medical problems besides the shortness of breath?
+
+Patient: Chest pain.
+
+Physician: Okay. 
+
+Patient: It comes and goes, so I never really know, you know, when it's going to happen.
+
+Physician: Okay, but nothing has been diagnosed?
+
+Patient: No. I mean, they've been trying to figure out, you know, a diagnosis, but no.
+
+Physician: Okay. All right. Any, for example, any, like, heart problems?
+
+Patient: As far as family history?
+
+Physician: Yourself.
+
+Patient: Oh, me, myself? Aside from that, no, no.
+
+Physician: Lung problems?
+
+Patient: Well, the shortness of breath.
+
+Physician: Just the shortness of breath?
+
+Patient: Yeah.
+
+Physician: Okay. Anything diagnosed of it?
+
+Patient: With the shortness of breath?
+
+Physician: Yeah. 
+
+Patient: They think it might be tied into the intake of the fresh air with the car, but nobody's, you know, really sure.
+
+Physician: Okay. Anything with, like, type 2 diabetes or type 1 diabetes, anything like that?
+
+Patient: I don't have that.
+
+Physician: You don't have that? Okay. 
+
+Patient: Oh, my mom does.
+
+Physician: Your mother does?
+
+Patient: Yeah.
+
+Physician: All right. Any other?
+
+Patient: Type 2. 
+
+Physician: She has type 2. Any other medical problems that run in the family, heart problems or lung problems or anything like that?
+
+Patient: Well, I don't have contact with my dad. I haven't had it for, you know, a long time, so I don't know his side.
+
+Physician: Okay. All right. 
+
+Patient: But for my mom side, just the diabetes.
+
+Physician: Just the diabetes? All right. Do you live with your mom, or does she live close by?
+
+Patient: I live with her.
+
+Physician: You live with her. Okay. So do you have a little bit of family support then at home?
+
+Patient: Well, she's 78, and the diabetes really affects her. So, I mean, it's more about her than it is about me at this point.
+
+Physician: Okay. Yeah. All right. Let's see. What else? Make sure. So we have shortness of breath. We're going to try to start out with go ahead and using the oxygen while you're comfortable. You have had some chest pain that kind of comes and goes.
+
+Patient: Yeah. Dizziness, too. Not that often either.
+
+Physician: Okay. 
+
+Patient: But, again, I don't know when it's going to hit me.
+
+Physician: Okay. All right. But no heart murmurs or any diagnosed type of heart problem?
+
+Patient: No. I mean, even before this all started, it's like I exercised. I skied. I did yoga, everything.
+
+Physician: Okay. 
+
+Patient: So, you know, nothing until this happened. 
+
+Physician: All right. And are you taking any medications at all?
+
+Patient: Well, no, not really medications. I take just all natural vitamins and minerals, but no medications, no.
+
+Physician: No medications at all. Okay. But you are taking some multivitamins or some type of vitamins?
+
+Patient: Yeah.
+
+Physician: Okay. What about any herbs or anything, non-prescribed medications?
+
+Patient: No.
+
+Physician: No. Okay. All right. I know you mentioned latex as being an allergy and some anesthetics, but you don't know what kind of anesthetics?
+
+Patient: Not really sure, no.
+
+Physician: Okay. There are a few that, you know, anesthetics that we usually use here at the health center. You don't want to use any?
+
+Patient: No, no. 
+
+Physician: Any?
+
+Patient: No
+
+Physician: Okay. Well, if you're allergic to them, we wouldn't use anything, of course, that you're allergic to. If there's large fillings or something like that, you'd probably be more comfortable being numb. But if you don't feel comfortable with that, if you're allergic to something, then we can try it without and see how it goes.
+
+Patient: Okay. 
+
+Physician: All right. Besides the anesthetics and the latex, any other allergies at all that you know of?
+
+Patient: No.
+
+Physician: Okay. Do you drink?
+
+Patient: No.
+
+Physician: No. What about smoking?
+
+Patient: No.
+
+Physician: No. Okay. So, you know, some of those can, you know, be related to dental problems, too. So that's just why I'm asking. All right. Any infectious diseases at all, such as HIV?
+
+Patient: No. 
+
+Physician: Hepatitis?
+
+Patient: No. 
+
+Physician: Tuberculosis? Anything like that?
+
+Patient: No. 
+
+Physician: No? Okay. All right. So I think I have a good idea about medical history a little bit. So have you been seeing a physician on a regular basis?
+
+Patient: Not exactly. Not exactly. I've had a few, you know, consulting doctors, nothing regular.
+
+Physician: Okay. 
+
+Patient: I had the report done, which is pretty thorough as far as what I'm allergic to, what I'm not, what my body has in it. So I've kind of been doing – I used to be a nurse, so I'm, you know, kind of familiar with it.
+
+Physician: So you're pretty familiar with all that.
+
+Patient: Yeah. 
+
+Physician: Okay. 
+
+Patient: Yeah. So kind of based on what the report said, I've been doing a lot of research on the Internet and on my own.
+
+Physician: Okay. All right. All right. And then I know we talked a little bit about your family. Were you married or are you married at all?
+
+Patient: No. 
+
+Physician: No. So you just live with your mom who's a little bit disabled.
+
+Patient: Yeah.
+
+Physician: What about transportation? Is transportation going to be a problem or not?
+
+Patient: Well, I can't take public transportation. I don't know what I'm going to be exposed to with that.
+
+Physician: Okay.
+
+Patient: So I have friends drive me.
+
+Physician: Okay. So you would be able to come if a friend could drive you?
+
+Patient: Yeah. My mom absolutely can't.
+
+Physician: Okay. All right. And do you – I know you used to mention you were a nurse. Do you work at all now or no?
+
+Patient: No. No. I'm on permanent disability now.
+
+Physician: Okay. So timeframes for the appointments wouldn't be too much of a problem then?
+
+Patient: As long as I could get a ride, yeah.
+
+Physician: Okay. All right. All right. I think I have a fairly good idea of medical history and dental history. So what we'll probably do now is take a look, if that's okay, to see what we can find, kind of diagnose the problem a little bit. And we'll focus on those, you know, the problems on the lower teeth if that's, you know, really bothering you. And then we'll probably get a plan for you, kind of a treatment plan, that, you know, you will want to approve. And after I look at this, we'll discuss a lot more about what kind of materials that we can use to fill the teeth or restore the teeth if they need to be restored. Does that sound all right?
+
+Patient: It's good. I have had, you know, friends, you know, make fun of me because they're like, oh, chemical sensitivities and stuff. But it sounds like you'll be able to understand what I'm going through.
+
+Physician: No, I totally understand. We'll make sure that everything we do that you're comfortable with at first. We're not going to do, you know, anything that you're not comfortable with.
+
+Patient: Okay. 
+
+Physician: All right. Does that sound good?
+
+Patient: That sounds good. 
+
+Physician: We'll go out and get everything ready. We'll probably take a couple pictures of your teeth, x-rays. Is that all right, to take some x-rays of your teeth?
+
+Patient: I guess so.
+
+Physician: Okay. All right. We'll try to do that and take a look in your mouth. I'll make sure we use some non-latex gloves so that won't be a problem. And I'll be back soon. 
+
+Patient: Double check on the box, though, because I'm highly allergic.
+
+Patient: All right. I will make sure. I'll have you look at the box first. I'll put them out here so you can see them. Does that sound all right?
+
+Physician: Sounds good. It was really nice to meet you, and I'll be back in a few minutes.
+
+Patient: All right. Thank you.

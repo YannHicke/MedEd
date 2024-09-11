@@ -1,0 +1,13 @@
+,GPT Zero Shot
+Cohen's kappa,0.15965008201202846
+Weighted kappa (linear),0.33380069025021575
+Weighted kappa (quadratic),0.5097720696482055
+Adjusted kappa,0.7418158212000371
+Thresholded kappa,0.36081632653061224
+Accuracy,0.39080459770114945
+Accuracy thresholded,0.8448275862068966
+Accuracy off by 1,0.8160919540229885
+Krippendorff's alpha (nominal),0.15917247685449765
+Krippendorff's alpha (ordinal),1.0
+Krippendorff's alpha (interval),0.5107337025557643
+Krippendorff's alpha (ratio),0.508690423209075
