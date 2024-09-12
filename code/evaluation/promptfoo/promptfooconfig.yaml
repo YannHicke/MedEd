@@ -1,0 +1,18 @@
+# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
+description: "My eval"
+
+prompts:
+  - file://opening.txt 
+  
+
+providers:
+  - "openai:gpt-4o-mini"
+  
+
+tests:
+  # Load transcripts from external files
+  - vars:
+      transcript: file://transcripts/case1.txt
+    assert:
+      - type: contains-json
+
