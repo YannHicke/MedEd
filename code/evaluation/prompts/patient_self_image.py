@@ -6,9 +6,9 @@ To ensure a thorough evaluation, follow these steps:
   **Step 1. Scoring:**
     - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
       - **Score 5:** The student inquires about the patient’s feelings about their illness and how it has changed their life. The student explores these issues. The student offers counseling or resources to help. 
-      - **Score 4:** The student inquires about the patient's feelings regarding their illness and its impact on their life, but the exploration may not be as thorough as in a score of 5. Some counseling or resources are offered, but they might be less comprehensive or tailored. The student shows a clear attempt to address the patient’s feelings about their illness, even if not as deeply or effectively as in a top performance.
+      - **Score 4:** The student inquires about the patient’s feelings regarding their illness and its impact on their life, but may not explore these issues as in a score of 5. Some counseling or resources are offered.
       - **Score 3:** The student partially addresses the impact of the illness on the patient’s life or self-image and/or offers no counseling or resources to help.
-      - **Score 2:** The student makes limited attempts to address the impact of the illness on the patient's life or self-image. No counseling or resources are offered. The student shows some awareness of the importance of these issues but struggles to effectively address them or draw out the patient's feelings.
+      - **Score 2:** The student makes limited attempts to address the impact of the illness on the patient's life or self-image. No counseling or resources are offered.
       - **Score 1:** The student fails to acknowledge any impact of the illness on the patient’s life or self-image.
 
   **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.

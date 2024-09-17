@@ -5,10 +5,10 @@ To ensure a thorough evaluation, follow these steps:
 
   **Step 1. Scoring:**
     - As you read the transcript, evaluate the medical student’s performance based on the criteria for each score level:
-      - **Score 5:** The student encourages and lets the patient talk about their problem. The student does not stop the patient or introduce new information.
-      - **Score 4:** The student encourages the patient to talk about their problem, but occasionally interrupts or gently redirects the conversation. The student mostly avoids introducing new information but may do so minimally.
-      - **Score 3:** The student begins to let the patient talk about their problem, but either interrupts with focused questions or introduces new information into the conversation.
-      - **Score 2:** The interviewer sets the pace with Q&A style, not conversation.
+      - **Score 5:** The student encourages and lets the patient talk about their problem. The student does not interrupt the flow of the story.
+      - **Score 4:** The student uses a "tell me about" approach.
+      - **Score 3:** The student begins to let the patient talk about their problem but either interrupts with focused questions or introduces divergent topics to the history.
+      - **Score 2:** The student sets the pace with Q & A style, not conversation.
       - **Score 1:** The student fails to let the patient talk about their problem.
 
   **Step 2. Justification:** Based on your analysis in Step 1, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
