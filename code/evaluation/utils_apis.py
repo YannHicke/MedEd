@@ -50,7 +50,7 @@ for model in config["model_list"]:
 
 # - - - - - API CALL FUNCTIONALITY - - - - - #
 
-def openai_api_call(transcript, prompt, response_type="json_object", temperature=1e-19):
+def openai_api_call(transcript, prompt, response_type="json_object", temperature=0):
     """
     Call the OpenAI API with the given transcript and prompt.
 
