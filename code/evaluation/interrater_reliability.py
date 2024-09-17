@@ -21,7 +21,7 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 
 
 # Threshold for the maximum permissible difference between the consensus answer and the prediction
-THRESHOLD = 2
+THRESHOLD = [2,3]
 
 
 def krippendorff_alpha(ratings, level_of_measurement="nominal"):
@@ -111,14 +111,16 @@ def calculate_kappa_scores(consensus, gpt4):
     accuracy = np.mean(consensus == gpt4)
     accuracy_off_by_one = np.mean(abs(consensus - gpt4) <= 1)
 
-    consensus_thresholded = (consensus > THRESHOLD).astype(int)
-    gpt4_thresholded = (gpt4 > THRESHOLD).astype(int)
-    kappa_thresholded = cohen_kappa_score(consensus_thresholded, gpt4_thresholded)
-    accuracy_thresholded = np.mean(consensus_thresholded == gpt4_thresholded)
-   
+    kappa_thresholded = {}
+    accuracy_thresholded = {}
+    for threshold in THRESHOLD:
+        consensus_thresholded = (consensus > threshold).astype(int)
+        gpt4_thresholded = (gpt4 > threshold).astype(int)
+        kappa_thresholded[threshold] = cohen_kappa_score(consensus_thresholded, gpt4_thresholded)
+        accuracy_thresholded[threshold] = np.mean(consensus_thresholded == gpt4_thresholded)
+
     ratings = np.array([consensus, gpt4])
     krippendorff_alpha_nominal = krippendorff_alpha(ratings, level_of_measurement="nominal")
-    krippendorff_alpha_ordinal = krippendorff_alpha(ratings, level_of_measurement="ordinal")
     krippendorff_alpha_interval = krippendorff_alpha(ratings, level_of_measurement="interval")
     krippendorff_alpha_ratio = krippendorff_alpha(ratings, level_of_measurement="ratio")
 
@@ -127,12 +129,13 @@ def calculate_kappa_scores(consensus, gpt4):
         'Weighted kappa (linear)': kappa_weighted,
         'Weighted kappa (quadratic)': kappa_weighted_quadratic,
         'Adjusted kappa': kappa_adjusted,
-        'Thresholded kappa': kappa_thresholded,
+        f'Thresholded kappa {THRESHOLD[0]}': kappa_thresholded[THRESHOLD[0]],
+        f'Thresholded kappa {THRESHOLD[1]}': kappa_thresholded[THRESHOLD[1]],
+        f'Accuracy thresholded {THRESHOLD[0]}': accuracy_thresholded[THRESHOLD[0]],
+        f'Accuracy thresholded {THRESHOLD[1]}': accuracy_thresholded[THRESHOLD[1]],
         'Accuracy': accuracy,
-        'Accuracy thresholded': accuracy_thresholded,
         'Accuracy off by 1': accuracy_off_by_one,
         'Krippendorff\'s alpha (nominal)': krippendorff_alpha_nominal,
-        'Krippendorff\'s alpha (ordinal)': krippendorff_alpha_ordinal,
         'Krippendorff\'s alpha (interval)': krippendorff_alpha_interval,
         'Krippendorff\'s alpha (ratio)': krippendorff_alpha_ratio
     }
@@ -179,11 +182,13 @@ def evaluate(file_path):
 
     # Calculate the agreement between the consensus and each model
     results = {}
-    for metric in ['Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
-                'Adjusted kappa', 'Thresholded kappa', 'Accuracy', 'Accuracy thresholded', 
-                'Accuracy off by 1', 'Krippendorff\'s alpha (nominal)', 
-                'Krippendorff\'s alpha (ordinal)', 'Krippendorff\'s alpha (interval)', 
-                'Krippendorff\'s alpha (ratio)']:
+    for metric in [
+        'Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
+        'Adjusted kappa', f'Thresholded kappa {THRESHOLD[0]}', f'Thresholded kappa {THRESHOLD[1]}',
+        'Krippendorff\'s alpha (nominal)', 'Krippendorff\'s alpha (interval)', 
+        'Krippendorff\'s alpha (ratio)', 'Accuracy', f'Accuracy thresholded {THRESHOLD[0]}', 
+        f'Accuracy thresholded {THRESHOLD[1]}', 'Accuracy off by 1'
+    ]:
         results[metric] = {}
 
     for model in models:

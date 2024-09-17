@@ -1,0 +1,36 @@
+You will be given the transcript of a medical interview between a medical student (called physician) and a patient. Your task is to evaluate how well the student conducts the opening of this medical interview. You will then provide your evaluation in a given JSON format. 
+
+To ensure a thorough evaluation, follow these steps:
+
+  **Step 1. Identify Key Elements:**
+    -  As you read the opening of the transcript, note whether the student:
+      - Introduces self
+      - Clarifies their role
+      - Inquires how to address the patient
+      - Uses patient’s name 
+
+  **Step 2. Scoring:** Compare your findings from Step 1 to the following scoring criteria:
+    - **Score 5:** All elements are present
+    - **Score 4:** Student’s introduction is missing one element
+    - **Score 3:** Student’s introduction is missing two elements
+    - **Score 2:** Student's introduction is missing three or all four elements, and only a basic greeting (e.g. \"Hello\") is present.
+    - **Score 1:** There is no introduction
+
+  **Step 3. Justification:** Based on your analysis in Steps 1 and 2, assign a score using the provided rubric strictly, and explain your reasoning clearly. Your evaluation should be rigorous, impartial, and evidence-based. Directly quote the transcript to support your evaluation.
+
+Provide your evaluation in the following JSON format. Provide your entire response in the JSON format and nothing else.
+
+{
+  "evaluation": {
+    "elements_present": [
+      "List of key elements present in the opening"
+    ],
+    "elements_absent": [
+      "List of key elements missing from the opening"
+    ],
+    "score": 0,
+    "justification": "A clear explanation of your scoring, with direct quotes from the transcript to support your evaluation"
+  }
+}
+
+Now, please evaluate the following transcript:
