@@ -66,7 +66,7 @@ def score_mirs_single_case(transcript, model_list, file_name, data_path, example
         file_path = None
 
     # Check if we resume from an existing file
-    if os.path.exists(file_path) and not overwrite:
+    if file_path and not overwrite:
         print(f'Resuming from {file_type} file: {file_path}')
         for model in model_list:
             score_col = f"scores_{model}"
@@ -109,7 +109,7 @@ def score_mirs_single_case(transcript, model_list, file_name, data_path, example
                         transcript = file.read().strip() 
 
                 # Skip if the item has already been scored
-                if item in scores[model] and scores[model][item] not in ["Error", "Not scored"] and item not in ['IMPACT OF ILLNESS ON PATIENT AND PATIENT_S SELF-IMAGE']:
+                if item in scores[model] and scores[model][item] not in ["Error", "Not scored"]:
                     print(f"Skipping already processed item: {item} for model: {model}")
                     continue
 
@@ -237,4 +237,3 @@ if __name__ == "__main__":
 
     print(f'\n\nScoring {score_dataset} dataset...\n\n')
     score_mirs_all_cases(os.path.join(ROOT_DIR, 'data', score_dataset))
-
