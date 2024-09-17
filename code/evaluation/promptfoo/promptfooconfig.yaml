@@ -2,7 +2,7 @@
 description: "My eval"
 
 prompts:
-  - file://opening.txt 
+  - file://prompts/eliciting_narrative_thread.txt
   
 
 providers:
@@ -12,7 +12,11 @@ providers:
 tests:
   # Load transcripts from external files
   - vars:
-      transcript: file://transcripts/case1.txt
+      case2: file://transcripts/case4.txt
     assert:
-      - type: contains-json
-
+      - type: is-json
+      - type: answer-relevance
+      - type: model-graded-closedqa
+        value: The model should not evaluate too harshly or look for "deep" exploration. 
+      - type: model-graded-closedqa
+        value: If Q&A is mentioned, the model should give the score corresponding to Q&A (2). Otherwise, the score should not be a 2.

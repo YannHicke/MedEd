@@ -1,4 +1,4 @@
-Physician: Hi, Mrs. Paulton?
+﻿Physician: Hi, Mrs. Paulton?
 Patient: Yes. 
 Physician: Hi, my name is Amy. It's nice to meet you.
 Patient: Nice to meet you, Amy.
@@ -61,8 +61,11 @@ Physician: Okay. And did you have any vomiting?
 Patient: No.
 Physician: Okay. And along with the sensation of having to pee and not being able to pee, was there any pain when you were able to pee?
 Patient: It wasn't painful when I was peeing. It's just that I couldn't get the pee out. 
+
 Physician: Right. 
+
 Patient: I mean, just small amounts. For so long.
+
 Physician: Okay. I just want to move on now and ask you some more questions about your health. 
 Patient: Okay
 Physician: How would you describe your overall health?
