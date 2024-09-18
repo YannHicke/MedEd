@@ -25,7 +25,7 @@ If you do not wish to use any of these APIs, set the corresponding environment v
    python patient_simulation.py <case_context>
    ```
 
-   Replace `<case_context>` with the appropriate argument corresponding to the case file located in the context folder. For example:
+   Replace `<case_context>` with the appropriate argument corresponding to the case file located in the code/simulation/context folder. For example:
 
    ```bash
    python patient_simulation.py context_palpitations
