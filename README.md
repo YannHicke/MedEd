@@ -25,7 +25,7 @@ If you do not wish to use any of these APIs, set the corresponding environment v
    python patient_simulation.py <case_context>
    ```
 
-   Replace `<case_context>` with the appropriate argument corresponding to the case file located in the code/simulation/context folder. For example:
+   Replace `<case_context>` with the appropriate argument corresponding to the case file located in the `code/simulation/context` folder. For example:
 
    ```bash
    python patient_simulation.py context_palpitations
@@ -47,11 +47,11 @@ If you do not wish to use any of these APIs, set the corresponding environment v
    python score.py
    ```
 
-   This script will utilize the configuration file `config.yaml` located in the `code/evaluation` directory.
+   This script will utilize the configuration file `config.yaml` located in the `setup` directory.
 
 ## Configuration
 
-In the `config.yaml` file, located in the setup folder, you can customize the following settings:
+In the `config.yaml` file, located in the `setup` folder, you can customize the following settings:
 
 - **Conversation Files**: Specify the list of case files for evaluation.
   ```yaml
