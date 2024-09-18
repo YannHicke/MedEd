@@ -2,14 +2,19 @@
 
 ## Setup
 
-Before you start, ensure that you have defined the following environment variables:
+To set up the project:
 
-- `ANTHROPIC_API_KEY`
-- `FIREWORKS_API_KEY`
-- `OPENAI_API_KEY`
-- `GOOGLE_API_KEY`
+1. Navigate to the setup directory:
+   ```bash
+   cd setup
+   ```
 
-If you do not wish to use any of these APIs, set the corresponding environment variable to an empty string `""`.
+2. Run the setup script:
+   ```bash
+   python setup.py
+   ```
+
+This script will guide you through the process of setting up your API keys and other necessary configurations.
 
 ## Running the Simulation
 
@@ -49,18 +54,20 @@ If you do not wish to use any of these APIs, set the corresponding environment v
 
    This script will utilize the configuration file `config.yaml` located in the `setup` directory.
 
+   When running the script, you will be prompted to choose which dataset to evaluate. The available datasets are located in the `data` folder.
+
 ## Configuration
 
 In the `config.yaml` file, located in the `setup` folder, you can customize the following settings:
 
-- **Conversation Files**: Specify the list of case files for evaluation.
+- **Conversation Files**: Specify the list of case files for evaluation. These files should be present in the `data/datasets` folder.
   ```yaml
   conversation_files: ["case1.txt", "case2.txt", "case3.txt", "case4.txt", "dental1.txt", "dental2.txt", "dental3.txt", "behavioral1.txt", "behavioral2.txt", "behavioral3.txt"]
   ```
 
 - **Model List**: List of models to evaluate.
   ```yaml
-  model_list: ["openai"]
+  model_list: ["openai", "anthropic"]
   ```
 
 - **MIRS Evaluation**: Whether to use MIRS evaluation.
@@ -87,3 +94,15 @@ In the `config.yaml` file, located in the `setup` folder, you can customize the 
   ```yaml
   score_from_excerpts: false
   ```
+
+These options are part of a multi-step evaluation process:
+
+1. **Extract Excerpts**: When set to `true`, the system will extract relevant pieces of the transcript for each item in the evaluation rubric. This step helps focus on specific parts of the conversation that are relevant to each evaluation criterion.
+
+2. **Score from Excerpts**: When set to `true`, the scoring will be based only on the extracted excerpts rather than the full transcript. This can help in more targeted and efficient scoring, especially for long conversations.
+
+If you want to perform the full multi-step evaluation:
+- Set both `extract_excerpts` and `score_from_excerpts` to `true`.
+
+If you want to skip the excerpt extraction and score based on the full transcript:
+- Set both `extract_excerpts` and `score_from_excerpts` to `false`.
