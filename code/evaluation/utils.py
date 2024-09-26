@@ -44,8 +44,8 @@ def get_metadata():
     config = load_config(verbose=False)
 
     model_list = config['model_list']
-    zero_shot = ~config['examples']
-    few_shot = config['examples'] and ~config['score_from_excerpts']
+    zero_shot = not config['examples']
+    few_shot = config['examples'] and not config['score_from_excerpts']
     multistep = config['examples'] and config['score_from_excerpts']
 
     openai = "openai" in model_list
