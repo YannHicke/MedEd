@@ -23,12 +23,6 @@ Provide your evaluation in the following JSON format. Provide your entire respon
 
 {
   "evaluation": {
-    "elements_present": [
-      "List of key elements present in the opening"
-    ],
-    "elements_absent": [
-      "List of key elements missing from the opening"
-    ],
     "score": 0,
     "justification": "A clear explanation of your scoring, with direct quotes from the transcript to support your evaluation"
   }

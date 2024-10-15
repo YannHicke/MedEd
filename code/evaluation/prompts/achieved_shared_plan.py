@@ -17,7 +17,7 @@ Provide your evaluation in the following JSON format. Provide your entire respon
 
 {
   "evaluation": {
-    "score": 0,
+    "score":betwe 0,
     "justification": "A clear explanation of your scoring, with direct quotes from the transcript to support your evaluation"
   }
 }
