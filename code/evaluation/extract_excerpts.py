@@ -1,8 +1,8 @@
 # extract_excerpts.py
 
 instructions_start = """
-You will be given a transcript of a conversation between a physician and patient, where you will extract relevant direct quotes depending on your task. 
-In your response, directly copy the relevant parts of the conversation. Do not output any other additional text other than the direct quotes. Do not remove "Physician:" or "Patient:". If not applicable, just output "Not applicable."
+You will be given a transcript of a conversation between a physician and patient, where you will extract relevant direct quotes depending on your task. You will observe notes and examples in each of the items that will help guide you in identifying the correct excerpts.
+In your response, directly copy the relevant parts of the conversation. Do not output any other additional text other than the direct quotes. Do not remove any words. If not applicable, just output "Not applicable."
 
 Your task:
 """
@@ -15,106 +15,42 @@ Here is the conversation transcript for which you will extract direct quotes:
 
 mirs_items = {
     "OPENING": """
-    Identify the opening of the conversation where the physician greets the patient, which may include performing a self-introduction, role clarification, and/or polite patient address inquiry.
+    Identify part(s) of the conversation where the student conducts the opening of this medical interview, or the lack thereof.
 
-**Example**: Physician: "Hello, I am Dr. Carter, your cardiologist for today. How should I address you?"
-**Example**: Physician: "I am Dr. Carter, your cardiologist. What brings you in today?"
-**Example**: Physician: "Hello, I'm the nurse on duty."
-**Example**: Physician: "Hello, what brings you in today?"
-**Example**: Physician: "What brings you in today??"
+    **Note:** Learner begins with the introduction of self, clarification of roles, and inquiry of how to address patient. The opening question identifies the problems or issues that the patient wishes to address. 
+    **Example:** “Hello, I’m Carol Redding, (shaking patient’s hand) a student working with the team. Would you prefer I call you, Ms. Black or Phyllis? Are you comfortable right now? What brings you in today?”
 """,
 
     "ELICITS SPECTRUM OF CONCERNS": """
-    If applicable, identify part(s) of the conversation where the physician elicits the patient's concerns at the onset of the conversation or lack thereof. 
+    Identify part(s) of the conversation where the student elicits the patient's spectrum of concerns within the first 3-5 minutes of the interview, or the lack thereof.
 
-**Example**:
-Physician: "What brings you in today? Is there anything else bothering you?"
-Patient: "I’ve been having severe headaches."
-Physician: "Okay, and what else?"
-Patient: "Sometimes I feel dizzy too."
-Physician: "Got it. Is there anything else that we should discuss today?"
-Patient: "No, that’s all."
-
-**Example**:
-Physician: "What brings you in today?"
-Patient: "I’ve been having severe headaches."
-Physician: "I see, we'll look into that."
+    **Note:** Learner elicits the patient's full spectrum of concerns other than those expressed in the chief complaint within the first few minutes of the encounter. To ensure that the full spectrum of concerns has been obtained, asks if there is anything else the patient wishes to discuss until the patient says, “No.” Making sure in the beginning of the encounter that all issues the patient wishes to address have been elicited helps learners to prioritize and aids in making a time-efficient, patient-centered encounter.
 """,
 
     "NEGOTIATES PRIORITIES & SETS AGENDA": """
-    If applicable, identify part(s) of the conversation where the physician negotiates priorities of patient concerns, lists all of the concerns, sets the agenda at the onset of the interview with the patient’s agreement, or lack therof. 
-    If the physician does not negotiate priorities or set an agenda, simply state "Physician does not negotiate priorities or set an agenda."
+    Identify part(s) of the conversation where the student negotiates the patient’s priorities and sets the agenda for their visit.
 
-**Example**:
-Physician: "Okay. All right. Well, it sounds like the fatigue has been quite troubling for you recently. Let’s prioritize that for today’s discussion. I also notice you mentioned concerns about your diet changes. We'll definitely touch on that as well. How does it sound if we start with the fatigue and then move on to discuss your dietary concerns? We might also consider setting another appointment to cover anything else in depth. Does that approach work for you?"
-Patient: "Yeah, that sounds good."
-
-**Example**:
-Physician: "I see you're here for headaches. I'll start with that. What medication have you been taking?"
-Patient: "I also have some concerns about my sleep and stress levels."
-Physician: "Okay, we might cover those later if there's time. Let’s keep the focus on the headaches for now."
+    **Note:** Learner ascertains the patient’s concerns. In negotiating priorities, a balance is struck between patient concerns and provider’s medical understanding of which problems might be more immediately important. An agenda is negotiated between learner and patient. In agenda setting and negotiating, the patient should not be told what is going to occur, but instead share in making an agreed plan. 
 """,
 
     "ELICITING THE NARRATIVE THREAD or the PATIENT_S STORY": """
-    If applicable, identify part(s) of the conversation where the physician encourages and lets the patient talk about their problem, or lack thereof.
+    Identify part(s) of the conversation where the student elicits the narrative thread, or the patient’s story, from the patient, or the lack thereof.
 
-**Example**:
-Physician: "Tell me about what's been happening with your health recently."
-Patient: "It started a few months ago with some mild discomfort, and then..."
-Physician: [Listens attentively, nodding, making notes without interrupting]
-Patient: "...and that's why I'm really concerned about these symptoms now."
-Physician: "Thank you for sharing that. It helps me understand your situation better. Let’s discuss what might be causing these symptoms."
-
-**Example**:
-Physician: "So, what brings you in today?"
-Patient: "Well, I've been having some pain in my—"
-Physician: "Where is the pain? When did it start? Have you taken anything for it?"
-Patient: "It’s in my back, it started last week, and I—"
-Physician: "Okay, let’s do some tests and I’ll prescribe something for the pain."
+    **Note:** After the agenda is set, the learner encourages the patient to talk about the problem(s), in their own words and listens attentively without interrupting (except for encouragement to continue) until the patient has finished talking about the problem(s). This technique is an effective tool for data gathering, time-efficiency, and rapport building. It allows the patient to tell their story and can help learners gain a large amount of needed data in a short amount of time. 
+    **Example:** “Tell me what’s been going on from when your symptoms first started up to today.”
 """,
 
     "TIMELINE": """
-    Identify part(s) of the conversation where the physician establishes a timeline of the chief concern and history of the present illness or lack thereof. You may not state "Not applicable".
+    Identify part(s) of the conversation where the student establishes a timeline of the chief concern and history of the present illness, or the lack thereof.
 
-**Example**:
-Physician: "Let's start from when you first noticed something was off. Can you walk me through what happened next and how things progressed?"
-Patient: "Yes, it started with feeling unusually tired after my usual morning jog about two months ago. A few days later, I noticed my heart was racing even at rest. By the end of that week, I was also experiencing shortness of breath."
-Physician: "And how did these symptoms change or develop over the next few weeks?"
-Patient: "The shortness of breath got worse, and two weeks ago, I began having mild chest pains occasionally, especially in the evenings."
-Physician: "Has there been anything else accompanying these symptoms or any variation in their intensity?"
-Patient: "Yes, last week, the chest pains became more frequent, and I noticed swelling in my legs."
-
-**Example**:
-Physician: "So you're having chest pains, how long has that been happening?"
-Patient: "It's been a few weeks."
-Physician: "Okay, and how severe are these pains?"
-Patient: "They're quite bad sometimes."
-Physician: "Alright, we’ll look into that."
+    **Note:** The timeline pertains to the information contained in the chief complaint and history of the patient's current illness. To obtain a timeline, Learner should inquire when the patient was last free of this problem, and then follow the progression of the first signs and symptoms to the present. By carefully following the chronological progression of the complaint, the Learner will avoid missing important information. If several symptoms are reported, it is important that their chronological relationship to each other be determined. Learners need not gather the information in a chronological order or all at once if the information needed is obtained during the encounter. 
+    **Example:** A 56-year-old male presents with left side chest pain for two hours. The patient's chest pain first occurred two years ago but only upon exertion and disappeared after a few minutes. One year ago, the pain increased in intensity and was diagnosed as angina pectoris. Nifedipine (l0 mg) qid was taken and the pain stopped occurring one month later. The patient continued to take Nifedipine (l0) bid and is still currently. Two hours ago, he experienced chest pain on the left and one hour ago he experienced sweating, faintness, palpitations, and the pain radiated to the left shoulder. 
 """,
 
     "ORGANIZATION": """
-    Identify part(s) of the conversation regarding the organization of the interview, which may follow a logical order or may be disjointed or unorganized. You may not state "Not applicable".
+    Identify part(s) of the conversation regarding the organization of the interview, which may follow a logical order or may be disjointed or unorganized, or the lack thereof.
 
-**Example**:
-Physician: "How have you been feeling overall these past few weeks?"
-Patient: "Not great, I've been really tired."
-Physician: "Can you tell me more about when the tiredness usually occurs?"
-Patient: "It's mostly in the mornings, but sometimes after lunch as well."
-Physician: "Have there been any recent changes in your diet or daily routines that might correlate with this tiredness?"
-Patient: "Now that you mention it, yes, I've been skipping breakfast often because of my early meetings."
-Physician: "Let's explore that further. Have you noticed any other symptoms like headaches or dizziness?"
-Patient: "Actually, yes, there have been a few headaches in the past week."
-
-**Example**:
-Physician: "Have you noticed any changes in your appetite?"
-Patient: "Yes, I've been eating less."
-Physician: "Okay. Have you had any recent travels?"
-Patient: "No, not recently."
-Physician: "What about your exercise routine? Has it changed?"
-Patient: "It's the same as usual."
-Physician: "Do you have any joint pain or stiffness?"
-Patient: "No, nothing like that."
-
+    **Note:** Organization refers to the structure and organization of the entire conversation/encounter, encompassing the flow of the information gathered in the Introduction (when the Learner introduces self and explains their role), the body of the encounter, (Chief complaint and History of present illness, Past medical history, Family history, Social history, Review of systems), and the closure (the end of the encounter, but not the quality of the Closure because this is measured in another MIRS ITEM.) Questions in the body of the encounter follow a logical order to the patient. Learner imposes structure by systematically following a series of topics.  
 """,
 
 #     "PACING OF INTERVIEW": """
@@ -137,227 +73,194 @@ Patient: "No, nothing like that."
 # """,
 
     "QUESTIONING SKILLS TYPES OF QUESTIONS": """
-    Identify question(s) used by the physician, including open-ended questions, why questions, multiple questions, or leading questions.
+    Identify part(s) of the conversation where the student demonstrates questioning skills, specifically looking at the types of questions they ask, or the lack thereof.
 
-**Example**:
-Physician: "Can you describe what a typical day looks like for you now, considering your current health?"
-Patient: "Well, I usually start feeling tired by mid-morning, and I have to take breaks more often than before."
-Physician: "What specific times do you find yourself needing to take these breaks?"
-Patient: "It's usually around 10 AM and then again at about 2 PM."
-
-**Example**:
-Physician: "Do you get tired after you exercise?"
-Patient: "Yes, more than usual."
-Physician: "Why do you think you're getting tired? Is it because you're not sleeping well or maybe you're not eating properly?"
-Patient: "I'm not sure, maybe it's a bit of both. I've also been stressed."
+    **Note:** Learners should follow a line of inquiry that progresses from open-ended to specific followed with specific questions. 
+    - Open-ended questions: Allow the learner to obtain a large amount of information about a particular area. It allows the patient to tell their story. This should be used to begin a line of inquiry then follow up with more focused and direct questions. Example: "What brings you here today?" or "Tell me about your general health.”
+    - Direct or specific questions: Gather specific pertinent information. Example: “How old were you when you had your tonsils removed?" or "When did your pain begin?" or "How long have you had the pain?"
+    Other types of direct questions elicit a "yes" or "no" answer from the patient, or a response to a choice that the learner has provided.   
+    Example various types of questions: Learner (L): "Tell me about your problem." (Open-ended) Patient (P): "For two weeks, I've had a constant pain in my stomach, right here (points), above my navel." L: "Tell me about the pain." (Open-ended) P: "It's a burning sensation." L: "Is it a deep pain?" (Direct) P: "Yes, a deep one." L: "Does the pain move around?" (Direct) P: "No."  L: "What makes the pain feel worse?" (Open-ended)
+    Learners should avoid using direct or (particularly) forced choice questions in beginning a line of inquiry because it restricts the possible flow of information and makes obtaining the necessary information a tedious task. Example: if NOT beginning with an open-ended question such as: "Tell me about the pain.” they must ask several direct questions: L: "Is the pain an ache?" P: "No."  L: "Is it a stabbing pain?" P: "No."  L: "Is it a dull pain?" P: "No."
+    Learners should avoid these poor question types: 
+    - Leading Questions supply a particular answer for the patient, desired answer is implied by how the question is phrased. This should also be avoided because some patients may agree with the leading questions rather than contradicting the learner. Example: "No headaches? Right?"
+    - "Why" Questions: put the patient on the defensive and should be avoided. Example: "Why didn’t you come in sooner, you've had the problem for six weeks?"
+    - Multiple Questions: a series of short questions asked in succession without allowing the patient to answer each individually. The patient may be confused about which question to answer. Example: “Does the pain feel like it’s as sharp after dinner or is it different than before dinner? Multiple questions may also be one question listing many options. Example: "Has anyone in your family ever had cancer, diabetes, heart disease, or high blood pressure?"  
 """,
 
     "QUESTIONING SKILLS SUMMARIZING": """
-    If applicable, identify part(s) of the conversation where the physician summarized data obtained during the interview.
+    Identify part(s) of the conversation where the student demonstrates questioning skills, specifically looking at their ability to summarize, or the lack thereof.
 
-**Example**:
-Physician: "So today you've described experiencing a range of symptoms starting with headaches, moving to occasional dizziness, and you've also mentioned some recent issues with your vision. Let me make sure I've got everything: Your headaches began around three weeks ago, initially mild but have increased in frequency and intensity. The dizziness is sporadic, mostly in the mornings, and your vision issues started last week, primarily blurring when reading. Is all of this correct?"
-Patient: "Yes, that's right."
-
-**Example**:
-Physician: "Okay, we've covered quite a bit today about your headaches and some of your lifestyle factors."
-Patient: "Yes, we did."
+    **Note:** Summarization is a review of the main details elicited during the visit and is typically used at the end of each sub-section but may be used at any time. In summarizing the Chief Complaint and History of Present Illness it is important to provide a detailed summarization to the patient. In summarizing the Family History, a brief general statement may be sufficient, especially for a negative or non-complex positive family history. In Review of Systems, it is appropriate to summarize only the positives discovered. 
+    **Example:** "Other than a few headaches you are fairly healthy. Our main task is to clear up the problem you're having with your back. Is this how you see the problem?"
+    Summarization of a body of information should be verified with the patient to make sure that all facts are correct. Verifying is done after summarization but may be utilized if a patient seems reluctant to interrupt, or to involve the patient in active listening.
+    Summarizing data at the end of each subsection serves several communication purposes: 
+    - To "jog" the memory in case the learner has forgotten to ask a question.
+    - Allow the patient to hear how the learner understands the information. 
+    - It proves to the patient that the learner has been listening, thus strengthening the relationship.
+    - Provides an opportunity to verify information: 
+    - Example: “To recap, your headache started yesterday, is on the left side, and is a pain level six. Is this correct?” 
+    - Provides an opportunity to clarify information: 
+    **Example:** "You said it is interfering with your attendance at school, how many days were missed?"
 """,
 
     "QUESTIONING SKILLS DUPLICATION": """
-    If applicable, identify part(s) of the conversation where the physician unnecessarily repeated questions seeking information that has already been provided or the physician consistently seeked information previously provided, showing a failure to track or remember patient information.
-    If no questions were duplicated, simply respond "No questions were duplicated."
+    Identify part(s) of the conversation where the student demonstrates questioning skills, specifically looking at their duplication of information, or the lack thereof.
 
-**Example**:
-Physician: "Can you tell me when you first noticed your symptoms?"
-Patient: "It started with a mild fever last Tuesday."
-Physician: "Okay, and just to clarify, did any other symptoms accompany the fever at that time?"
-Patient: "Yes, I also had some chills and a sore throat."
-Physician: [Later in the conversation] "You mentioned earlier that the fever began last Tuesday. To summarize, along with the fever, you had chills and a sore throat, correct?"
-
-**Example**:
-Physician: "Have you experienced any nausea associated with your headaches?"
-Patient: "Yes, I've had some nausea, mostly in the mornings."
-Physician: [Five minutes later] "And you mentioned nausea, right? When does that usually occur?"
-Patient: "As I said, it's mostly in the mornings."
+    **Note:** The learner must avoid repeating questions that seek information already provided by the patient, unless it’s for clarification or summarization purposes. Unnecessary repetition due to failure to remember information can disrupt the flow of the interview and potentially frustrate the patient.
+    **Example:** If a patient has already stated their age, the learner should not ask “How old are you?” later in the interview. However, it would be appropriate to say something like, “Just to confirm, you mentioned earlier that you’re 45, is that correct?” for clarification purposes.
 """,
 
     "QUESTIONING SKILLS LACK OF JARGON": """
-    If applicable, identify part(s) of the conversation where the physician avoided medical jargon and instead used language easily understood the patient, or lack thereof.
+    Identify part(s) of the conversation where the student demonstrates questioning skills, specifically looking at their lack of jargon.
 
-**Example**:
-Physician: "You mentioned feeling an unusual tightness in your chest. Can you describe that feeling? Is it like a pressure or a squeezing sensation?"
-Patient: "It's more like a squeezing feeling."
-Physician: "That's helpful to know. Sometimes what you're describing is called 'angina,' which is just a medical term for chest pain caused by reduced blood flow to the heart muscle."
-
-**Example**:
-Physician: "Based on your symptoms, we're looking at a probable case of gastroesophageal reflux disease, which might be contributing to your dyspepsia."
-Patient: "Sorry, I'm not sure what those terms mean."
-Physician: "Ah, yes, those are quite technical. Gastroesophageal reflux disease is what you might know as acid reflux, and dyspepsia is just another word for indigestion."
+    **Note:** One of the skills needed is the ability to communicate with the patient with terms known to lay persons – to substitute jargon or difficult medical terms. Learners may make erroneous assumptions about the patient's level of sophistication based on one or two medical terms used by the patient. 
+    Jargon may also be misleading to a patient who does not want to admit they don’t understand the question/term. Therefore, learners should define questionable terms. Additionally, learners should be aware of educational levels. By keeping these things in mind when communicating with a patient, information will be clearer and long-term compliance easier to obtain.
+    **Example:** “Was it a productive cough?" followed by “Productive means does anything come up when you cough?”
 """,
 
     "QUESTIONING SKILLS VERIFICATION OF PATIENT INFORMATION": """
-    If applicable, identify part(s) of the conversation where the physician seeked clarification, verification, and specificity of the patient’s responses, or lack thereof.
+    Identify part(s) of the conversation where the student demonstrates questioning skills, specifically looking at their verification of patient information, or the lack thereof.
 
-**Example**:
-Physician: "You mentioned feeling dizzy occasionally. Can you tell me more about what you're doing when these episodes occur?"
-Patient: "Usually, it happens when I stand up too quickly."
-Physician: "So it's mainly upon standing. Does this happen every time you stand up quickly, or are there certain times of the day when it's more likely to occur?"
-Patient: "It's more in the mornings."
-
-**Example**:
-Physician: "So, you've been feeling unwell, correct?"
-Patient: "Yes, mostly tired and sometimes dizzy."
-Physician: "Okay, let's talk about your diet then."
+    **Note:** In the interest of gaining as accurate information as possible, the learner must verify and clarify the information given by the patient. 
+    - Clarification: “Can you explain what you mean by ‘weak.’?” 
+    - Verification: “I’m confused, you said you’d never been short of breath before but sounds like you had a similar feeling last year. Can you clear that up for me?” 
+    If responses from the patient include specific diagnoses or medications, it is the task of the Learner to ascertain if the patient knows how the diagnosis was made or determine the quantity of medication. 
+    **Example:** “You said you were allergic to penicillin. How do you know that?”
 """,
 
     "VERBAL FACILITATION SKILLS": """
-    If applicable, identify part(s) of the conversation where the physician used verbal encouragement and facilitated skills to engage the patient, or lack thereof.
+    Identify part(s) of the conversation where the student uses verbal facilitation skills, or the lack thereof.
 
-**Example**:
-Physician: "It sounds like you've been quite diligent with your exercise routine. Can you tell me more about what you do?"
-Patient: "I try to walk every morning."
-Physician: "Every morning, that’s impressive! How has it been affecting your energy levels?"
-Patient: "I've noticed I feel less tired during the day."
-Physician: "That’s great to hear. It shows how your efforts are paying off."
-
-**Example**:
-Physician: "You mentioned you started exercising. What type?"
-Patient: "I’ve been trying to walk more."
-Physician: "Okay, and your medication?"
-Patient: "I take it in the morning."
-Physician: "Make sure it’s every morning."
+    **Note:** It is important to actively encourage patients to continue their storytelling. Any behavior that has the effect of inviting patients to say more about the area being discussing is a facilitative response. Learner follows up patient’s initial story with focused facilitation skills to broaden and complete the story. The use of short statements and echoing (using a few words of the patient's last sentence) encourage the patient to say more about a topic and indicate that a learner is interested in what the patient is saying and wants them to continue. Learners use verbal encouragement to motivate the patient toward a cooperative relationship and continued health care throughout the encounter e.g., responding to the patient in a way that they feel encouraged in starting/continuing proper health care techniques. 
+    Verbal Encouragement and use of occasional social praises.  
+    **Example:** L: “Quitting smoking is excellent, that takes willpower!" 
+    Short statements encourage them to continue talking about the problem. 
+    **Example:** “Go on… tell me more” 
+    Echoing to encourage patients to elaborate on a topic.  
+    **Example:** P: “I couldn’t take in a good breath.”  L: “Did you feel as if you couldn’t get your breath?”
 """,
 
     "EMPATHY AND ACKNOWLEDGING PATIENT CUES": """
-    If applicable, identify part(s) of the conversation where the physician used supportive comments regarding the patient’s emotions, demonstrated empathy, or lack thereof. 
+    Identify part(s) of the conversation where the student demonstrates empathy and acknowledges patient cues, or the lack thereof.
 
-**Example**:
-Physician: "It sounds like you've been under a lot of stress from these symptoms. It must be quite challenging for you."
-Patient: "Yes, it's been very hard."
-Physician: "I can only imagine how tough that is. We're here to support you through this and find ways to make you feel better."
-
-**Example**:
-Physician: "You need to manage your stress better. Continuing like this will only make your condition worse."
-Patient: "I've been trying, but it's not easy."
-Physician: "Well, it's important for your health to make an effort."
+    **Note:** Empathy is not only being sensitive, but also demonstrating that sensitivity to patients so they appreciate the understanding and support. To display empathy, actively acknowledge and follow-up on verbal patient cues, showing that they have been heard and understood. The patient is actively encouraged to express emotion. Empathic statements are supportive comments that specifically link the “I” of the provider and the “you” of the patient. They both name and appreciate the patient’s affect or predicament and express appreciation for the problem. 
+    “NURS” is an active technique to demonstrate empathy and acknowledge patient cues: 
+    - Naming emotion: “It must be very frustrating to not be able to work.” 
+    - Express Understanding [Goal is to normalize or validate feelings/experience]: "That must have been difficult for you. I’d feel that way too.” 
+    - Showing Respect: “I can appreciate how difficult it is for you to talk about this.” 
+    - Offering Support [Partnering/assistance, showing concern/sensitivity]: “I’ll be working with you each step of the way.”
 """,
 
     "PATIENTS PERSPECTIVE & BELIEFS": """
-    If applicable, identify part(s) of the conversation where the physician elicits and addresses the patient's beliefs and perspective on the illness, or lack thereof. 
+    Identify part(s) of the conversation where the student elicits the patient’s perspectives and beliefs, or the lack thereof. 
 
-**Example**:
-Physician: "Can you share what you believe might be causing your symptoms?"
-Patient: "I think it might be stress-related because it started when I changed jobs."
-Physician: "That’s an important observation. Let’s explore how your job change has coincided with your symptoms and discuss how we can address the stress component as part of your treatment."
+    **Note:** Learner should elicit the patient's perspective on symptoms in order for it to be effectively diagnosed and treated. The patient's beliefs about the beginning of their illness may affect their ability to talk about their symptoms or to understand the diagnosis. Gaining the patient perspective uncovers hidden concerns. 
+    One method of eliciting beliefs is to encourage the patient to discuss FIFE:
+    - Feelings: addresses the patient’s feelings about each of the problems.
+    - Ideas: determines and acknowledges patient’s ideas (belief of cause) for each of the problems.
+    - Function: determines how each problem affects the patient’s life.
+    - Expectations: determines patient’s goals, what help the patient had expected for each problem.
+    Does NOT have to be scripted, asked at one time or in order. It can occur at any point in the conversation. Ideas asked first may elicit feelings. Expectations may be incorporated into the shared agenda at the encounter onset. Function may help elicit information in the HPI.
+    **Example:** L: "What do you think is going on?  P: I’m worried [Feelings] I may have something serious [Idea].  L: Why do you think it is serious?  P: My uncle died of stomach cancer one year ago [Hidden concern]. 
+    L: I’m sorry to hear about your uncle. I understand your concern. How has this problem been affecting you at work and home? [Function]. P: Aside from the pain, I’m preoccupied with wondering what is making me sick. 
+    L: Besides wanting to find out the cause of this problem, what can I do to help? [Expectations].”
+""",
 
-**Example**:
-Physician: "Your tests show you have high blood pressure. We need to start treatment immediately."
-Patient: "Could my job stress be affecting my blood pressure?"
-Physician: "It’s all about your diet and exercise. We’ll start you on medication."
+    "ADMITTING LACK OF KNOWLEDGE": """
+    Identify part(s) of the conversation where the physician admits a lack of knowledge when necessary.
+     
+      **Note:** Learners must be aware of their own level of experience as related to the information they are able to give to the patient. If asked for information/advice they are not equipped to provide, they admit lack of experience in that area, offer to seek resource(s) to answer the question and a timeframe is established for getting back to the patient with the answers. 
+      **Example:** a provider referring a patient to a cardiologist may lack knowledge about specialized cardiovascular testing but should still help answer the patient concern/question.
 """,
 
     "IMPACT OF ILLNESS ON PATIENT AND PATIENT_S SELF-IMAGE": """
-    If applicable, identify part(s) of the conversation where the physician explores how the illness affects the patient's life and self-image, or lack thereof.
+    Identify part(s) of the conversation where the student explores and addresses the impact of the illness on the patient and their self-image, or the lack thereof.
 
-**Example**:
-Physician: "How has this diagnosis impacted how you see yourself and your day-to-day activities?"
-Patient: "It's been hard. I feel like I'm not the same person anymore."
-Physician: "It's completely normal to feel that way. Let's discuss how we can help you cope with these changes. We have support groups and counseling services that might help you."
+    **Note:** Learner must address the impact on self-image that certain illnesses/symptoms/situations may have on the patient. They should explore these issues in depth to the satisfaction of the patient. Learner also offers counseling or recommends resources, if appropriate. 
+    **Example:** Immediately after a heart attack, a patient needs to change their sexual and physical activity, this may impact the way they view themselves. L: “Some patients stop exercising after having a heart attack for fear of triggering another. How is it affecting you?” Tell me about your exercise routine now? ... I can suggest a specialist to help.”
+""",
 
-**Example**:
-Physician: "You need to start treatment immediately. It's important to manage your symptoms effectively."
-Patient: "I'm worried about how this will change my life. I feel very different now."
-Physician: "The most important thing is to keep your symptoms under control."
+    "IMPACT OF ILLNESS ON FAMILY": """
+    Identify part(s) of the conversation where the student explores and addresses the impact of the illness on the patient’s family, or the lack thereof.
+
+    **Note:** Depending on the diagnosis, as well as the information obtained during the personal history, there could be a tremendous impact of the patient's illness on the family and the family's lifestyle. 
+    **Example:** For a patient with cancer this would certainly affect family members and family lifestyle because of the need for frequent treatment, side effects of drugs, potentially decreased family income, etc. 
+    The Learner must address this issue and explore it in depth to the patient’s satisfaction. 
+    **Example:** L: “You told me your child cries all through all night. Who else at home is affected by this?” P: “My husband. He cannot sleep and has missed work.”  L: “OK, let’s discuss ways to relieve this stress ...”
 """,
 
     "SUPPORT SYSTEMS": """
-    Identify part(s) of the conversation where the physician explores the patient’s support systems, including emotional, financial support, and access to healthcare.
-    If support systems were not discussed, simply state "Physician did not discuss support currently available to the patient."
+    Identify part(s) of the conversation where the student explores the patient’s support systems, or the lack thereof.
 
-**Example**:
-Physician: "Who do you have at home to support you emotionally during this time?"
-Patient: "My sister has been very helpful."
-Physician: "That’s good to hear. How are you managing financially with the treatment costs? And do you have reliable access to the healthcare services you need?"
-Patient: "It's been difficult financially."
-Physician: "Let me give you information about some community resources that can help with healthcare costs and additional support groups that might be beneficial for you and your sister."
-
-**Example**:
-Physician: "It’s important to stay positive and manage your treatment effectively."
-Patient: "I’m struggling with this on my own, and it’s getting overwhelming."
-Physician: "Just try to follow the treatment plan as best you can."
+    **Note:** Learner should explore the patient’s means of financial, social, and emotional support. Support systems might include other family members, friends, and the patient’s workplace. These are current resources which could be employed immediately. Learners may suggest other community resources including charitable organizations, self-help groups, etc., not yet thought of or known to the patient. 
+    **Examples:** “These tests can be expensive; are you concerned about this?” “It sounds like you’ve been through a difficult time. Do you have someone you can talk to?” “Is there anyone that can help with the children until you’re feeling better?” “You told me that you are involved in your church, could they be a source of help?”
 """,
 
     "PATIENTS EDUCATION AND UNDERSTANDING": """
-    If applicable, identify part(s) of the conversation where the physician educates the patient about their condition and assesses the patient’s understanding, or lack thereof. 
+    Identify part(s) of the conversation where the student explores the patient’s education and understanding, or the lack thereof.
 
-**Example**:
-Physician: "It's important that you understand how to manage your diabetes at home. Can you explain to me how you'll take your medication and what you should do if your blood sugar goes too high?"
-Patient: "I take my medication in the morning and check my blood sugar. If it's too high, I'll..."
-Physician: "That’s right, and remember to also..."
-
-**Example**:
-Physician: "You need to start taking these new medications for your hypertension. Take one pill in the morning and one in the evening."
-Patient: "What should I do if I experience any side effects?"
-Physician: "Just continue with the medication and we can discuss it during your next appointment."
+    **Note:** Many times, patients who are labeled non-compliant may in fact not understand the information that is given to them. There are several ways to check the patient's understanding. Learners can ask the patient to repeat the information directly back, demonstrate techniques, or pose hypothetical situations to see if the patient will react appropriately. It is vital that when a patient must carry out therapy on their own without direct supervision, that they understand how to carry it out. 
+    **Examples:** Learner “I’ve shown you how to test levels of sugar in your blood with the monitor, now will you show me so I can be sure that I explained it clearly?” or “Will you repeat back to me how to take your medicine, so I know I have given you the correct information?”
 """,
 
     "ASSESS MOTIVATION FOR CHANGES": """
-    If applicable, identify part(s) of the conversation where the physician assessed the patient's motivation for lifestyle or behavioral changes, or lack thereof. 
+    Identify part(s) of the conversation where the physician assesses the patient’s motivation for changes, or the lack thereof. 
 
-**Example**: 
-Physician: "How do you feel about making some changes to your diet to help manage your diabetes?"
-Patient: "I know it's important, but I find it hard to stick to diets."
-Physician: "That's completely understandable. Let's start with small, manageable changes. How about we try integrating one healthy meal a day and see how that goes?"
-
-**Example**: 
-Physician: "You need to start exercising more regularly to improve your heart health."
-Patient: "I've tried before, but I struggle with staying motivated."
-Physician: "It's very important for your health. Try to make an effort."
+    **Note:** The learner assesses how the patient feels about lifestyle and/or behavioral changes like taking medicine, changing diet and exercise, smoking cessation, etc. Many interviewers assume patients will change their behavior without discussing it with them. This lack of communication may lead to return visits or non-compliance issues. Asking the patient about previous experiences, the patient’s view of the importance to change, and the patient’s confidence in ability to change will help to establish guidelines. Then Learner can provide information, as appropriate, based on the patient’s needs. Offer a menu of options, emphasize the patient’s ability to choose, and anticipate and plan for obstacles.
+    **Example:** L: "You mentioned earlier that you've been struggling to quit smoking. On a scale of 1 to 10, how important is it for you to quit smoking right now?" P: "I'd say about a 7." L: "That's great that you recognize its importance. Using the same scale, how confident are you in your ability to quit?" P: "Maybe a 4 or 5." L: "I see. What do you think are the main obstacles to quitting?" P: "Well, I've tried before and it's just really hard. Especially when I'm stressed." L: "I understand. There are several ways we can approach this. We could try nicotine replacement therapy, medication, or counseling. Some people find a combination works best. What do you think might work for you?" P: "I'm not sure about medication..." L: "That's okay. How about we start with counseling and discuss some stress management techniques? We can always revisit other options later if needed."
 """,
 
     "ACHIEVE A SHARED PLAN": """
-    If applicable, identify part(s) of the conversation where the physician discussed the diagnosis or prognosis and/or negotatiated a plan with the patient, or lack thereof.
+    Identify part(s) of the conversation where the student achieves a shared plan with the patient, or the lack thereof.
     
-**Example**: 
-Physician: "Based on your test results, it looks like you have Type 2 diabetes. Let’s discuss what this means for you and explore how we can manage it. What are your thoughts on treatment, and what approach would you prefer?"
-Patient: "I've read about lifestyle changes and medications, but I'm not sure what would be best for me."
-Physician: "Both are good options. We can start with some moderate lifestyle adjustments and see how much they help, and consider medications if your sugar levels aren't controlled. How does that sound?"
-
-**Example**: 
-Physician: "You have high blood pressure. We need to start you on medication right away."
-Patient: "Are there other things I can do besides medication?"
-Physician: "Medication is the best option. We'll start with that."
+    **Note:** A shared understanding is achieved with the patient, including nature and significance of the problem. The patient's understanding about the prognosis also plays a role in treatment 
+    **Example:** someone who has had a family member die from a perforated ulcer may see a diagnosis of peptic ulcer as far more life threatening than the learner. 
+    Learner involves the patient by making suggestions and encourages the patient to contribute thoughts, ideas, suggestions, and preferences. A mutually acceptable plan is negotiated, and learner checks in with patient on if the plan is acceptable and addresses concerns. Discussions between Learner and Patient include the: nature of the problem, significance of the problem and patient understanding about the problem/prognosis. 
+    **Examples:** Learner - “It sounds like you would be interested in trying some medication to stop smoking. Of the options I told you about, which would you like to try first?” or “Since it is so hard for you to make physical therapy appointments, would it help if I suggest some ways to exercise your knee at work?”
 """,
 
     "ENCOURAGEMENT OF QUESTIONS": """
-    If applicable, identify part(s) of the conversation where the physician encouraged the patient to ask questions or lack thereof. 
-    If the physician fails to provide the patient with the opportunity to ask questions or discuss additional points, simply state "Physician does not provide patient with opportunities for questions."
+    Identify part(s) of the conversation where the student encourages questions from the patient, or the lack thereof. 
     
-**Example**:
-Physician: "We've discussed your treatment options for managing diabetes. Do you have any questions about what we’ve covered so far?"
-Patient: "I'm curious about the side effects of these medications."
-Physician: "That’s a great question. Let's go through them..."
-[Later in the interview]
-Physician: "Before we finish, do you have any other questions or is there anything else you'd like to discuss?"
+    **Note:** Learners should encourage the patient to discuss additional points and ask questions by clearly providing an opportunity to do so. This can be done at the end of a major subsection and repeated at the end of the encounter.
+    **Example:** [near beginning]: “If you have questions at any time, feel free to ask.” [Then, as encounter progresses]: “Before we move on, any questions?” 
+""",
 
-**Example**:
-Physician: "So we will start with this new medication. I'll see you in six weeks for a follow-up."
-Patient: "Could I ask about—"
-Physician: "We're really pressed for time today, but we can get into more details next time."
+    "INFORMED CONSENT": """
+    Identify part(s) of the conversation where the student obtains informed consent for investigations and procedures, or the lack thereof.
+
+    **Note:** If discussing investigations and procedures, learner provides clear information on procedures (What is going to be done), including what patient might experience (Will it hurt or harm? How much? How long?), and how patient will be informed of results (When and how will the patient be informed of results and the meaning of the results). 
+    Learner relates procedures to treatment plan, value, and purpose; encourages discussions of potential anxieties or negative outcomes. Exploration of the patient questions, concerns, and clear explanations of procedures facilitate the likelihood of compliance. 
+    Components of discussions include:
+    - Why the investigations & procedures must be done
+    - How the investigation/procedure is going to be done to include what the Patient might experience
+    - When and how the Patient will be informed of results and their meaning
+    - What potential anxieties or negative outcomes there may be.
+""",
+
+    "INTERACTIVE TECHNIQUES": """
+    Identify part(s) of the conversation where the student uses interactive techniques to engage with the patient, or the lack thereof.
+
+    **Note:** Use patient-centered interviewing techniques during the entire encounter. Patient-centered approach promotes a collaborative partnership between patient and Learner. However, patient-centered does not mean patient-controlled. A collaborative partnership promotes a more equal relationship, which enhances long-term compliance. Learner progresses from patient-centered to provider-centered technique to elicit required information but returns the lead to the patient whenever appropriate.
+""",
+
+    "TRANSITIONAL STATEMENTS": """
+    Identify part(s) of the conversation where the student uses transitional statements, or the lack thereof.
+
+    **Note:** Transitional statements are two-part statements used between subsections to inform the patient that a new topic is going to be discussed (what) and (why). 
+    **Example:** “(What) I'd like to get some information about your past medical history, (Why) to see if it has any bearing on your present problem.” 
+    With transitions, the patient understands why the learner is changing the subject and why they are seeking the information. Poor quality or no transitional statements can hinder the development of rapport and could result in a hostile or uncooperative patient. A transitional statement can be helpful when asking intimate or difficult questions such as sexual history. 
+    **Example:** Learner - “I am now going to ask you some questions about your social history. Some of my questions may be sensitive in nature or embarrassing, but I am asking them to better care for you.”
 """,
 
     "CLOSURE": """
-    Identify the conversation's closure, considering the clarity and completeness of future plans if applicable.
+    Identify part(s) of the conversation where the physician closes the conversation, or the lack thereof.
 
-**Example**:
-Physician: "We've covered a lot today. I will consult with a specialist about your case and make a referral for you to see them. You should start adjusting your diet as we discussed and begin the physical therapy sessions twice a week. Our office will call you by Tuesday to confirm the details of your referral and next appointment. Do you have any questions or concerns about what we’ve planned?"
-Patient: "No, that sounds clear. Thank you."
-Physician: "Great, we'll ensure everything is set up for you, and I look forward to seeing how you progress."
-
-**Example**:
-Physician: "Alright, so that's it for today. Make sure you follow the instructions we talked about."
-Patient: "So, what exactly should I do next? Do I need to come back?"
-Physician: "Just go ahead with the changes we discussed. We'll sort out the details later."
+    **Note:** It is important that the patient feel that there is some closure at the end of the encounter. The patient must be left with a definite feeling about what will happen next, what Learner will do, what the patient should do, and when the next communication will occur. Closure will vary in detail according to the level of the Learner. 
+    Effective closure to the healthcare visit contains three components:
+    - What the Learner will do
+    - What the Patient will do
+    - When the next steps will occur
+    **Example:** “I will give you a prescription for antibiotics (what) and I would like you to get blood tests (what). I would like to see you again in one week (when).” Or “I will go speak to the team (what). If you would please change into your clothes (what). We will be back in a few minutes (when) to discuss your concerns together.”
 """
 }
