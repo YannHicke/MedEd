@@ -103,7 +103,7 @@ def score_mirs_single_case(transcript, model_list, file_name, data_path, example
                 # Multistep scoring
                 if score_from_excerpts:
                     case = os.path.splitext(case_name)[0]
-                    output_dir = os.path.join(ROOT_DIR, 'code', 'evaluation', 'excerpts', model, case)
+                    output_dir = os.path.join(ROOT_DIR, 'code', 'excerpts', case, model, os.path.splitext(file_name)[0])
                     transcript_file_path = os.path.join(output_dir, f"{item}.txt")
                     with open(transcript_file_path, 'r') as file:
                         transcript = file.read().strip() 
@@ -116,11 +116,6 @@ def score_mirs_single_case(transcript, model_list, file_name, data_path, example
                 # Zero-shot and few-shot scoring
                 print(f"\n\nModel: {model}")
                 prompt = get_prompts_call_map(examples, prompt_map[model])[item]
-                if not examples:
-                    if len(prompt.split("Examples:")) > 1:
-                        prompt = prompt.split("Examples:")[0].strip() + '\n\nNow, please evaluate the following medical interview transcript:\n'
-                    else:
-                        prompt = prompt.strip()
                 api_call = api_call_map.get(model)
                 parse_response_model = parse_call_map.get(model)
                 parse_response = (
@@ -165,7 +160,7 @@ def score_mirs_all_cases(data_path):
     Score all cases in the provided conversation files using the MIRS rubric.
 
     Parameters:
-        data_path (str): The path to the directory conversation files.
+        data_path (str): The path to the directory of the dataset.
     """ 
     # Load the configuration file
     config = load_config(verbose=False)
@@ -177,7 +172,11 @@ def score_mirs_all_cases(data_path):
             print(f"Error: The file '{file_name}' does not exist.")
             sys.exit(1)
 
-    overwrite = input('Do you want to overwrite existing scores? (y/n): ').strip().lower()
+    # Determine if the user wants to overwrite existing scores
+    case_name = data_path.split('/')[-1]
+    overwrite = 'no'
+    if os.path.isdir(os.path.join(ROOT_DIR, 'results', case_name)):
+        overwrite = input('Do you want to overwrite existing scores? (y/n): ').strip().lower()
     if overwrite == 'y':
         overwrite = True
     else:

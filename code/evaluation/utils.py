@@ -134,7 +134,7 @@ def get_excerpts(transcript, conversation_file, model_list, dataset_path):
 
     # Ensure the output directories exist
     for model in model_list:
-        output_dir = os.path.join(ROOT_DIR, 'results', dataset, 'excerpts', model, case_name)
+        output_dir = os.path.join(ROOT_DIR, 'code', 'excerpts', 'UConn', model, case_name)
         os.makedirs(output_dir, exist_ok=True)
 
     for item_key, item_prompt in extract_excerpts.mirs_items.items():
@@ -149,7 +149,7 @@ def get_excerpts(transcript, conversation_file, model_list, dataset_path):
             else:
                 api_call = utils_apis.api_call_map[model]
             parse_response = utils_apis.parse_call_map[model]
-            output_file_path = os.path.join(ROOT_DIR, 'results', dataset, 'excerpts', model, case_name, f"{item_key}.txt")
+            output_file_path = os.path.join(ROOT_DIR, 'code', 'excerpts', 'UConn', model, case_name, f"{item_key}.txt")
 
             # Check if the excerpt file already exists
             if os.path.exists(output_file_path) and (excerpt_content := open(output_file_path, 'r').read()) and "Not applicable" not in excerpt_content and len(excerpt_content) > 100:

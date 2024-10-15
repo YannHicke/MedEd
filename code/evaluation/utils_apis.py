@@ -22,11 +22,11 @@ from mirs_prompts import mirs_prompts
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Maximum number of attempts for API calls
-MAX_ATTEMPTS = 15
+MAX_ATTEMPTS = 5
 
 
 # Load the API keys
-load_dotenv()
+load_dotenv(os.path.join(ROOT_DIR, 'setup', '.env'))
 
 
 # Initialize the models
@@ -41,11 +41,11 @@ for model in config["model_list"]:
     if "gemini" in model:
         genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
     if "anthropic" in model:
-        client_anthropic = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        client_anthropic = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
     if "cohere" in model:
-        co = cohere.Client(os.environ["COHERE_API_KEY"])
+        co = cohere.Client(os.environ.get("COHERE_API_KEY"))
     if "fireworks" in model:
-        client_fireworks = Fireworks(api_key=os.environ["FIREWORKS_API_KEY"])
+        client_fireworks = Fireworks(api_key=os.environ.get("FIREWORKS_API_KEY"))
 
 
 # - - - - - API CALL FUNCTIONALITY - - - - - #

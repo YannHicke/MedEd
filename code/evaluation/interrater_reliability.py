@@ -7,11 +7,11 @@ This script calculates the inter-rater reliability between the consensus answer 
 import os
 import sys
 
+import krippendorff
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from sklearn.metrics import cohen_kappa_score
 
 from utils import get_metadata
 
@@ -24,68 +24,31 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 THRESHOLD = [2,3]
 
 
-def krippendorff_alpha(ratings, level_of_measurement="nominal"):
+def krippendorff_alpha(ratings, level_of_measurement="ordinal"):
     """
-    Compute Krippendorff's alpha for inter-rater reliability.
-    
+    Calculate Krippendorff's alpha for given ratings, considering missing values.
+
     Parameters:
-        ratings:              A list of arrays representing ratings from different coders. 
-                              Each array is one coder's ratings.
-        level_of_measurement: The level of measurement: "nominal", "ordinal", "interval", or "ratio".
-                              Default is "nominal".
-
-    Returns: 
-        Krippendorff's alpha as a float.
+    - ratings: A 2D list or array-like structure where rows represent different raters and columns represent items.
+    - level_of_measurement: The level of measurement for the ratings. Options include:
+        - "nominal"
+        - "ordinal"
+        - "interval"
+        - "ratio"
+    
+    Returns:
+    - alpha: The Krippendorff's alpha coefficient.
     """
-    def nominal_metric(a, b):
-        return a != b
+    # Convert ratings to a numpy array for compatibility
+    ratings_array = np.array(ratings, dtype=np.float64)
 
-    def ordinal_metric(a, b):
-        a_rank = np.argsort(np.argsort(a))
-        b_rank = np.argsort(np.argsort(b))
-        return (a_rank - b_rank) ** 2
+    # Ensure that missing values are represented as np.nan (if they are not already)
+    ratings_array = np.where(np.isnan(ratings_array), np.nan, ratings_array)
 
-    def interval_metric(a, b):
-        return (a - b) ** 2
+    # Calculate Krippendorff's alpha with the chosen level of measurement
+    alpha = krippendorff.alpha(reliability_data=ratings_array, level_of_measurement=level_of_measurement)
 
-    def ratio_metric(a, b):
-        return ((a - b) / (a + b)) ** 2 if (a + b) != 0 else 0
-
-    metric = {
-        "nominal": nominal_metric,
-        "ordinal": ordinal_metric,
-        "interval": interval_metric,
-        "ratio": ratio_metric,
-    }[level_of_measurement]
-
-    ratings = np.asarray(ratings)
-    _, n_items = ratings.shape
-
-    # Mask the missing values with np.nan
-    ratings = np.where(np.isnan(ratings), np.nan, ratings)
-
-    # Calculate observed disagreement
-    observed_disagreement = 0
-    n_pairable = 0
-    for i in range(n_items):
-        item_ratings = ratings[:, i][~np.isnan(ratings[:, i])]
-        n_pairable += len(item_ratings) * (len(item_ratings) - 1)
-        observed_disagreement += sum(metric(ri, rj) for ri in item_ratings for rj in item_ratings if ri != rj)
-
-    if n_pairable == 0:
-        raise ValueError("No pairable values found.")
-
-    Do = observed_disagreement / n_pairable
-
-    # Calculate expected disagreement
-    all_ratings = ratings[~np.isnan(ratings)]
-    De = sum(metric(ri, rj) for ri in all_ratings for rj in all_ratings if ri != rj) / (len(all_ratings) * (len(all_ratings) - 1))
-
-    # Calculate alpha
-    if Do == De == 0:
-        return 1.0
-    else:
-        return 1 - (Do / De)
+    return alpha
     
 
 def calculate_kappa_scores(consensus, gpt4):
@@ -101,12 +64,12 @@ def calculate_kappa_scores(consensus, gpt4):
         results (dict): A dictionary of the calculated scores.
     """
 
-    kappa_cleaned = cohen_kappa_score(consensus, gpt4)
-    kappa_weighted = cohen_kappa_score(consensus, gpt4, weights='linear')
-    kappa_weighted_quadratic = cohen_kappa_score(consensus, gpt4, weights='quadratic')
+    # kappa_cleaned = cohen_kappa_score(consensus, gpt4)
+    # kappa_weighted = cohen_kappa_score(consensus, gpt4, weights='linear')
+    # kappa_weighted_quadratic = cohen_kappa_score(consensus, gpt4, weights='quadratic')
 
     adjusted_gpt4 = measure_scores(consensus, gpt4)
-    kappa_adjusted = cohen_kappa_score(consensus, adjusted_gpt4)
+    # kappa_adjusted = cohen_kappa_score(consensus, adjusted_gpt4)
 
     accuracy = np.mean(consensus == gpt4)
     accuracy_off_by_one = np.mean(abs(consensus - gpt4) <= 1)
@@ -116,28 +79,30 @@ def calculate_kappa_scores(consensus, gpt4):
     for threshold in THRESHOLD:
         consensus_thresholded = (consensus > threshold).astype(int)
         gpt4_thresholded = (gpt4 > threshold).astype(int)
-        kappa_thresholded[threshold] = cohen_kappa_score(consensus_thresholded, gpt4_thresholded)
+        # kappa_thresholded[threshold] = cohen_kappa_score(consensus_thresholded, gpt4_thresholded)
         accuracy_thresholded[threshold] = np.mean(consensus_thresholded == gpt4_thresholded)
 
     ratings = np.array([consensus, gpt4])
-    krippendorff_alpha_nominal = krippendorff_alpha(ratings, level_of_measurement="nominal")
-    krippendorff_alpha_interval = krippendorff_alpha(ratings, level_of_measurement="interval")
-    krippendorff_alpha_ratio = krippendorff_alpha(ratings, level_of_measurement="ratio")
+    # krippendorff_alpha_nominal = krippendorff_alpha(ratings, level_of_measurement="nominal")
+    krippendorff_alpha_ordinal = krippendorff_alpha(ratings, level_of_measurement="ordinal")
+    # krippendorff_alpha_interval = krippendorff_alpha(ratings, level_of_measurement="interval")
+    # krippendorff_alpha_ratio = krippendorff_alpha(ratings, level_of_measurement="ratio")
 
     results = {
-        'Cohen\'s kappa': kappa_cleaned,
-        'Weighted kappa (linear)': kappa_weighted,
-        'Weighted kappa (quadratic)': kappa_weighted_quadratic,
-        'Adjusted kappa': kappa_adjusted,
-        f'Thresholded kappa {THRESHOLD[0]}': kappa_thresholded[THRESHOLD[0]],
-        f'Thresholded kappa {THRESHOLD[1]}': kappa_thresholded[THRESHOLD[1]],
+        # 'Cohen\'s kappa': kappa_cleaned,
+        # 'Weighted kappa (linear)': kappa_weighted,
+        # 'Weighted kappa (quadratic)': kappa_weighted_quadratic,
+        # 'Adjusted kappa': kappa_adjusted,
+        # f'Thresholded kappa {THRESHOLD[0]}': kappa_thresholded[THRESHOLD[0]],
+        # f'Thresholded kappa {THRESHOLD[1]}': kappa_thresholded[THRESHOLD[1]],
         f'Accuracy thresholded {THRESHOLD[0]}': accuracy_thresholded[THRESHOLD[0]],
-        f'Accuracy thresholded {THRESHOLD[1]}': accuracy_thresholded[THRESHOLD[1]],
+        # f'Accuracy thresholded {THRESHOLD[1]}': accuracy_thresholded[THRESHOLD[1]],
         'Accuracy': accuracy,
         'Accuracy off by 1': accuracy_off_by_one,
-        'Krippendorff\'s alpha (nominal)': krippendorff_alpha_nominal,
-        'Krippendorff\'s alpha (interval)': krippendorff_alpha_interval,
-        'Krippendorff\'s alpha (ratio)': krippendorff_alpha_ratio
+        # 'Krippendorff\'s alpha (nominal)': krippendorff_alpha_nominal,
+        # 'Krippendorff\'s alpha (interval)': krippendorff_alpha_interval,
+        # 'Krippendorff\'s alpha (ratio)': krippendorff_alpha_ratio,
+        'Krippendorff\'s alpha (ordinal)': krippendorff_alpha_ordinal
     }
 
     return results
@@ -183,11 +148,14 @@ def evaluate(file_path):
     # Calculate the agreement between the consensus and each model
     results = {}
     for metric in [
-        'Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
-        'Adjusted kappa', f'Thresholded kappa {THRESHOLD[0]}', f'Thresholded kappa {THRESHOLD[1]}',
-        'Krippendorff\'s alpha (nominal)', 'Krippendorff\'s alpha (interval)', 
-        'Krippendorff\'s alpha (ratio)', 'Accuracy', f'Accuracy thresholded {THRESHOLD[0]}', 
-        f'Accuracy thresholded {THRESHOLD[1]}', 'Accuracy off by 1'
+        # 'Cohen\'s kappa', 'Weighted kappa (linear)', 'Weighted kappa (quadratic)', 
+        # 'Adjusted kappa', f'Thresholded kappa {THRESHOLD[0]}', f'Thresholded kappa {THRESHOLD[1]}',
+        # 'Krippendorff\'s alpha (nominal)', 'Krippendorff\'s alpha (interval)', 
+        'Krippendorff\'s alpha (ordinal)',
+        # 'Krippendorff\'s alpha (ratio)', 
+        'Accuracy', f'Accuracy thresholded {THRESHOLD[0]}', 
+        # f'Accuracy thresholded {THRESHOLD[1]}', 
+        'Accuracy off by 1'
     ]:
         results[metric] = {}
 

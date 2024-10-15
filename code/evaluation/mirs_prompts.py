@@ -26,6 +26,8 @@ from prompts.assess_motivation import ASSESS_MOTIVATION_FOR_CHANGES
 from prompts.achieved_shared_plan import ACHIEVE_A_SHARED_PLAN
 from prompts.encouragement_questions import ENCOURAGEMENT_OF_QUESTIONS
 from prompts.closure import CLOSURE
+from prompts.pacing_interview import PACING_OF_INTERVIEW
+from prompts.nonverbal_facilitation import NONVERBAL_FACILITATION_SKILLS   
 
 
 mirs_prompts = {
@@ -50,6 +52,8 @@ mirs_prompts = {
     "ASSESS MOTIVATION FOR CHANGES": ASSESS_MOTIVATION_FOR_CHANGES,
     "ACHIEVE A SHARED PLAN": ACHIEVE_A_SHARED_PLAN,
     "ENCOURAGEMENT OF QUESTIONS": ENCOURAGEMENT_OF_QUESTIONS,
-    "CLOSURE": CLOSURE
+    "CLOSURE": CLOSURE, 
+    "PACING OF INTERVIEW": PACING_OF_INTERVIEW,
+    "NONVERBAL FACILITATION SKILLS": NONVERBAL_FACILITATION_SKILLS
 }
 
