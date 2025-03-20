@@ -64,7 +64,6 @@ def end_chat():
     os.kill(os.getpid(), signal.SIGINT)
 
 def add_text(history, text):
-    breakpoint()
     messages.append({"role": "user", "content": text})
     convo_history.append({"role": "user", "content": text})
     history = history + [(text, None)]
